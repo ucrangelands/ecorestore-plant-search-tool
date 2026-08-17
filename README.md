@@ -1,6 +1,6 @@
 # UC EcoRestore Native Plant Selector — GitHub Pages prototype
 
-A static, iframe-friendly plant-selection app designed to combine the site-assessment approach of the UC EcoRestore California plant search with the richer filtering/results experience of the EcoRestore Utah assessment tool.
+A static, iframe-friendly plant-selection app designed to combine the site-assessment approach of the UC EcoRestore California plant search with the richer filtering/results experience of the network of EcoRestore Utah, Arizona assessment tools.
 
 ## What is included
 
@@ -17,7 +17,7 @@ A static, iframe-friendly plant-selection app designed to combine the site-asses
 
 ## Important data note
 
-`data/plants.js` contains a **starter/prototype dataset** so the application is immediately functional. The ecological compatibility arrays are not intended to be published as authoritative recommendations. Replace or validate those arrays against the UC EcoRestore source dataset before public release.
+`data/plants.js` contains a **prototype dataset** so the application is immediately functional. The ecological compatibility arrays are not intended to be published as authoritative recommendations at this point in time. We are continuing to replace or validate those arrays in our curated UC EcoRestore source dataset before public release.
 
 Each plant follows this structure:
 
