@@ -32,7 +32,33 @@
         <div class="filter-group"><label for="elevation">Site elevation (ft)</label><input id="elevation" type="number" inputmode="numeric" placeholder="Optional" /></div>
 
         <fieldset class="filter-group"><legend>Expected grazing / use</legend><div id="grazing-options" class="choice-grid compact"></div></fieldset>
-        <fieldset class="filter-group"><legend>Soil texture</legend><div id="soil-options" class="choice-grid"></div></fieldset>
+        <fieldset class="filter-group soil-filter-group">
+          <legend>Soil texture</legend>
+          <p class="filter-help">Select one or more USDA soil texture classes. Click a label in the triangle or use the buttons below it.</p>
+
+          <div id="soil-texture-picker" class="soil-texture-picker" aria-label="USDA soil texture selector">
+            <svg id="soil-triangle" class="soil-triangle" viewBox="0 0 420 390" role="group" aria-labelledby="soil-triangle-title soil-triangle-desc">
+              <title id="soil-triangle-title">USDA soil texture triangle</title>
+              <desc id="soil-triangle-desc">Interactive soil texture triangle. Select one or more texture classes to rank plants with matching recorded soil suitability.</desc>
+
+              <g id="soil-grid" aria-hidden="true"></g>
+              <path class="soil-triangle-outline" d="M 40 330 L 210 35 L 380 330 Z"></path>
+
+              <text class="soil-axis-label soil-axis-clay" x="116" y="165" transform="rotate(-60 116 165)">percent clay</text>
+              <text class="soil-axis-label soil-axis-silt" x="305" y="166" transform="rotate(60 305 166)">percent silt</text>
+              <text class="soil-axis-label soil-axis-sand" x="210" y="372">percent sand</text>
+
+              <g id="soil-labels"></g>
+            </svg>
+
+            <div id="soil-texture-buttons" class="soil-texture-buttons" aria-label="Soil texture classes"></div>
+
+            <div class="soil-picker-footer">
+              <span id="soil-selection-summary" class="soil-selection-summary">Any soil texture</span>
+              <button id="clear-soils" class="soil-clear-button" type="button" hidden>Clear soil textures</button>
+            </div>
+          </div>
+        </fieldset>
         <fieldset class="filter-group"><legend>Soil chemistry / tolerance</legend><div id="chemistry-options" class="choice-grid"></div></fieldset>
         <fieldset class="filter-group"><legend>Site conditions</legend><div id="condition-options" class="choice-grid"></div></fieldset>
         <fieldset class="filter-group"><legend>Restoration goals / benefits</legend><div id="goal-options" class="choice-grid"></div></fieldset>
