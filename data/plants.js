@@ -1,7 +1,7 @@
 /*
   PUBLIC APP DATA generated from the approved UC EcoRestore master table.
-  This file intentionally contains only the public subset used by the browser app.
-  The private 131-column master CSV is not included in the GitHub Pages project.
+  This browser file contains the approved public subset only.
+  soilTextureClasses are normalized from the source "Suitable soil types" field.
 */
 window.ECORESTORE_PLANTS = [
   {
@@ -262,7 +262,16 @@ window.ECORESTORE_PLANTS = [
     "citations": {
       "sourceText": "",
       "citationNotes": "Citations: Wilkerson et al., 2014; Kimball et al. 2015, Acmispon americanus - American Bird’s Foot Trefoil (Seed). Theodore Payne Foundation., Acmispon americanus var. americanus - Puget Prairie Plants., Nguyen2023, Waterton2016"
-    }
+    },
+    "soilTextureClasses": [
+      "Clay",
+      "Clay loam",
+      "Silt loam",
+      "Loam",
+      "Sandy loam",
+      "Loamy sand",
+      "Sand"
+    ]
   },
   {
     "plantId": "ACGL",
@@ -493,7 +502,13 @@ window.ECORESTORE_PLANTS = [
     "citations": {
       "sourceText": "",
       "citationNotes": ""
-    }
+    },
+    "soilTextureClasses": [
+      "Clay loam",
+      "Silt loam",
+      "Sandy loam",
+      "Loamy sand"
+    ]
   },
   {
     "plantId": "ACMA",
@@ -709,7 +724,10 @@ window.ECORESTORE_PLANTS = [
     "citations": {
       "sourceText": "",
       "citationNotes": "https://swbiodiversity.org/seinet/taxa/index.php?tid=134711 , https://lpfw.org/fire/fire-followers/ ,"
-    }
+    },
+    "soilTextureClasses": [
+      "Sand"
+    ]
   },
   {
     "plantId": "ACMI",
@@ -970,7 +988,17 @@ window.ECORESTORE_PLANTS = [
     "citations": {
       "sourceText": "",
       "citationNotes": "Citations: Kaye 1997; Hallock et al. 2003; Pywell et al. 2003; Sheley and Half 2006; Hyvonen 2007; Long and Anderson 2010; Sandel et al., 2011; Banach et al., 2009; O’Dell and Claassen 2006; Gornish and Shaw 2017"
-    }
+    },
+    "soilTextureClasses": [
+      "Clay",
+      "Silty clay loam",
+      "Clay loam",
+      "Silt loam",
+      "Loam",
+      "Sandy loam",
+      "Loamy sand",
+      "Sand"
+    ]
   },
   {
     "plantId": "ACMI2",
@@ -1167,7 +1195,11 @@ window.ECORESTORE_PLANTS = [
     "citations": {
       "sourceText": "",
       "citationNotes": "https://naturecollective.org/plant-guide/details/sacapellote/ , Keeley, J. E., & Keeley, S.. C (1987) , https://practicalplants.org/wiki/acourtia_microcephala/"
-    }
+    },
+    "soilTextureClasses": [
+      "Sand",
+      "Clay"
+    ]
   },
   {
     "plantId": "ADFA",
@@ -1401,7 +1433,17 @@ window.ECORESTORE_PLANTS = [
     "citations": {
       "sourceText": "",
       "citationNotes": "https://www.fs.usda.gov/database/feis/plants/shrub/adefas/all.html ,"
-    }
+    },
+    "soilTextureClasses": [
+      "Silty clay loam",
+      "Clay loam",
+      "Sandy clay loam",
+      "Silt loam",
+      "Loam",
+      "Sandy loam",
+      "Loamy sand",
+      "Sand"
+    ]
   },
   {
     "plantId": "AMIN",
@@ -1651,7 +1693,16 @@ window.ECORESTORE_PLANTS = [
     "citations": {
       "sourceText": "",
       "citationNotes": "Citations: Davidson and Fox 1974; Gillespie and Allen 2008; Leger et al. 2014, Montalvo et. al. 2010"
-    }
+    },
+    "soilTextureClasses": [
+      "Clay",
+      "Clay loam",
+      "Silt loam",
+      "Loam",
+      "Sandy loam",
+      "Loamy sand",
+      "Sand"
+    ]
   },
   {
     "plantId": "AMME",
@@ -1901,7 +1952,16 @@ window.ECORESTORE_PLANTS = [
     "citations": {
       "sourceText": "",
       "citationNotes": "Citations: Forbis 2010; Borders et al. 2011, Gornish, Gornish and Shaw, 2017, Montalvo, A. M., L. K. Goode, and J. L. Beyers. 2010."
-    }
+    },
+    "soilTextureClasses": [
+      "Clay",
+      "Clay loam",
+      "Silt loam",
+      "Loam",
+      "Sandy loam",
+      "Loamy sand",
+      "Sand"
+    ]
   },
   {
     "plantId": "ANCO",
@@ -2102,7 +2162,15 @@ window.ECORESTORE_PLANTS = [
     "citations": {
       "sourceText": "",
       "citationNotes": "Citations: Gornish and Shaw 2017; Keeley 1991; Howard 2012; Keeley et al., 1985"
-    }
+    },
+    "soilTextureClasses": [
+      "Silty clay loam",
+      "Clay loam",
+      "Loam",
+      "Sandy loam",
+      "Loamy sand",
+      "Sand"
+    ]
   },
   {
     "plantId": "ANMU",
@@ -2308,7 +2376,12 @@ window.ECORESTORE_PLANTS = [
     "citations": {
       "sourceText": "https://chanceofrain.com/wp-content/uploads/2012/03/EVERETT_1_1.pdf",
       "citationNotes": "https://www.phytoneuron.net/2018Phytoneuron/17PhytoN-Antirrhinumthompsonii.pdf   ,   https://plants.ces.ncsu.edu/plants/sairocarpus-multiflorus/   ,   https://www.wildflower.org/plants/result.php?id_plant=SAMU2   ,   https://www.laspilitas.com/nature-of-california/plants/30--antirrhinum-multiflorum"
-    }
+    },
+    "soilTextureClasses": [
+      "Clay loam",
+      "Loam",
+      "Sandy loam"
+    ]
   },
   {
     "plantId": "ARCA",
@@ -2544,7 +2617,17 @@ window.ECORESTORE_PLANTS = [
     "citations": {
       "sourceText": "",
       "citationNotes": "Citations: Kimball et al. 2015; Gornish and Shaw2017: Hauser 2006"
-    }
+    },
+    "soilTextureClasses": [
+      "Clay",
+      "Silty clay loam",
+      "Clay loam",
+      "Silt loam",
+      "Loam",
+      "Sandy loam",
+      "Loamy sand",
+      "Sand"
+    ]
   },
   {
     "plantId": "ARDO",
@@ -2810,7 +2893,18 @@ window.ECORESTORE_PLANTS = [
     "citations": {
       "sourceText": "",
       "citationNotes": "Citations: Long and Anderson 2010; Gornish and Shaw 2017"
-    }
+    },
+    "soilTextureClasses": [
+      "Clay",
+      "Silty clay",
+      "Silty clay loam",
+      "Clay loam",
+      "Silt loam",
+      "Loam",
+      "Sandy loam",
+      "Loamy sand",
+      "Sand"
+    ]
   },
   {
     "plantId": "ARPU",
@@ -3013,7 +3107,12 @@ window.ECORESTORE_PLANTS = [
     "citations": {
       "sourceText": "",
       "citationNotes": "Citations: Russel et al., 2013; Gornish and Shaw 2017"
-    }
+    },
+    "soilTextureClasses": [
+      "Loam",
+      "Sandy loam",
+      "Loamy sand"
+    ]
   },
   {
     "plantId": "ASFA",
@@ -3278,7 +3377,17 @@ window.ECORESTORE_PLANTS = [
     "citations": {
       "sourceText": "",
       "citationNotes": "Citations: Long and Anderson 2010; Gornish and Shaw 2017"
-    }
+    },
+    "soilTextureClasses": [
+      "Clay",
+      "Silty clay loam",
+      "Clay loam",
+      "Silt loam",
+      "Loam",
+      "Sandy loam",
+      "Loamy sand",
+      "Sand"
+    ]
   },
   {
     "plantId": "ATCA",
@@ -3506,7 +3615,16 @@ window.ECORESTORE_PLANTS = [
     "citations": {
       "sourceText": "",
       "citationNotes": ""
-    }
+    },
+    "soilTextureClasses": [
+      "Clay loam",
+      "Silt loam",
+      "Loam",
+      "Sandy loam",
+      "Loamy sand",
+      "Sand",
+      "Clay"
+    ]
   },
   {
     "plantId": "ATLE",
@@ -3737,7 +3855,18 @@ window.ECORESTORE_PLANTS = [
     "citations": {
       "sourceText": "",
       "citationNotes": ""
-    }
+    },
+    "soilTextureClasses": [
+      "Clay",
+      "Silty clay",
+      "Silty clay loam",
+      "Clay loam",
+      "Silt loam",
+      "Loam",
+      "Sandy loam",
+      "Loamy sand",
+      "Sand"
+    ]
   },
   {
     "plantId": "BAPI",
@@ -3985,7 +4114,13 @@ window.ECORESTORE_PLANTS = [
     "citations": {
       "sourceText": "",
       "citationNotes": ""
-    }
+    },
+    "soilTextureClasses": [
+      "Clay loam",
+      "Loam",
+      "Sandy loam",
+      "Sand"
+    ]
   },
   {
     "plantId": "BASA",
@@ -4223,7 +4358,17 @@ window.ECORESTORE_PLANTS = [
     "citations": {
       "sourceText": "",
       "citationNotes": ""
-    }
+    },
+    "soilTextureClasses": [
+      "Clay",
+      "Silty clay loam",
+      "Clay loam",
+      "Silt loam",
+      "Loam",
+      "Sandy loam",
+      "Loamy sand",
+      "Sand"
+    ]
   },
   {
     "plantId": "BLCR",
@@ -4426,7 +4571,17 @@ window.ECORESTORE_PLANTS = [
     "citations": {
       "sourceText": "",
       "citationNotes": ""
-    }
+    },
+    "soilTextureClasses": [
+      "Clay",
+      "Silty clay loam",
+      "Clay loam",
+      "Sandy clay loam",
+      "Loam",
+      "Sandy loam",
+      "Loamy sand",
+      "Sand"
+    ]
   },
   {
     "plantId": "BOOC",
@@ -4606,7 +4761,11 @@ window.ECORESTORE_PLANTS = [
     "citations": {
       "sourceText": "",
       "citationNotes": ""
-    }
+    },
+    "soilTextureClasses": [
+      "Loam",
+      "Sandy loam"
+    ]
   },
   {
     "plantId": "BRCA",
@@ -4868,7 +5027,16 @@ window.ECORESTORE_PLANTS = [
     "citations": {
       "sourceText": "",
       "citationNotes": "Citations:  Bugg et al. 1997; Stromberg and Kephart 1997; Chiaramonte et al., 2003; Hallock et al. 2003; Seabloom et al. 2003; Gornish and Shaw 2017"
-    }
+    },
+    "soilTextureClasses": [
+      "Clay",
+      "Clay loam",
+      "Silt loam",
+      "Loam",
+      "Sandy loam",
+      "Loamy sand",
+      "Sand"
+    ]
   },
   {
     "plantId": "BRCA2",
@@ -5060,7 +5228,16 @@ window.ECORESTORE_PLANTS = [
     "citations": {
       "sourceText": "",
       "citationNotes": ""
-    }
+    },
+    "soilTextureClasses": [
+      "Silty clay loam",
+      "Clay loam",
+      "Silt loam",
+      "Loam",
+      "Sandy loam",
+      "Loamy sand",
+      "Sand"
+    ]
   },
   {
     "plantId": "BRSIVACA",
@@ -5308,7 +5485,17 @@ window.ECORESTORE_PLANTS = [
     "citations": {
       "sourceText": "",
       "citationNotes": ""
-    }
+    },
+    "soilTextureClasses": [
+      "Clay",
+      "Silty clay loam",
+      "Clay loam",
+      "Silt loam",
+      "Loam",
+      "Sandy loam",
+      "Loamy sand",
+      "Sand"
+    ]
   },
   {
     "plantId": "CABI",
@@ -5497,7 +5684,8 @@ window.ECORESTORE_PLANTS = [
     "citations": {
       "sourceText": "",
       "citationNotes": "Citations: (‘Camissonia bistorta “Sunflakes”’)"
-    }
+    },
+    "soilTextureClasses": []
   },
   {
     "plantId": "CACI",
@@ -5743,7 +5931,16 @@ window.ECORESTORE_PLANTS = [
     "citations": {
       "sourceText": "",
       "citationNotes": "Citations: Hayes and Holl 2011; Porensky et al., 2012; Kimball et al., 2014; Nass 2012; Gornish and Shaw 2017; UC IPM"
-    }
+    },
+    "soilTextureClasses": [
+      "Clay",
+      "Clay loam",
+      "Silt loam",
+      "Loam",
+      "Sandy loam",
+      "Loamy sand",
+      "Sand"
+    ]
   },
   {
     "plantId": "CAEX",
@@ -5985,7 +6182,17 @@ window.ECORESTORE_PLANTS = [
     "citations": {
       "sourceText": "",
       "citationNotes": "Citations: Hayes and Holl 2011; Kimball et al. 2015, Chuang & Heckard."
-    }
+    },
+    "soilTextureClasses": [
+      "Clay",
+      "Silty clay loam",
+      "Clay loam",
+      "Silt loam",
+      "Loam",
+      "Sandy loam",
+      "Loamy sand",
+      "Sand"
+    ]
   },
   {
     "plantId": "CAMA",
@@ -6190,7 +6397,17 @@ window.ECORESTORE_PLANTS = [
     "citations": {
       "sourceText": "",
       "citationNotes": ""
-    }
+    },
+    "soilTextureClasses": [
+      "Clay",
+      "Silty clay loam",
+      "Clay loam",
+      "Silt loam",
+      "Loam",
+      "Sandy loam",
+      "Loamy sand",
+      "Sand"
+    ]
   },
   {
     "plantId": "CEBE",
@@ -6382,7 +6599,18 @@ window.ECORESTORE_PLANTS = [
     "citations": {
       "sourceText": "",
       "citationNotes": ""
-    }
+    },
+    "soilTextureClasses": [
+      "Clay",
+      "Silty clay loam",
+      "Clay loam",
+      "Sandy clay loam",
+      "Silt loam",
+      "Loam",
+      "Sandy loam",
+      "Loamy sand",
+      "Sand"
+    ]
   },
   {
     "plantId": "CECU",
@@ -6576,7 +6804,18 @@ window.ECORESTORE_PLANTS = [
     "citations": {
       "sourceText": "",
       "citationNotes": ""
-    }
+    },
+    "soilTextureClasses": [
+      "Clay",
+      "Silty clay loam",
+      "Clay loam",
+      "Sandy clay loam",
+      "Silt loam",
+      "Loam",
+      "Sandy loam",
+      "Loamy sand",
+      "Sand"
+    ]
   },
   {
     "plantId": "CHAR",
@@ -6772,7 +7011,15 @@ window.ECORESTORE_PLANTS = [
     "citations": {
       "sourceText": "",
       "citationNotes": ""
-    }
+    },
+    "soilTextureClasses": [
+      "Clay loam",
+      "Silt loam",
+      "Loam",
+      "Sandy loam",
+      "Loamy sand",
+      "Sand"
+    ]
   },
   {
     "plantId": "CHGL",
@@ -6954,7 +7201,15 @@ window.ECORESTORE_PLANTS = [
     "citations": {
       "sourceText": "",
       "citationNotes": ""
-    }
+    },
+    "soilTextureClasses": [
+      "Silty clay loam",
+      "Clay loam",
+      "Loam",
+      "Sandy loam",
+      "Loamy sand",
+      "Sand"
+    ]
   },
   {
     "plantId": "CIOC",
@@ -7200,7 +7455,14 @@ window.ECORESTORE_PLANTS = [
     "citations": {
       "sourceText": "",
       "citationNotes": "Citation: Kimball et al. 2015, Nature Collective, Munz 1959, Bird 1990, Santa Monica Trails Council, Plants For A Future"
-    }
+    },
+    "soilTextureClasses": [
+      "Clay loam",
+      "Loam",
+      "Sandy loam",
+      "Loamy sand",
+      "Sand"
+    ]
   },
   {
     "plantId": "CLUN",
@@ -7432,7 +7694,17 @@ window.ECORESTORE_PLANTS = [
     "citations": {
       "sourceText": "",
       "citationNotes": "Citation: Conway et al. 2019"
-    }
+    },
+    "soilTextureClasses": [
+      "Clay",
+      "Silty clay loam",
+      "Clay loam",
+      "Silt loam",
+      "Loam",
+      "Sandy loam",
+      "Loamy sand",
+      "Sand"
+    ]
   },
   {
     "plantId": "CRIN",
@@ -7671,7 +7943,17 @@ window.ECORESTORE_PLANTS = [
     "citations": {
       "sourceText": "",
       "citationNotes": "Citations: Keeley and Keeley 1987; Beyers and Wakeman 1997; Dickens and Allen 2014; Gornish and Shaw 2017"
-    }
+    },
+    "soilTextureClasses": [
+      "Clay",
+      "Silty clay loam",
+      "Clay loam",
+      "Silt loam",
+      "Loam",
+      "Sandy loam",
+      "Loamy sand",
+      "Sand"
+    ]
   },
   {
     "plantId": "DEFA",
@@ -7872,7 +8154,17 @@ window.ECORESTORE_PLANTS = [
     "citations": {
       "sourceText": "",
       "citationNotes": "Citations: Allen et al., 1998; Kimball et al. 2015; Quon et al. 2019; Gornish and Shaw2017"
-    }
+    },
+    "soilTextureClasses": [
+      "Clay",
+      "Silty clay loam",
+      "Clay loam",
+      "Silt loam",
+      "Loam",
+      "Sandy loam",
+      "Loamy sand",
+      "Sand"
+    ]
   },
   {
     "plantId": "DISP",
@@ -8132,7 +8424,17 @@ window.ECORESTORE_PLANTS = [
     "citations": {
       "sourceText": "",
       "citationNotes": "Prodgers and Inskeep 1991; Jiangbao et al. 2019; Gornish and Shaw2017"
-    }
+    },
+    "soilTextureClasses": [
+      "Clay",
+      "Silty clay",
+      "Silty clay loam",
+      "Clay loam",
+      "Silt loam",
+      "Loam",
+      "Sandy loam",
+      "Sand"
+    ]
   },
   {
     "plantId": "ELCO",
@@ -8359,7 +8661,17 @@ window.ECORESTORE_PLANTS = [
     "citations": {
       "sourceText": "",
       "citationNotes": "Citation: Kimball et al. 2015; Gornish and Shaw 2017"
-    }
+    },
+    "soilTextureClasses": [
+      "Clay",
+      "Silty clay loam",
+      "Clay loam",
+      "Silt loam",
+      "Loam",
+      "Sandy loam",
+      "Loamy sand",
+      "Sand"
+    ]
   },
   {
     "plantId": "ELGL",
@@ -8617,7 +8929,16 @@ window.ECORESTORE_PLANTS = [
     "citations": {
       "sourceText": "",
       "citationNotes": "Citations: Sampson et al., 1951; Bugg et al., 1997; Stromberg and Kephart 1997; Rose et al, 1998; Hallock et al. 2003; Lulow 2006; Lulow 2008; Young et al., 2009; Long and Anderson 2010; Porensky et al. 2012; Holl et al. 2014; Fonseca et al., 2014; Gornish and Shaw 2017; Ie 2000; Archibald et al., 2000"
-    }
+    },
+    "soilTextureClasses": [
+      "Clay",
+      "Clay loam",
+      "Silt loam",
+      "Loam",
+      "Sandy loam",
+      "Loamy sand",
+      "Sand"
+    ]
   },
   {
     "plantId": "ELLA",
@@ -8822,7 +9143,13 @@ window.ECORESTORE_PLANTS = [
     "citations": {
       "sourceText": "",
       "citationNotes": "Citations: Scher, 2002; Pantel et al, 2011"
-    }
+    },
+    "soilTextureClasses": [
+      "Loam",
+      "Clay",
+      "Silt",
+      "Sand"
+    ]
   },
   {
     "plantId": "ELMU",
@@ -9075,7 +9402,14 @@ window.ECORESTORE_PLANTS = [
     "citations": {
       "sourceText": "",
       "citationNotes": "Citations: Bugg et al., 1997; Rowe and Leger, 2011; Jones 1998; Gornish and Shaw 2017; Robins et al., 2013; Young et al., 2003"
-    }
+    },
+    "soilTextureClasses": [
+      "Clay",
+      "Clay loam",
+      "Silt loam",
+      "Loam",
+      "Sandy loam"
+    ]
   },
   {
     "plantId": "ELTI",
@@ -9329,7 +9663,15 @@ window.ECORESTORE_PLANTS = [
     "citations": {
       "sourceText": "",
       "citationNotes": "Citations: Bugg et al. 1997; Lulow 2006; Long and Anderson 2010; Larson et al., 2020; Gornish and Shaw 2017"
-    }
+    },
+    "soilTextureClasses": [
+      "Clay",
+      "Clay loam",
+      "Silt loam",
+      "Loam",
+      "Sandy loam",
+      "Sand"
+    ]
   },
   {
     "plantId": "ELTR",
@@ -9575,7 +9917,13 @@ window.ECORESTORE_PLANTS = [
     "citations": {
       "sourceText": "",
       "citationNotes": "Citations: Bugg et al. 1997; Lulow 2006; Long and Anderson 2010; Paschke et al., 2000; Jensen et al., 2016; Gornish and Shaw 2017"
-    }
+    },
+    "soilTextureClasses": [
+      "Clay loam",
+      "Loam",
+      "Sandy loam",
+      "Loamy sand"
+    ]
   },
   {
     "plantId": "EPCA",
@@ -9822,7 +10170,17 @@ window.ECORESTORE_PLANTS = [
     "citations": {
       "sourceText": "",
       "citationNotes": "Citations: Bowman 1980; Love & Akins 2019; Gornish and Shaw 2017"
-    }
+    },
+    "soilTextureClasses": [
+      "Clay",
+      "Silty clay loam",
+      "Clay loam",
+      "Silt loam",
+      "Loam",
+      "Sandy loam",
+      "Loamy sand",
+      "Sand"
+    ]
   },
   {
     "plantId": "ERFA",
@@ -10063,7 +10421,18 @@ window.ECORESTORE_PLANTS = [
     "citations": {
       "sourceText": "",
       "citationNotes": "Citations: Stylinski and Allen 2001; Buck-Diaz et al., 2012;  Montalvo 2004; Gornish and Shaw 2017"
-    }
+    },
+    "soilTextureClasses": [
+      "Clay",
+      "Silty clay",
+      "Silty clay loam",
+      "Clay loam",
+      "Silt loam",
+      "Loam",
+      "Sandy loam",
+      "Loamy sand",
+      "Sand"
+    ]
   },
   {
     "plantId": "ERGI",
@@ -10268,7 +10637,15 @@ window.ECORESTORE_PLANTS = [
     "citations": {
       "sourceText": "",
       "citationNotes": "Citations: Coblentz 1980; Gornish and Shaw 2017; Stratton 2004"
-    }
+    },
+    "soilTextureClasses": [
+      "Clay loam",
+      "Silt loam",
+      "Loam",
+      "Sandy loam",
+      "Loamy sand",
+      "Sand"
+    ]
   },
   {
     "plantId": "ERSE",
@@ -10510,7 +10887,17 @@ window.ECORESTORE_PLANTS = [
     "citations": {
       "sourceText": "",
       "citationNotes": "Citations: Allen 2018; Gornish and Shaw 2017"
-    }
+    },
+    "soilTextureClasses": [
+      "Clay",
+      "Silty clay loam",
+      "Clay loam",
+      "Silt loam",
+      "Loam",
+      "Sandy loam",
+      "Loamy sand",
+      "Sand"
+    ]
   },
   {
     "plantId": "ESCA",
@@ -10750,7 +11137,13 @@ window.ECORESTORE_PLANTS = [
     "citations": {
       "sourceText": "",
       "citationNotes": "Citations: Chiaramonte et al., 2003; Hallock et al. 2003; Funk et al., 2014; Wilkerson et al., 2014; Kimball et al. 2015"
-    }
+    },
+    "soilTextureClasses": [
+      "Clay",
+      "Loam",
+      "Silt",
+      "Sand"
+    ]
   },
   {
     "plantId": "EUOC",
@@ -11001,7 +11394,17 @@ window.ECORESTORE_PLANTS = [
     "citations": {
       "sourceText": "",
       "citationNotes": "Citations: Long and Anderson 2010; Moore et al., 2011; Gornish and Shaw 2017"
-    }
+    },
+    "soilTextureClasses": [
+      "Clay",
+      "Silty clay loam",
+      "Clay loam",
+      "Silt loam",
+      "Loam",
+      "Sandy loam",
+      "Loamy sand",
+      "Sand"
+    ]
   },
   {
     "plantId": "FEID",
@@ -11237,7 +11640,14 @@ window.ECORESTORE_PLANTS = [
     "citations": {
       "sourceText": "",
       "citationNotes": "Citation: USDA, 1937; Bugg et al. 1997; fs.usda; Gornish and Shaw 2017"
-    }
+    },
+    "soilTextureClasses": [
+      "Clay",
+      "Clay loam",
+      "Silt loam",
+      "Loam",
+      "Sandy loam"
+    ]
   },
   {
     "plantId": "FEMI",
@@ -11485,7 +11895,15 @@ window.ECORESTORE_PLANTS = [
     "citations": {
       "sourceText": "",
       "citationNotes": "Citations: Hallock et al. 2003, CALES 2022, Rayburn 2015"
-    }
+    },
+    "soilTextureClasses": [
+      "Clay",
+      "Clay loam",
+      "Silt loam",
+      "Loam",
+      "Sandy loam",
+      "Sand"
+    ]
   },
   {
     "plantId": "FERU",
@@ -11729,7 +12147,15 @@ window.ECORESTORE_PLANTS = [
     "citations": {
       "sourceText": "",
       "citationNotes": "Citations: Bugg et al., 1997, Great Basin Seeds, Dradrach 2020, Walsh 1995, Saskatchewan Forage Council 2007"
-    }
+    },
+    "soilTextureClasses": [
+      "Clay",
+      "Clay loam",
+      "Silt loam",
+      "Loam",
+      "Sandy loam",
+      "Sand"
+    ]
   },
   {
     "plantId": "GRCA",
@@ -11973,7 +12399,15 @@ window.ECORESTORE_PLANTS = [
     "citations": {
       "sourceText": "",
       "citationNotes": "Citations: Long and Anderson 2010; Porensky et al. 2012; Wilkerson et al., 2014; Kimball et al. 2015; Gornish and Shaw 2017"
-    }
+    },
+    "soilTextureClasses": [
+      "Clay",
+      "Silty clay loam",
+      "Clay loam",
+      "Silt loam",
+      "Loam",
+      "Sandy loam"
+    ]
   },
   {
     "plantId": "HECO",
@@ -12192,7 +12626,14 @@ window.ECORESTORE_PLANTS = [
     "citations": {
       "sourceText": "",
       "citationNotes": "Citations: Gornish and Shaw 2017"
-    }
+    },
+    "soilTextureClasses": [
+      "Clay",
+      "Clay loam",
+      "Silt loam",
+      "Loam",
+      "Sandy loam"
+    ]
   },
   {
     "plantId": "HEFI",
@@ -12422,7 +12863,14 @@ window.ECORESTORE_PLANTS = [
     "citations": {
       "sourceText": "",
       "citationNotes": "Citations: Davy and Rinella 2019; Gornish and Shaw 2017; Barbour et al., 2007; Klocke et al., 1987"
-    }
+    },
+    "soilTextureClasses": [
+      "Clay",
+      "Clay loam",
+      "Silt loam",
+      "Loam",
+      "Sandy loam"
+    ]
   },
   {
     "plantId": "HOBR",
@@ -12674,7 +13122,16 @@ window.ECORESTORE_PLANTS = [
     "citations": {
       "sourceText": "",
       "citationNotes": "Citations: Bugg et al., 1997; Lulow 2006; Long and Anderson, 2010; Holl et al. 2014; Gornish and Shaw 2017"
-    }
+    },
+    "soilTextureClasses": [
+      "Clay",
+      "Silty clay",
+      "Clay loam",
+      "Silt loam",
+      "Loam",
+      "Sandy loam",
+      "Sand"
+    ]
   },
   {
     "plantId": "KOMA",
@@ -12926,7 +13383,17 @@ window.ECORESTORE_PLANTS = [
     "citations": {
       "sourceText": "",
       "citationNotes": "Citation: Lulow 2008; Templeton 2018; Burgess and Hoagland 2006; Shi et al., 2022; Dixon 2000; Friesen 2003; Gornish and Shaw 2017"
-    }
+    },
+    "soilTextureClasses": [
+      "Clay",
+      "Silty clay loam",
+      "Clay loam",
+      "Silt loam",
+      "Loam",
+      "Sandy loam",
+      "Loamy sand",
+      "Sand"
+    ]
   },
   {
     "plantId": "LACA",
@@ -13172,7 +13639,16 @@ window.ECORESTORE_PLANTS = [
     "citations": {
       "sourceText": "",
       "citationNotes": "Citations: Gardenia, Montalvo 2017"
-    }
+    },
+    "soilTextureClasses": [
+      "Clay",
+      "Silty clay loam",
+      "Clay loam",
+      "Silt loam",
+      "Loam",
+      "Sandy loam",
+      "Sand"
+    ]
   },
   {
     "plantId": "LAPL",
@@ -13404,7 +13880,16 @@ window.ECORESTORE_PLANTS = [
     "citations": {
       "sourceText": "",
       "citationNotes": "Citations: Dawdy 2013; Barry et al., 2015; Gornish and Shaw 2017"
-    }
+    },
+    "soilTextureClasses": [
+      "Clay",
+      "Clay loam",
+      "Silt loam",
+      "Loam",
+      "Sandy loam",
+      "Loamy sand",
+      "Sand"
+    ]
   },
   {
     "plantId": "LUBI",
@@ -13654,7 +14139,16 @@ window.ECORESTORE_PLANTS = [
     "citations": {
       "sourceText": "",
       "citationNotes": "Citations: Wu and Kruckeberg 1985; Wolko et al.; Young 2001; Gornish and Shaw 2017"
-    }
+    },
+    "soilTextureClasses": [
+      "Clay",
+      "Clay loam",
+      "Silt loam",
+      "Loam",
+      "Sandy loam",
+      "Loamy sand",
+      "Sand"
+    ]
   },
   {
     "plantId": "LUDE",
@@ -13899,7 +14393,16 @@ window.ECORESTORE_PLANTS = [
     "citations": {
       "sourceText": "",
       "citationNotes": "Citations: Wilkerson et al., 2014; Gornish and Shaw 2017"
-    }
+    },
+    "soilTextureClasses": [
+      "Clay",
+      "Clay loam",
+      "Silt loam",
+      "Loam",
+      "Sandy loam",
+      "Loamy sand",
+      "Sand"
+    ]
   },
   {
     "plantId": "LUFO",
@@ -14136,7 +14639,14 @@ window.ECORESTORE_PLANTS = [
     "citations": {
       "sourceText": "",
       "citationNotes": "Citations: Wilkerson et al., 2014; Gornish and Shaw 2017"
-    }
+    },
+    "soilTextureClasses": [
+      "Clay",
+      "Clay loam",
+      "Silt loam",
+      "Loam",
+      "Sandy loam"
+    ]
   },
   {
     "plantId": "LUMI",
@@ -14380,7 +14890,16 @@ window.ECORESTORE_PLANTS = [
     "citations": {
       "sourceText": "",
       "citationNotes": "Citations: Kimball et al. 2015; Preston 2006; Gornish 2017"
-    }
+    },
+    "soilTextureClasses": [
+      "Clay",
+      "Silty clay loam",
+      "Clay loam",
+      "Loam",
+      "Sandy loam",
+      "Loamy sand",
+      "Sand"
+    ]
   },
   {
     "plantId": "LUSU",
@@ -14614,7 +15133,17 @@ window.ECORESTORE_PLANTS = [
     "citations": {
       "sourceText": "",
       "citationNotes": "Citations: Johnson et al., 1987; Chiaramonte et al., 2003; Hallock et al. 2003; Wilkerson et al., 2014; Kimball et al. 2015; Montalvo et al., 2002; Wolko et al.; Gornish and Shaw 2017"
-    }
+    },
+    "soilTextureClasses": [
+      "Clay",
+      "Silty clay loam",
+      "Clay loam",
+      "Silt loam",
+      "Loam",
+      "Sandy loam",
+      "Loamy sand",
+      "Sand"
+    ]
   },
   {
     "plantId": "MASA",
@@ -14807,7 +15336,16 @@ window.ECORESTORE_PLANTS = [
     "citations": {
       "sourceText": "",
       "citationNotes": "Citations: Kimball et al. 2015; Gornish and Shaw 2017"
-    }
+    },
+    "soilTextureClasses": [
+      "Clay",
+      "Silty clay loam",
+      "Clay loam",
+      "Loam",
+      "Sandy loam",
+      "Loamy sand",
+      "Sand"
+    ]
   },
   {
     "plantId": "MECA",
@@ -15057,7 +15595,15 @@ window.ECORESTORE_PLANTS = [
     "citations": {
       "sourceText": "",
       "citationNotes": "Citations: Bugg et al. 1997; Lulow 2006; Lulow 2006; Long and Anderson 2010; Porensky et al., 2012; Wu et al., 2001; Dennis 1990; Gornish and Shaw 2017"
-    }
+    },
+    "soilTextureClasses": [
+      "Silty clay loam",
+      "Clay loam",
+      "Silt loam",
+      "Loam",
+      "Sandy loam",
+      "Loamy sand"
+    ]
   },
   {
     "plantId": "MEIM",
@@ -15290,7 +15836,17 @@ window.ECORESTORE_PLANTS = [
     "citations": {
       "sourceText": "",
       "citationNotes": "Citation: Bugg et al. 1997; Mangiafico et al., 2012; O'Leary 1990; Ashby and Hellmers 1959; Lutz 2013; Gornish and Shaw 2017"
-    }
+    },
+    "soilTextureClasses": [
+      "Clay",
+      "Silty clay loam",
+      "Clay loam",
+      "Sandy clay loam",
+      "Loam",
+      "Sandy loam",
+      "Loamy sand",
+      "Sand"
+    ]
   },
   {
     "plantId": "MIAU",
@@ -15513,7 +16069,8 @@ window.ECORESTORE_PLANTS = [
     "citations": {
       "sourceText": "",
       "citationNotes": "Citations: Montalvo and McMillan 2004; Davis et al., 1989; Gornish and Shaw 2017"
-    }
+    },
+    "soilTextureClasses": []
   },
   {
     "plantId": "MIDO",
@@ -15741,7 +16298,15 @@ window.ECORESTORE_PLANTS = [
     "citations": {
       "sourceText": "",
       "citationNotes": "Citations: Funk et al., 2014; Hobbs et al., 2007; Hernández et al., 2021; Gornish and Shaw 2017"
-    }
+    },
+    "soilTextureClasses": [
+      "Clay",
+      "Silty clay loam",
+      "Clay loam",
+      "Sandy clay loam",
+      "Loam",
+      "Sandy loam"
+    ]
   },
   {
     "plantId": "MURI",
@@ -15963,7 +16528,16 @@ window.ECORESTORE_PLANTS = [
     "citations": {
       "sourceText": "",
       "citationNotes": "Citations: Long and Anderson 2010; Marcotte et al., 2003; Linden; Anderson 1996; Toole 1938; Gornish and Shaw 2017"
-    }
+    },
+    "soilTextureClasses": [
+      "Clay",
+      "Clay loam",
+      "Silt loam",
+      "Loam",
+      "Sandy loam",
+      "Loamy sand",
+      "Sand"
+    ]
   },
   {
     "plantId": "NEME",
@@ -16213,7 +16787,15 @@ window.ECORESTORE_PLANTS = [
     "citations": {
       "sourceText": "",
       "citationNotes": "Citations: Stover Seed, Missouri Botanical Garden, NC Gardener, Plantpono 2014, Grant 2021"
-    }
+    },
+    "soilTextureClasses": [
+      "Clay loam",
+      "Silt loam",
+      "Loam",
+      "Sandy loam",
+      "Loamy sand",
+      "Sand"
+    ]
   },
   {
     "plantId": "PEHE",
@@ -16438,7 +17020,15 @@ window.ECORESTORE_PLANTS = [
     "citations": {
       "sourceText": "",
       "citationNotes": "Citations: Everett 1950; Gornish and Shaw 2017"
-    }
+    },
+    "soilTextureClasses": [
+      "Silty clay loam",
+      "Clay loam",
+      "Silt loam",
+      "Loam",
+      "Sandy loam",
+      "Sand"
+    ]
   },
   {
     "plantId": "PHCA",
@@ -16651,7 +17241,13 @@ window.ECORESTORE_PLANTS = [
     "citations": {
       "sourceText": "",
       "citationNotes": "Citation: Long and Anderson 2010; Wilkerson et al., 2014; Whittaker 1954; Gornish and Shaw 2017"
-    }
+    },
+    "soilTextureClasses": [
+      "Clay loam",
+      "Loam",
+      "Sandy loam",
+      "Sand"
+    ]
   },
   {
     "plantId": "PHCI",
@@ -16869,7 +17465,16 @@ window.ECORESTORE_PLANTS = [
     "citations": {
       "sourceText": "",
       "citationNotes": "Citation: Kimball et al. 2015; Keeley et al., 1985; Kimball et al., 2017; Gornish and Shaw 2017"
-    }
+    },
+    "soilTextureClasses": [
+      "Clay",
+      "Clay loam",
+      "Silt loam",
+      "Loam",
+      "Sandy loam",
+      "Loamy sand",
+      "Sand"
+    ]
   },
   {
     "plantId": "PHDI",
@@ -17098,7 +17703,16 @@ window.ECORESTORE_PLANTS = [
     "citations": {
       "sourceText": "",
       "citationNotes": "Citation: Quon 2018; Thomson et al., 2018; Gornish and Shaw 2017"
-    }
+    },
+    "soilTextureClasses": [
+      "Clay",
+      "Silty clay loam",
+      "Clay loam",
+      "Loam",
+      "Sandy loam",
+      "Loamy sand",
+      "Sand"
+    ]
   },
   {
     "plantId": "PHTA",
@@ -17329,7 +17943,14 @@ window.ECORESTORE_PLANTS = [
     "citations": {
       "sourceText": "",
       "citationNotes": "Citation: Cherniavskih et al., 2018; Meuser 2013; Liczner et al., 2019; Gornish and Shaw 2017"
-    }
+    },
+    "soilTextureClasses": [
+      "Silty clay loam",
+      "Clay loam",
+      "Loam",
+      "Sandy loam",
+      "Sand"
+    ]
   },
   {
     "plantId": "PLER",
@@ -17573,7 +18194,16 @@ window.ECORESTORE_PLANTS = [
     "citations": {
       "sourceText": "",
       "citationNotes": "Citation: Kimball et al. 2015; Hobbs et al., 2007; Harrison et al., 2003; Weiss 1999; Evans et al., 1974; Gornish and Shaw 2017"
-    }
+    },
+    "soilTextureClasses": [
+      "Clay",
+      "Clay loam",
+      "Silt loam",
+      "Loam",
+      "Sandy loam",
+      "Loamy sand",
+      "Sand"
+    ]
   },
   {
     "plantId": "POSE",
@@ -17829,7 +18459,15 @@ window.ECORESTORE_PLANTS = [
     "citations": {
       "sourceText": "",
       "citationNotes": "Citations: Champlin and Winward, 1979; Bugg et al. 1997; Long and Anderson 2010; Funk et al., 2014; Nafus et al., 2015; Majerus and Majerus 2008; Halvorson 2011; Gornish and Shaw 2017"
-    }
+    },
+    "soilTextureClasses": [
+      "Clay",
+      "Clay loam",
+      "Loam",
+      "Sandy loam",
+      "Loamy sand",
+      "Sand"
+    ]
   },
   {
     "plantId": "SACO",
@@ -18064,7 +18702,16 @@ window.ECORESTORE_PLANTS = [
     "citations": {
       "sourceText": "",
       "citationNotes": "Citations: Engelbrecht et al., 2014; Cabrera-Santos et al., 2021; Gornish 2017"
-    }
+    },
+    "soilTextureClasses": [
+      "Clay",
+      "Silty clay loam",
+      "Clay loam",
+      "Loam",
+      "Sandy loam",
+      "Loamy sand",
+      "Sand"
+    ]
   },
   {
     "plantId": "SPAI",
@@ -18292,7 +18939,13 @@ window.ECORESTORE_PLANTS = [
     "citations": {
       "sourceText": "",
       "citationNotes": "Citations: Wasser et al., 1986, Gornish and Shaw 2017"
-    }
+    },
+    "soilTextureClasses": [
+      "Silt loam",
+      "Loam",
+      "Sandy loam",
+      "Sand"
+    ]
   },
   {
     "plantId": "STCE",
@@ -18525,7 +19178,16 @@ window.ECORESTORE_PLANTS = [
     "citations": {
       "sourceText": "",
       "citationNotes": "Citations: Bugg et al. 1997; Monsen et al. 2004; Long and Anderson 2010; Valliere 2019; Gornish and Shaw 2017"
-    }
+    },
+    "soilTextureClasses": [
+      "Clay",
+      "Clay loam",
+      "Silt loam",
+      "Loam",
+      "Sandy loam",
+      "Loamy sand",
+      "Sand"
+    ]
   },
   {
     "plantId": "STLE",
@@ -18744,7 +19406,17 @@ window.ECORESTORE_PLANTS = [
     "citations": {
       "sourceText": "",
       "citationNotes": "Citations: Hallock et al. 2003; Monsen et al., 2004, Theodore Payne Foundation"
-    }
+    },
+    "soilTextureClasses": [
+      "Clay",
+      "Silty clay loam",
+      "Clay loam",
+      "Silt loam",
+      "Loam",
+      "Sandy loam",
+      "Loamy sand",
+      "Sand"
+    ]
   },
   {
     "plantId": "STPU",
@@ -18987,7 +19659,17 @@ window.ECORESTORE_PLANTS = [
     "citations": {
       "sourceText": "",
       "citationNotes": "Citations: Crampton, 1974; Hull and Muller, 1977; Bartolome & Gemmill, 1981; Bishop 1996; Dyer et al. 1996; Bugg et al. 1997; Stromberg and Kephart 1997; Hatch et al. 1999; Monsen et al., 2004; Lulow et al., 2007; Long and Anderson 2010; Porensky et al., 2012; Holl et al. 2014; Young and Veblen, 2015; Kimball et al. 2015; Bartolome 1981; Luong et al., 2023; Gornish and Shaw 2017"
-    }
+    },
+    "soilTextureClasses": [
+      "Clay",
+      "Silty clay loam",
+      "Clay loam",
+      "Silt loam",
+      "Loam",
+      "Sandy loam",
+      "Loamy sand",
+      "Sand"
+    ]
   },
   {
     "plantId": "SYCH",
@@ -19229,7 +19911,16 @@ window.ECORESTORE_PLANTS = [
     "citations": {
       "sourceText": "",
       "citationNotes": "Citation: Long and Anderson 2010; Gornish and Shaw 2017"
-    }
+    },
+    "soilTextureClasses": [
+      "Clay",
+      "Silty clay loam",
+      "Clay loam",
+      "Silt loam",
+      "Loam",
+      "Sandy loam",
+      "Sand"
+    ]
   },
   {
     "plantId": "TRAL",
@@ -19472,7 +20163,17 @@ window.ECORESTORE_PLANTS = [
     "citations": {
       "sourceText": "",
       "citationNotes": "Citation: Gulmon 1992; Ishimoto 1958; Gornish and Shaw 2017; Immel 2007; Uzun and Aydin 2004; Rezaei-Manesh et al., 2023"
-    }
+    },
+    "soilTextureClasses": [
+      "Clay",
+      "Silty clay loam",
+      "Clay loam",
+      "Sandy clay loam",
+      "Silt loam",
+      "Loam",
+      "Sandy loam",
+      "Sand"
+    ]
   },
   {
     "plantId": "TRBI",
@@ -19690,7 +20391,13 @@ window.ECORESTORE_PLANTS = [
     "citations": {
       "sourceText": "",
       "citationNotes": "Citation: Lulow 2008; Porensky et al. 2012, PFAF, Gornish 2017"
-    }
+    },
+    "soilTextureClasses": [
+      "Clay loam",
+      "Silt loam",
+      "Loam",
+      "Sandy loam"
+    ]
   },
   {
     "plantId": "TRFA",
@@ -19914,7 +20621,14 @@ window.ECORESTORE_PLANTS = [
     "citations": {
       "sourceText": "",
       "citationNotes": "Citations: Wilkerson et al., 2014; Igwe and Vannette 2019; Immel 2007; Uzun and Aydin 2004; Rezaei-Manesh et al., 2023; Gornish and Shaw 2017"
-    }
+    },
+    "soilTextureClasses": [
+      "Clay",
+      "Clay loam",
+      "Loam",
+      "Sandy loam",
+      "Sand"
+    ]
   },
   {
     "plantId": "TROB",
@@ -20149,7 +20863,14 @@ window.ECORESTORE_PLANTS = [
     "citations": {
       "sourceText": "",
       "citationNotes": "Citations: (Wilkerson et al., 2014); Immel 2007; Uzun and Aydin 2004; Rezaei-Manesh et al., 2023; Young-Mathews and Lockeford 2011; Gornish and Shaw 2017"
-    }
+    },
+    "soilTextureClasses": [
+      "Silt loam",
+      "Loam",
+      "Sandy loam",
+      "Loamy sand",
+      "Sand"
+    ]
   },
   {
     "plantId": "TRWI",
@@ -20396,6 +21117,15 @@ window.ECORESTORE_PLANTS = [
     "citations": {
       "sourceText": "",
       "citationNotes": "Citations: Lulow 2008; Porensky et al., 2012, Edible Wild Food 2021"
-    }
+    },
+    "soilTextureClasses": [
+      "Clay",
+      "Clay loam",
+      "Silt loam",
+      "Loam",
+      "Sandy loam",
+      "Loamy sand",
+      "Sand"
+    ]
   }
 ];
