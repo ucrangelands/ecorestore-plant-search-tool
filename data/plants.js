@@ -1,8 +1,3 @@
-/*
-  PUBLIC APP DATA generated from the approved UC EcoRestore master table.
-  This file intentionally contains only the public subset used by the browser app.
-  The private 131-column master CSV is not included in the GitHub Pages project.
-*/
 window.ECORESTORE_PLANTS = [
   {
     "plantId": "ACAM",
@@ -56,7 +51,11 @@ window.ECORESTORE_PLANTS = [
     },
     "soils": [
       "Clay",
+      "Clay loam",
+      "Silt loam",
       "Loam",
+      "Sandy loam",
+      "Loamy sand",
       "Sand"
     ],
     "elevation": {
@@ -309,9 +308,11 @@ window.ECORESTORE_PLANTS = [
       }
     },
     "soils": [
-      "Clay",
-      "Loam",
-      "Sand"
+      "Clay loam",
+      "Silt loam",
+      "Sandy loam",
+      "Loamy sand",
+      "Gravel / rocky"
     ],
     "elevation": {
       "min": 0.0,
@@ -542,9 +543,8 @@ window.ECORESTORE_PLANTS = [
       }
     },
     "soils": [
-      "Clay",
-      "Loam",
-      "Sand"
+      "Sand",
+      "Gravel / rocky"
     ],
     "elevation": {
       "min": 0.0,
@@ -762,8 +762,12 @@ window.ECORESTORE_PLANTS = [
     },
     "soils": [
       "Clay",
+      "Silty clay loam",
+      "Clay loam",
+      "Silt loam",
       "Loam",
-      "Silt",
+      "Sandy loam",
+      "Loamy sand",
       "Sand",
       "Gravel / rocky"
     ],
@@ -1016,9 +1020,9 @@ window.ECORESTORE_PLANTS = [
       }
     },
     "soils": [
-      "Loam",
-      "Silt",
-      "Sand"
+      "Gravel / rocky",
+      "Sand",
+      "Clay"
     ],
     "elevation": {
       "min": 0.0,
@@ -1213,10 +1217,15 @@ window.ECORESTORE_PLANTS = [
       }
     },
     "soils": [
-      "Clay",
+      "Silty clay loam",
+      "Clay loam",
+      "Sandy clay loam",
+      "Silt loam",
       "Loam",
-      "Silt",
-      "Sand"
+      "Sandy loam",
+      "Loamy sand",
+      "Sand",
+      "Gravel / rocky"
     ],
     "elevation": {
       "min": 0.0,
@@ -1452,7 +1461,11 @@ window.ECORESTORE_PLANTS = [
     },
     "soils": [
       "Clay",
+      "Clay loam",
+      "Silt loam",
       "Loam",
+      "Sandy loam",
+      "Loamy sand",
       "Sand"
     ],
     "elevation": {
@@ -1702,7 +1715,11 @@ window.ECORESTORE_PLANTS = [
     },
     "soils": [
       "Clay",
+      "Clay loam",
+      "Silt loam",
       "Loam",
+      "Sandy loam",
+      "Loamy sand",
       "Sand"
     ],
     "elevation": {
@@ -1949,9 +1966,11 @@ window.ECORESTORE_PLANTS = [
       }
     },
     "soils": [
-      "Clay",
+      "Silty clay loam",
+      "Clay loam",
       "Loam",
-      "Silt",
+      "Sandy loam",
+      "Loamy sand",
       "Sand",
       "Gravel / rocky"
     ],
@@ -2149,10 +2168,9 @@ window.ECORESTORE_PLANTS = [
       }
     },
     "soils": [
-      "Clay",
+      "Clay loam",
       "Loam",
-      "Silt",
-      "Sand",
+      "Sandy loam",
       "Gravel / rocky"
     ],
     "elevation": {
@@ -2361,8 +2379,12 @@ window.ECORESTORE_PLANTS = [
     },
     "soils": [
       "Clay",
+      "Silty clay loam",
+      "Clay loam",
+      "Silt loam",
       "Loam",
-      "Silt",
+      "Sandy loam",
+      "Loamy sand",
       "Sand",
       "Gravel / rocky"
     ],
@@ -2600,8 +2622,13 @@ window.ECORESTORE_PLANTS = [
     },
     "soils": [
       "Clay",
+      "Silty clay",
+      "Silty clay loam",
+      "Clay loam",
+      "Silt loam",
       "Loam",
-      "Silt",
+      "Sandy loam",
+      "Loamy sand",
       "Sand",
       "Gravel / rocky"
     ],
@@ -2858,7 +2885,8 @@ window.ECORESTORE_PLANTS = [
     },
     "soils": [
       "Loam",
-      "Sand",
+      "Sandy loam",
+      "Loamy sand",
       "Gravel / rocky"
     ],
     "elevation": {
@@ -3068,8 +3096,12 @@ window.ECORESTORE_PLANTS = [
     },
     "soils": [
       "Clay",
+      "Silty clay loam",
+      "Clay loam",
+      "Silt loam",
       "Loam",
-      "Silt",
+      "Sandy loam",
+      "Loamy sand",
       "Sand",
       "Gravel / rocky"
     ],
@@ -3329,11 +3361,14 @@ window.ECORESTORE_PLANTS = [
       }
     },
     "soils": [
-      "Clay",
+      "Clay loam",
+      "Silt loam",
       "Loam",
-      "Silt",
+      "Sandy loam",
+      "Loamy sand",
       "Sand",
-      "Gravel / rocky"
+      "Gravel / rocky",
+      "Clay"
     ],
     "elevation": {
       "min": -80.0,
@@ -3556,9 +3591,15 @@ window.ECORESTORE_PLANTS = [
     },
     "soils": [
       "Clay",
+      "Silty clay",
+      "Silty clay loam",
+      "Clay loam",
+      "Silt loam",
       "Loam",
-      "Silt",
-      "Sand"
+      "Sandy loam",
+      "Loamy sand",
+      "Sand",
+      "Gravel / rocky"
     ],
     "elevation": {
       "min": 0.0,
@@ -3789,9 +3830,9 @@ window.ECORESTORE_PLANTS = [
       }
     },
     "soils": [
-      "Clay",
+      "Clay loam",
       "Loam",
-      "Silt",
+      "Sandy loam",
       "Sand"
     ],
     "elevation": {
@@ -4035,9 +4076,14 @@ window.ECORESTORE_PLANTS = [
     },
     "soils": [
       "Clay",
+      "Silty clay loam",
+      "Clay loam",
+      "Silt loam",
       "Loam",
-      "Silt",
-      "Sand"
+      "Sandy loam",
+      "Loamy sand",
+      "Sand",
+      "Gravel / rocky"
     ],
     "elevation": {
       "min": 0.0,
@@ -4275,9 +4321,14 @@ window.ECORESTORE_PLANTS = [
     },
     "soils": [
       "Clay",
+      "Silty clay loam",
+      "Clay loam",
+      "Sandy clay loam",
       "Loam",
-      "Silt",
-      "Sand"
+      "Sandy loam",
+      "Loamy sand",
+      "Sand",
+      "Gravel / rocky"
     ],
     "elevation": {
       "min": 0.0,
@@ -4477,7 +4528,7 @@ window.ECORESTORE_PLANTS = [
     },
     "soils": [
       "Loam",
-      "Sand"
+      "Sandy loam"
     ],
     "elevation": {
       "min": 0.0,
@@ -4660,8 +4711,11 @@ window.ECORESTORE_PLANTS = [
     },
     "soils": [
       "Clay",
+      "Clay loam",
+      "Silt loam",
       "Loam",
-      "Silt",
+      "Sandy loam",
+      "Loamy sand",
       "Sand",
       "Gravel / rocky"
     ],
@@ -4918,9 +4972,12 @@ window.ECORESTORE_PLANTS = [
       }
     },
     "soils": [
-      "Clay",
+      "Silty clay loam",
+      "Clay loam",
+      "Silt loam",
       "Loam",
-      "Silt",
+      "Sandy loam",
+      "Loamy sand",
       "Sand",
       "Gravel / rocky"
     ],
@@ -5109,8 +5166,12 @@ window.ECORESTORE_PLANTS = [
     },
     "soils": [
       "Clay",
+      "Silty clay loam",
+      "Clay loam",
+      "Silt loam",
       "Loam",
-      "Silt",
+      "Sandy loam",
+      "Loamy sand",
       "Sand",
       "Gravel / rocky"
     ],
@@ -5545,8 +5606,11 @@ window.ECORESTORE_PLANTS = [
     },
     "soils": [
       "Clay",
+      "Clay loam",
+      "Silt loam",
       "Loam",
-      "Silt",
+      "Sandy loam",
+      "Loamy sand",
       "Sand",
       "Gravel / rocky"
     ],
@@ -5798,7 +5862,12 @@ window.ECORESTORE_PLANTS = [
     },
     "soils": [
       "Clay",
+      "Silty clay loam",
+      "Clay loam",
+      "Silt loam",
       "Loam",
+      "Sandy loam",
+      "Loamy sand",
       "Sand",
       "Gravel / rocky"
     ],
@@ -6035,8 +6104,12 @@ window.ECORESTORE_PLANTS = [
     },
     "soils": [
       "Clay",
+      "Silty clay loam",
+      "Clay loam",
+      "Silt loam",
       "Loam",
-      "Silt",
+      "Sandy loam",
+      "Loamy sand",
       "Sand",
       "Gravel / rocky"
     ],
@@ -6238,8 +6311,13 @@ window.ECORESTORE_PLANTS = [
     },
     "soils": [
       "Clay",
+      "Silty clay loam",
+      "Clay loam",
+      "Sandy clay loam",
+      "Silt loam",
       "Loam",
-      "Silt",
+      "Sandy loam",
+      "Loamy sand",
       "Sand",
       "Gravel / rocky"
     ],
@@ -6431,8 +6509,13 @@ window.ECORESTORE_PLANTS = [
     },
     "soils": [
       "Clay",
+      "Silty clay loam",
+      "Clay loam",
+      "Sandy clay loam",
+      "Silt loam",
       "Loam",
-      "Silt",
+      "Sandy loam",
+      "Loamy sand",
       "Sand",
       "Gravel / rocky"
     ],
@@ -6623,10 +6706,13 @@ window.ECORESTORE_PLANTS = [
       }
     },
     "soils": [
-      "Clay",
+      "Clay loam",
+      "Silt loam",
       "Loam",
-      "Silt",
-      "Sand"
+      "Sandy loam",
+      "Loamy sand",
+      "Sand",
+      "Gravel / rocky"
     ],
     "elevation": {
       "min": 0.0,
@@ -6816,10 +6902,13 @@ window.ECORESTORE_PLANTS = [
       }
     },
     "soils": [
-      "Clay",
+      "Silty clay loam",
+      "Clay loam",
       "Loam",
-      "Silt",
-      "Sand"
+      "Sandy loam",
+      "Loamy sand",
+      "Sand",
+      "Gravel / rocky"
     ],
     "elevation": {
       "min": 0.0,
@@ -7002,9 +7091,10 @@ window.ECORESTORE_PLANTS = [
       }
     },
     "soils": [
-      "Clay",
+      "Clay loam",
       "Loam",
-      "Silt",
+      "Sandy loam",
+      "Loamy sand",
       "Sand",
       "Gravel / rocky"
     ],
@@ -7250,8 +7340,12 @@ window.ECORESTORE_PLANTS = [
     },
     "soils": [
       "Clay",
+      "Silty clay loam",
+      "Clay loam",
+      "Silt loam",
       "Loam",
-      "Silt",
+      "Sandy loam",
+      "Loamy sand",
       "Sand",
       "Gravel / rocky"
     ],
@@ -7480,8 +7574,12 @@ window.ECORESTORE_PLANTS = [
     },
     "soils": [
       "Clay",
+      "Silty clay loam",
+      "Clay loam",
+      "Silt loam",
       "Loam",
-      "Silt",
+      "Sandy loam",
+      "Loamy sand",
       "Sand",
       "Gravel / rocky"
     ],
@@ -7719,8 +7817,12 @@ window.ECORESTORE_PLANTS = [
     },
     "soils": [
       "Clay",
+      "Silty clay loam",
+      "Clay loam",
+      "Silt loam",
       "Loam",
-      "Silt",
+      "Sandy loam",
+      "Loamy sand",
       "Sand"
     ],
     "elevation": {
@@ -7919,8 +8021,12 @@ window.ECORESTORE_PLANTS = [
     },
     "soils": [
       "Clay",
+      "Silty clay",
+      "Silty clay loam",
+      "Clay loam",
+      "Silt loam",
       "Loam",
-      "Silt",
+      "Sandy loam",
       "Sand",
       "Gravel / rocky"
     ],
@@ -8184,8 +8290,12 @@ window.ECORESTORE_PLANTS = [
     },
     "soils": [
       "Clay",
+      "Silty clay loam",
+      "Clay loam",
+      "Silt loam",
       "Loam",
-      "Silt",
+      "Sandy loam",
+      "Loamy sand",
       "Sand",
       "Gravel / rocky"
     ],
@@ -8409,8 +8519,11 @@ window.ECORESTORE_PLANTS = [
     },
     "soils": [
       "Clay",
+      "Clay loam",
+      "Silt loam",
       "Loam",
-      "Silt",
+      "Sandy loam",
+      "Loamy sand",
       "Sand",
       "Gravel / rocky"
     ],
@@ -8664,8 +8777,8 @@ window.ECORESTORE_PLANTS = [
       }
     },
     "soils": [
-      "Clay",
       "Loam",
+      "Clay",
       "Silt",
       "Sand"
     ],
@@ -8869,9 +8982,10 @@ window.ECORESTORE_PLANTS = [
     },
     "soils": [
       "Clay",
+      "Clay loam",
+      "Silt loam",
       "Loam",
-      "Silt",
-      "Sand",
+      "Sandy loam",
       "Gravel / rocky"
     ],
     "elevation": {
@@ -9123,8 +9237,10 @@ window.ECORESTORE_PLANTS = [
     },
     "soils": [
       "Clay",
+      "Clay loam",
+      "Silt loam",
       "Loam",
-      "Silt",
+      "Sandy loam",
       "Sand"
     ],
     "elevation": {
@@ -9376,9 +9492,10 @@ window.ECORESTORE_PLANTS = [
       }
     },
     "soils": [
-      "Clay",
+      "Clay loam",
       "Loam",
-      "Sand",
+      "Sandy loam",
+      "Loamy sand",
       "Gravel / rocky"
     ],
     "elevation": {
@@ -9620,8 +9737,12 @@ window.ECORESTORE_PLANTS = [
     },
     "soils": [
       "Clay",
+      "Silty clay loam",
+      "Clay loam",
+      "Silt loam",
       "Loam",
-      "Silt",
+      "Sandy loam",
+      "Loamy sand",
       "Sand",
       "Gravel / rocky"
     ],
@@ -9873,8 +9994,13 @@ window.ECORESTORE_PLANTS = [
     },
     "soils": [
       "Clay",
+      "Silty clay",
+      "Silty clay loam",
+      "Clay loam",
+      "Silt loam",
       "Loam",
-      "Silt",
+      "Sandy loam",
+      "Loamy sand",
       "Sand",
       "Gravel / rocky"
     ],
@@ -10110,9 +10236,11 @@ window.ECORESTORE_PLANTS = [
       }
     },
     "soils": [
-      "Clay",
+      "Clay loam",
+      "Silt loam",
       "Loam",
-      "Silt",
+      "Sandy loam",
+      "Loamy sand",
       "Sand",
       "Gravel / rocky"
     ],
@@ -10313,8 +10441,12 @@ window.ECORESTORE_PLANTS = [
     },
     "soils": [
       "Clay",
+      "Silty clay loam",
+      "Clay loam",
+      "Silt loam",
       "Loam",
-      "Silt",
+      "Sandy loam",
+      "Loamy sand",
       "Sand",
       "Gravel / rocky"
     ],
@@ -10563,10 +10695,6 @@ window.ECORESTORE_PLANTS = [
       }
     },
     "soils": [
-      "Clay",
-      "Loam",
-      "Silt",
-      "Sand",
       "Gravel / rocky"
     ],
     "elevation": {
@@ -10798,8 +10926,12 @@ window.ECORESTORE_PLANTS = [
     },
     "soils": [
       "Clay",
+      "Silty clay loam",
+      "Clay loam",
+      "Silt loam",
       "Loam",
-      "Silt",
+      "Sandy loam",
+      "Loamy sand",
       "Sand"
     ],
     "elevation": {
@@ -11050,9 +11182,10 @@ window.ECORESTORE_PLANTS = [
     },
     "soils": [
       "Clay",
+      "Clay loam",
+      "Silt loam",
       "Loam",
-      "Silt",
-      "Sand",
+      "Sandy loam",
       "Gravel / rocky"
     ],
     "elevation": {
@@ -11287,8 +11420,10 @@ window.ECORESTORE_PLANTS = [
     },
     "soils": [
       "Clay",
+      "Clay loam",
+      "Silt loam",
       "Loam",
-      "Silt",
+      "Sandy loam",
       "Sand",
       "Gravel / rocky"
     ],
@@ -11533,8 +11668,10 @@ window.ECORESTORE_PLANTS = [
     },
     "soils": [
       "Clay",
+      "Clay loam",
+      "Silt loam",
       "Loam",
-      "Silt",
+      "Sandy loam",
       "Sand",
       "Gravel / rocky"
     ],
@@ -11777,9 +11914,11 @@ window.ECORESTORE_PLANTS = [
     },
     "soils": [
       "Clay",
+      "Silty clay loam",
+      "Clay loam",
+      "Silt loam",
       "Loam",
-      "Silt",
-      "Sand"
+      "Sandy loam"
     ],
     "elevation": {
       "min": 3.0,
@@ -12020,9 +12159,10 @@ window.ECORESTORE_PLANTS = [
     },
     "soils": [
       "Clay",
+      "Clay loam",
+      "Silt loam",
       "Loam",
-      "Silt",
-      "Sand"
+      "Sandy loam"
     ],
     "elevation": {
       "min": -132.0,
@@ -12240,9 +12380,10 @@ window.ECORESTORE_PLANTS = [
     },
     "soils": [
       "Clay",
+      "Clay loam",
+      "Silt loam",
       "Loam",
-      "Silt",
-      "Sand"
+      "Sandy loam"
     ],
     "elevation": {
       "min": 15.0,
@@ -12470,8 +12611,11 @@ window.ECORESTORE_PLANTS = [
     },
     "soils": [
       "Clay",
+      "Silty clay",
+      "Clay loam",
+      "Silt loam",
       "Loam",
-      "Silt",
+      "Sandy loam",
       "Sand",
       "Gravel / rocky"
     ],
@@ -12722,8 +12866,12 @@ window.ECORESTORE_PLANTS = [
     },
     "soils": [
       "Clay",
+      "Silty clay loam",
+      "Clay loam",
+      "Silt loam",
       "Loam",
-      "Silt",
+      "Sandy loam",
+      "Loamy sand",
       "Sand",
       "Gravel / rocky"
     ],
@@ -12978,8 +13126,11 @@ window.ECORESTORE_PLANTS = [
     },
     "soils": [
       "Clay",
+      "Silty clay loam",
+      "Clay loam",
+      "Silt loam",
       "Loam",
-      "Silt",
+      "Sandy loam",
       "Sand",
       "Gravel / rocky"
     ],
@@ -13220,8 +13371,11 @@ window.ECORESTORE_PLANTS = [
     },
     "soils": [
       "Clay",
+      "Clay loam",
+      "Silt loam",
       "Loam",
-      "Silt",
+      "Sandy loam",
+      "Loamy sand",
       "Sand"
     ],
     "elevation": {
@@ -13453,8 +13607,11 @@ window.ECORESTORE_PLANTS = [
     },
     "soils": [
       "Clay",
+      "Clay loam",
+      "Silt loam",
       "Loam",
-      "Silt",
+      "Sandy loam",
+      "Loamy sand",
       "Sand",
       "Gravel / rocky"
     ],
@@ -13702,8 +13859,11 @@ window.ECORESTORE_PLANTS = [
     },
     "soils": [
       "Clay",
+      "Clay loam",
+      "Silt loam",
       "Loam",
-      "Silt",
+      "Sandy loam",
+      "Loamy sand",
       "Sand"
     ],
     "elevation": {
@@ -13947,9 +14107,10 @@ window.ECORESTORE_PLANTS = [
     },
     "soils": [
       "Clay",
+      "Clay loam",
+      "Silt loam",
       "Loam",
-      "Silt",
-      "Sand"
+      "Sandy loam"
     ],
     "elevation": {
       "min": 3.0,
@@ -14184,8 +14345,11 @@ window.ECORESTORE_PLANTS = [
     },
     "soils": [
       "Clay",
+      "Silty clay loam",
+      "Clay loam",
       "Loam",
-      "Silt",
+      "Sandy loam",
+      "Loamy sand",
       "Sand"
     ],
     "elevation": {
@@ -14430,8 +14594,12 @@ window.ECORESTORE_PLANTS = [
     },
     "soils": [
       "Clay",
+      "Silty clay loam",
+      "Clay loam",
+      "Silt loam",
       "Loam",
-      "Silt",
+      "Sandy loam",
+      "Loamy sand",
       "Sand",
       "Gravel / rocky"
     ],
@@ -14659,8 +14827,11 @@ window.ECORESTORE_PLANTS = [
     },
     "soils": [
       "Clay",
+      "Silty clay loam",
+      "Clay loam",
       "Loam",
-      "Silt",
+      "Sandy loam",
+      "Loamy sand",
       "Sand"
     ],
     "elevation": {
@@ -14855,10 +15026,12 @@ window.ECORESTORE_PLANTS = [
       }
     },
     "soils": [
-      "Clay",
+      "Silty clay loam",
+      "Clay loam",
+      "Silt loam",
       "Loam",
-      "Silt",
-      "Sand",
+      "Sandy loam",
+      "Loamy sand",
       "Gravel / rocky"
     ],
     "elevation": {
@@ -15105,8 +15278,12 @@ window.ECORESTORE_PLANTS = [
     },
     "soils": [
       "Clay",
+      "Silty clay loam",
+      "Clay loam",
+      "Sandy clay loam",
       "Loam",
-      "Silt",
+      "Sandy loam",
+      "Loamy sand",
       "Sand",
       "Gravel / rocky"
     ],
@@ -15562,9 +15739,11 @@ window.ECORESTORE_PLANTS = [
     },
     "soils": [
       "Clay",
+      "Silty clay loam",
+      "Clay loam",
+      "Sandy clay loam",
       "Loam",
-      "Silt",
-      "Sand"
+      "Sandy loam"
     ],
     "elevation": {
       "min": 3.0,
@@ -15791,8 +15970,11 @@ window.ECORESTORE_PLANTS = [
     },
     "soils": [
       "Clay",
+      "Clay loam",
+      "Silt loam",
       "Loam",
-      "Silt",
+      "Sandy loam",
+      "Loamy sand",
       "Sand",
       "Gravel / rocky"
     ],
@@ -16019,9 +16201,11 @@ window.ECORESTORE_PLANTS = [
       }
     },
     "soils": [
-      "Clay",
+      "Clay loam",
+      "Silt loam",
       "Loam",
-      "Silt",
+      "Sandy loam",
+      "Loamy sand",
       "Sand"
     ],
     "elevation": {
@@ -16260,9 +16444,11 @@ window.ECORESTORE_PLANTS = [
       }
     },
     "soils": [
-      "Clay",
+      "Silty clay loam",
+      "Clay loam",
+      "Silt loam",
       "Loam",
-      "Silt",
+      "Sandy loam",
       "Sand",
       "Gravel / rocky"
     ],
@@ -16485,9 +16671,9 @@ window.ECORESTORE_PLANTS = [
       }
     },
     "soils": [
-      "Clay",
+      "Clay loam",
       "Loam",
-      "Silt",
+      "Sandy loam",
       "Sand",
       "Gravel / rocky"
     ],
@@ -16702,8 +16888,11 @@ window.ECORESTORE_PLANTS = [
     },
     "soils": [
       "Clay",
+      "Clay loam",
+      "Silt loam",
       "Loam",
-      "Silt",
+      "Sandy loam",
+      "Loamy sand",
       "Sand",
       "Gravel / rocky"
     ],
@@ -16922,8 +17111,11 @@ window.ECORESTORE_PLANTS = [
     },
     "soils": [
       "Clay",
+      "Silty clay loam",
+      "Clay loam",
       "Loam",
-      "Silt",
+      "Sandy loam",
+      "Loamy sand",
       "Sand",
       "Gravel / rocky"
     ],
@@ -17147,9 +17339,10 @@ window.ECORESTORE_PLANTS = [
       }
     },
     "soils": [
-      "Clay",
+      "Silty clay loam",
+      "Clay loam",
       "Loam",
-      "Silt",
+      "Sandy loam",
       "Sand",
       "Gravel / rocky"
     ],
@@ -17378,8 +17571,11 @@ window.ECORESTORE_PLANTS = [
     },
     "soils": [
       "Clay",
+      "Clay loam",
+      "Silt loam",
       "Loam",
-      "Silt",
+      "Sandy loam",
+      "Loamy sand",
       "Sand",
       "Gravel / rocky"
     ],
@@ -17621,8 +17817,10 @@ window.ECORESTORE_PLANTS = [
     },
     "soils": [
       "Clay",
+      "Clay loam",
       "Loam",
-      "Silt",
+      "Sandy loam",
+      "Loamy sand",
       "Sand",
       "Gravel / rocky"
     ],
@@ -17879,8 +18077,11 @@ window.ECORESTORE_PLANTS = [
     },
     "soils": [
       "Clay",
+      "Silty clay loam",
+      "Clay loam",
       "Loam",
-      "Silt",
+      "Sandy loam",
+      "Loamy sand",
       "Sand",
       "Gravel / rocky"
     ],
@@ -18112,9 +18313,9 @@ window.ECORESTORE_PLANTS = [
       }
     },
     "soils": [
-      "Clay",
+      "Silt loam",
       "Loam",
-      "Silt",
+      "Sandy loam",
       "Sand",
       "Gravel / rocky"
     ],
@@ -18341,8 +18542,11 @@ window.ECORESTORE_PLANTS = [
     },
     "soils": [
       "Clay",
+      "Clay loam",
+      "Silt loam",
       "Loam",
-      "Silt",
+      "Sandy loam",
+      "Loamy sand",
       "Sand",
       "Gravel / rocky"
     ],
@@ -18574,8 +18778,12 @@ window.ECORESTORE_PLANTS = [
     },
     "soils": [
       "Clay",
+      "Silty clay loam",
+      "Clay loam",
+      "Silt loam",
       "Loam",
-      "Silt",
+      "Sandy loam",
+      "Loamy sand",
       "Sand",
       "Gravel / rocky"
     ],
@@ -18793,8 +19001,12 @@ window.ECORESTORE_PLANTS = [
     },
     "soils": [
       "Clay",
+      "Silty clay loam",
+      "Clay loam",
+      "Silt loam",
       "Loam",
-      "Silt",
+      "Sandy loam",
+      "Loamy sand",
       "Sand",
       "Gravel / rocky"
     ],
@@ -19039,8 +19251,11 @@ window.ECORESTORE_PLANTS = [
     },
     "soils": [
       "Clay",
+      "Silty clay loam",
+      "Clay loam",
+      "Silt loam",
       "Loam",
-      "Silt",
+      "Sandy loam",
       "Sand",
       "Gravel / rocky"
     ],
@@ -19278,8 +19493,12 @@ window.ECORESTORE_PLANTS = [
     },
     "soils": [
       "Clay",
+      "Silty clay loam",
+      "Clay loam",
+      "Sandy clay loam",
+      "Silt loam",
       "Loam",
-      "Silt",
+      "Sandy loam",
       "Sand",
       "Gravel / rocky"
     ],
@@ -19519,10 +19738,10 @@ window.ECORESTORE_PLANTS = [
       }
     },
     "soils": [
-      "Clay",
+      "Clay loam",
+      "Silt loam",
       "Loam",
-      "Silt",
-      "Sand"
+      "Sandy loam"
     ],
     "elevation": {
       "min": 180.0,
@@ -19741,7 +19960,9 @@ window.ECORESTORE_PLANTS = [
     },
     "soils": [
       "Clay",
+      "Clay loam",
       "Loam",
+      "Sandy loam",
       "Sand"
     ],
     "elevation": {
@@ -19960,8 +20181,10 @@ window.ECORESTORE_PLANTS = [
       }
     },
     "soils": [
+      "Silt loam",
       "Loam",
-      "Silt",
+      "Sandy loam",
+      "Loamy sand",
       "Sand",
       "Gravel / rocky"
     ],
@@ -20199,8 +20422,11 @@ window.ECORESTORE_PLANTS = [
     },
     "soils": [
       "Clay",
+      "Clay loam",
+      "Silt loam",
       "Loam",
-      "Silt",
+      "Sandy loam",
+      "Loamy sand",
       "Sand",
       "Gravel / rocky"
     ],

@@ -91,8 +91,16 @@ window.ECORESTORE_FILTERS = {
   ],
   "soils": [
     "Clay",
+    "Silty clay",
+    "Sandy clay",
+    "Clay loam",
+    "Silty clay loam",
+    "Sandy clay loam",
     "Loam",
+    "Silt loam",
     "Silt",
+    "Sandy loam",
+    "Loamy sand",
     "Sand",
     "Gravel / rocky"
   ],
