@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="UC EcoRestore native plant search and selection prototype for California restoration sites." />
-  <title>UC EcoRestore Native Plant Selector</title>
+  <meta name="description" content="UC EcoRestore plant selection tool for California restoration sites." />
+  <title>UC EcoRestore Plant Selector</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
@@ -13,116 +13,56 @@
     <header class="hero">
       <div>
         <p class="eyebrow">UC EcoRestore</p>
-        <h1>Native Plant Selector</h1>
-        <p class="lede">Describe your California restoration site conditions and goals. Results update as you select criteria, with the strongest matches shown first.</p>
+        <h1>Plant Selector</h1>
+        <p class="lede">Describe your California restoration site and goals. Results update as you select criteria, with plants matching more recorded characteristics shown first.</p>
       </div>
       <button id="clear-all-top" class="button button-secondary" type="button">Clear all</button>
     </header>
 
-    <div class="prototype-note" role="note">
-      <strong>Prototype:</strong> the interface and ranking system are production-ready, but the included ecological compatibility records are a starter dataset and should be replaced or validated against the authoritative UC EcoRestore plant database before public release.
+    <div class="data-note" role="note">
+      Plant information and compatibility fields are derived from the approved EcoRestore plant dataset. Rankings summarize recorded characteristics; review each plant profile and linked sources for restoration planning.
     </div>
 
     <section class="workspace" aria-label="Plant selection workspace">
       <aside class="filters-panel" aria-labelledby="site-heading">
-        <div class="panel-heading">
-          <div>
-            <p class="step-label">Your site</p>
-            <h2 id="site-heading">Site Assessment</h2>
-          </div>
-          <span id="active-filter-count" class="filter-count">0 selected</span>
-        </div>
+        <div class="panel-heading"><div><p class="step-label">Your site</p><h2 id="site-heading">Site assessment</h2></div><span id="active-filter-count" class="filter-count">0 selected</span></div>
 
-        <div class="filter-group">
-          <label for="ecosystem">Ecosystem</label>
-          <select id="ecosystem"><option value="">Any ecosystem</option></select>
-        </div>
+        <div class="filter-group"><label for="community">Plant community</label><select id="community"><option value="">Any recorded community</option></select></div>
+        <div class="filter-group"><label for="county">California county</label><select id="county"><option value="">Any county</option></select></div>
+        <div class="filter-group"><label for="elevation">Site elevation (ft)</label><input id="elevation" type="number" inputmode="numeric" placeholder="Optional" /></div>
 
-        <div class="filter-group">
-          <label for="county">California county</label>
-          <select id="county"><option value="">Any county</option></select>
-        </div>
-
-        <fieldset class="filter-group">
-          <legend>Expected grazing</legend>
-          <div id="grazing-options" class="choice-grid compact"></div>
-        </fieldset>
-
-        <fieldset class="filter-group">
-          <legend>Soil texture</legend>
-          <div id="soil-options" class="choice-grid"></div>
-        </fieldset>
-
-        <fieldset class="filter-group">
-          <legend>Soil chemistry</legend>
-          <div id="chemistry-options" class="choice-grid"></div>
-        </fieldset>
-
-        <fieldset class="filter-group">
-          <legend>Site conditions</legend>
-          <div id="condition-options" class="choice-grid"></div>
-        </fieldset>
-
-        <fieldset class="filter-group">
-          <legend>Restoration goals</legend>
-          <div id="goal-options" class="choice-grid"></div>
-        </fieldset>
-
+        <fieldset class="filter-group"><legend>Expected grazing / use</legend><div id="grazing-options" class="choice-grid compact"></div></fieldset>
+        <fieldset class="filter-group"><legend>Soil texture</legend><div id="soil-options" class="choice-grid"></div></fieldset>
+        <fieldset class="filter-group"><legend>Soil chemistry / tolerance</legend><div id="chemistry-options" class="choice-grid"></div></fieldset>
+        <fieldset class="filter-group"><legend>Site conditions</legend><div id="condition-options" class="choice-grid"></div></fieldset>
+        <fieldset class="filter-group"><legend>Restoration goals / benefits</legend><div id="goal-options" class="choice-grid"></div></fieldset>
         <button id="clear-all" class="button button-secondary full-width" type="button">Clear filters</button>
       </aside>
 
       <section id="results" class="results-panel" aria-labelledby="results-heading" tabindex="-1">
         <div class="results-toolbar">
-          <div>
-            <p class="step-label">Recommended plants</p>
-            <h2 id="results-heading"><span id="result-count">0</span> matches</h2>
-            <p id="results-summary" class="results-summary">Showing all plants in the starter dataset.</p>
-          </div>
+          <div><p class="step-label">Recommended plants</p><h2 id="results-heading"><span id="result-count">0</span> plants</h2><p id="results-summary" class="results-summary">Showing all plants.</p></div>
           <div class="toolbar-actions">
-            <label class="search-field">
-              <span class="sr-only">Search plants</span>
-              <input id="plant-search" type="search" placeholder="Search name…" autocomplete="off" />
-            </label>
-            <label>
-              <span class="sr-only">Sort results</span>
-              <select id="sort-results" aria-label="Sort results">
-                <option value="match">Best match</option>
-                <option value="common">Common name</option>
-                <option value="scientific">Scientific name</option>
-              </select>
-            </label>
+            <label class="search-field"><span class="sr-only">Search plants</span><input id="plant-search" type="search" placeholder="Search name…" autocomplete="off" /></label>
+            <label><span class="sr-only">Sort results</span><select id="sort-results" aria-label="Sort results"><option value="match">Best match</option><option value="common">Common name</option><option value="scientific">Scientific name</option></select></label>
           </div>
         </div>
-
         <div class="plant-type-row" aria-label="Filter by plant type">
           <button class="chip is-active" data-type="all" type="button">All</button>
           <button class="chip" data-type="forb" type="button">Forbs</button>
           <button class="chip" data-type="grass" type="button">Grasses</button>
           <button class="chip" data-type="shrub" type="button">Shrubs</button>
-          <button class="chip" data-type="tree" type="button">Trees</button>
         </div>
-
         <div id="plant-grid" class="plant-grid" aria-live="polite"></div>
-        <div id="no-results" class="empty-state" hidden>
-          <h3>No plants match every active view filter.</h3>
-          <p>Try clearing the name or plant-type filter. Site criteria rank plants rather than removing imperfect matches.</p>
-        </div>
+        <div id="no-results" class="empty-state" hidden><h3>No plants match the active view filter.</h3><p>Try clearing the name or plant-type filter. Site criteria rank plants rather than removing imperfect matches.</p></div>
       </section>
     </section>
   </main>
 
   <dialog id="plant-dialog" class="plant-dialog" aria-labelledby="dialog-title">
-    <div class="dialog-header">
-      <div>
-        <p id="dialog-kicker" class="step-label"></p>
-        <h2 id="dialog-title"></h2>
-        <p id="dialog-scientific" class="scientific"></p>
-      </div>
-      <button id="dialog-close" class="icon-button" aria-label="Close plant details" type="button">×</button>
-    </div>
+    <div class="dialog-header"><div><p id="dialog-kicker" class="step-label"></p><h2 id="dialog-title"></h2><p id="dialog-scientific" class="scientific"></p></div><button id="dialog-close" class="icon-button" aria-label="Close plant details" type="button">×</button></div>
     <div id="dialog-content" class="dialog-content"></div>
   </dialog>
-
   <script src="data/plants.js"></script>
   <script src="data/filters.js"></script>
   <script src="app.js"></script>
