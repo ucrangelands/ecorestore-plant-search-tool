@@ -7,27 +7,3 @@
 @media(max-width:900px){.app-shell{padding:12px}.workspace{grid-template-columns:1fr}.filters-panel{position:static;max-height:none}.results-toolbar{flex-direction:column}.toolbar-actions{min-width:0;width:100%}.hero{align-items:flex-start;flex-direction:column}.hero .button{display:none}}
 @media(max-width:560px){.choice-grid{grid-template-columns:1fr}.toolbar-actions{flex-direction:column}.results-panel,.filters-panel{padding:16px}.plant-grid{grid-template-columns:1fr}.hero{padding:24px 20px}.dialog-content{padding:18px}.match-table th{width:40%}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.button:hover{transform:none}}
-
-
-/* Interactive USDA soil texture selector */
-.filter-help{margin:-2px 0 10px;color:var(--muted);font-size:.82rem;line-height:1.35}
-.soil-texture-picker{border:1px solid var(--line);border-radius:12px;background:#fbfcfd;padding:10px}
-.soil-triangle{display:block;width:100%;height:auto;max-width:340px;margin:0 auto;overflow:visible}
-.soil-triangle-outline{fill:#f8fafb;stroke:#315d78;stroke-width:2}
-.soil-grid-line{stroke:#cbd7df;stroke-width:1;stroke-dasharray:2 3}
-.soil-axis-label{font-size:11px;fill:#607484;font-weight:700;letter-spacing:.02em}
-.soil-texture-label{cursor:pointer;outline:none}
-.soil-texture-label rect{fill:rgba(255,255,255,.94);stroke:#a9bbc8;stroke-width:1;transition:fill .16s ease,stroke .16s ease,transform .16s ease}
-.soil-texture-label text{font-size:10.5px;fill:#233f55;font-weight:750;pointer-events:none}
-.soil-texture-label:hover rect,.soil-texture-label:focus rect{stroke:var(--ucd-blue);stroke-width:2}
-.soil-texture-label.is-selected rect{fill:#dcecf7;stroke:var(--ucd-blue);stroke-width:2}
-.soil-texture-label.is-selected text{fill:var(--ucd-blue)}
-.soil-texture-buttons{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
-.soil-texture-chip{border:1px solid #a9bbc8;background:#fff;color:#23465f;border-radius:999px;padding:5px 8px;font-size:.76rem;font-weight:750;cursor:pointer}
-.soil-texture-chip:hover,.soil-texture-chip:focus{border-color:var(--ucd-blue);outline:none}
-.soil-texture-chip.is-selected{background:var(--ucd-blue);color:#fff;border-color:var(--ucd-blue)}
-.soil-picker-footer{display:flex;justify-content:space-between;gap:8px;align-items:flex-start;margin-top:10px;padding-top:9px;border-top:1px solid var(--line)}
-.soil-selection-summary{font-size:.78rem;color:var(--muted);line-height:1.35}
-.soil-clear-button{border:0;background:none;color:#075b9a;font-size:.78rem;font-weight:800;padding:0;cursor:pointer;white-space:nowrap}
-.soil-clear-button:hover{text-decoration:underline}
-@media(max-width:560px){.soil-triangle{max-width:310px}.soil-texture-label text{font-size:10px}}

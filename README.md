@@ -22,11 +22,3 @@ window.addEventListener("message",function(event){
 });
 </script>
 ```
-
-## Interactive soil texture triangle
-
-The site assessment now includes an interactive USDA-style soil texture triangle with the 12 standard texture-class names:
-
-Clay, Silty clay, Sandy clay, Clay loam, Silty clay loam, Sandy clay loam, Loam, Silt loam, Silt, Sandy loam, Loamy sand, and Sand.
-
-Users can select multiple classes either by clicking labels inside the triangle or by using the accessible buttons below the figure. Plant ranking uses the normalized `soilTextureClasses` field derived from the master table's `Suitable soil types` values. The original `Suitable soil types` text remains visible in plant details.
