@@ -365,19 +365,24 @@
     return "Limited match";
   }
 
-  function escapeHTML(s) {
-    return String(s ?? "")
-      .replace(
-        /[&<>'"]/g,
-        c => ({
-          "&": "&amp;",
-          "<": "&lt;",
-          ">": "&gt;",
-          "'": "&#39;",
-          '"': "&quot;"
-        }[c])
-      );
-  }
+function escapeHTML(s) {
+  return String(s ?? "").replace(
+    /[&<>'"]/g,
+    c => ({
+      "&":"&amp;",
+      "<":"&lt;",
+      ">":"&gt;",
+      "'":"&#39;",
+      '"':"&quot;"
+    }[c])
+  );
+}
+
+function firstCommonName(name) {
+  return String(name || "")
+    .split(/[,;|]/)[0]
+    .trim() || String(name || "").trim();
+}
 
   /*
    * CARD DISPLAY:
