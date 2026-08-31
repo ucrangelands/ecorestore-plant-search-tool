@@ -13,10 +13,10 @@ window.ECORESTORE_PLANTS = [
       "usda": "not listed"
     },
     "description": "Annual herbaceous forb found in various habitats across California, excluding deserts, and typically grows in wet, disturbed areas. This late season blooming annual forb, does well early in the restoration process and then demonstrates low density in subsequent years.",
-    "lifecycle": "annual",
-    "growingSeason": "warm",
+    "lifecycle": "Annual",
+    "growingSeason": "Warm",
     "type": "forb",
-    "growthFormRaw": "forb",
+    "growthFormRaw": "Forb",
     "plantCommunity": "Grassland, Chapparrall",
     "allCommunitiesFound": "Foothill Woodland, Lodgepole Forest, Red Fir Forest, Subalpine Forest, Valley Grassland, Yellow Pine Forest , Coastal sage scrub, Chapparal",
     "communities": [
@@ -145,6 +145,8 @@ window.ECORESTORE_PLANTS = [
       "Competition / weed resistance"
     ],
     "grazing": [
+      "Low / light",
+      "High",
       "Recorded grazing use"
     ],
     "services": [
@@ -226,7 +228,7 @@ window.ECORESTORE_PLANTS = [
       },
       "grazingResponse": {
         "match": null,
-        "detail": "Y"
+        "detail": "Y, low to high"
       },
       "erosion": {
         "match": true,
@@ -268,8 +270,8 @@ window.ECORESTORE_PLANTS = [
     "scientific": "Acmispon glaber",
     "alternateScientific": "",
     "common": "Common deerweed, Deer weed, Deervetch,",
-    "photoFileName": "",
-    "photoCredit": "",
+    "photoFileName": "ACGL.jpg",
+    "photoCredit": "© 2019 Diane Etchison CC-BY-NC 4.0",
     "photoSource": "https://www.calflora.org/app/up/entry/75/22749.jpg",
     "links": {
       "calflora": "https://www.calflora.org/entry/occdetail.html?seq_num=po117712",
@@ -277,10 +279,10 @@ window.ECORESTORE_PLANTS = [
       "usda": "not listed"
     },
     "description": "A decidous perennial herb that grows in northern, southern and central California. It tends to grow in sand, desert areas slopes and washes, at elevations from 0-4900 feet.",
-    "lifecycle": "perennial",
+    "lifecycle": "Perennial",
     "growingSeason": "Warm",
     "type": "forb",
-    "growthFormRaw": "forb",
+    "growthFormRaw": "Forb",
     "plantCommunity": "Chaparral",
     "allCommunitiesFound": "Creosote Bush Scrub",
     "communities": [
@@ -377,6 +379,8 @@ window.ECORESTORE_PLANTS = [
       "Competition / weed resistance"
     ],
     "grazing": [
+      "Low / light",
+      "High",
       "Recorded grazing use"
     ],
     "services": [
@@ -459,7 +463,7 @@ window.ECORESTORE_PLANTS = [
       },
       "grazingResponse": {
         "match": null,
-        "detail": "Y, newgrowth mostly"
+        "detail": "Y, low to high, newgrowth is most susceptible grazing harm"
       },
       "erosion": {
         "match": true,
@@ -501,8 +505,8 @@ window.ECORESTORE_PLANTS = [
     "scientific": "Acmispon maritimus",
     "alternateScientific": "",
     "common": "Coastal lotus, Coastal bird's-foot trefoil, Humble trefoil, and maresfat",
-    "photoFileName": "",
-    "photoCredit": "",
+    "photoFileName": "ACMA.jpg",
+    "photoCredit": "© 2021 Mary Conway CC-BY-NC 4.0",
     "photoSource": "https://www.calflora.org/app/up/entry/96/28948.jpg",
     "links": {
       "calflora": "https://www.calflora.org/app/taxon?crn=11292",
@@ -510,10 +514,10 @@ window.ECORESTORE_PLANTS = [
       "usda": "not listed"
     },
     "description": "Annual herb",
-    "lifecycle": "annual",
+    "lifecycle": "Annual",
     "growingSeason": "Warm",
     "type": "forb",
-    "growthFormRaw": "forb",
+    "growthFormRaw": "Forb",
     "plantCommunity": "Chaparral",
     "allCommunitiesFound": "Coastal Sage Scrub, Foothill Woodland, Deserts, Mountains",
     "communities": [
@@ -725,7 +729,7 @@ window.ECORESTORE_PLANTS = [
       "usda": "https://plants.usda.gov/home/plantProfile?symbol=ACMI2"
     },
     "description": "Perennial forb that prefers well-drained soils in full sun. Found in virtually all non-desert systems in California. Seed approximately 1-2lbs/acre",
-    "lifecycle": "perennial",
+    "lifecycle": "Perennial",
     "growingSeason": "",
     "type": "forb",
     "growthFormRaw": "Forb",
@@ -981,8 +985,8 @@ window.ECORESTORE_PLANTS = [
     "scientific": "Acourtia microcephala",
     "alternateScientific": "",
     "common": "Sacapellote",
-    "photoFileName": "",
-    "photoCredit": "",
+    "photoFileName": "ACMI2.jpg",
+    "photoCredit": "© 2022 Diane Etchison CC-BY-NC 4.0",
     "photoSource": "https://www.calflora.org/entry/occdetail.html?photo=/app/up/entry/418/125598.jpg",
     "links": {
       "calflora": "https://www.calflora.org/entry/psearch.html?namesoup=Acourtia+microcephala&countylist=any&plantcomm=any&format=photos&orderby=taxon",
@@ -990,10 +994,10 @@ window.ECORESTORE_PLANTS = [
       "usda": "https://plants.usda.gov/plant-profile/ACMI3"
     },
     "description": "A deciduos perennial herb that is native to southern California and Baja California, where it grows in woodland and chaparral, especially in the coastal mountain ranges.",
-    "lifecycle": "perennial",
+    "lifecycle": "Perennial",
     "growingSeason": "Warm",
     "type": "forb",
-    "growthFormRaw": "forb",
+    "growthFormRaw": "Forb",
     "plantCommunity": "Chaparral",
     "allCommunitiesFound": "Woodlands, and disturbed areas.",
     "communities": [
@@ -1178,8 +1182,8 @@ window.ECORESTORE_PLANTS = [
     "scientific": "Adenostoma fasciculatum",
     "alternateScientific": "",
     "common": "Chamise, Greasewood",
-    "photoFileName": "",
-    "photoCredit": "",
+    "photoFileName": "ADFA.jpg",
+    "photoCredit": "© 2019 Steve Matson CC-BY-NC 4.0",
     "photoSource": "https://www.calflora.org/entry/occdetail.html?photo=/app/up/entry/306/91841.jpg",
     "links": {
       "calflora": "https://www.calflora.org/entry/plantchar.html?crn=97",
@@ -1187,10 +1191,10 @@ window.ECORESTORE_PLANTS = [
       "usda": "https://plants.usda.gov/plant-profile/ADFA/characteristics"
     },
     "description": "Perennial Evergreen Shrub is one of the most wide spread chapparal plants. Found on slopes, and ridges.",
-    "lifecycle": "perennial",
+    "lifecycle": "Perennial",
     "growingSeason": "Warm",
     "type": "shrub",
-    "growthFormRaw": "shrub",
+    "growthFormRaw": "Shrub",
     "plantCommunity": "Chaparral",
     "allCommunitiesFound": "Woodlands, Forests, Scrub, Coastal mountains,",
     "communities": [
@@ -1294,7 +1298,9 @@ window.ECORESTORE_PLANTS = [
       "Competition / weed resistance"
     ],
     "grazing": [
-      "Low / light"
+      "Low / light",
+      "High",
+      "Limited / avoid"
     ],
     "services": [
       "Pollinator habitat",
@@ -1375,7 +1381,7 @@ window.ECORESTORE_PLANTS = [
       },
       "grazingResponse": {
         "match": null,
-        "detail": "Y, Only within first 2 years, Low amount of grazing by grazers."
+        "detail": "Low to high grazing tolerance. Livestock typically avoid grazing unless plants are young."
       },
       "erosion": {
         "match": true,
@@ -1426,10 +1432,10 @@ window.ECORESTORE_PLANTS = [
       "usda": "https://plants.usda.gov/home/basicSearchResults?resultId=836e5fe2-17c5-4628-8fb1-e8258fdf2ee4"
     },
     "description": "Annual forb that does well in low elevation undisked soil and often establishes after fire. Found in almost every county in California. Seed approximately 1-2lbs/acre",
-    "lifecycle": "annual",
-    "growingSeason": "cool",
+    "lifecycle": "Annual",
+    "growingSeason": "Cool",
     "type": "forb",
-    "growthFormRaw": "forb",
+    "growthFormRaw": "Forb",
     "plantCommunity": "Creosote Bush Scrub, Yellow Pine Forest, Foothill Woodland, Chaparral, Valley Grassland, many plant communities",
     "allCommunitiesFound": "open, disturbed places",
     "communities": [
@@ -1549,7 +1555,9 @@ window.ECORESTORE_PLANTS = [
       "Competition / weed resistance"
     ],
     "grazing": [
-      "Recorded grazing use"
+      "Low / light",
+      "Moderate",
+      "Limited / avoid"
     ],
     "services": [
       "Pollinator habitat",
@@ -1629,7 +1637,7 @@ window.ECORESTORE_PLANTS = [
       },
       "grazingResponse": {
         "match": null,
-        "detail": "Y, toxic"
+        "detail": "Low to moderate, documented toxicity to livestock with large doses/intake"
       },
       "erosion": {
         "match": true,
@@ -1680,10 +1688,10 @@ window.ECORESTORE_PLANTS = [
       "usda": "https://plants.usda.gov/home/plantProfile?symbol=AMME"
     },
     "description": "Annual forb found mostly in coastal and central valley areas in California. Requires full sun. Seed approximately 1-2lbs/acre",
-    "lifecycle": "annual",
-    "growingSeason": "cool",
+    "lifecycle": "Annual",
+    "growingSeason": "Cool",
     "type": "forb",
-    "growthFormRaw": "forb",
+    "growthFormRaw": "Forb",
     "plantCommunity": "valley grassland, grassland, chaparral, coastal\nsage scrub, creosote bush scrub, yellow pine forest, oak woodland",
     "allCommunitiesFound": "open, disturbed, dry habitats, within grasslands, openings in shrublands, agricultural areas, roadsides,\npastures, vineyards",
     "communities": [
@@ -1804,7 +1812,11 @@ window.ECORESTORE_PLANTS = [
       "Erosion control",
       "Competition / weed resistance"
     ],
-    "grazing": [],
+    "grazing": [
+      "Low / light",
+      "Moderate",
+      "Limited / avoid"
+    ],
     "services": [
       "Pollinator habitat",
       "Wildlife habitat",
@@ -1883,7 +1895,7 @@ window.ECORESTORE_PLANTS = [
       },
       "grazingResponse": {
         "match": null,
-        "detail": "uncommon due to toxicity"
+        "detail": "Low to Moderate. Often avoided by grazers, but documented toxicity to cows and sheep, livestock may consume if lacking available forage."
       },
       "erosion": {
         "match": true,
@@ -1934,10 +1946,10 @@ window.ECORESTORE_PLANTS = [
       "usda": "https://plants.usda.gov/home/plantProfile?symbol=SACO13"
     },
     "description": "Annual forb confined to the southern part of California.1.12 kg/hectare",
-    "lifecycle": "annual",
+    "lifecycle": "Annual",
     "growingSeason": "",
     "type": "forb",
-    "growthFormRaw": "forb, vine",
+    "growthFormRaw": "Forb, vine",
     "plantCommunity": "Coastal Sage Scrub, Chaparral, desert shrublands, coastal hills, mountains",
     "allCommunitiesFound": "Desert, burned places, common in scrub, chaparral",
     "communities": [
@@ -2008,7 +2020,8 @@ window.ECORESTORE_PLANTS = [
       "Forage value"
     ],
     "grazing": [
-      "Recorded grazing use",
+      "Low / light",
+      "Moderate",
       "Limited / avoid"
     ],
     "services": [
@@ -2086,7 +2099,7 @@ window.ECORESTORE_PLANTS = [
       },
       "grazingResponse": {
         "match": null,
-        "detail": "Y, unpalatable to livestock"
+        "detail": "Low to Moderate, Snapdragons are often unpalatable and avoided by grazers. However, livestock may consume if lacking available forage."
       },
       "erosion": {
         "match": false,
@@ -2126,10 +2139,10 @@ window.ECORESTORE_PLANTS = [
   {
     "plantId": "ANMU",
     "scientific": "Antirrhinum multiflorum",
-    "alternateScientific": "",
+    "alternateScientific": "Antirrhinum thompsonii",
     "common": "Chaparral snapdragon, Sierra snapdragon, Withered snapdragon, Multi-flowered snapdragon, Sticky snapdragon",
-    "photoFileName": "",
-    "photoCredit": "",
+    "photoFileName": "ANMU",
+    "photoCredit": "© 2021 Amber Bedgood CC-BY-NC 4.0",
     "photoSource": "https://www.calflora.org/entry/occdetail.html?seq_num=io1147",
     "links": {
       "calflora": "https://www.calflora.org/app/taxon?crn=405",
@@ -2137,10 +2150,10 @@ window.ECORESTORE_PLANTS = [
       "usda": "https://plants.usda.gov/plant-profile/SAMU2"
     },
     "description": "Perennial herb/sub-shrub. Annual forb",
-    "lifecycle": "perennial",
+    "lifecycle": "Perennial",
     "growingSeason": "Warm",
     "type": "shrub",
-    "growthFormRaw": "shrub",
+    "growthFormRaw": "Shrub",
     "plantCommunity": "Chaparral",
     "allCommunitiesFound": "Closed-cone Pine Forest",
     "communities": [
@@ -2342,10 +2355,10 @@ window.ECORESTORE_PLANTS = [
       "usda": "https://www.nrcs.usda.gov/plantmaterials/capmcpg9970.pdf"
     },
     "description": "An evergreen perennial shrub, which is sometimes dry-season decidious, can be found in almost all coastal environments along the CA coast.",
-    "lifecycle": "perennial",
+    "lifecycle": "Perennial",
     "growingSeason": "Warm",
     "type": "shrub",
-    "growthFormRaw": "shrub",
+    "growthFormRaw": "Shrub",
     "plantCommunity": "Grassland, Coastal Sage Scrub",
     "allCommunitiesFound": "coastal sage scrub, chaparral, coastal dune , Coastal Strand, Creosote Bush Scrub, Alkali Sink, Chaparral, Valley Grassland, Pinyon-Juniper Woodland",
     "communities": [
@@ -2450,6 +2463,8 @@ window.ECORESTORE_PLANTS = [
       "Competition / weed resistance"
     ],
     "grazing": [
+      "Low / light",
+      "Moderate",
       "Limited / avoid"
     ],
     "services": [
@@ -2531,7 +2546,7 @@ window.ECORESTORE_PLANTS = [
       },
       "grazingResponse": {
         "match": null,
-        "detail": "N, unpalatable"
+        "detail": "Low to Moderate, Coast sage is often unpalatable and avoided by grazers. However, livestock may consume if lacking other available forage."
       },
       "erosion": {
         "match": true,
@@ -2582,10 +2597,10 @@ window.ECORESTORE_PLANTS = [
       "usda": "https://plants.usda.gov/home/plantProfile?symbol=ARDO3"
     },
     "description": "A winter deciduos perennial forb/herb tolerant of overstory shade",
-    "lifecycle": "perennial",
+    "lifecycle": "Perennial",
     "growingSeason": "Cool",
     "type": "forb",
-    "growthFormRaw": "forb",
+    "growthFormRaw": "Forb",
     "plantCommunity": "Grassland, Coastal Sage Scrub, Creosote Bush Scrub",
     "allCommunitiesFound": "Yellow Pine Forest, Foothill Woodland, Chaparral, Valley Grassland, wetland-riparian, Coastal Sage Scrub, Freshwater Marsh, Mountain Meadow, Mixed-evergreen Forest, Northern Oak Woodland, Southern Oak Woodland and Yellow Pine Forest. Coastal Sage Scrub, Freshwater Marsh, Mountain Meadow, Mixed-evergreen Forest, Northern Oak Woodland, Southern Oak Woodland and Yellow Pine Forest.",
     "communities": [
@@ -2853,10 +2868,10 @@ window.ECORESTORE_PLANTS = [
       "usda": "https://plants.usda.gov/home/plantProfile?symbol=ARPU9"
     },
     "description": "Warm season perennial forb localized in southern California.",
-    "lifecycle": "perennial",
-    "growingSeason": "warm",
+    "lifecycle": "Perennial",
+    "growingSeason": "Warm",
     "type": "forb",
-    "growthFormRaw": "forb",
+    "growthFormRaw": "Forb",
     "plantCommunity": "Coastal Sage Scrub, Creosote Bush Scrub",
     "allCommunitiesFound": "",
     "communities": [
@@ -3057,10 +3072,10 @@ window.ECORESTORE_PLANTS = [
       "usda": "https://plants.usda.gov/home/plantProfile?symbol=ASFA"
     },
     "description": "A winter deciduos perennial forb. Easier to maintain transplants than to establish from seed. Attracts and supports butterflies, primarily monarchs.",
-    "lifecycle": "perennial",
-    "growingSeason": "warm",
+    "lifecycle": "Perennial",
+    "growingSeason": "Warm",
     "type": "forb",
-    "growthFormRaw": "forb",
+    "growthFormRaw": "Forb",
     "plantCommunity": "Grassland, Chapparal, Yellow Pine Forest, Red Fir Forest, Lodgepole Forest, Foothill Woodland, Chaparral, Valley Grassland, wetland-riparian, many plant communities",
     "allCommunitiesFound": "Mixed-evergreen Forest, Riparian (rivers & creeks), Southern Oak Woodland, Valley Grassland, as well as dry lands, disturbed areas, and roadsides.",
     "communities": [
@@ -3194,6 +3209,8 @@ window.ECORESTORE_PLANTS = [
       "Competition / weed resistance"
     ],
     "grazing": [
+      "Low / light",
+      "Moderate",
       "Limited / avoid"
     ],
     "services": [
@@ -3275,7 +3292,7 @@ window.ECORESTORE_PLANTS = [
       },
       "grazingResponse": {
         "match": null,
-        "detail": "N, Milkweeds are thought to be toxic to cows and sheep"
+        "detail": "Low to Moderate, Milkweeds are often avoided by grazers, although toxic to cows and sheep, livestock will consume if lacking available forage."
       },
       "erosion": {
         "match": true,
@@ -3317,8 +3334,8 @@ window.ECORESTORE_PLANTS = [
     "scientific": "Atriplex canescens",
     "alternateScientific": "",
     "common": "Fourwing saltbush, Four-wing saltbush, Chamiso, Chamiza",
-    "photoFileName": "",
-    "photoCredit": "",
+    "photoFileName": "ATCA",
+    "photoCredit": "© 2020 Debra Valov CC-BY-NC 4.0",
     "photoSource": "https://www.calflora.org/entry/occdetail.html?seq_num=mg81844",
     "links": {
       "calflora": "https://www.calflora.org/app/taxon?crn=967",
@@ -3326,10 +3343,10 @@ window.ECORESTORE_PLANTS = [
       "usda": "https://plants.usda.gov/DocumentLibrary/plantguide/pdf/pg_atca2.pdf"
     },
     "description": "Evergreen shrub",
-    "lifecycle": "perennial",
-    "growingSeason": "warm",
+    "lifecycle": "Perennial",
+    "growingSeason": "Warm",
     "type": "shrub",
-    "growthFormRaw": "shrub",
+    "growthFormRaw": "Shrub",
     "plantCommunity": "Sagebrush, and Salt-desert scrub",
     "allCommunitiesFound": "Coastal Sage Scrub, Creosote Bush Scrub, Alkali Sink, Chaparral, Mojave, Great Basin, and Sonoran deserts. Valley Grassland, Pinyon-Juniper Woodland, Intermountain",
     "communities": [
@@ -3548,8 +3565,8 @@ window.ECORESTORE_PLANTS = [
     "scientific": "Atriplex lentiformis",
     "alternateScientific": "",
     "common": "Big saltbush, Big saltbrush, Quail bush, Quail brush, Lenscale, Len-scale saltbush, White thistle",
-    "photoFileName": "",
-    "photoCredit": "",
+    "photoFileName": "ATLE",
+    "photoCredit": "© 2017 Adam Chasey CC-BY-NC 4.0",
     "photoSource": "https://www.calflora.org/entry/occdetail.html?photo=/app/up/gp/43/8755.jpg",
     "links": {
       "calflora": "https://www.calflora.org/app/taxon?crn=986",
@@ -3557,10 +3574,10 @@ window.ECORESTORE_PLANTS = [
       "usda": "https://www.nrcs.usda.gov/plantmaterials/capmcrb11843.pdf"
     },
     "description": "Evergreen shrub",
-    "lifecycle": "perennial",
-    "growingSeason": "warm",
+    "lifecycle": "Perennial",
+    "growingSeason": "Warm",
     "type": "shrub",
-    "growthFormRaw": "shrub",
+    "growthFormRaw": "Shrub",
     "plantCommunity": "coastal, salt-marsh",
     "allCommunitiesFound": "Coastal Sage Scrub, Alkali Sink, Valley Grassland, wetland-riparian, drainage areas, floodplains.",
     "communities": [
@@ -3785,8 +3802,8 @@ window.ECORESTORE_PLANTS = [
     "scientific": "Baccharis pilularis",
     "alternateScientific": "",
     "common": "Dwarf coyote brush, Chaparral broom, Coyote bush",
-    "photoFileName": "",
-    "photoCredit": "",
+    "photoFileName": "BAPI",
+    "photoCredit": "© 2019 Talila Golan CC-BY-NC 4.0",
     "photoSource": "https://www.calflora.org/entry/occdetail.html?seq_num=mg184765",
     "links": {
       "calflora": "https://www.calflora.org/app/taxon?crn=1031",
@@ -3794,10 +3811,10 @@ window.ECORESTORE_PLANTS = [
       "usda": "https://plants.sc.egov.usda.gov/DocumentLibrary/plantguide/pdf/pg_bapi.pdf"
     },
     "description": "Evergreen shrub",
-    "lifecycle": "perennial",
+    "lifecycle": "Perennial",
     "growingSeason": "Cool",
     "type": "shrub",
-    "growthFormRaw": "shrub",
+    "growthFormRaw": "Shrub",
     "plantCommunity": "Coastal strands",
     "allCommunitiesFound": "Coastal Strand, Northern Coastal Scrub, Coastal Sage Scrub, Chaparral, Foothill Woodland, Mixed Evergreen Forest, Closed-cone Pine Forest Almost exclusively along the western coast (West side of CA, Or, and baja California).",
     "communities": [
@@ -4033,8 +4050,8 @@ window.ECORESTORE_PLANTS = [
     "scientific": "Baccharis salicifolia",
     "alternateScientific": "",
     "common": "Mulefat, Seep Willow",
-    "photoFileName": "",
-    "photoCredit": "",
+    "photoFileName": "BASA",
+    "photoCredit": "© 2014 Jesse Rorabaugh",
     "photoSource": "https://www.calflora.org/entry/occdetail.html?photo=/app/up/io/487/io146260-0.jpg",
     "links": {
       "calflora": "https://www.calflora.org/app/taxon?crn=1035",
@@ -4042,10 +4059,10 @@ window.ECORESTORE_PLANTS = [
       "usda": "https://plants.usda.gov/plant-profile/BASA4/characteristics"
     },
     "description": "Evergreen shrub",
-    "lifecycle": "perennial",
-    "growingSeason": "warm",
+    "lifecycle": "Perennial",
+    "growingSeason": "Warm",
     "type": "shrub",
-    "growthFormRaw": "shrub",
+    "growthFormRaw": "Shrub",
     "plantCommunity": "Riparian",
     "allCommunitiesFound": "Coastal Sage Scrub, Foothill Woodland, Valley Grassland, wetland-riparian, many plant communities",
     "communities": [
@@ -4276,8 +4293,8 @@ window.ECORESTORE_PLANTS = [
     "scientific": "Bloomeria crocea",
     "alternateScientific": "",
     "common": "Common goldenstar, Goldenstars, Goldenstar",
-    "photoFileName": "",
-    "photoCredit": "",
+    "photoFileName": "BLCR",
+    "photoCredit": "© 2018 Janith Johnson CC-BY-NC 4.0",
     "photoSource": "https://www.calflora.org/entry/occdetail.html?seq_num=mu2992",
     "links": {
       "calflora": "https://www.calflora.org/app/taxon?crn=1101",
@@ -4285,10 +4302,10 @@ window.ECORESTORE_PLANTS = [
       "usda": "https://plants.usda.gov/plant-profile/BLCR"
     },
     "description": "A perennial forb",
-    "lifecycle": "perennial",
-    "growingSeason": "warm",
+    "lifecycle": "Perennial",
+    "growingSeason": "Warm",
     "type": "forb",
-    "growthFormRaw": "forb",
+    "growthFormRaw": "Forb",
     "plantCommunity": "Grassland",
     "allCommunitiesFound": "Chaparral, Open woodland, Coastal Sage Scrub, Foothill Woodland, Southern Oak Woodland, Valley Grassland, Yellow Pine Forest",
     "communities": [
@@ -4484,8 +4501,8 @@ window.ECORESTORE_PLANTS = [
     "scientific": "Boykinia occidentalis",
     "alternateScientific": "",
     "common": "Brook foam, Coastal brookfoam, Western boykinia, Coast boykinia",
-    "photoFileName": "",
-    "photoCredit": "",
+    "photoFileName": "BOOC",
+    "photoCredit": "© 2017 Hunter Breck CC-BY-NC 4.0",
     "photoSource": "https://www.calflora.org/entry/occdetail.html?seq_num=po41141",
     "links": {
       "calflora": "https://www.calflora.org/app/taxon?crn=1135",
@@ -4493,10 +4510,10 @@ window.ECORESTORE_PLANTS = [
       "usda": "https://plants.usda.gov/plant-profile/BOOC2"
     },
     "description": "An evergreen perennial forb",
-    "lifecycle": "perennial",
-    "growingSeason": "warm",
+    "lifecycle": "Perennial",
+    "growingSeason": "Warm",
     "type": "forb",
-    "growthFormRaw": "forb",
+    "growthFormRaw": "Forb",
     "plantCommunity": "Riparian, riverbanks",
     "allCommunitiesFound": "Chaparral, Mixed Evergreen Forest, Northern Coastal Scrub, Forest, Yellow Pine Forest, Wetland-Riparian",
     "communities": [
@@ -4673,10 +4690,10 @@ window.ECORESTORE_PLANTS = [
       "usda": "https://plants.usda.gov/home/plantProfile?symbol=BRCA5"
     },
     "description": "Perennial grass that prefers clay, loam soils.",
-    "lifecycle": "perennial",
-    "growingSeason": "cool",
+    "lifecycle": "Perennial",
+    "growingSeason": "Cool",
     "type": "grass",
-    "growthFormRaw": "grass",
+    "growthFormRaw": "Grass",
     "plantCommunity": "Yellow Pine Forest, Red Fir Forest, Lodgepole Forest, Subalpine Forest, Foothill Woodland, Chaparral, Valley Grassland, Alpine Fell-fields, many plant communities",
     "allCommunitiesFound": "Found in virtually all natural settings in California, bottomlands, mountain slopes valleys, and ridge tops",
     "communities": [
@@ -4806,8 +4823,8 @@ window.ECORESTORE_PLANTS = [
       "Competition / weed resistance"
     ],
     "grazing": [
-      "Moderate",
-      "Low / light"
+      "Low / light",
+      "Moderate"
     ],
     "services": [
       "Pollinator habitat",
@@ -4887,7 +4904,7 @@ window.ECORESTORE_PLANTS = [
       },
       "grazingResponse": {
         "match": null,
-        "detail": "moderate-light"
+        "detail": "Low to moderate"
       },
       "erosion": {
         "match": true,
@@ -4929,8 +4946,8 @@ window.ECORESTORE_PLANTS = [
     "scientific": "Brickellia californica",
     "alternateScientific": "",
     "common": "Brickell Bush, Brickell Bush, California Brickellbush, California Brickellbush, California Brickellia",
-    "photoFileName": "",
-    "photoCredit": "",
+    "photoFileName": "BRCA2",
+    "photoCredit": "© 2023 Helen Hancock CC-BY-NC 4.0",
     "photoSource": "https://www.calflora.org/entry/occdetail.html?seq_num=po253947",
     "links": {
       "calflora": "https://www.calflora.org/app/taxon?crn=1152",
@@ -4938,10 +4955,10 @@ window.ECORESTORE_PLANTS = [
       "usda": "https://plants.usda.gov/plant-profile/BRCA3"
     },
     "description": "An evergreen perennial sub-shrub",
-    "lifecycle": "perennial",
-    "growingSeason": "warm",
+    "lifecycle": "Perennial",
+    "growingSeason": "Warm",
     "type": "shrub",
-    "growthFormRaw": "shurb",
+    "growthFormRaw": "Shrub",
     "plantCommunity": "Coastal sage scrub, and chaparral",
     "allCommunitiesFound": "Chaparral, Coastal Sage Scrub, Foothill Woodland, Valley Grassland, Yellow Pine Forest",
     "communities": [
@@ -5124,8 +5141,8 @@ window.ECORESTORE_PLANTS = [
     "scientific": "Bromus sitchensis var. carinatus",
     "alternateScientific": "",
     "common": "California brome, Sitka brome, Bromus carinatus,",
-    "photoFileName": "",
-    "photoCredit": "",
+    "photoFileName": "BRSIVACA",
+    "photoCredit": "© 2020 Ron Vanderhoff CC-BY-NC 4.0",
     "photoSource": "https://www.calflora.org/entry/occdetail.html?seq_num=mu5451",
     "links": {
       "calflora": "https://www.calflora.org/app/taxon?crn=13623",
@@ -5133,10 +5150,10 @@ window.ECORESTORE_PLANTS = [
       "usda": "not listed"
     },
     "description": "A winter dormant perennial bunchgrass",
-    "lifecycle": "perennial",
-    "growingSeason": "warm",
+    "lifecycle": "Perennial",
+    "growingSeason": "Warm",
     "type": "grass",
-    "growthFormRaw": "grass",
+    "growthFormRaw": "Grass",
     "plantCommunity": "Grasslands, meadows, prairies",
     "allCommunitiesFound": "shrublands, and forest openings from sea level to subalpine.",
     "communities": [
@@ -5376,8 +5393,8 @@ window.ECORESTORE_PLANTS = [
     "scientific": "Camissoniopsis bistorta",
     "alternateScientific": "",
     "common": "California sun cup",
-    "photoFileName": "",
-    "photoCredit": "",
+    "photoFileName": "CABI",
+    "photoCredit": "© 2005 Chris Wagner, SBNF",
     "photoSource": "https://www.dreamstime.com/camissoniopsis-bistorta-bloom-san-diego-county-yellow-flowering-axillary-indeterminate-racemose-subpedicellate-spike-inflorescence-image252270838",
     "links": {
       "calflora": "https://www.calflora.org/app/taxon?crn=1387",
@@ -5385,10 +5402,10 @@ window.ECORESTORE_PLANTS = [
       "usda": "https://plants.usda.gov/home/plantProfile?symbol=CABI12"
     },
     "description": "Annual forb confined to the southern California.",
-    "lifecycle": "annual or perennial",
-    "growingSeason": "warm",
+    "lifecycle": "Annual, Perennial",
+    "growingSeason": "Warm",
     "type": "forb",
-    "growthFormRaw": "forb",
+    "growthFormRaw": "Forb",
     "plantCommunity": "Coastal Strand, Coastal Sage Scrub, Southern Oak Woodland, Chaparral, along the coast and in the coastal hills and mountain ranges",
     "allCommunitiesFound": "Sandy fields or clay soils in grassy places",
     "communities": [
@@ -5565,8 +5582,8 @@ window.ECORESTORE_PLANTS = [
     "scientific": "Calandrinia ciliata",
     "alternateScientific": "",
     "common": "Redmaids",
-    "photoFileName": "",
-    "photoCredit": "",
+    "photoFileName": "CACI",
+    "photoCredit": "© 2020 Ron Vanderhoff CC-BY-NC 4.0",
     "photoSource": "https://www.istockphoto.com/photo/spring-flower-calandrinia-ciliata-extreme-close-gm1218334611-355965879",
     "links": {
       "calflora": "https://www.calflora.org/app/taxon?crn=13205",
@@ -5574,10 +5591,10 @@ window.ECORESTORE_PLANTS = [
       "usda": "https://plants.usda.gov/home/plantProfile?symbol=CACI2"
     },
     "description": "An annual forb that prefers well-drained soils. Founs in almost every county in California.",
-    "lifecycle": "annual",
+    "lifecycle": "Annual",
     "growingSeason": "",
     "type": "forb",
-    "growthFormRaw": "forb",
+    "growthFormRaw": "Forb",
     "plantCommunity": "Crop fields, orchards, vineyards, grassland, open areas in foothill woodland, and open disturbed sites.",
     "allCommunitiesFound": "Crop fields, orchards, vineyards, grassland, open areas in foothill woodland, and open disturbed sites.",
     "communities": [
@@ -5772,7 +5789,7 @@ window.ECORESTORE_PLANTS = [
       },
       "grazingResponse": {
         "match": null,
-        "detail": "#NA"
+        "detail": "NA"
       },
       "erosion": {
         "match": false,
@@ -5814,8 +5831,8 @@ window.ECORESTORE_PLANTS = [
     "scientific": "Castilleja exserta",
     "alternateScientific": "",
     "common": "Purple owl's clover, Owl's clover, exserted Indian paintbrush",
-    "photoFileName": "",
-    "photoCredit": "",
+    "photoFileName": "CAEX",
+    "photoCredit": "© 2023 David Strauch",
     "photoSource": "https://free-images.com/display/castilleja_exserta_10.html",
     "links": {
       "calflora": "https://www.calflora.org/app/taxon?crn=1694",
@@ -5823,10 +5840,10 @@ window.ECORESTORE_PLANTS = [
       "usda": ""
     },
     "description": "Annual forb that is found in most of the coast and central part of California. This species is usually planted with a perennial species from its natural plant community as a host plant",
-    "lifecycle": "annual",
-    "growingSeason": "cool",
+    "lifecycle": "Annual",
+    "growingSeason": "Cool",
     "type": "forb",
-    "growthFormRaw": "forb",
+    "growthFormRaw": "Forb",
     "plantCommunity": "Grasslands and openings in chaparral or woodlands; occasionally in desert areas",
     "allCommunitiesFound": "Chaparral, Coastal Sage Scrub, Coastal Strand, Creosote Bush Scrub, Foothill Woodland, Joshua Tree Woodland, Northern Coastal Scrub, seldomly in desert areas.",
     "communities": [
@@ -6061,8 +6078,8 @@ window.ECORESTORE_PLANTS = [
     "scientific": "Calystegia macrostegia",
     "alternateScientific": "",
     "common": "Island morning glory, Island false bindweed, Wild morning glory",
-    "photoFileName": "",
-    "photoCredit": "",
+    "photoFileName": "CAMA",
+    "photoCredit": "© 2020 Steven M Norris CC-BY-NC 4.0",
     "photoSource": "https://www.calflora.org/entry/occdetail.html?seq_num=mu3316",
     "links": {
       "calflora": "https://www.calflora.org/app/taxon?crn=1353",
@@ -6070,8 +6087,8 @@ window.ECORESTORE_PLANTS = [
       "usda": "https://plants.usda.gov/plant-profile/CAMA24"
     },
     "description": "A perennial viny herb",
-    "lifecycle": "perennial",
-    "growingSeason": "warm",
+    "lifecycle": "Perennial",
+    "growingSeason": "Warm",
     "type": "forb",
     "growthFormRaw": "forb, vine",
     "plantCommunity": "Chaparral, Coastal Sage Scrub, Coastal Strand",
@@ -6270,8 +6287,8 @@ window.ECORESTORE_PLANTS = [
     "scientific": "Cercocarpus betuloides",
     "alternateScientific": "",
     "common": "Mountain mahogany, Birchleaf Mountain-mahogany, Western Mountain-mahogany, Hardtack, Mountain Ironwood, Sweet Brush",
-    "photoFileName": "",
-    "photoCredit": "",
+    "photoFileName": "CEBE",
+    "photoCredit": "© 2020 Steven M Norris CC-BY-NC 4.0",
     "photoSource": "https://www.calflora.org/entry/occdetail.html?seq_num=mu15811",
     "links": {
       "calflora": "https://www.calflora.org/app/taxon?crn=1878",
@@ -6279,10 +6296,10 @@ window.ECORESTORE_PLANTS = [
       "usda": "Not listed"
     },
     "description": "A shrub or small tree growth form",
-    "lifecycle": "perennial",
-    "growingSeason": "warm",
+    "lifecycle": "Perennial",
+    "growingSeason": "Warm",
     "type": "shrub",
-    "growthFormRaw": "shrub",
+    "growthFormRaw": "Shrub",
     "plantCommunity": "Chaparral",
     "allCommunitiesFound": "Foothill woodlands.",
     "communities": [
@@ -6467,8 +6484,8 @@ window.ECORESTORE_PLANTS = [
     "scientific": "Ceanothus cuneatus",
     "alternateScientific": "",
     "common": "Buckbrush, Wedgeleaf Ceanothus, blue brush, buckbrush ceanothus",
-    "photoFileName": "",
-    "photoCredit": "",
+    "photoFileName": "CECU",
+    "photoCredit": "© 2021 R.A. Chasey CC-BY-NC 4.0",
     "photoSource": "https://www.calflora.org/entry/occdetail.html?seq_num=mg128546",
     "links": {
       "calflora": "https://www.calflora.org/app/taxon?crn=1770",
@@ -6476,10 +6493,10 @@ window.ECORESTORE_PLANTS = [
       "usda": "https://plants.usda.gov/DocumentLibrary/plantguide/pdf/cs_cecu.pdf"
     },
     "description": "Evergreen perennial shrub",
-    "lifecycle": "perennial",
-    "growingSeason": "warm",
+    "lifecycle": "Perennial",
+    "growingSeason": "Warm",
     "type": "shrub",
-    "growthFormRaw": "shrub",
+    "growthFormRaw": "Shrub",
     "plantCommunity": "Chaparral",
     "allCommunitiesFound": "Chaparral, Pinyon-Juniper Woodland, Yellow Pine Forest",
     "communities": [
@@ -6545,6 +6562,8 @@ window.ECORESTORE_PLANTS = [
       "Soil fertility / nutrients"
     ],
     "grazing": [
+      "Low / light",
+      "High",
       "Limited / avoid"
     ],
     "services": [
@@ -6624,7 +6643,7 @@ window.ECORESTORE_PLANTS = [
       },
       "grazingResponse": {
         "match": null,
-        "detail": "Lowest tolerance during first year of growth. Becomes woody and unpalatable after."
+        "detail": "Low tolerance during first year of growth. Becomes woody low to high intentsity grazing tolerant and unpalatable."
       },
       "erosion": {
         "match": null,
@@ -6666,8 +6685,8 @@ window.ECORESTORE_PLANTS = [
     "scientific": "Chaenactis artemisifolia",
     "alternateScientific": "",
     "common": "Artemisia leaved chaenactis, White pincushion",
-    "photoFileName": "",
-    "photoCredit": "",
+    "photoFileName": "CHAR",
+    "photoCredit": "© 2023 David Strauch",
     "photoSource": "https://www.calflora.org/entry/occdetail.html?seq_num=io89052",
     "links": {
       "calflora": "https://www.calflora.org/app/taxon?crn=1890",
@@ -6675,10 +6694,10 @@ window.ECORESTORE_PLANTS = [
       "usda": "https://plants.usda.gov/plant-profile/CHAR"
     },
     "description": "Summer annual forb",
-    "lifecycle": "annual",
-    "growingSeason": "warm",
+    "lifecycle": "Annual",
+    "growingSeason": "Warm",
     "type": "forb",
-    "growthFormRaw": "forb",
+    "growthFormRaw": "Forb",
     "plantCommunity": "Coastal sage scrub",
     "allCommunitiesFound": "Chaparral",
     "communities": [
@@ -6745,7 +6764,9 @@ window.ECORESTORE_PLANTS = [
       "Forage value"
     ],
     "grazing": [
-      "Low / light"
+      "Low / light",
+      "Moderate",
+      "Limited / avoid"
     ],
     "services": [
       "Pollinator habitat",
@@ -6823,7 +6844,7 @@ window.ECORESTORE_PLANTS = [
       },
       "grazingResponse": {
         "match": null,
-        "detail": "Low palatability"
+        "detail": "low to moderate, grazers often avoid plant due to low palatability"
       },
       "erosion": {
         "match": false,
@@ -6865,8 +6886,8 @@ window.ECORESTORE_PLANTS = [
     "scientific": "Chaenactis glabriuscula",
     "alternateScientific": "",
     "common": "Yellow pincushion, Common Yellow Chaenactis, Yellow chaenactis",
-    "photoFileName": "",
-    "photoCredit": "",
+    "photoFileName": "CHGL",
+    "photoCredit": "© 2016 Steve Matson CC-BY-NC 4.0",
     "photoSource": "https://www.calflora.org/entry/occdetail.html?seq_num=mu7179",
     "links": {
       "calflora": "https://www.calflora.org/app/taxon?crn=1898",
@@ -6874,10 +6895,10 @@ window.ECORESTORE_PLANTS = [
       "usda": "https://plants.usda.gov/plant-profile/CHGL"
     },
     "description": "Summer annual forb",
-    "lifecycle": "annual",
-    "growingSeason": "warm",
+    "lifecycle": "Annual",
+    "growingSeason": "Warm",
     "type": "forb",
-    "growthFormRaw": "forb",
+    "growthFormRaw": "Forb",
     "plantCommunity": "",
     "allCommunitiesFound": "",
     "communities": [],
@@ -7050,8 +7071,8 @@ window.ECORESTORE_PLANTS = [
     "scientific": "Cirsium occidentale",
     "alternateScientific": "",
     "common": "Cobweb thistle",
-    "photoFileName": "",
-    "photoCredit": "",
+    "photoFileName": "CIOC",
+    "photoCredit": "© 2019 Randy Huey CC-BY-NC 4.0",
     "photoSource": "https://www.flickr.com/photos/38213125@N00/35596296432",
     "links": {
       "calflora": "https://www.calflora.org/app/taxon?crn=2143#:~:text=occidentale%20Calflora&text=Weakley-,Cirsium%20occidentale%20var.,endemic%20(limited)%20to%20California.&text=This%20plant%20is%20available%20commercially.",
@@ -7059,10 +7080,10 @@ window.ECORESTORE_PLANTS = [
       "usda": "https://plants.usda.gov/home/plantProfile?symbol=CIOC"
     },
     "description": "This endemic, cosmopolitan perennial forb is found throughout California, outside of the central valley.",
-    "lifecycle": "perennial",
-    "growingSeason": "warm",
+    "lifecycle": "Perennial",
+    "growingSeason": "Warm",
     "type": "forb",
-    "growthFormRaw": "forb",
+    "growthFormRaw": "Forb",
     "plantCommunity": "coastal strands, coastal sage scrub, chaparral, forests, and disturbed areas",
     "allCommunitiesFound": "found in central coast of california",
     "communities": [
@@ -7297,8 +7318,8 @@ window.ECORESTORE_PLANTS = [
     "scientific": "Clarkia unguiculata",
     "alternateScientific": "",
     "common": "Elegant clarkia",
-    "photoFileName": "",
-    "photoCredit": "",
+    "photoFileName": "CLUN",
+    "photoCredit": "© 2023 Courtney McCammon CC-BY-NC 4.0",
     "photoSource": "https://www.calflora.org/app/up/entry/95/28666.jpg",
     "links": {
       "calflora": "https://www.calflora.org/app/taxon?crn=2224",
@@ -7306,10 +7327,10 @@ window.ECORESTORE_PLANTS = [
       "usda": "https://plants.usda.gov/home/plantProfile?symbol=CLUN"
     },
     "description": "Endemic annual forb found around the central valley and the southern coast.",
-    "lifecycle": "annual",
-    "growingSeason": "warm",
+    "lifecycle": "Annual",
+    "growingSeason": "Warm",
     "type": "forb",
-    "growthFormRaw": "forb",
+    "growthFormRaw": "Forb",
     "plantCommunity": "coastal strand, foothill woodland, chaparral, valley grassland",
     "allCommunitiesFound": "",
     "communities": [
@@ -7533,8 +7554,8 @@ window.ECORESTORE_PLANTS = [
     "scientific": "Cryptantha intermedia",
     "alternateScientific": "",
     "common": "Popcorn flower",
-    "photoFileName": "",
-    "photoCredit": "",
+    "photoFileName": "CRIN",
+    "photoCredit": "© 2018 Ron Vanderhoff CC-BY-NC 4.0",
     "photoSource": "https://www.calflora.org/cgi-bin/viewphoto.cgi?arg=/app/up/entry/80/24104.jpg",
     "links": {
       "calflora": "https://www.calflora.org/app/taxon?crn=2471",
@@ -7542,10 +7563,10 @@ window.ECORESTORE_PLANTS = [
       "usda": "https://plants.usda.gov/home/plantProfile?symbol=CRIN8"
     },
     "description": "Annual forb that is found mostly in dry, sandy soils in southern California. Can be enhanced by fire. 1 lb/ac",
-    "lifecycle": "annual",
+    "lifecycle": "Annual",
     "growingSeason": "",
     "type": "forb",
-    "growthFormRaw": "forb",
+    "growthFormRaw": "Forb",
     "plantCommunity": "sagebrush scrub and chaparral",
     "allCommunitiesFound": "woodlands and forests of western North America",
     "communities": [
@@ -7776,8 +7797,8 @@ window.ECORESTORE_PLANTS = [
     "scientific": "Deinandra fasciculata",
     "alternateScientific": "",
     "common": "Clustered tarweed",
-    "photoFileName": "",
-    "photoCredit": "",
+    "photoFileName": "DEFA",
+    "photoCredit": "© 2019 Bonnie Nickel CC-BY-NC 4.0",
     "photoSource": "https://www.calflora.org/cgi-bin/viewphoto.cgi?arg=/app/up/gp/33/6730.jpg",
     "links": {
       "calflora": "https://www.calflora.org/app/taxon?crn=10828",
@@ -7785,10 +7806,10 @@ window.ECORESTORE_PLANTS = [
       "usda": "https://plants.usda.gov/home/plantProfile?symbol=HEFA"
     },
     "description": "Annual forb is found mostly in coastal southern California. Pro – Drought tolerant, disturbance tolerant, good for wildlife and pollinators. Cons – can become weedy, outcompeted by invasive annuals, deters grazing. Average live seed per bulk pound: 131, 200. $24/lb, and 1PLS lb/acre",
-    "lifecycle": "annual",
+    "lifecycle": "Annual",
     "growingSeason": "",
     "type": "forb",
-    "growthFormRaw": "forb",
+    "growthFormRaw": "Forb",
     "plantCommunity": "grasslands, woodlands and coastal sage scrub",
     "allCommunitiesFound": "dry coastal plains, canyons, foothills and valleys",
     "communities": [
@@ -7981,8 +8002,8 @@ window.ECORESTORE_PLANTS = [
     "scientific": "Distichlis spicata",
     "alternateScientific": "",
     "common": "Saltgrass",
-    "photoFileName": "",
-    "photoCredit": "",
+    "photoFileName": "DISP",
+    "photoCredit": "© 2025 R.A. Chasey CC-BY-NC 4.0",
     "photoSource": "https://www.calflora.org/cgi-bin/viewphoto.cgi?arg=/app/up/gp/92/18574.jpg?a",
     "links": {
       "calflora": "https://www.calflora.org/app/taxon?crn=2743",
@@ -7990,10 +8011,10 @@ window.ECORESTORE_PLANTS = [
       "usda": "https://plants.usda.gov/home/plantProfile?symbol=DISP"
     },
     "description": "Warm season, sod forming perennial grass. Cosmopolitan, but tends to be found in wetlands. Pros – disturbance tolerant, excellent for erosion control, although it prefers sandy soils, it can grow in clay soils, high survival from transplanting, responds well after a burn. Cons – generally avoided by livestock.",
-    "lifecycle": "perrenial",
-    "growingSeason": "warm",
+    "lifecycle": "Perennial",
+    "growingSeason": "Warm",
     "type": "grass",
-    "growthFormRaw": "grass",
+    "growthFormRaw": "Grass",
     "plantCommunity": "wetlands, saline-irrigated pastures",
     "allCommunitiesFound": "saline areas, brackish marshes, and in salt flats along the coasts",
     "communities": [
@@ -8121,7 +8142,8 @@ window.ECORESTORE_PLANTS = [
       "Water-related value"
     ],
     "grazing": [
-      "Recorded grazing use",
+      "Low / light",
+      "High",
       "Limited / avoid"
     ],
     "services": [
@@ -8203,7 +8225,7 @@ window.ECORESTORE_PLANTS = [
       },
       "grazingResponse": {
         "match": null,
-        "detail": "Y, but unpalatable"
+        "detail": "Low to high okay, but species is considered unpalatable"
       },
       "erosion": {
         "match": true,
@@ -8245,8 +8267,8 @@ window.ECORESTORE_PLANTS = [
     "scientific": "Elymus condensatus",
     "alternateScientific": "",
     "common": "Giant wildrye",
-    "photoFileName": "",
-    "photoCredit": "",
+    "photoFileName": "ELCO",
+    "photoCredit": "© 2020 Ron Vanderhoff CC-BY-NC 4.0",
     "photoSource": "https://www.calflora.org/cgi-bin/viewphoto.cgi?arg=/app/up/entry/175/52603.jpg",
     "links": {
       "calflora": "https://www.calflora.org/app/taxon?crn=11636",
@@ -8254,10 +8276,10 @@ window.ECORESTORE_PLANTS = [
       "usda": "https://plants.usda.gov/home/plantProfile?symbol=LECO12"
     },
     "description": "Perennial grass found largely on the southern coast.",
-    "lifecycle": "perrenial",
-    "growingSeason": "warm",
+    "lifecycle": "Perennial",
+    "growingSeason": "Warm",
     "type": "grass",
-    "growthFormRaw": "grass",
+    "growthFormRaw": "Grass",
     "plantCommunity": "coastal sage scrub, chaparral, southern oak woodland, foothill woodland, and Joshua tree woodlands, rarely in wetlands",
     "allCommunitiesFound": "coastal sage scrub, chaparral, southern oak woodland, foothill woodland, and Joshua tree woodlands, rarely in wetlands",
     "communities": [
@@ -8356,6 +8378,7 @@ window.ECORESTORE_PLANTS = [
       "Forage value"
     ],
     "grazing": [
+      "Low / light",
       "High"
     ],
     "services": [
@@ -8434,7 +8457,7 @@ window.ECORESTORE_PLANTS = [
       },
       "grazingResponse": {
         "match": null,
-        "detail": "high"
+        "detail": "low to high"
       },
       "erosion": {
         "match": false,
@@ -8476,8 +8499,8 @@ window.ECORESTORE_PLANTS = [
     "scientific": "Elymus glaucus",
     "alternateScientific": "",
     "common": "Blue wildrye",
-    "photoFileName": "",
-    "photoCredit": "",
+    "photoFileName": "ELGL",
+    "photoCredit": "© 2020 Denise Defreese CC-BY-NC 4.0",
     "photoSource": "https://calscape.com/species_images/calphotos/images/0000_0000_0517_0223.jpeg",
     "links": {
       "calflora": "https://www.calflora.org/app/taxon?crn=2936",
@@ -8485,10 +8508,10 @@ window.ECORESTORE_PLANTS = [
       "usda": "https://plants.usda.gov/home/plantProfile?symbol=ELGL"
     },
     "description": "Perennial grass found on the coast and around the central valley.  This species best used as an early seral species and performs well on well-drained upland sites. Pro – can do well as an understory species, drought tolerant, good at resisting invasion from yellow starthistle, good establishment, high survival, can establish on slopes, high germination, fast growing. Cons – adult plants are only a ‘fair’ forage species,  intolerant of heavy, continuous grazing and shallow soils, takes at least two years to mature in ideal conditions, can be hard to establish; can be weedy, flood intolerant. Add seeds at 100-160 seeds/meter squared. Live seeds per pound 94,000-134, 500. 23.25$/acre, and 16.1 seedlings per 100 seeds/meter squared. 1 – 4 PLS pounds per acre, 6 lb/acre, 40 lb/ac or 580 seeds/m2.",
-    "lifecycle": "perennial",
-    "growingSeason": "cool",
+    "lifecycle": "Perennial",
+    "growingSeason": "Cool",
     "type": "grass",
-    "growthFormRaw": "grass",
+    "growthFormRaw": "Grass",
     "plantCommunity": "Open areas, native prairie, chaparral, woodland and forest",
     "allCommunitiesFound": "streambank, oak woodland or forest, both disturbed and undisturbed areas",
     "communities": [
@@ -8695,7 +8718,7 @@ window.ECORESTORE_PLANTS = [
       },
       "grazingResponse": {
         "match": null,
-        "detail": "light"
+        "detail": "low"
       },
       "erosion": {
         "match": true,
@@ -8737,8 +8760,8 @@ window.ECORESTORE_PLANTS = [
     "scientific": "Elymus lanceolatus",
     "alternateScientific": "",
     "common": "Thickspike wheatgrass",
-    "photoFileName": "",
-    "photoCredit": "",
+    "photoFileName": "ELLA",
+    "photoCredit": "© 2012 Gerald Carr CC-BY-NC 4.0",
     "photoSource": "https://www.calflora.org/app/up/mg/51/15361.jpg",
     "links": {
       "calflora": "https://calflora.org/app/taxon?crn=9100",
@@ -8746,10 +8769,10 @@ window.ECORESTORE_PLANTS = [
       "usda": "https://plants.usda.gov/home/plantProfile?symbol=ELLA3"
     },
     "description": "Perennial grass found in a variety of habitats, but does best on well-drained soils. Pro – erosion control, disturbance tolerant, drought resistant, tolerant to wildfire, good for livestock, does not get weedy, good for resisting invasion by knapweed, strong seedling vigor. 154,000PLS/lb. 6-11PLS/acre. Found in the sierra regions.",
-    "lifecycle": "perennial",
-    "growingSeason": "cool",
+    "lifecycle": "Perennial",
+    "growingSeason": "Cool",
     "type": "grass",
-    "growthFormRaw": "grass",
+    "growthFormRaw": "Grass",
     "plantCommunity": "yellow pine Forest, foothill woodland",
     "allCommunitiesFound": "",
     "communities": [
@@ -8822,7 +8845,8 @@ window.ECORESTORE_PLANTS = [
       "Erosion control"
     ],
     "grazing": [
-      "Recorded grazing use"
+      "Low / light",
+      "High"
     ],
     "services": [
       "Pollinator habitat",
@@ -8900,7 +8924,7 @@ window.ECORESTORE_PLANTS = [
       },
       "grazingResponse": {
         "match": null,
-        "detail": "Y"
+        "detail": "low to high"
       },
       "erosion": {
         "match": true,
@@ -8942,8 +8966,8 @@ window.ECORESTORE_PLANTS = [
     "scientific": "Elymus multisetus",
     "alternateScientific": "",
     "common": "Big squirreltail",
-    "photoFileName": "",
-    "photoCredit": "",
+    "photoFileName": "ELMU",
+    "photoCredit": "© 2020 Denise Defreese CC-BY-NC 4.0",
     "photoSource": "https://calphotos.berkeley.edu/imgs/512x768/0000_0000/0616/1085.jpeg",
     "links": {
       "calflora": "https://www.calflora.org/app/taxon?crn=2941",
@@ -8951,10 +8975,10 @@ window.ECORESTORE_PLANTS = [
       "usda": "https://plants.usda.gov/home/plantProfile?symbol=ELMU3"
     },
     "description": "Perennial grass that prefers well drained soils, good spring forage species. Found throughout California. Pros – drought tolerant, good for erosion control, can grow",
-    "lifecycle": "perennial",
-    "growingSeason": "cool",
+    "lifecycle": "Perennial",
+    "growingSeason": "Cool",
     "type": "grass",
-    "growthFormRaw": "grass",
+    "growthFormRaw": "Grass",
     "plantCommunity": "desert shrub to alpine plant communities",
     "allCommunitiesFound": "Open, sandy rocky places",
     "communities": [
@@ -9074,6 +9098,7 @@ window.ECORESTORE_PLANTS = [
       "Competition / weed resistance"
     ],
     "grazing": [
+      "Low / light",
       "Moderate"
     ],
     "services": [
@@ -9154,7 +9179,7 @@ window.ECORESTORE_PLANTS = [
       },
       "grazingResponse": {
         "match": null,
-        "detail": "moderate"
+        "detail": "low to moderate"
       },
       "erosion": {
         "match": true,
@@ -9196,8 +9221,8 @@ window.ECORESTORE_PLANTS = [
     "scientific": "Elymus triticoides",
     "alternateScientific": "",
     "common": "Creeping wildrye",
-    "photoFileName": "",
-    "photoCredit": "",
+    "photoFileName": "ELTI",
+    "photoCredit": "© 2018 Ron Vanderhoff CC-BY-NC 4.0",
     "photoSource": "https://www.calflora.org/cgi-bin/viewphoto.cgi?arg=/app/up/entry/324/97211.jpg",
     "links": {
       "calflora": "https://www.calflora.org/app/taxon?crn=11648",
@@ -9205,10 +9230,10 @@ window.ECORESTORE_PLANTS = [
       "usda": "https://plants.usda.gov/home/plantProfile?symbol=LETR5"
     },
     "description": "Water loving perennial grass that uniquely produces long, robust rhizomes. Should only be used in a mix. Pros – flood tolerant, fast growing once established. Cons – does not establish well. 109000-120000 live seeds per pound, 0.5 - 2 lb/ac",
-    "lifecycle": "perennial",
-    "growingSeason": "cool",
+    "lifecycle": "Perennial",
+    "growingSeason": "Cool",
     "type": "grass",
-    "growthFormRaw": "grass",
+    "growthFormRaw": "Grass",
     "plantCommunity": "riparian areas, bottomlands, valleys, foothills, mountain flats and meadows from coastal marshes to high elevations",
     "allCommunitiesFound": "Moist, often saline, meadows and understory of various woodlands",
     "communities": [
@@ -9330,6 +9355,7 @@ window.ECORESTORE_PLANTS = [
       "Water-related value"
     ],
     "grazing": [
+      "Low / light",
       "High"
     ],
     "services": [
@@ -9410,7 +9436,7 @@ window.ECORESTORE_PLANTS = [
       },
       "grazingResponse": {
         "match": null,
-        "detail": "high"
+        "detail": "low to high"
       },
       "erosion": {
         "match": true,
@@ -9452,8 +9478,8 @@ window.ECORESTORE_PLANTS = [
     "scientific": "Elymus trachycaulus",
     "alternateScientific": "",
     "common": "Slender wheatgrass",
-    "photoFileName": "",
-    "photoCredit": "",
+    "photoFileName": "ELTR",
+    "photoCredit": "opyright © 2010 Louis-M. Landry",
     "photoSource": "https://calphotos.berkeley.edu/imgs/512x768/0000_0000/1113/1028.jpeg",
     "links": {
       "calflora": "https://www.calflora.org/app/taxon?crn=2945",
@@ -9461,10 +9487,10 @@ window.ECORESTORE_PLANTS = [
       "usda": "https://plants.usda.gov/home/plantProfile?symbol=ELTRT"
     },
     "description": "Perennial grass found mostly in the foothills. Pros – good establishment, fast growing, flood tolerant, can establish on slopes.  80,000 live seeds per pound, 1-40 lb/ac",
-    "lifecycle": "perennial",
-    "growingSeason": "cool",
+    "lifecycle": "Perennial",
+    "growingSeason": "Cool",
     "type": "grass",
-    "growthFormRaw": "grass",
+    "growthFormRaw": "Grass",
     "plantCommunity": "basin and mountain big sagebrush, mountain brush, aspen, ponderosa pine, spruce-fir and lodgepole pine",
     "allCommunitiesFound": "foothills",
     "communities": [
@@ -9578,6 +9604,7 @@ window.ECORESTORE_PLANTS = [
       "Erosion control"
     ],
     "grazing": [
+      "Low / light",
       "Moderate"
     ],
     "services": [
@@ -9657,7 +9684,7 @@ window.ECORESTORE_PLANTS = [
       },
       "grazingResponse": {
         "match": null,
-        "detail": "moderate"
+        "detail": "low to moderate"
       },
       "erosion": {
         "match": true,
@@ -9699,8 +9726,8 @@ window.ECORESTORE_PLANTS = [
     "scientific": "Epilobium canum",
     "alternateScientific": "",
     "common": "California fuchsia",
-    "photoFileName": "",
-    "photoCredit": "",
+    "photoFileName": "EPCA",
+    "photoCredit": "© 2018 Mary Conway CC-BY-NC 4.0",
     "photoSource": "https://www.calflora.org/cgi-bin/viewphoto.cgi?arg=/app/up/entry/261/78428.jpg",
     "links": {
       "calflora": "https://www.calflora.org/app/taxon?crn=2984",
@@ -9708,10 +9735,10 @@ window.ECORESTORE_PLANTS = [
       "usda": "https://plants.usda.gov/home/plantProfile?symbol=EPCA3"
     },
     "description": "Perennial forb found on the periphery of the central valley and on the coast. Pros: relatively drought tolerant, excellent for pollinators.",
-    "lifecycle": "perennial",
+    "lifecycle": "Perennial",
     "growingSeason": "",
     "type": "forb",
-    "growthFormRaw": "forb",
+    "growthFormRaw": "Forb",
     "plantCommunity": "foothills and coastal areas",
     "allCommunitiesFound": "dry areas, rocky slopes and cliffs, and montane coniferous forest, and coastal scrub (",
     "communities": [],
@@ -9950,8 +9977,8 @@ window.ECORESTORE_PLANTS = [
     "scientific": "Eriogonum fasciculatum",
     "alternateScientific": "",
     "common": "California buckwheat",
-    "photoFileName": "",
-    "photoCredit": "",
+    "photoFileName": "ERFA",
+    "photoCredit": "© 2019 Ron Vanderhoff CC-BY-NC 4.0",
     "photoSource": "https://www.calflora.org/cgi-bin/viewphoto.cgi?arg=/app/up/gp/80/16041.jpg",
     "links": {
       "calflora": "https://www.calflora.org/app/taxon?crn=3243",
@@ -9959,10 +9986,10 @@ window.ECORESTORE_PLANTS = [
       "usda": "https://plants.usda.gov/home/plantProfile?symbol=ERFA2"
     },
     "description": "Perennial shrub found mostly south of San Francisco. Pros: good for wildlife, drought tolerant, tolerant of many soil types, good for erosion control, effective at colonizing disturbed sites. 1-4 lb/ac",
-    "lifecycle": "perennial",
+    "lifecycle": "Perennial",
     "growingSeason": "",
     "type": "shrub",
-    "growthFormRaw": "shrub",
+    "growthFormRaw": "Shrub",
     "plantCommunity": "Coastal Sage Scrub, Valley Grassland, Sagebrush Scrub and Pinyon-Juniper Woodland, Creosote Bush Scrub",
     "allCommunitiesFound": "Dry slopes, washes and canyons in scrub",
     "communities": [
@@ -10076,6 +10103,8 @@ window.ECORESTORE_PLANTS = [
       "Erosion control"
     ],
     "grazing": [
+      "Low / light",
+      "High",
       "Limited / avoid"
     ],
     "services": [
@@ -10154,7 +10183,7 @@ window.ECORESTORE_PLANTS = [
       },
       "grazingResponse": {
         "match": null,
-        "detail": "N, unpalatable"
+        "detail": "Low to high, often avoided by grazers, plant species is considered unpalatable"
       },
       "erosion": {
         "match": true,
@@ -10196,8 +10225,8 @@ window.ECORESTORE_PLANTS = [
     "scientific": "Eriogonum giganteum",
     "alternateScientific": "",
     "common": "St. Catherine’s lace",
-    "photoFileName": "",
-    "photoCredit": "",
+    "photoFileName": "ERGI",
+    "photoCredit": "© 2020 Ron Vanderhoff CC-BY-NC 4.0",
     "photoSource": "https://www.calflora.org/cgi-bin/viewphoto.cgi?arg=/app/up/entry/221/66574.jpg",
     "links": {
       "calflora": "https://www.calflora.org/app/taxon?crn=3249",
@@ -10205,10 +10234,10 @@ window.ECORESTORE_PLANTS = [
       "usda": "https://plants.usda.gov/home/plantProfile?symbol=ERGI2"
     },
     "description": "Endemic perennial shrub that is restricted to the coast. Pros: good for wildlife.",
-    "lifecycle": "perennial",
+    "lifecycle": "Perennial",
     "growingSeason": "",
     "type": "shrub",
-    "growthFormRaw": "shrub",
+    "growthFormRaw": "Shrub",
     "plantCommunity": "coastal sage scrub or chaparral, primarily on the Channel Islands",
     "allCommunitiesFound": "dry roadside edges, gravely disturbed areas, and overgrazed pasture",
     "communities": [
@@ -10403,8 +10432,8 @@ window.ECORESTORE_PLANTS = [
     "scientific": "Eremocarpus setigerus",
     "alternateScientific": "",
     "common": "Turkey mullein",
-    "photoFileName": "",
-    "photoCredit": "",
+    "photoFileName": "CRSE",
+    "photoCredit": "© 2013 James Gonsman CC-BY-NC 4.0",
     "photoSource": "https://www.calflora.org/cgi-bin/viewphoto.cgi?arg=/app/up/gp/26/5389.jpg",
     "links": {
       "calflora": "https://www.calflora.org/app/taxon?crn=13184",
@@ -10412,10 +10441,10 @@ window.ECORESTORE_PLANTS = [
       "usda": "https://plants.usda.gov/home/plantProfile?symbol=CRSE11"
     },
     "description": "Cosmopolitan summer annual forb that grows in open, dry areas. Pro – good for wildelife. Cons – can be weedy in agricultural areas, can be dangerous for livestock.",
-    "lifecycle": "annual",
+    "lifecycle": "Annual",
     "growingSeason": "",
     "type": "forb",
-    "growthFormRaw": "forb",
+    "growthFormRaw": "Forb",
     "plantCommunity": "dry roadside edges, gravely disturbed areas, and overgrazed pasture",
     "allCommunitiesFound": "Flats, gentle slopes",
     "communities": [],
@@ -10530,6 +10559,8 @@ window.ECORESTORE_PLANTS = [
       "Erosion control"
     ],
     "grazing": [
+      "Low / light",
+      "High",
       "Limited / avoid"
     ],
     "services": [
@@ -10607,7 +10638,7 @@ window.ECORESTORE_PLANTS = [
       },
       "grazingResponse": {
         "match": null,
-        "detail": "NA, indigestible"
+        "detail": "low to high, indigestible and avoided by grazers"
       },
       "erosion": {
         "match": true,
@@ -10649,8 +10680,8 @@ window.ECORESTORE_PLANTS = [
     "scientific": "Escholzia californica",
     "alternateScientific": "",
     "common": "California Poppy",
-    "photoFileName": "",
-    "photoCredit": "",
+    "photoFileName": "ESCA",
+    "photoCredit": "©2002 California Academy of Sciences",
     "photoSource": "https://calphotos.berkeley.edu/cgi/img_query?enlarge=1335%203153%200216%200083",
     "links": {
       "calflora": "https://www.calflora.org/app/taxon?crn=3512",
@@ -10658,10 +10689,10 @@ window.ECORESTORE_PLANTS = [
       "usda": "https://plants.usda.gov/home/plantProfile?symbol=ESCA2"
     },
     "description": "Annual or perennial herb found almost everywhere in California. Does well with hydroseeding, but does not mix well with Avena fatua or Lolium perenne. Does well early in the restoration process and then demonstrates low density in subsequent years. Pros – Good for erosion control, encourages pollinators, drought and disturbance tolerant, very adaptable to different soil conditions, high germination rates, cost effective. Cons – may be toxic to livestock, can become weedy in some areas, low emergence. .45 - .5 PLS lbs/acre. $18/lb",
-    "lifecycle": "annual, perennial",
-    "growingSeason": "warm, cool",
+    "lifecycle": "Annual, Perennial",
+    "growingSeason": "Warm, Cool",
     "type": "forb",
-    "growthFormRaw": "herb",
+    "growthFormRaw": "Forb",
     "plantCommunity": "Northern Coastal Scrub, Yellow Pine Forest, Red Fir Forest, Lodgepole Forest, Foothill Woodland, Chaparral, Coastal Prairie, Valley Grassland",
     "allCommunitiesFound": "",
     "communities": [
@@ -10885,8 +10916,8 @@ window.ECORESTORE_PLANTS = [
     "scientific": "Euthamia occidentalis",
     "alternateScientific": "",
     "common": "Goldenrod",
-    "photoFileName": "",
-    "photoCredit": "",
+    "photoFileName": "EUOC",
+    "photoCredit": "© 2021 R.A. Chasey CC-BY-NC 4.0",
     "photoSource": "https://www.calflora.org/cgi-bin/viewphoto.cgi?arg=/app/up/entry/44/13307.jpg",
     "links": {
       "calflora": "https://www.calflora.org/app/taxon?crn=3565",
@@ -10894,10 +10925,10 @@ window.ECORESTORE_PLANTS = [
       "usda": "https://plants.usda.gov/home/plantProfile?symbol=EUOC4"
     },
     "description": "Perennial forb found in coastal and inland areas in California. Cons: flood intolerant",
-    "lifecycle": "perrenial",
+    "lifecycle": "Perennial",
     "growingSeason": "",
     "type": "forb",
-    "growthFormRaw": "forb",
+    "growthFormRaw": "Forb",
     "plantCommunity": "cattail, rushes, and sedges",
     "allCommunitiesFound": "Marshes, streambanks, meadows, and other moist to wet places, riparian areas, coastal salt marshes, freshwater wetlands, and wet meadow habitats",
     "communities": [
@@ -11140,8 +11171,8 @@ window.ECORESTORE_PLANTS = [
     "scientific": "Festuca idahoensis",
     "alternateScientific": "",
     "common": "Idaho Fescue",
-    "photoFileName": "",
-    "photoCredit": "",
+    "photoFileName": "FEID",
+    "photoCredit": "© 2019 Ken Hickman CC-BY-NC 4.0",
     "photoSource": "https://calscape.com/ExtData/allimages/900/Festuca_idahoensis_900_51.jpg",
     "links": {
       "calflora": "https://www.calflora.org/app/taxon?crn=3581",
@@ -11149,10 +11180,10 @@ window.ECORESTORE_PLANTS = [
       "usda": "https://plants.usda.gov/home/plantProfile?symbol=FEID"
     },
     "description": "One of the most common and widely distributed perennial grasses in the western US. Found mostly north of San Francisco. Pros – good for erosion control, good forage species, can grow as an understory species, deer resistant, resists cheatgrass invasion; Cons – slow to establish, requires adequate soil moisture, since this is a late seral species, it does not do well with invasives, and should only be used in secondary seeding efforts. 314,000 live seeds per pound, $20/acre, 11.3 live seedlings per 100 seeds/per meters squared, 20 lb/ac",
-    "lifecycle": "perrenial",
-    "growingSeason": "cool",
+    "lifecycle": "Perennial",
+    "growingSeason": "Cool",
     "type": "grass",
-    "growthFormRaw": "grass",
+    "growthFormRaw": "Grass",
     "plantCommunity": "bluegrass, mountain brome, geranium, yarrow, mountain sagebrush, antelope bitterbrush, ponderosa pine, bluebunch wheatgrass and slender wheatgrass",
     "allCommunitiesFound": "Exposed benchlands, hillsides and ridges, parks, meadows, forestlands, and open ponderosa and lodgepole pine stands",
     "communities": [
@@ -11256,6 +11287,7 @@ window.ECORESTORE_PLANTS = [
       "Erosion control"
     ],
     "grazing": [
+      "Low / light",
       "Moderate"
     ],
     "services": [
@@ -11335,7 +11367,7 @@ window.ECORESTORE_PLANTS = [
       },
       "grazingResponse": {
         "match": null,
-        "detail": "moderate"
+        "detail": "low to moderate"
       },
       "erosion": {
         "match": true,
@@ -11377,8 +11409,8 @@ window.ECORESTORE_PLANTS = [
     "scientific": "Festuca microstachys",
     "alternateScientific": "",
     "common": "Small fescue",
-    "photoFileName": "",
-    "photoCredit": "",
+    "photoFileName": "FEMI",
+    "photoCredit": "© 2023 R.A. Chasey CC-BY-NC 4.0",
     "photoSource": "https://www.flickr.com/photos/38213125@N00/33617985825",
     "links": {
       "calflora": "https://www.calflora.org/app/taxon?crn=11688",
@@ -11386,10 +11418,10 @@ window.ECORESTORE_PLANTS = [
       "usda": "https://plants.usda.gov/home/plantProfile?symbol=VUMI"
     },
     "description": "Cool-season annual grass found throughout the state that prefers sandy soils. Pro: tolerant of low-nutrient soils, fast growing. 1 lb/PLS/ac. 300,000 PLS. 580 seeds/m2",
-    "lifecycle": "annual",
-    "growingSeason": "cool",
+    "lifecycle": "Annual",
+    "growingSeason": "Cool",
     "type": "grass",
-    "growthFormRaw": "grass",
+    "growthFormRaw": "Grass",
     "plantCommunity": "Desert Scrub, Interior Chaparral, Semidesert Grasslands, Pinyon Juniper Woodland, Disturbed Areas",
     "allCommunitiesFound": "",
     "communities": [
@@ -11585,7 +11617,7 @@ window.ECORESTORE_PLANTS = [
       },
       "grazingResponse": {
         "match": null,
-        "detail": "light"
+        "detail": "low"
       },
       "erosion": {
         "match": false,
@@ -11627,8 +11659,8 @@ window.ECORESTORE_PLANTS = [
     "scientific": "Festuca rubra",
     "alternateScientific": "",
     "common": "Red fescue",
-    "photoFileName": "",
-    "photoCredit": "",
+    "photoFileName": "FERU",
+    "photoCredit": "Biodehio, CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0>, via Wikimedia Commons",
     "photoSource": "https://commons.wikimedia.org/wiki/File:Festuca_rubra_02.jpg",
     "links": {
       "calflora": "https://www.calflora.org/app/taxon?crn=3586#:~:text=Festuca%20rubra%20is%20a%20perennial,in%20North%20America%20and%20beyond.&text=This%20plant%20is%20available%20commercially.",
@@ -11636,10 +11668,10 @@ window.ECORESTORE_PLANTS = [
       "usda": "https://plants.usda.gov/home/plantProfile?symbol=FERU2"
     },
     "description": "Perennial grass that is located in both coastal and upland areas. Prefers well drained",
-    "lifecycle": "perrenial",
-    "growingSeason": "cool",
+    "lifecycle": "Perennial",
+    "growingSeason": "Cool",
     "type": "grass",
-    "growthFormRaw": "grass",
+    "growthFormRaw": "Grass",
     "plantCommunity": "Dunes, meadows, openings in woodland or chaparral",
     "allCommunitiesFound": "",
     "communities": [
@@ -11754,6 +11786,7 @@ window.ECORESTORE_PLANTS = [
       "Competition / weed resistance"
     ],
     "grazing": [
+      "Low / light",
       "High"
     ],
     "services": [
@@ -11831,7 +11864,7 @@ window.ECORESTORE_PLANTS = [
       },
       "grazingResponse": {
         "match": null,
-        "detail": "high, withstands close grazing"
+        "detail": "low to high"
       },
       "erosion": {
         "match": false,
@@ -11873,8 +11906,8 @@ window.ECORESTORE_PLANTS = [
     "scientific": "Grindelia camporum",
     "alternateScientific": "",
     "common": "Gumplant",
-    "photoFileName": "",
-    "photoCredit": "",
+    "photoFileName": "GRCA",
+    "photoCredit": "© 2019 Ron Vanderhoff CC-BY-NC 4.0",
     "photoSource": "https://www.calflora.org/cgi-bin/viewphoto.cgi?arg=/app/up/mg/627/mg188270-0.jpg",
     "links": {
       "calflora": "https://www.calflora.org/app/taxon?crn=3956",
@@ -11882,10 +11915,10 @@ window.ECORESTORE_PLANTS = [
       "usda": "https://plants.usda.gov/home/plantProfile?symbol=GRCA"
     },
     "description": "Late season blooming perennial forb that is found on the coast and within the central valley.  Tolerant of both clay and sandy soils. Pros: grows readily, disturbance tolerant, drought tolerant, good for wildlife habitat, high germination rates, cost effective. Cons: can be toxic to livestock, can become weedy in crop areas, can be slow to establish, flood intolerant. 1lb/acre or 0.08-0.5 lb/acre in a mix, .45-3 PLS lb/acre, $16/lb",
-    "lifecycle": "perennial",
+    "lifecycle": "Perennial",
     "growingSeason": "",
     "type": "forb",
-    "growthFormRaw": "forb",
+    "growthFormRaw": "Forb",
     "plantCommunity": "chaparral and woodland",
     "allCommunitiesFound": "Sandy or saline bottomlands of interior valleys, also mountains to 4,000 ft., coastal bluffs, and rocky cliffs on the Channel Islands",
     "communities": [
@@ -12001,7 +12034,9 @@ window.ECORESTORE_PLANTS = [
       "Pollinator habitat",
       "Wildlife habitat"
     ],
-    "grazing": [],
+    "grazing": [
+      "Limited / avoid"
+    ],
     "services": [
       "Pollinator habitat",
       "Wildlife habitat"
@@ -12119,8 +12154,8 @@ window.ECORESTORE_PLANTS = [
     "scientific": "Hemizonia congesta",
     "alternateScientific": "",
     "common": "Hayfield tarweed",
-    "photoFileName": "",
-    "photoCredit": "",
+    "photoFileName": "HECO",
+    "photoCredit": "© 2019 Jennifer Mo CC-BY-NC 4.0",
     "photoSource": "https://www.calflora.org/cgi-bin/viewphoto.cgi?arg=/app/up/entry/589/176701.jpg",
     "links": {
       "calflora": "https://www.calflora.org/app/taxon?crn=4065",
@@ -12128,10 +12163,10 @@ window.ECORESTORE_PLANTS = [
       "usda": "https://plants.usda.gov/home/plantProfile?symbol=HECO7"
     },
     "description": "Annual forb found mostly west of the central valley. Pros – Good for pollinators and wildlife, drought tolerant, can tolerate invasives. 2 lb/ac",
-    "lifecycle": "annual",
+    "lifecycle": "Annual",
     "growingSeason": "",
     "type": "forb",
-    "growthFormRaw": "forb",
+    "growthFormRaw": "Forb",
     "plantCommunity": "grasslands and fields",
     "allCommunitiesFound": "",
     "communities": [
@@ -12339,8 +12374,8 @@ window.ECORESTORE_PLANTS = [
     "scientific": "Hemizonia fitchii",
     "alternateScientific": "",
     "common": "Spikeweed",
-    "photoFileName": "",
-    "photoCredit": "",
+    "photoFileName": "HEFI",
+    "photoCredit": "© 2025 R.A. Chasey CC-BY-NC 4.0",
     "photoSource": "https://www.calflora.org/cgi-bin/viewphoto.cgi?arg=/app/up/entry/200/60154.jpg",
     "links": {
       "calflora": "https://www.calflora.org/app/taxon?crn=10809",
@@ -12348,10 +12383,10 @@ window.ECORESTORE_PLANTS = [
       "usda": "https://plants.usda.gov/home/plantProfile?symbol=HEFI"
     },
     "description": "Annual forb. Pros – disturbance tolerant, good for pollinators. Cons – Can become weedy, avoided by livestock. 2 lb/ac",
-    "lifecycle": "annual",
+    "lifecycle": "Annual",
     "growingSeason": "",
     "type": "forb",
-    "growthFormRaw": "forb",
+    "growthFormRaw": "Forb",
     "plantCommunity": "grassland, wetland, vernal pool",
     "allCommunitiesFound": "",
     "communities": [
@@ -12451,6 +12486,7 @@ window.ECORESTORE_PLANTS = [
       "Competition / weed resistance"
     ],
     "grazing": [
+      "Low / light",
       "Moderate"
     ],
     "services": [
@@ -12528,7 +12564,7 @@ window.ECORESTORE_PLANTS = [
       },
       "grazingResponse": {
         "match": null,
-        "detail": "moderate"
+        "detail": "low to moderate"
       },
       "erosion": {
         "match": false,
@@ -12570,8 +12606,8 @@ window.ECORESTORE_PLANTS = [
     "scientific": "Hordeum brachyantherum",
     "alternateScientific": "",
     "common": "Meadow barley",
-    "photoFileName": "",
-    "photoCredit": "",
+    "photoFileName": "HOBR",
+    "photoCredit": "© 2017 Toni Corelli CC-BY-NC 4.0",
     "photoSource": "https://www.calflora.org/cgi-bin/viewphoto.cgi?arg=/app/up/entry/254/76406.jpg",
     "links": {
       "calflora": "https://www.calflora.org/app/taxon?crn=4218",
@@ -12579,10 +12615,10 @@ window.ECORESTORE_PLANTS = [
       "usda": "https://plants.usda.gov/home/plantProfile?symbol=HOBR2"
     },
     "description": "Perennial grass found throughout California. Does best on fine textured soils. Pros – wide soil tolerance, good establishment, fast growth rate, high survival once established, high value for deer forage in Spring, tolerant of low fertility soils and prescribed fire, does relatively well in the first year of seeding, flood tolerant, can establish on slopes and in ditches, relatively high germination. Cons – low to moderate forage value for livestock, can be weedy",
-    "lifecycle": "perennial",
-    "growingSeason": "cool",
+    "lifecycle": "Perennial",
+    "growingSeason": "Cool",
     "type": "grass",
-    "growthFormRaw": "grass",
+    "growthFormRaw": "Grass",
     "plantCommunity": "Meadows, pastures, streambanks",
     "allCommunitiesFound": "bottom lands, depressions, meadows, the edges of streams and salt marshes, forest clearings, and ocean beaches",
     "communities": [
@@ -12705,6 +12741,7 @@ window.ECORESTORE_PLANTS = [
       "Erosion control"
     ],
     "grazing": [
+      "Low / light",
       "Moderate"
     ],
     "services": [
@@ -12783,7 +12820,7 @@ window.ECORESTORE_PLANTS = [
       },
       "grazingResponse": {
         "match": null,
-        "detail": "moderate"
+        "detail": "low to moderate"
       },
       "erosion": {
         "match": true,
@@ -12825,8 +12862,8 @@ window.ECORESTORE_PLANTS = [
     "scientific": "Koeleria macrantha",
     "alternateScientific": "",
     "common": "June Grass",
-    "photoFileName": "",
-    "photoCredit": "",
+    "photoFileName": "KOMA",
+    "photoCredit": "© 2020 Matt Berry CC-BY-NC 4.0",
     "photoSource": "https://www.calflora.org/cgi-bin/viewphoto.cgi?arg=/app/up/entry/181/54389.jpg?a",
     "links": {
       "calflora": "https://www.calflora.org/app/taxon?crn=4539",
@@ -12834,10 +12871,10 @@ window.ECORESTORE_PLANTS = [
       "usda": "https://plants.usda.gov/home/plantProfile?symbol=KOMA"
     },
     "description": "Perennial grass found mostly everywhere in California except for the central valley and the southern deserts.  This species can grow in both full sun and part shade. Pro: relatively drought tolerant; grazing tolerant, fast growing, fire tolerant, good for erosion control, salt tolerant. Cons: cannot tolerate clay soils, is negatively affected by nitrogen addition, can be hard to establish. 950000 – 2,000,000PLS/lb $180-225/lb",
-    "lifecycle": "perennial",
-    "growingSeason": "cool",
+    "lifecycle": "Perennial",
+    "growingSeason": "Cool",
     "type": "grass",
-    "growthFormRaw": "grass",
+    "growthFormRaw": "Grass",
     "plantCommunity": "rangelands, plains and open forestlands",
     "allCommunitiesFound": "native prairie, savanna, coastal scrub, chaparral",
     "communities": [
@@ -12959,8 +12996,9 @@ window.ECORESTORE_PLANTS = [
       "Soil fertility / nutrients"
     ],
     "grazing": [
-      "High",
-      "Moderate"
+      "Low / light",
+      "Moderate",
+      "High"
     ],
     "services": [
       "Wildlife habitat",
@@ -13039,7 +13077,7 @@ window.ECORESTORE_PLANTS = [
       },
       "grazingResponse": {
         "match": null,
-        "detail": "moderate to high"
+        "detail": "low to moderate to high"
       },
       "erosion": {
         "match": true,
@@ -13081,8 +13119,8 @@ window.ECORESTORE_PLANTS = [
     "scientific": "Lasthenia californica",
     "alternateScientific": "",
     "common": "Goldfields",
-    "photoFileName": "",
-    "photoCredit": "",
+    "photoFileName": "LACA",
+    "photoCredit": "© 2025 Mike Russler CC-BY-NC 4.0",
     "photoSource": "https://www.flickr.com/photos/9674127@N03/25939273444",
     "links": {
       "calflora": "https://www.calflora.org/app/taxon?crn=4577",
@@ -13090,10 +13128,10 @@ window.ECORESTORE_PLANTS = [
       "usda": ""
     },
     "description": "Annual forb that is found throughout California, although less so in the valley.",
-    "lifecycle": "annual",
-    "growingSeason": "cool",
+    "lifecycle": "Annual",
+    "growingSeason": "Cool",
     "type": "forb",
-    "growthFormRaw": "forb",
+    "growthFormRaw": "Forb",
     "plantCommunity": "Northern Coastal Scrub, Coastal Sage Scrub, Northern Oak Woodland, Foothill Woodland, Coastal Prairie, Valley Grassland",
     "allCommunitiesFound": "",
     "communities": [
@@ -13330,8 +13368,8 @@ window.ECORESTORE_PLANTS = [
     "scientific": "Layia platyglossa",
     "alternateScientific": "",
     "common": "Coastal tidytips",
-    "photoFileName": "",
-    "photoCredit": "",
+    "photoFileName": "LAPL",
+    "photoCredit": "© 2019 Jenna T. B. Ekwealor CC-BY-NC 4.0",
     "photoSource": "https://www.calflora.org/cgi-bin/viewphoto.cgi?arg=/app/up/entry/149/44868.jpg",
     "links": {
       "calflora": "https://www.calflora.org/app/taxon?crn=4649",
@@ -13339,10 +13377,10 @@ window.ECORESTORE_PLANTS = [
       "usda": "https://plants.usda.gov/home/plantProfile?symbol=LAPL"
     },
     "description": "Annual forb found at low elevations, mostly in coastal areas on clay soils. Pros: good for pollinators, good for wildlife, drought tolerant, salt tolerant. 0.56lb/acre, $50/lb",
-    "lifecycle": "annual",
+    "lifecycle": "Annual",
     "growingSeason": "",
     "type": "forb",
-    "growthFormRaw": "forb",
+    "growthFormRaw": "Forb",
     "plantCommunity": "meadows, grassland",
     "allCommunitiesFound": "low-elevation dry habitats",
     "communities": [
@@ -13565,8 +13603,8 @@ window.ECORESTORE_PLANTS = [
     "scientific": "Lupinus bicolor",
     "alternateScientific": "",
     "common": "Annual lupine",
-    "photoFileName": "",
-    "photoCredit": "",
+    "photoFileName": "LUDE",
+    "photoCredit": "© 2019 Cheryl Ballantyne CC-BY-NC 4.0",
     "photoSource": "https://www.calflora.org/cgi-bin/viewphoto.cgi?arg=/app/up/io/153/io46043-2.jpg",
     "links": {
       "calflora": "https://www.calflora.org/app/taxon?crn=5118",
@@ -13574,10 +13612,10 @@ window.ECORESTORE_PLANTS = [
       "usda": "https://plants.usda.gov/home/plantProfile?symbol=LUBI"
     },
     "description": "Annual forb found in almost every county in California. Pros – good pollination plant, does well in disturbed soils, drought tolerant, fire resistant. 85,000 average lice seed per bulk pound.",
-    "lifecycle": "annual",
+    "lifecycle": "Annual",
     "growingSeason": "",
     "type": "forb",
-    "growthFormRaw": "forb",
+    "growthFormRaw": "Forb",
     "plantCommunity": "Dry meadows, grasslands, prairies",
     "allCommunitiesFound": "open or disturbed places",
     "communities": [
@@ -13818,8 +13856,8 @@ window.ECORESTORE_PLANTS = [
     "scientific": "Lupinus densiflorus",
     "alternateScientific": "",
     "common": "Chick lupine",
-    "photoFileName": "",
-    "photoCredit": "",
+    "photoFileName": "LUDE",
+    "photoCredit": "© 2014 Steve Matson CC-BY-NC 4.0",
     "photoSource": "https://www.calflora.org/cgi-bin/viewphoto.cgi?arg=/app/up/entry/420/126253.jpg",
     "links": {
       "calflora": "https://www.calflora.org/app/taxon?crn=5184",
@@ -13827,10 +13865,10 @@ window.ECORESTORE_PLANTS = [
       "usda": "https://plants.usda.gov/home/plantProfile?symbol=LUDE2"
     },
     "description": "Annual forb that is found all across the coast and the central valley. Pro: alkaline soil tolerant, drought tolerant, good wildlife habitat. 8lbs PLS/acre",
-    "lifecycle": "annual",
+    "lifecycle": "Annual",
     "growingSeason": "",
     "type": "forb",
-    "growthFormRaw": "forb",
+    "growthFormRaw": "Forb",
     "plantCommunity": "Grasslands, coastal sage scrub",
     "allCommunitiesFound": "Open or disturbed places",
     "communities": [
@@ -14066,8 +14104,8 @@ window.ECORESTORE_PLANTS = [
     "scientific": "Lupinus formosus",
     "alternateScientific": "",
     "common": "Summer lupine",
-    "photoFileName": "",
-    "photoCredit": "",
+    "photoFileName": "LUFO",
+    "photoCredit": "© 2018 Miao Ling He CC-BY-NC 4.0",
     "photoSource": "https://www.calflora.org/cgi-bin/viewphoto.cgi?arg=/app/up/mg/405/mg121510-1.jpg?a",
     "links": {
       "calflora": "https://www.calflora.org/app/taxon?crn=5147",
@@ -14075,10 +14113,10 @@ window.ECORESTORE_PLANTS = [
       "usda": "https://plants.usda.gov/home/plantProfile?symbol=LUFO2"
     },
     "description": "Perennial forb found mostly on coastal areas with clay soils. Can take over a year to increase in density. Pro: good for wildlife, drought tolerant. Cons: toxic to livestock, might not be cost-effective. 8.1 lbs of PLS/acre",
-    "lifecycle": "perennial",
+    "lifecycle": "Perennial",
     "growingSeason": "",
     "type": "forb",
-    "growthFormRaw": "forb",
+    "growthFormRaw": "Forb",
     "plantCommunity": "Grasslands, coastal sage scrub",
     "allCommunitiesFound": "coastal areas",
     "communities": [
@@ -14304,8 +14342,8 @@ window.ECORESTORE_PLANTS = [
     "scientific": "Lupinus microcarpus",
     "alternateScientific": "",
     "common": "Chick lupine",
-    "photoFileName": "",
-    "photoCredit": "",
+    "photoFileName": "LUMI",
+    "photoCredit": "© 2025 PHILIP VAN SOELEN CC-BY-NC 4.0",
     "photoSource": "https://www.calflora.org/cgi-bin/viewphoto.cgi?arg=/app/up/mg/364/mg109399-0.jpg",
     "links": {
       "calflora": "https://www.calflora.org/app/taxon?crn=5183",
@@ -14313,10 +14351,10 @@ window.ECORESTORE_PLANTS = [
       "usda": "NA"
     },
     "description": "Annual forb found in most areas in the state.",
-    "lifecycle": "annual",
+    "lifecycle": "Annual",
     "growingSeason": "",
     "type": "forb",
-    "growthFormRaw": "forb",
+    "growthFormRaw": "Forb",
     "plantCommunity": "Grasslands, blue oak woodland",
     "allCommunitiesFound": "",
     "communities": [
@@ -14551,8 +14589,8 @@ window.ECORESTORE_PLANTS = [
     "scientific": "Lupinus succulentus",
     "alternateScientific": "",
     "common": "Arroyo Lupine",
-    "photoFileName": "",
-    "photoCredit": "",
+    "photoFileName": "LUSU",
+    "photoCredit": "© 2021 Paul Aigner CC-BY-NC 4.0",
     "photoSource": "https://www.calflora.org/cgi-bin/viewphoto.cgi?arg=/app/up/entry/427/128307.jpg",
     "links": {
       "calflora": "https://www.calflora.org/app/taxon?crn=5217",
@@ -14560,10 +14598,10 @@ window.ECORESTORE_PLANTS = [
       "usda": "https://plants.usda.gov/home/plantProfile?symbol=LUSU3"
     },
     "description": "Annual forb that is almost endemic to California. Prefers moist clay or heavy soils on the coast in full sun. Higher growth rate in high nitrogen soils. Does well early in the restoration process and then demonstrates low density in subsequent years. Pros – Good for erosion, excellent pollinator plant, deer resistant, drought tolerant, good to seed after a fire. Cons – low germination rate. $24.95/lb. 96 seeds/m2 2.5-4 PLS lb/acre or 25lb/acre",
-    "lifecycle": "annual",
+    "lifecycle": "Annual",
     "growingSeason": "",
     "type": "forb",
-    "growthFormRaw": "forb",
+    "growthFormRaw": "Forb",
     "plantCommunity": "Meadows, grasslands, openings in chaparral or any areas with heavy, moist soil.",
     "allCommunitiesFound": "coastal sage scrub",
     "communities": [
@@ -14789,8 +14827,8 @@ window.ECORESTORE_PLANTS = [
     "scientific": "Malacothrix saxatilis",
     "alternateScientific": "",
     "common": "Cliff aster",
-    "photoFileName": "",
-    "photoCredit": "",
+    "photoFileName": "MASA",
+    "photoCredit": "© 2019 Sarah Raskin CC-BY-NC 4.0",
     "photoSource": "https://www.calflora.org/cgi-bin/viewphoto.cgi?arg=/app/up/entry/364/109434.jpg",
     "links": {
       "calflora": "https://www.calflora.org/app/taxon?crn=5334",
@@ -14798,10 +14836,10 @@ window.ECORESTORE_PLANTS = [
       "usda": "https://plants.usda.gov/home/plantProfile?symbol=MASA2"
     },
     "description": "Perennial forb found in the southern coast.",
-    "lifecycle": "perennial",
+    "lifecycle": "Perennial",
     "growingSeason": "",
     "type": "forb",
-    "growthFormRaw": "forb",
+    "growthFormRaw": "Forb",
     "plantCommunity": "southern coastal hills and mountain ranges",
     "allCommunitiesFound": "Sand dunes and open places",
     "communities": [],
@@ -14985,8 +15023,8 @@ window.ECORESTORE_PLANTS = [
     "scientific": "Melica californica",
     "alternateScientific": "",
     "common": "California melicgrass",
-    "photoFileName": "",
-    "photoCredit": "",
+    "photoFileName": "MECA",
+    "photoCredit": "© 2022 Carolyn Harper CC-BY-NC 4.0",
     "photoSource": "https://www.calflora.org/cgi-bin/viewphoto.cgi?arg=/app/up/entry/414/124320.jpg",
     "links": {
       "calflora": "https://www.calflora.org/app/taxon?crn=5392",
@@ -14994,10 +15032,10 @@ window.ECORESTORE_PLANTS = [
       "usda": "https://plants.usda.gov/home/plantProfile?symbol=MECA2"
     },
     "description": "Endemic cool season rhizomatous perennial grass that prefers full sun or partial shade in well-drained upland locations. Pros – erosion control, tolerant of many different soil types, deer resistant, drought tolerant, fast growth rate, fire resistant, endemic to California, robust to invasion; Cons – requires good drainage, weak rhizomatous growth, slow growing: can take up to 4 years to mature. Live seed per pound 228,000 - 240,000. Costs between $48 – 144/per acre. 2.2 seedlings per 100 seeds/meter squared. 0.6 - 2.5 PLS/ac, 20 lb/ac",
-    "lifecycle": "perennial",
-    "growingSeason": "cool",
+    "lifecycle": "Perennial",
+    "growingSeason": "Cool",
     "type": "grass",
-    "growthFormRaw": "grass",
+    "growthFormRaw": "Grass",
     "plantCommunity": "chaparral, grasslands, oak woodlands, forest habitats",
     "allCommunitiesFound": "Open or rocky hillsides and slopes",
     "communities": [
@@ -15116,6 +15154,7 @@ window.ECORESTORE_PLANTS = [
       "Competition / weed resistance"
     ],
     "grazing": [
+      "Low / light",
       "Moderate"
     ],
     "services": [
@@ -15195,7 +15234,7 @@ window.ECORESTORE_PLANTS = [
       },
       "grazingResponse": {
         "match": null,
-        "detail": "moderate?"
+        "detail": "low to moderate"
       },
       "erosion": {
         "match": true,
@@ -15237,8 +15276,8 @@ window.ECORESTORE_PLANTS = [
     "scientific": "Melica imperfecta",
     "alternateScientific": "",
     "common": "California melic",
-    "photoFileName": "",
-    "photoCredit": "",
+    "photoFileName": "MEIM",
+    "photoCredit": "© jrcowles CC-BY-NC 4.0",
     "photoSource": "https://calphotos.berkeley.edu/cgi/img_query?enlarge=0000+0000+0514+0437",
     "links": {
       "calflora": "https://www.calflora.org/app/taxon?crn=5399",
@@ -15246,10 +15285,10 @@ window.ECORESTORE_PLANTS = [
       "usda": "https://plants.usda.gov/home/plantProfile?symbol=MEIM"
     },
     "description": "Perennial grass found mostly outside of the central valley. Does best with partial shade. Pros – erosion control, grazing tolerant for deer and elk, drought tolerant, fire resistant. Cons – irregular germination. 10 lb/ac. $112/lb",
-    "lifecycle": "perennial",
-    "growingSeason": "cool",
+    "lifecycle": "Perennial",
+    "growingSeason": "Cool",
     "type": "grass",
-    "growthFormRaw": "grass",
+    "growthFormRaw": "Grass",
     "plantCommunity": "Chaparral, coastal sage scrub, and various woodland types",
     "allCommunitiesFound": "",
     "communities": [
@@ -15354,6 +15393,8 @@ window.ECORESTORE_PLANTS = [
       "Erosion control"
     ],
     "grazing": [
+      "Low / light",
+      "Moderate",
       "Recorded grazing use"
     ],
     "services": [
@@ -15432,7 +15473,7 @@ window.ECORESTORE_PLANTS = [
       },
       "grazingResponse": {
         "match": null,
-        "detail": "Y, for deer and elk"
+        "detail": "Y, low to moderate"
       },
       "erosion": {
         "match": true,
@@ -15474,8 +15515,8 @@ window.ECORESTORE_PLANTS = [
     "scientific": "Mimulus aurantiacus",
     "alternateScientific": "",
     "common": "Orange monkey flower",
-    "photoFileName": "",
-    "photoCredit": "",
+    "photoFileName": "MIAU",
+    "photoCredit": "© 2012 Duncan S. Bell",
     "photoSource": "https://upload.wikimedia.org/wikipedia/commons/d/da/Sticky_Monkey-Flower_-_Diplacus_aurantiacus_%2843440614412%29.jpg",
     "links": {
       "calflora": "https://www.calflora.org/app/taxon?crn=13455",
@@ -15483,10 +15524,10 @@ window.ECORESTORE_PLANTS = [
       "usda": "https://plants.usda.gov/home/plantProfile?symbol=DIAUA"
     },
     "description": "Almost endemic perennial showy shrub that is an important host plant for checkerspot butterfly larvae. Can grow in a variety of soil, even nutrient poor soil. Best on well drained soils. Drought tolerant.",
-    "lifecycle": "perennial",
+    "lifecycle": "Perennial",
     "growingSeason": "",
     "type": "shrub",
-    "growthFormRaw": "shrub",
+    "growthFormRaw": "Shrub",
     "plantCommunity": "Chaparral, Coastal Scrub, Pine Forest, Redwood Forest, Mixed Evergreen Forest, Oak Woodland, Foothill Woodland, and Joshua Tree Woodland",
     "allCommunitiesFound": "Rocky or sandy hillsides, cliffs, canyon slopes, disturbed places",
     "communities": [
@@ -15579,7 +15620,10 @@ window.ECORESTORE_PLANTS = [
       "Pollinator habitat",
       "Wildlife habitat"
     ],
-    "grazing": [],
+    "grazing": [
+      "Low / light",
+      "Moderate"
+    ],
     "services": [
       "Pollinator habitat",
       "Wildlife habitat"
@@ -15655,7 +15699,7 @@ window.ECORESTORE_PLANTS = [
       },
       "grazingResponse": {
         "match": null,
-        "detail": ""
+        "detail": "low to moderate, mature plants not palatable"
       },
       "erosion": {
         "match": false,
@@ -15697,8 +15741,8 @@ window.ECORESTORE_PLANTS = [
     "scientific": "Microseris douglasii",
     "alternateScientific": "",
     "common": "Douglas’ microseris",
-    "photoFileName": "",
-    "photoCredit": "",
+    "photoFileName": "MIDO",
+    "photoCredit": "©2013 Andrew Borcher",
     "photoSource": "https://calphotos.berkeley.edu/cgi/img_query?enlarge=0000+0000+0413+2547",
     "links": {
       "calflora": "https://www.calflora.org/app/taxon?crn=5470",
@@ -15706,10 +15750,10 @@ window.ECORESTORE_PLANTS = [
       "usda": "https://plants.usda.gov/home/plantProfile?symbol=MIDO"
     },
     "description": "Annual forb found in the central valley and on the coast. This species grows well on clay and serpentine soils. Cons responds poorly to grazing.",
-    "lifecycle": "annual",
+    "lifecycle": "Annual",
     "growingSeason": "",
     "type": "forb",
-    "growthFormRaw": "forb",
+    "growthFormRaw": "Forb",
     "plantCommunity": "Coastal Sage Scrub, Coastal Prairie, Valley Grassland",
     "allCommunitiesFound": "grassland, vernal pools",
     "communities": [
@@ -15927,8 +15971,8 @@ window.ECORESTORE_PLANTS = [
     "scientific": "Muhlenbergia rigens",
     "alternateScientific": "",
     "common": "Deergrass",
-    "photoFileName": "",
-    "photoCredit": "",
+    "photoFileName": "MURI",
+    "photoCredit": "© 2017 Liz Block CC-BY-NC 4.0",
     "photoSource": "https://www.calflora.org/cgi-bin/viewphoto.cgi?arg=/app/up/cbo/254/76432.jpg",
     "links": {
       "calflora": "https://www.calflora.org/app/taxon?crn=5711",
@@ -15936,10 +15980,10 @@ window.ECORESTORE_PLANTS = [
       "usda": ""
     },
     "description": "Warm season perennial bunchgrass found in the central valley and along the southern coast, that favors sandy or well drained soils. Pros – Flood tolerant, salt tolerant, drought tolerant, good wildlife habitat, erosion control, relatively fast growing, burn tolerant.  Cons – mature plants are poor for grazing, can reduce native growth. 4 PLS lb/acre",
-    "lifecycle": "perennial",
-    "growingSeason": "warm",
+    "lifecycle": "Perennial",
+    "growingSeason": "Warm",
     "type": "grass",
-    "growthFormRaw": "grass",
+    "growthFormRaw": "Grass",
     "plantCommunity": "Yellow Pine Forest, Chaparral, Valley Grassland, wetland-riparian",
     "allCommunitiesFound": "",
     "communities": [
@@ -16033,6 +16077,7 @@ window.ECORESTORE_PLANTS = [
       "Erosion control"
     ],
     "grazing": [
+      "Low / light",
       "Moderate"
     ],
     "services": [
@@ -16110,7 +16155,7 @@ window.ECORESTORE_PLANTS = [
       },
       "grazingResponse": {
         "match": null,
-        "detail": "moderate, can withstand but mature plants not palatable"
+        "detail": "low to moderate, can withstand grazing and mature plants not palatable"
       },
       "erosion": {
         "match": true,
@@ -16152,8 +16197,8 @@ window.ECORESTORE_PLANTS = [
     "scientific": "Nemophila menziesii",
     "alternateScientific": "",
     "common": "Baby blue eyes",
-    "photoFileName": "",
-    "photoCredit": "",
+    "photoFileName": "NEME",
+    "photoCredit": "© 2019 Matt Berger CC-BY-NC 4.0",
     "photoSource": "https://www.flickr.com/photos/themarmot/443236978",
     "links": {
       "calflora": "https://www.calflora.org/app/taxon?crn=5836",
@@ -16161,10 +16206,10 @@ window.ECORESTORE_PLANTS = [
       "usda": "https://plants.usda.gov/home/plantProfile?symbol=NEME"
     },
     "description": "Annual forb that is tolerant of moderate shade. Found throughout the western and central part of California, less so in the valley. Pros: good for pollinators, drought tolerant. 4.48 kg/hectare",
-    "lifecycle": "annual",
-    "growingSeason": "cool",
+    "lifecycle": "Annual",
+    "growingSeason": "Cool",
     "type": "forb",
-    "growthFormRaw": "forb",
+    "growthFormRaw": "Forb",
     "plantCommunity": "Northern Coastal Scrub, Coastal Sage Scrub, Creosote Bush Scrub, Redwood Forest, Yellow Pine Forest, Mixed Evergreen Forest, Northern Oak Woodland, Southern Oak Woodland, Foothill Woodland, Chaparral, Valley Grassland, Joshua Tree Woodland",
     "allCommunitiesFound": "",
     "communities": [
@@ -16404,8 +16449,8 @@ window.ECORESTORE_PLANTS = [
     "scientific": "Penstemon heterophyllus",
     "alternateScientific": "",
     "common": "Bunchleaf penstemon",
-    "photoFileName": "",
-    "photoCredit": "",
+    "photoFileName": "PEHE",
+    "photoCredit": "© 2016 Brett Dean CC-BY-NC 4.0",
     "photoSource": "https://www.calflora.org/cgi-bin/viewphoto.cgi?arg=/app/up/entry/94/28241.jpg?a",
     "links": {
       "calflora": "https://www.calflora.org/app/taxon?crn=6176",
@@ -16413,10 +16458,10 @@ window.ECORESTORE_PLANTS = [
       "usda": "https://plants.usda.gov/home/plantProfile?symbol=PEHE3"
     },
     "description": "Endemic perennial forb found on the periphery of the central valley and on the coast. The species requires well drained soils. Pros: drought tolerant, good for wildlife.",
-    "lifecycle": "perennial",
+    "lifecycle": "Perennial",
     "growingSeason": "",
     "type": "forb",
-    "growthFormRaw": "forb",
+    "growthFormRaw": "Forb",
     "plantCommunity": "chaparral, foothill woodland or pine forest",
     "allCommunitiesFound": "",
     "communities": [
@@ -16631,8 +16676,8 @@ window.ECORESTORE_PLANTS = [
     "scientific": "Phacelia californica",
     "alternateScientific": "",
     "common": "California phacelia",
-    "photoFileName": "",
-    "photoCredit": "",
+    "photoFileName": "PHCA",
+    "photoCredit": "© 2021 Mary Sue Ittner CC-BY-NC 4.0",
     "photoSource": "https://www.calflora.org/cgi-bin/viewphoto.cgi?arg=/app/up/entry/294/88408.jpg",
     "links": {
       "calflora": "https://www.calflora.org/app/taxon?crn=6293",
@@ -16640,10 +16685,10 @@ window.ECORESTORE_PLANTS = [
       "usda": "https://plants.usda.gov/home/plantProfile?symbol=PHCA"
     },
     "description": "Endemic perennial forb mostly found on low elevations on the coast in well drained soils. Pro: good wildlife habitat, good for pollinators, drought tolerant, cost effective, grazing tolerant, creates copious seeds. Cons: flood intolerant 0.2PLS/acre or 1.5 lb/acre",
-    "lifecycle": "perennial",
+    "lifecycle": "Perennial",
     "growingSeason": "",
     "type": "forb",
-    "growthFormRaw": "forb",
+    "growthFormRaw": "Forb",
     "plantCommunity": "Northern Coastal Scrub, Chaparral",
     "allCommunitiesFound": "Bluffs, open slopes",
     "communities": [
@@ -16844,8 +16889,8 @@ window.ECORESTORE_PLANTS = [
     "scientific": "Phacelia cicutaria",
     "alternateScientific": "",
     "common": "Caterpillar phacelia",
-    "photoFileName": "",
-    "photoCredit": "",
+    "photoFileName": "PHCI",
+    "photoCredit": "© 2019 Ron Vanderhoff CC-BY-NC 4.0",
     "photoSource": "https://www.calflora.org/cgi-bin/viewphoto.cgi?arg=/app/up/gp/79/15964.jpg",
     "links": {
       "calflora": "https://www.calflora.org/app/taxon?crn=6298",
@@ -16853,10 +16898,10 @@ window.ECORESTORE_PLANTS = [
       "usda": "https://plants.usda.gov/home/plantProfile?symbol=PHCI"
     },
     "description": "Annual forb found along the foothills and the southern coast.",
-    "lifecycle": "annual",
+    "lifecycle": "Annual",
     "growingSeason": "",
     "type": "forb",
-    "growthFormRaw": "forb",
+    "growthFormRaw": "Forb",
     "plantCommunity": "Coastal Sage Scrub, Southern Oak Woodland, Foothill Woodland, Chaparral, Valley Grassland",
     "allCommunitiesFound": "Sandy, gravelly or rocky slopes",
     "communities": [
@@ -17065,8 +17110,8 @@ window.ECORESTORE_PLANTS = [
     "scientific": "Phacelia distans",
     "alternateScientific": "",
     "common": "Common phacelia",
-    "photoFileName": "",
-    "photoCredit": "",
+    "photoFileName": "PHDI",
+    "photoCredit": "© 2016 James Gonsman CC-BY-NC 4.0",
     "photoSource": "https://www.calflora.org/cgi-bin/viewphoto.cgi?arg=/app/up/entry/525/157769.jpg",
     "links": {
       "calflora": "https://www.calflora.org/app/taxon?crn=6318",
@@ -17074,10 +17119,10 @@ window.ECORESTORE_PLANTS = [
       "usda": "https://plants.usda.gov/home/plantProfile?symbol=PHDI"
     },
     "description": "Annual forb that is found mostly south of San Francisco. Pros – tolerant of most habitats, drought tolerant. 1.27 lbs/acre",
-    "lifecycle": "annual",
+    "lifecycle": "Annual",
     "growingSeason": "",
     "type": "forb",
-    "growthFormRaw": "forb",
+    "growthFormRaw": "Forb",
     "plantCommunity": "Yellow Pine Forest, Red Fir Forest, Lodgepole Forest, Foothill Woodland, Chaparral, Valley Grassland, many plant communities",
     "allCommunitiesFound": "meadows, clay or rocky slopes",
     "communities": [
@@ -17297,8 +17342,8 @@ window.ECORESTORE_PLANTS = [
     "scientific": "Phacelia tanacetifolia",
     "alternateScientific": "",
     "common": "Lacy Phacelia",
-    "photoFileName": "",
-    "photoCredit": "",
+    "photoFileName": "PHTA",
+    "photoCredit": "© 2022 Charles Russell",
     "photoSource": "https://www.calflora.org/cgi-bin/viewphoto.cgi?arg=/app/up/entry/409/122931.jpg",
     "links": {
       "calflora": "https://www.calflora.org/app/taxon?crn=6405",
@@ -17306,10 +17351,10 @@ window.ECORESTORE_PLANTS = [
       "usda": "https://plants.usda.gov/home/plantProfile?symbol=PHTA"
     },
     "description": "Annual forb that tolerates clay soils. Found mostly south of the central valley. Pros: drought tolerant, easy to establish, good for pollinators. 1.68 kg/hectare",
-    "lifecycle": "annual",
+    "lifecycle": "Annual",
     "growingSeason": "",
     "type": "forb",
-    "growthFormRaw": "forb",
+    "growthFormRaw": "Forb",
     "plantCommunity": "Yellow Pine Forest, Foothill Woodland, Chaparral, Valley Grassland, many plant communities",
     "allCommunitiesFound": "Sandy gravelly slopes, open places in chaparral or woodland below 7500 feet.",
     "communities": [
@@ -17529,8 +17574,8 @@ window.ECORESTORE_PLANTS = [
     "scientific": "Plantago erecta",
     "alternateScientific": "",
     "common": "California plantain",
-    "photoFileName": "",
-    "photoCredit": "",
+    "photoFileName": "PLER",
+    "photoCredit": "© 2022 Steve Matson CC-BY-NC 4.0",
     "photoSource": "https://www.calflora.org/cgi-bin/viewphoto.cgi?arg=/app/up/entry/348/104592.jpg",
     "links": {
       "calflora": "https://www.calflora.org/app/taxon?crn=6615",
@@ -17538,10 +17583,10 @@ window.ECORESTORE_PLANTS = [
       "usda": "https://plants.usda.gov/home/plantProfile?symbol=PLER3"
     },
     "description": "Annual forb found mostly on low elevation shallow soils on the coast and foothills in California. Particularly valuable restoration species because it provides food for the endangered Checkerspot butterfly. Pros – good pollinator plants, erosion control, quick establishment, relatively high germination. Cons: not particularly drought tolerant, not flood tolerant, poor competitor with invasive annuals. 1-5.6 PLS lb/acre $50-100/lb",
-    "lifecycle": "annual",
+    "lifecycle": "Annual",
     "growingSeason": "",
     "type": "forb",
-    "growthFormRaw": "forb",
+    "growthFormRaw": "Forb",
     "plantCommunity": "Coastal Sage Scrub, Foothill Woodland, Chaparral",
     "allCommunitiesFound": "",
     "communities": [
@@ -17657,6 +17702,7 @@ window.ECORESTORE_PLANTS = [
       "Erosion control"
     ],
     "grazing": [
+      "Low / light",
       "Moderate"
     ],
     "services": [
@@ -17734,7 +17780,7 @@ window.ECORESTORE_PLANTS = [
       },
       "grazingResponse": {
         "match": null,
-        "detail": "moderate"
+        "detail": "low to moderate"
       },
       "erosion": {
         "match": true,
@@ -17776,8 +17822,8 @@ window.ECORESTORE_PLANTS = [
     "scientific": "Poa Secunda",
     "alternateScientific": "",
     "common": "Sandberg Bluegrass",
-    "photoFileName": "",
-    "photoCredit": "",
+    "photoFileName": "POSE",
+    "photoCredit": "© 2020 Paul Aigner CC-BY-NC 4.0",
     "photoSource": "https://www.calflora.org/cgi-bin/viewphoto.cgi?arg=/app/up/entry/100/30017.jpg?a",
     "links": {
       "calflora": "https://www.calflora.org/app/taxon?crn=6692",
@@ -17785,10 +17831,10 @@ window.ECORESTORE_PLANTS = [
       "usda": "https://plants.usda.gov/home/plantProfile?symbol=POSE"
     },
     "description": "Perennial grass with cosmopolitan distribution. favored by fire, and does well on well-draied upland sites. Pros – Can be drought tolerant, can establish on slopes. Con – does poorly in dry areas but is also flood intolerant, does not readily increase in density. 36$/acre, 267,000 – 600,000 live seeds per pound ->3.8 live seedlings per 100 seeds/meter squared 0.58 – 3 PLS pounds per acre, 33.62 kg/ha",
-    "lifecycle": "perennial",
-    "growingSeason": "cool",
+    "lifecycle": "Perennial",
+    "growingSeason": "Cool",
     "type": "grass",
-    "growthFormRaw": "grass",
+    "growthFormRaw": "Grass",
     "plantCommunity": "upland meadows, wet prairies, and pine or oak savanna",
     "allCommunitiesFound": "",
     "communities": [
@@ -17912,6 +17958,7 @@ window.ECORESTORE_PLANTS = [
       "Competition / weed resistance"
     ],
     "grazing": [
+      "Low / light",
       "High"
     ],
     "services": [
@@ -17992,7 +18039,7 @@ window.ECORESTORE_PLANTS = [
       },
       "grazingResponse": {
         "match": null,
-        "detail": "high"
+        "detail": "low to high"
       },
       "erosion": {
         "match": true,
@@ -18034,8 +18081,8 @@ window.ECORESTORE_PLANTS = [
     "scientific": "Salvia columbariae",
     "alternateScientific": "",
     "common": "Chia",
-    "photoFileName": "",
-    "photoCredit": "",
+    "photoFileName": "SACO",
+    "photoCredit": "© 2018 Matt Berger CC-BY-NC 4.0",
     "photoSource": "https://www.calflora.org/cgi-bin/viewphoto.cgi?arg=/app/up/entry/321/96517.jpg",
     "links": {
       "calflora": "https://www.calflora.org/app/taxon?crn=7302",
@@ -18043,10 +18090,10 @@ window.ECORESTORE_PLANTS = [
       "usda": "https://plants.usda.gov/home/plantProfile?symbol=SACO6"
     },
     "description": "Annual forb that is found generally on the central coast and everywhere in southern California. 1.12 kg/hectare",
-    "lifecycle": "annual",
+    "lifecycle": "Annual",
     "growingSeason": "",
     "type": "forb",
-    "growthFormRaw": "forb",
+    "growthFormRaw": "Forb",
     "plantCommunity": "Coastal Sage Scrub, Creosote Bush Scrub, Foothill Woodland, Chaparral",
     "allCommunitiesFound": "open, exposed grassy areas of woodlands, in sandy washes, dry, open plains, hillsides and gravelly, disturbed sites",
     "communities": [
@@ -18152,6 +18199,8 @@ window.ECORESTORE_PLANTS = [
       "Erosion control"
     ],
     "grazing": [
+      "Low / light",
+      "High",
       "Limited / avoid"
     ],
     "services": [
@@ -18230,7 +18279,7 @@ window.ECORESTORE_PLANTS = [
       },
       "grazingResponse": {
         "match": null,
-        "detail": "NA, tends to be avoided by herbivores"
+        "detail": "low to high, tends to be avoided by herbivores"
       },
       "erosion": {
         "match": true,
@@ -18272,8 +18321,8 @@ window.ECORESTORE_PLANTS = [
     "scientific": "Sporobolus airoides",
     "alternateScientific": "",
     "common": "Alkali sacaton",
-    "photoFileName": "",
-    "photoCredit": "",
+    "photoFileName": "SPAI",
+    "photoCredit": "© 2016 Steve Matson CC-BY-NC 4.0",
     "photoSource": "https://www.calflora.org/cgi-bin/viewphoto.cgi?arg=/app/up/entry/271/81582.jpg",
     "links": {
       "calflora": "https://www.calflora.org/app/taxon?crn=7744",
@@ -18281,10 +18330,10 @@ window.ECORESTORE_PLANTS = [
       "usda": "https://plants.usda.gov/home/plantProfile?symbol=SPAI"
     },
     "description": "Warm season perennial grass found in the central valley as well as throughout the southern part of the state.",
-    "lifecycle": "perennial",
-    "growingSeason": "warm",
+    "lifecycle": "Perennial",
+    "growingSeason": "Warm",
     "type": "grass",
-    "growthFormRaw": "grass",
+    "growthFormRaw": "Grass",
     "plantCommunity": "Coastal Sage Scrub, Alkali Sink, wetland-riparian",
     "allCommunitiesFound": "",
     "communities": [
@@ -18500,8 +18549,8 @@ window.ECORESTORE_PLANTS = [
     "scientific": "Stipa cernua",
     "alternateScientific": "",
     "common": "Nodding needlegrass",
-    "photoFileName": "",
-    "photoCredit": "",
+    "photoFileName": "STCE",
+    "photoCredit": "© 2019 Ron Vanderhoff CC-BY-NC 4.0",
     "photoSource": "https://www.calflora.org/cgi-bin/viewphoto.cgi?arg=/app/up/io/217/io65164-1.jpg",
     "links": {
       "calflora": "https://www.calflora.org/app/taxon?crn=12042",
@@ -18509,10 +18558,10 @@ window.ECORESTORE_PLANTS = [
       "usda": "https://plants.usda.gov/home/plantProfile?symbol=NACE"
     },
     "description": "Cool season perennial bunchgrass that doesn’t like heavy soil and needs full sun or partial shade. Pros – endemic to California, drought tolerant, good for erosion control; Cons – not fire resistant, not grazing tolerant, flood intolerant. 185,000 live seed per pound, 2.06 - 3 PLS pounds/acre, 11.21 kg/ha. Does best when planted with eriogonum, eriophyllum, atriplex or Artemisia",
-    "lifecycle": "perennial",
-    "growingSeason": "cool",
+    "lifecycle": "Perennial",
+    "growingSeason": "Cool",
     "type": "grass",
-    "growthFormRaw": "grass",
+    "growthFormRaw": "Grass",
     "plantCommunity": "Coastal Sage Scrub, Foothill Woodland, Chaparral",
     "allCommunitiesFound": "",
     "communities": [
@@ -18694,7 +18743,7 @@ window.ECORESTORE_PLANTS = [
       },
       "grazingResponse": {
         "match": null,
-        "detail": "light, requires protection from grazing during flowering season"
+        "detail": "low, requires protection from grazing during flowering season"
       },
       "erosion": {
         "match": true,
@@ -18736,8 +18785,8 @@ window.ECORESTORE_PLANTS = [
     "scientific": "Stipa lepida",
     "alternateScientific": "",
     "common": "Foothill needlegrass",
-    "photoFileName": "",
-    "photoCredit": "",
+    "photoFileName": "STLE",
+    "photoCredit": "Copyright © 2011 Aaron Arthur",
     "photoSource": "https://www.flickr.com/photos/belinda712/8698301418/",
     "links": {
       "calflora": "https://www.calflora.org/app/taxon?crn=12054",
@@ -18745,10 +18794,10 @@ window.ECORESTORE_PLANTS = [
       "usda": "https://plants.usda.gov/home/plantProfile?symbol=NALE2"
     },
     "description": "This mostly coastal cool season perennial bunchgrass dislikes heavy",
-    "lifecycle": "perennial",
-    "growingSeason": "cool",
+    "lifecycle": "Perennial",
+    "growingSeason": "Cool",
     "type": "grass",
-    "growthFormRaw": "grass",
+    "growthFormRaw": "Grass",
     "plantCommunity": "Coastal Sage Scrub, Chaparral, Coastal Prairie",
     "allCommunitiesFound": "",
     "communities": [
@@ -18917,7 +18966,7 @@ window.ECORESTORE_PLANTS = [
       },
       "grazingResponse": {
         "match": null,
-        "detail": "light"
+        "detail": "low"
       },
       "erosion": {
         "match": false,
@@ -18959,8 +19008,8 @@ window.ECORESTORE_PLANTS = [
     "scientific": "Stipa pulchra",
     "alternateScientific": "",
     "common": "Purple needlegrass",
-    "photoFileName": "",
-    "photoCredit": "",
+    "photoFileName": "STPU",
+    "photoCredit": "© 2019 Michelle Karle CC-BY-NC 4.0",
     "photoSource": "https://www.calflora.org/cgi-bin/viewphoto.cgi?arg=/app/up/io/57/io17378-1.jpg",
     "links": {
       "calflora": "https://www.calflora.org/app/taxon?crn=12067",
@@ -18968,10 +19017,10 @@ window.ECORESTORE_PLANTS = [
       "usda": "https://plants.usda.gov/home/plantProfile?symbol=NAPU4"
     },
     "description": "Cool season perennial bunchgrass.  One of the most common clone forming native grass species in California. Likes sandy loam soils, soils with high clay content and well-drained upland sites. Does better in the absence of grazing. Seed drilling better than hydroseeding. Has been shown to recruit well from plugs. Pros – tolerant of poor nutrient and low moisture soils, strong root systems good for erosion control, highly palatable to livestock, will grow well in dense patches of filaree, once established, has very high survival. Cons – very low emergence rate, doesnt do well with annuals, slow growth rate",
-    "lifecycle": "perennial",
-    "growingSeason": "cool",
+    "lifecycle": "Perennial",
+    "growingSeason": "Cool",
     "type": "grass",
-    "growthFormRaw": "grass",
+    "growthFormRaw": "Grass",
     "plantCommunity": "Coastal Sage Scrub, Foothill Woodland, Chaparral",
     "allCommunitiesFound": "",
     "communities": [
@@ -19085,7 +19134,8 @@ window.ECORESTORE_PLANTS = [
       "Erosion control"
     ],
     "grazing": [
-      "Low / light"
+      "Low / light",
+      "High"
     ],
     "services": [
       "Pollinator habitat",
@@ -19164,7 +19214,7 @@ window.ECORESTORE_PLANTS = [
       },
       "grazingResponse": {
         "match": null,
-        "detail": "light, does better in non-grazed, needs protection from grazing during flowering period"
+        "detail": "low to high grazing tolerance"
       },
       "erosion": {
         "match": true,
@@ -19206,8 +19256,8 @@ window.ECORESTORE_PLANTS = [
     "scientific": "Symphyotrichum chilense",
     "alternateScientific": "",
     "common": "California aster",
-    "photoFileName": "",
-    "photoCredit": "",
+    "photoFileName": "SYCH",
+    "photoCredit": "© 2021 R.A. Chasey CC-BY-NC 4.0",
     "photoSource": "https://www.calflora.org/cgi-bin/viewphoto.cgi?arg=/app/up/entry/68/20603.jpg",
     "links": {
       "calflora": "https://www.calflora.org/app/taxon?crn=10402",
@@ -19215,10 +19265,10 @@ window.ECORESTORE_PLANTS = [
       "usda": "https://plants.usda.gov/home/plantProfile?symbol=SYCH4"
     },
     "description": "An almost endemic perennial forb with a mostly coastal distribution. Pros: tolerates clay soils, good for pollinators, good for wildlife habitat, drought tolerant, excellent for erosion control. Cons: flood intolerant. 1 lb/acre.",
-    "lifecycle": "perennial",
+    "lifecycle": "Perennial",
     "growingSeason": "",
     "type": "forb",
-    "growthFormRaw": "forb",
+    "growthFormRaw": "Forb",
     "plantCommunity": "Freshwater Wetlands, Yellow Pine Forest, Mixed Evergreen Forest, Foothill Woodland, Chaparral, Valley Grassland, wetland-riparian, many plant communities",
     "allCommunitiesFound": "",
     "communities": [
@@ -19451,8 +19501,8 @@ window.ECORESTORE_PLANTS = [
     "scientific": "Trifolium albopurpureum",
     "alternateScientific": "",
     "common": "Indian clover",
-    "photoFileName": "",
-    "photoCredit": "",
+    "photoFileName": "TRAL",
+    "photoCredit": "© 2023 Mary Gerbic CC-BY-NC 4.0",
     "photoSource": "https://www.calflora.org/cgi-bin/viewphoto.cgi?arg=/app/up/entry/539/161703.jpg",
     "links": {
       "calflora": "https://www.calflora.org/app/taxon?crn=8043",
@@ -19460,10 +19510,10 @@ window.ECORESTORE_PLANTS = [
       "usda": "https://plants.usda.gov/home/plantProfile?symbol=TRAL5"
     },
     "description": "Annual forb often found in clay and loamy soil in the central valley and the coast.  Pros – responds well to grazing",
-    "lifecycle": "annual",
+    "lifecycle": "Annual",
     "growingSeason": "",
     "type": "forb",
-    "growthFormRaw": "forb",
+    "growthFormRaw": "Forb",
     "plantCommunity": "Foothill Woodland, Coastal Prairie, Valley Grassland",
     "allCommunitiesFound": "",
     "communities": [
@@ -19577,7 +19627,8 @@ window.ECORESTORE_PLANTS = [
       "Soil fertility / nutrients"
     ],
     "grazing": [
-      "Recorded grazing use"
+      "Low / light",
+      "Moderate"
     ],
     "services": [
       "Pollinator habitat",
@@ -19656,7 +19707,7 @@ window.ECORESTORE_PLANTS = [
       },
       "grazingResponse": {
         "match": null,
-        "detail": "Y"
+        "detail": "low to moderate"
       },
       "erosion": {
         "match": false,
@@ -19698,8 +19749,8 @@ window.ECORESTORE_PLANTS = [
     "scientific": "Trifolium bifidum",
     "alternateScientific": "",
     "common": "Pinole clover",
-    "photoFileName": "",
-    "photoCredit": "",
+    "photoFileName": "TRBI",
+    "photoCredit": "© 2020 Matt Berger CC-BY-NC 4.0",
     "photoSource": "https://oregonflora.org/imglib/OSU_V/OSC-V-069/OSC-V-069728_tn.jpg",
     "links": {
       "calflora": "https://www.calflora.org/app/taxon?crn=8059",
@@ -19707,10 +19758,10 @@ window.ECORESTORE_PLANTS = [
       "usda": "https://plants.usda.gov/home/plantProfile?symbol=TRBI"
     },
     "description": "Annual forb that is largely found in the north and central coast of California and requires full sunlight. Pros – tolerant of many soil types, nitrogen fixer, relatively good establishment success",
-    "lifecycle": "annual",
-    "growingSeason": "warm",
+    "lifecycle": "Annual",
+    "growingSeason": "Warm",
     "type": "forb",
-    "growthFormRaw": "forb",
+    "growthFormRaw": "Forb",
     "plantCommunity": "mixed evergreen forests, coastal prairies, grassy fields, and open woodlands",
     "allCommunitiesFound": "",
     "communities": [
@@ -19912,12 +19963,12 @@ window.ECORESTORE_PLANTS = [
     }
   },
   {
-    "plantId": "TRFA",
+    "plantId": "TRFU",
     "scientific": "Trifolium fucatum",
     "alternateScientific": "",
     "common": "Bull clover",
-    "photoFileName": "",
-    "photoCredit": "",
+    "photoFileName": "TRFU",
+    "photoCredit": "© 2009 Toni Corelli CC-BY-NC 4.0",
     "photoSource": "https://www.calflora.org/cgi-bin/viewphoto.cgi?arg=/app/up/entry/281/84344.jpg",
     "links": {
       "calflora": "https://www.calflora.org/app/taxon?crn=8075",
@@ -19925,10 +19976,10 @@ window.ECORESTORE_PLANTS = [
       "usda": "https://plants.usda.gov/home/plantProfile?symbol=TRFU"
     },
     "description": "Annual forb that is found on the coast and near the central valley. Does well early in the restoration process and then demonstrates low density in subsequent years. Will grow in all soils but prefers well drained soils. Pro: good for livestock. Con: can become weedy, although some studies have found an absolute failure of this species for restoration purposes. 2.43 lbs of PLS/acre",
-    "lifecycle": "annual",
+    "lifecycle": "Annual",
     "growingSeason": "",
     "type": "forb",
-    "growthFormRaw": "forb",
+    "growthFormRaw": "Forb",
     "plantCommunity": "Yellow Pine Forest, Foothill Woodland, Chaparral, Valley Grassland, wetland-riparian, many plant communities",
     "allCommunitiesFound": "",
     "communities": [
@@ -20142,8 +20193,8 @@ window.ECORESTORE_PLANTS = [
     "scientific": "Trifolium obtusiflorum",
     "alternateScientific": "",
     "common": "Clammy clover",
-    "photoFileName": "",
-    "photoCredit": "",
+    "photoFileName": "TROB",
+    "photoCredit": "© 2019 Ron Vanderhoff CC-BY-NC 4.0",
     "photoSource": "https://www.calflora.org/cgi-bin/viewphoto.cgi?arg=/app/up/gp/81/16334.jpg",
     "links": {
       "calflora": "https://www.calflora.org/app/taxon?crn=8101",
@@ -20151,10 +20202,10 @@ window.ECORESTORE_PLANTS = [
       "usda": "https://plants.usda.gov/home/plantProfile?symbol=TROB2"
     },
     "description": "Annual forb found on the periphery of the central valley. Does well early in the restoration process and then demonstrates low density in subsequent years. Pro: disturbance tolerant. Con: does not appear to establish well. Average live seed per pound: 229,500",
-    "lifecycle": "annual",
+    "lifecycle": "Annual",
     "growingSeason": "",
     "type": "forb",
-    "growthFormRaw": "forb",
+    "growthFormRaw": "Forb",
     "plantCommunity": "wetland-riparian",
     "allCommunitiesFound": "marshes and streambanks, and disturbed areas",
     "communities": [
@@ -20379,8 +20430,8 @@ window.ECORESTORE_PLANTS = [
     "scientific": "Trifolium willdenowii",
     "alternateScientific": "",
     "common": "Tomcat clover",
-    "photoFileName": "",
-    "photoCredit": "",
+    "photoFileName": "TRWI",
+    "photoCredit": "© 2024 Steve Conger CC-BY-NC 4.0",
     "photoSource": "https://www.flickr.com/photos/24284031@N00/8614781147/",
     "links": {
       "calflora": "https://www.calflora.org/app/taxon?crn=8109",
@@ -20388,10 +20439,10 @@ window.ECORESTORE_PLANTS = [
       "usda": "https://plants.usda.gov/home/plantProfile?symbol=TRWI3"
     },
     "description": "Low elevation annual forb that is found in both coastal and inland areas along almost the entire length of the state. Prefers heavy soils in full sun. Pros: Drought tolerant, fast growing, good for pollinators, likes disturbed areas, relatively good establishment success, nitrogen fixer. Cons: can become weedy in agricultural fields, provides low cover. 161446-340,000PLS, 0.32 lb/ac",
-    "lifecycle": "annual",
-    "growingSeason": "warm",
+    "lifecycle": "Annual",
+    "growingSeason": "Warm",
     "type": "forb",
-    "growthFormRaw": "forb",
+    "growthFormRaw": "Forb",
     "plantCommunity": "Yellow Pine Forest, Foothill Woodland, Chaparral, Valley Grassland, many plant communities",
     "allCommunitiesFound": "",
     "communities": [
