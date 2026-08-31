@@ -83,11 +83,10 @@ window.ECORESTORE_FILTERS = {
     "Yuba"
   ],
   "grazing": [
-    "Low / light",
+    "Low",
     "Moderate",
     "High",
-    "Recorded grazing use",
-    "Limited / avoid"
+    "None"
   ],
   "soils": [
     "Clay",
@@ -123,12 +122,12 @@ window.ECORESTORE_FILTERS = {
     "Drought"
   ],
   "goals": [
-    "Pollinator habitat",
-    "Wildlife habitat",
-    "Forage value",
+    "Enhanced soil fertility",
     "Erosion control",
-    "Soil fertility / nutrients",
-    "Water-related value",
-    "Competition / weed resistance"
+    "Wildlife habitat",
+    "Weed resistance",
+    "Forage production",
+    "Pollinator habitat",
+    "Drought tolerant"
   ]
 };

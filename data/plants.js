@@ -143,17 +143,16 @@ window.ECORESTORE_PLANTS = [
       "Drought"
     ],
     "goals": [
-      "Pollinator habitat",
-      "Wildlife habitat",
-      "Forage value",
+      "Enhanced soil fertility",
       "Erosion control",
-      "Soil fertility / nutrients",
-      "Competition / weed resistance"
+      "Wildlife habitat",
+      "Weed resistance",
+      "Forage production",
+      "Pollinator habitat"
     ],
     "grazing": [
-      "Low / light",
-      "High",
-      "Recorded grazing use"
+      "Low",
+      "High"
     ],
     "services": [
       "Pollinator habitat",
@@ -376,18 +375,17 @@ window.ECORESTORE_PLANTS = [
       "Drought"
     ],
     "goals": [
-      "Pollinator habitat",
-      "Wildlife habitat",
-      "Forage value",
+      "Enhanced soil fertility",
       "Erosion control",
-      "Soil fertility / nutrients",
-      "Water-related value",
-      "Competition / weed resistance"
+      "Wildlife habitat",
+      "Weed resistance",
+      "Forage production",
+      "Pollinator habitat",
+      "Drought tolerant"
     ],
     "grazing": [
-      "Low / light",
-      "High",
-      "Recorded grazing use"
+      "Low",
+      "High"
     ],
     "services": [
       "Pollinator habitat",
@@ -599,11 +597,11 @@ window.ECORESTORE_PLANTS = [
       "Drought"
     ],
     "goals": [
-      "Pollinator habitat",
-      "Wildlife habitat",
+      "Enhanced soil fertility",
       "Erosion control",
-      "Soil fertility / nutrients",
-      "Water-related value"
+      "Wildlife habitat",
+      "Pollinator habitat",
+      "Drought tolerant"
     ],
     "grazing": [],
     "services": [
@@ -862,15 +860,13 @@ window.ECORESTORE_PLANTS = [
       "Drought"
     ],
     "goals": [
-      "Pollinator habitat",
-      "Wildlife habitat",
-      "Forage value",
+      "Enhanced soil fertility",
       "Erosion control",
-      "Soil fertility / nutrients"
+      "Wildlife habitat",
+      "Forage production",
+      "Pollinator habitat"
     ],
-    "grazing": [
-      "Recorded grazing use"
-    ],
+    "grazing": [],
     "services": [
       "Pollinator habitat",
       "Wildlife habitat",
@@ -1063,10 +1059,10 @@ window.ECORESTORE_PLANTS = [
       "Drought"
     ],
     "goals": [
-      "Pollinator habitat",
-      "Wildlife habitat",
       "Erosion control",
-      "Water-related value"
+      "Wildlife habitat",
+      "Pollinator habitat",
+      "Drought tolerant"
     ],
     "grazing": [],
     "services": [
@@ -1296,17 +1292,17 @@ window.ECORESTORE_PLANTS = [
       "Drought"
     ],
     "goals": [
-      "Pollinator habitat",
-      "Wildlife habitat",
-      "Forage value",
       "Erosion control",
-      "Water-related value",
-      "Competition / weed resistance"
+      "Wildlife habitat",
+      "Weed resistance",
+      "Forage production",
+      "Pollinator habitat",
+      "Drought tolerant"
     ],
     "grazing": [
-      "Low / light",
+      "Low",
       "High",
-      "Limited / avoid"
+      "None"
     ],
     "services": [
       "Pollinator habitat",
@@ -1554,16 +1550,16 @@ window.ECORESTORE_PLANTS = [
       "Drought"
     ],
     "goals": [
-      "Pollinator habitat",
-      "Wildlife habitat",
-      "Forage value",
       "Erosion control",
-      "Competition / weed resistance"
+      "Wildlife habitat",
+      "Weed resistance",
+      "Forage production",
+      "Pollinator habitat"
     ],
     "grazing": [
-      "Low / light",
+      "Low",
       "Moderate",
-      "Limited / avoid"
+      "None"
     ],
     "services": [
       "Pollinator habitat",
@@ -1812,16 +1808,16 @@ window.ECORESTORE_PLANTS = [
       "Drought"
     ],
     "goals": [
-      "Pollinator habitat",
-      "Wildlife habitat",
-      "Forage value",
       "Erosion control",
-      "Competition / weed resistance"
+      "Wildlife habitat",
+      "Weed resistance",
+      "Forage production",
+      "Pollinator habitat"
     ],
     "grazing": [
-      "Low / light",
+      "Low",
       "Moderate",
-      "Limited / avoid"
+      "None"
     ],
     "services": [
       "Pollinator habitat",
@@ -2022,13 +2018,13 @@ window.ECORESTORE_PLANTS = [
       "Drought"
     ],
     "goals": [
-      "Pollinator habitat",
-      "Forage value"
+      "Forage production",
+      "Pollinator habitat"
     ],
     "grazing": [
-      "Low / light",
+      "Low",
       "Moderate",
-      "Limited / avoid"
+      "None"
     ],
     "services": [
       "Pollinator habitat",
@@ -2227,10 +2223,10 @@ window.ECORESTORE_PLANTS = [
       "Drought"
     ],
     "goals": [
-      "Pollinator habitat",
-      "Wildlife habitat",
       "Erosion control",
-      "Water-related value"
+      "Wildlife habitat",
+      "Pollinator habitat",
+      "Drought tolerant"
     ],
     "grazing": [],
     "services": [
@@ -2461,17 +2457,17 @@ window.ECORESTORE_PLANTS = [
       "Drought"
     ],
     "goals": [
-      "Pollinator habitat",
-      "Wildlife habitat",
-      "Forage value",
       "Erosion control",
-      "Water-related value",
-      "Competition / weed resistance"
+      "Wildlife habitat",
+      "Weed resistance",
+      "Forage production",
+      "Pollinator habitat",
+      "Drought tolerant"
     ],
     "grazing": [
-      "Low / light",
+      "Low",
       "Moderate",
-      "Limited / avoid"
+      "None"
     ],
     "services": [
       "Pollinator habitat",
@@ -2734,16 +2730,14 @@ window.ECORESTORE_PLANTS = [
       "Drought"
     ],
     "goals": [
-      "Pollinator habitat",
-      "Wildlife habitat",
-      "Forage value",
       "Erosion control",
-      "Water-related value",
-      "Competition / weed resistance"
+      "Wildlife habitat",
+      "Weed resistance",
+      "Forage production",
+      "Pollinator habitat",
+      "Drought tolerant"
     ],
-    "grazing": [
-      "Recorded grazing use"
-    ],
+    "grazing": [],
     "services": [
       "Pollinator habitat",
       "Wildlife habitat",
@@ -2940,11 +2934,11 @@ window.ECORESTORE_PLANTS = [
       "Drought"
     ],
     "goals": [
-      "Pollinator habitat",
-      "Wildlife habitat",
-      "Forage value",
       "Erosion control",
-      "Competition / weed resistance"
+      "Wildlife habitat",
+      "Weed resistance",
+      "Forage production",
+      "Pollinator habitat"
     ],
     "grazing": [
       "High"
@@ -3207,17 +3201,17 @@ window.ECORESTORE_PLANTS = [
       "Drought"
     ],
     "goals": [
-      "Pollinator habitat",
-      "Wildlife habitat",
-      "Forage value",
       "Erosion control",
-      "Water-related value",
-      "Competition / weed resistance"
+      "Wildlife habitat",
+      "Weed resistance",
+      "Forage production",
+      "Pollinator habitat",
+      "Drought tolerant"
     ],
     "grazing": [
-      "Low / light",
+      "Low",
       "Moderate",
-      "Limited / avoid"
+      "None"
     ],
     "services": [
       "Pollinator habitat",
@@ -3442,15 +3436,13 @@ window.ECORESTORE_PLANTS = [
       "Drought"
     ],
     "goals": [
-      "Pollinator habitat",
-      "Wildlife habitat",
-      "Forage value",
       "Erosion control",
-      "Competition / weed resistance"
+      "Wildlife habitat",
+      "Weed resistance",
+      "Forage production",
+      "Pollinator habitat"
     ],
-    "grazing": [
-      "Recorded grazing use"
-    ],
+    "grazing": [],
     "services": [
       "Pollinator habitat",
       "Wildlife habitat",
@@ -3679,15 +3671,13 @@ window.ECORESTORE_PLANTS = [
       "Drought"
     ],
     "goals": [
-      "Pollinator habitat",
-      "Wildlife habitat",
-      "Forage value",
       "Erosion control",
-      "Competition / weed resistance"
+      "Wildlife habitat",
+      "Weed resistance",
+      "Forage production",
+      "Pollinator habitat"
     ],
-    "grazing": [
-      "Recorded grazing use"
-    ],
+    "grazing": [],
     "services": [
       "Pollinator habitat",
       "Wildlife habitat",
@@ -3927,15 +3917,13 @@ window.ECORESTORE_PLANTS = [
       "Drought"
     ],
     "goals": [
-      "Pollinator habitat",
-      "Wildlife habitat",
-      "Forage value",
       "Erosion control",
-      "Competition / weed resistance"
+      "Wildlife habitat",
+      "Weed resistance",
+      "Forage production",
+      "Pollinator habitat"
     ],
-    "grazing": [
-      "Recorded grazing use"
-    ],
+    "grazing": [],
     "services": [
       "Pollinator habitat",
       "Wildlife habitat",
@@ -4172,13 +4160,13 @@ window.ECORESTORE_PLANTS = [
       "Frequent cold events"
     ],
     "goals": [
-      "Pollinator habitat",
+      "Erosion control",
       "Wildlife habitat",
-      "Forage value",
-      "Erosion control"
+      "Forage production",
+      "Pollinator habitat"
     ],
     "grazing": [
-      "Limited / avoid"
+      "None"
     ],
     "services": [
       "Pollinator habitat",
@@ -4388,7 +4376,7 @@ window.ECORESTORE_PLANTS = [
       "Drought"
     ],
     "goals": [
-      "Competition / weed resistance"
+      "Weed resistance"
     ],
     "grazing": [],
     "services": [
@@ -4822,14 +4810,14 @@ window.ECORESTORE_PLANTS = [
       "Drought"
     ],
     "goals": [
-      "Pollinator habitat",
-      "Wildlife habitat",
-      "Forage value",
       "Erosion control",
-      "Competition / weed resistance"
+      "Wildlife habitat",
+      "Weed resistance",
+      "Forage production",
+      "Pollinator habitat"
     ],
     "grazing": [
-      "Low / light",
+      "Low",
       "Moderate"
     ],
     "services": [
@@ -5024,9 +5012,9 @@ window.ECORESTORE_PLANTS = [
       "Drought"
     ],
     "goals": [
-      "Pollinator habitat",
       "Wildlife habitat",
-      "Forage value"
+      "Forage production",
+      "Pollinator habitat"
     ],
     "grazing": [],
     "services": [
@@ -5274,10 +5262,10 @@ window.ECORESTORE_PLANTS = [
       "Drought"
     ],
     "goals": [
-      "Pollinator habitat",
       "Wildlife habitat",
-      "Forage value",
-      "Competition / weed resistance"
+      "Weed resistance",
+      "Forage production",
+      "Pollinator habitat"
     ],
     "grazing": [],
     "services": [
@@ -5465,9 +5453,9 @@ window.ECORESTORE_PLANTS = [
       "Drought"
     ],
     "goals": [
-      "Pollinator habitat",
+      "Erosion control",
       "Wildlife habitat",
-      "Erosion control"
+      "Pollinator habitat"
     ],
     "grazing": [],
     "services": [
@@ -5712,10 +5700,10 @@ window.ECORESTORE_PLANTS = [
       "Drought"
     ],
     "goals": [
-      "Pollinator habitat",
+      "Enhanced soil fertility",
       "Wildlife habitat",
-      "Forage value",
-      "Soil fertility / nutrients"
+      "Forage production",
+      "Pollinator habitat"
     ],
     "grazing": [],
     "services": [
@@ -5961,9 +5949,9 @@ window.ECORESTORE_PLANTS = [
       "Drought"
     ],
     "goals": [
-      "Pollinator habitat",
       "Wildlife habitat",
-      "Forage value"
+      "Forage production",
+      "Pollinator habitat"
     ],
     "grazing": [],
     "services": [
@@ -6166,11 +6154,11 @@ window.ECORESTORE_PLANTS = [
       "Drought"
     ],
     "goals": [
-      "Pollinator habitat",
-      "Wildlife habitat",
-      "Forage value",
       "Erosion control",
-      "Competition / weed resistance"
+      "Wildlife habitat",
+      "Weed resistance",
+      "Forage production",
+      "Pollinator habitat"
     ],
     "grazing": [],
     "services": [
@@ -6363,11 +6351,11 @@ window.ECORESTORE_PLANTS = [
       "Drought"
     ],
     "goals": [
-      "Pollinator habitat",
-      "Wildlife habitat",
-      "Forage value",
+      "Enhanced soil fertility",
       "Erosion control",
-      "Soil fertility / nutrients"
+      "Wildlife habitat",
+      "Forage production",
+      "Pollinator habitat"
     ],
     "grazing": [],
     "services": [
@@ -6562,15 +6550,15 @@ window.ECORESTORE_PLANTS = [
       "Drought"
     ],
     "goals": [
-      "Pollinator habitat",
+      "Enhanced soil fertility",
       "Wildlife habitat",
-      "Forage value",
-      "Soil fertility / nutrients"
+      "Forage production",
+      "Pollinator habitat"
     ],
     "grazing": [
-      "Low / light",
+      "Low",
       "High",
-      "Limited / avoid"
+      "None"
     ],
     "services": [
       "Pollinator habitat",
@@ -6765,14 +6753,14 @@ window.ECORESTORE_PLANTS = [
       "Drought"
     ],
     "goals": [
-      "Pollinator habitat",
       "Wildlife habitat",
-      "Forage value"
+      "Forage production",
+      "Pollinator habitat"
     ],
     "grazing": [
-      "Low / light",
+      "Low",
       "Moderate",
-      "Limited / avoid"
+      "None"
     ],
     "services": [
       "Pollinator habitat",
@@ -6954,9 +6942,9 @@ window.ECORESTORE_PLANTS = [
       "Drought"
     ],
     "goals": [
-      "Pollinator habitat",
       "Wildlife habitat",
-      "Forage value"
+      "Forage production",
+      "Pollinator habitat"
     ],
     "grazing": [],
     "services": [
@@ -7197,14 +7185,12 @@ window.ECORESTORE_PLANTS = [
       "Drought"
     ],
     "goals": [
-      "Pollinator habitat",
+      "Erosion control",
       "Wildlife habitat",
-      "Forage value",
-      "Erosion control"
+      "Forage production",
+      "Pollinator habitat"
     ],
-    "grazing": [
-      "Recorded grazing use"
-    ],
+    "grazing": [],
     "services": [
       "Pollinator habitat",
       "Wildlife habitat",
@@ -7439,8 +7425,8 @@ window.ECORESTORE_PLANTS = [
       "Drought"
     ],
     "goals": [
-      "Pollinator habitat",
-      "Wildlife habitat"
+      "Wildlife habitat",
+      "Pollinator habitat"
     ],
     "grazing": [],
     "services": [
@@ -7885,11 +7871,11 @@ window.ECORESTORE_PLANTS = [
       "Drought"
     ],
     "goals": [
-      "Pollinator habitat",
-      "Wildlife habitat"
+      "Wildlife habitat",
+      "Pollinator habitat"
     ],
     "grazing": [
-      "Limited / avoid"
+      "None"
     ],
     "services": [
       "Pollinator habitat",
@@ -8140,17 +8126,17 @@ window.ECORESTORE_PLANTS = [
       "Drought"
     ],
     "goals": [
-      "Pollinator habitat",
-      "Wildlife habitat",
-      "Forage value",
+      "Enhanced soil fertility",
       "Erosion control",
-      "Soil fertility / nutrients",
-      "Water-related value"
+      "Wildlife habitat",
+      "Forage production",
+      "Pollinator habitat",
+      "Drought tolerant"
     ],
     "grazing": [
-      "Low / light",
+      "Low",
       "High",
-      "Limited / avoid"
+      "None"
     ],
     "services": [
       "Pollinator habitat",
@@ -8379,12 +8365,12 @@ window.ECORESTORE_PLANTS = [
       "Drought"
     ],
     "goals": [
-      "Pollinator habitat",
       "Wildlife habitat",
-      "Forage value"
+      "Forage production",
+      "Pollinator habitat"
     ],
     "grazing": [
-      "Low / light",
+      "Low",
       "High"
     ],
     "services": [
@@ -8637,14 +8623,14 @@ window.ECORESTORE_PLANTS = [
       "Drought"
     ],
     "goals": [
-      "Pollinator habitat",
-      "Wildlife habitat",
-      "Forage value",
       "Erosion control",
-      "Competition / weed resistance"
+      "Wildlife habitat",
+      "Weed resistance",
+      "Forage production",
+      "Pollinator habitat"
     ],
     "grazing": [
-      "Low / light"
+      "Low"
     ],
     "services": [
       "Pollinator habitat",
@@ -8846,12 +8832,12 @@ window.ECORESTORE_PLANTS = [
       "Drought"
     ],
     "goals": [
-      "Pollinator habitat",
+      "Erosion control",
       "Wildlife habitat",
-      "Erosion control"
+      "Pollinator habitat"
     ],
     "grazing": [
-      "Low / light",
+      "Low",
       "High"
     ],
     "services": [
@@ -9097,14 +9083,14 @@ window.ECORESTORE_PLANTS = [
       "Drought"
     ],
     "goals": [
-      "Pollinator habitat",
-      "Wildlife habitat",
-      "Forage value",
       "Erosion control",
-      "Competition / weed resistance"
+      "Wildlife habitat",
+      "Weed resistance",
+      "Forage production",
+      "Pollinator habitat"
     ],
     "grazing": [
-      "Low / light",
+      "Low",
       "Moderate"
     ],
     "services": [
@@ -9354,14 +9340,14 @@ window.ECORESTORE_PLANTS = [
       "Drought"
     ],
     "goals": [
-      "Pollinator habitat",
-      "Wildlife habitat",
-      "Forage value",
       "Erosion control",
-      "Water-related value"
+      "Wildlife habitat",
+      "Forage production",
+      "Pollinator habitat",
+      "Drought tolerant"
     ],
     "grazing": [
-      "Low / light",
+      "Low",
       "High"
     ],
     "services": [
@@ -9604,13 +9590,13 @@ window.ECORESTORE_PLANTS = [
       "Drought"
     ],
     "goals": [
-      "Pollinator habitat",
+      "Erosion control",
       "Wildlife habitat",
-      "Forage value",
-      "Erosion control"
+      "Forage production",
+      "Pollinator habitat"
     ],
     "grazing": [
-      "Low / light",
+      "Low",
       "Moderate"
     ],
     "services": [
@@ -9858,10 +9844,10 @@ window.ECORESTORE_PLANTS = [
       "Drought"
     ],
     "goals": [
-      "Pollinator habitat",
+      "Erosion control",
       "Wildlife habitat",
-      "Forage value",
-      "Erosion control"
+      "Forage production",
+      "Pollinator habitat"
     ],
     "grazing": [],
     "services": [
@@ -10104,14 +10090,14 @@ window.ECORESTORE_PLANTS = [
       "Drought"
     ],
     "goals": [
-      "Pollinator habitat",
+      "Erosion control",
       "Wildlife habitat",
-      "Erosion control"
+      "Pollinator habitat"
     ],
     "grazing": [
-      "Low / light",
+      "Low",
       "High",
-      "Limited / avoid"
+      "None"
     ],
     "services": [
       "Pollinator habitat",
@@ -10313,12 +10299,12 @@ window.ECORESTORE_PLANTS = [
       "Drought"
     ],
     "goals": [
-      "Pollinator habitat",
+      "Erosion control",
       "Wildlife habitat",
-      "Erosion control"
+      "Pollinator habitat"
     ],
     "grazing": [
-      "Limited / avoid"
+      "None"
     ],
     "services": [
       "Pollinator habitat",
@@ -10561,13 +10547,13 @@ window.ECORESTORE_PLANTS = [
       "Drought"
     ],
     "goals": [
-      "Wildlife habitat",
-      "Erosion control"
+      "Erosion control",
+      "Wildlife habitat"
     ],
     "grazing": [
-      "Low / light",
+      "Low",
       "High",
-      "Limited / avoid"
+      "None"
     ],
     "services": [
       "Wildlife habitat",
@@ -11050,13 +11036,13 @@ window.ECORESTORE_PLANTS = [
       "Drought"
     ],
     "goals": [
-      "Pollinator habitat",
-      "Wildlife habitat",
       "Erosion control",
-      "Water-related value"
+      "Wildlife habitat",
+      "Pollinator habitat",
+      "Drought tolerant"
     ],
     "grazing": [
-      "Low / light"
+      "Low"
     ],
     "services": [
       "Pollinator habitat",
@@ -11287,13 +11273,13 @@ window.ECORESTORE_PLANTS = [
       "Drought"
     ],
     "goals": [
-      "Pollinator habitat",
+      "Erosion control",
       "Wildlife habitat",
-      "Forage value",
-      "Erosion control"
+      "Forage production",
+      "Pollinator habitat"
     ],
     "grazing": [
-      "Low / light",
+      "Low",
       "Moderate"
     ],
     "services": [
@@ -11542,11 +11528,11 @@ window.ECORESTORE_PLANTS = [
       "Drought"
     ],
     "goals": [
-      "Wildlife habitat",
-      "Soil fertility / nutrients"
+      "Enhanced soil fertility",
+      "Wildlife habitat"
     ],
     "grazing": [
-      "Low / light"
+      "Low"
     ],
     "services": [
       "Wildlife habitat",
@@ -11788,11 +11774,11 @@ window.ECORESTORE_PLANTS = [
       "Drought"
     ],
     "goals": [
-      "Forage value",
-      "Competition / weed resistance"
+      "Weed resistance",
+      "Forage production"
     ],
     "grazing": [
-      "Low / light",
+      "Low",
       "High"
     ],
     "services": [
@@ -12037,11 +12023,11 @@ window.ECORESTORE_PLANTS = [
       "Drought"
     ],
     "goals": [
-      "Pollinator habitat",
-      "Wildlife habitat"
+      "Wildlife habitat",
+      "Pollinator habitat"
     ],
     "grazing": [
-      "Limited / avoid"
+      "None"
     ],
     "services": [
       "Pollinator habitat",
@@ -12259,8 +12245,8 @@ window.ECORESTORE_PLANTS = [
       "Drought"
     ],
     "goals": [
-      "Pollinator habitat",
-      "Wildlife habitat"
+      "Wildlife habitat",
+      "Pollinator habitat"
     ],
     "grazing": [],
     "services": [
@@ -12488,11 +12474,11 @@ window.ECORESTORE_PLANTS = [
       "Drought"
     ],
     "goals": [
-      "Pollinator habitat",
-      "Competition / weed resistance"
+      "Weed resistance",
+      "Pollinator habitat"
     ],
     "grazing": [
-      "Low / light",
+      "Low",
       "Moderate"
     ],
     "services": [
@@ -12742,12 +12728,12 @@ window.ECORESTORE_PLANTS = [
       "Drought"
     ],
     "goals": [
+      "Erosion control",
       "Wildlife habitat",
-      "Forage value",
-      "Erosion control"
+      "Forage production"
     ],
     "grazing": [
-      "Low / light",
+      "Low",
       "Moderate"
     ],
     "services": [
@@ -12996,13 +12982,13 @@ window.ECORESTORE_PLANTS = [
       "Drought"
     ],
     "goals": [
-      "Wildlife habitat",
-      "Forage value",
+      "Enhanced soil fertility",
       "Erosion control",
-      "Soil fertility / nutrients"
+      "Wildlife habitat",
+      "Forage production"
     ],
     "grazing": [
-      "Low / light",
+      "Low",
       "Moderate",
       "High"
     ],
@@ -13253,8 +13239,8 @@ window.ECORESTORE_PLANTS = [
       "Drought"
     ],
     "goals": [
-      "Pollinator habitat",
-      "Wildlife habitat"
+      "Wildlife habitat",
+      "Pollinator habitat"
     ],
     "grazing": [],
     "services": [
@@ -13486,9 +13472,9 @@ window.ECORESTORE_PLANTS = [
       "Drought"
     ],
     "goals": [
-      "Pollinator habitat",
+      "Enhanced soil fertility",
       "Wildlife habitat",
-      "Soil fertility / nutrients"
+      "Pollinator habitat"
     ],
     "grazing": [],
     "services": [
@@ -13739,9 +13725,9 @@ window.ECORESTORE_PLANTS = [
       "Drought"
     ],
     "goals": [
-      "Pollinator habitat",
+      "Enhanced soil fertility",
       "Wildlife habitat",
-      "Soil fertility / nutrients"
+      "Pollinator habitat"
     ],
     "grazing": [],
     "services": [
@@ -13985,12 +13971,12 @@ window.ECORESTORE_PLANTS = [
       "Drought"
     ],
     "goals": [
-      "Pollinator habitat",
+      "Enhanced soil fertility",
       "Wildlife habitat",
-      "Soil fertility / nutrients"
+      "Pollinator habitat"
     ],
     "grazing": [
-      "Limited / avoid"
+      "None"
     ],
     "services": [
       "Pollinator habitat",
@@ -14221,13 +14207,13 @@ window.ECORESTORE_PLANTS = [
       "Drought"
     ],
     "goals": [
-      "Pollinator habitat",
-      "Wildlife habitat",
+      "Enhanced soil fertility",
       "Erosion control",
-      "Soil fertility / nutrients"
+      "Wildlife habitat",
+      "Pollinator habitat"
     ],
     "grazing": [
-      "Limited / avoid"
+      "None"
     ],
     "services": [
       "Pollinator habitat",
@@ -14468,13 +14454,13 @@ window.ECORESTORE_PLANTS = [
       "Drought"
     ],
     "goals": [
-      "Pollinator habitat",
-      "Wildlife habitat",
+      "Enhanced soil fertility",
       "Erosion control",
-      "Soil fertility / nutrients"
+      "Wildlife habitat",
+      "Pollinator habitat"
     ],
     "grazing": [
-      "Limited / avoid"
+      "None"
     ],
     "services": [
       "Pollinator habitat",
@@ -14708,10 +14694,10 @@ window.ECORESTORE_PLANTS = [
       "Drought"
     ],
     "goals": [
-      "Pollinator habitat",
-      "Wildlife habitat",
+      "Enhanced soil fertility",
       "Erosion control",
-      "Soil fertility / nutrients"
+      "Wildlife habitat",
+      "Pollinator habitat"
     ],
     "grazing": [],
     "services": [
@@ -15154,13 +15140,13 @@ window.ECORESTORE_PLANTS = [
       "Drought"
     ],
     "goals": [
-      "Wildlife habitat",
-      "Forage value",
       "Erosion control",
-      "Competition / weed resistance"
+      "Wildlife habitat",
+      "Weed resistance",
+      "Forage production"
     ],
     "grazing": [
-      "Low / light",
+      "Low",
       "Moderate"
     ],
     "services": [
@@ -15394,14 +15380,13 @@ window.ECORESTORE_PLANTS = [
       "Drought"
     ],
     "goals": [
+      "Erosion control",
       "Wildlife habitat",
-      "Forage value",
-      "Erosion control"
+      "Forage production"
     ],
     "grazing": [
-      "Low / light",
-      "Moderate",
-      "Recorded grazing use"
+      "Low",
+      "Moderate"
     ],
     "services": [
       "Wildlife habitat",
@@ -15623,11 +15608,11 @@ window.ECORESTORE_PLANTS = [
       "Drought"
     ],
     "goals": [
-      "Pollinator habitat",
-      "Wildlife habitat"
+      "Wildlife habitat",
+      "Pollinator habitat"
     ],
     "grazing": [
-      "Low / light",
+      "Low",
       "Moderate"
     ],
     "services": [
@@ -15859,7 +15844,7 @@ window.ECORESTORE_PLANTS = [
       "Pollinator habitat"
     ],
     "grazing": [
-      "Limited / avoid"
+      "None"
     ],
     "services": [
       "Pollinator habitat"
@@ -16079,11 +16064,11 @@ window.ECORESTORE_PLANTS = [
       "Drought"
     ],
     "goals": [
-      "Wildlife habitat",
-      "Erosion control"
+      "Erosion control",
+      "Wildlife habitat"
     ],
     "grazing": [
-      "Low / light",
+      "Low",
       "Moderate"
     ],
     "services": [
@@ -16332,11 +16317,11 @@ window.ECORESTORE_PLANTS = [
       "Drought"
     ],
     "goals": [
-      "Pollinator habitat",
-      "Wildlife habitat"
+      "Wildlife habitat",
+      "Pollinator habitat"
     ],
     "grazing": [
-      "Limited / avoid"
+      "None"
     ],
     "services": [
       "Pollinator habitat",
@@ -16561,8 +16546,8 @@ window.ECORESTORE_PLANTS = [
       "Drought"
     ],
     "goals": [
-      "Pollinator habitat",
-      "Wildlife habitat"
+      "Wildlife habitat",
+      "Pollinator habitat"
     ],
     "grazing": [],
     "services": [
@@ -16772,12 +16757,10 @@ window.ECORESTORE_PLANTS = [
       "Drought"
     ],
     "goals": [
-      "Pollinator habitat",
-      "Wildlife habitat"
+      "Wildlife habitat",
+      "Pollinator habitat"
     ],
-    "grazing": [
-      "Recorded grazing use"
-    ],
+    "grazing": [],
     "services": [
       "Pollinator habitat",
       "Wildlife habitat"
@@ -17230,7 +17213,7 @@ window.ECORESTORE_PLANTS = [
       "Pollinator habitat"
     ],
     "grazing": [
-      "Limited / avoid"
+      "None"
     ],
     "services": [
       "Pollinator habitat"
@@ -17451,14 +17434,14 @@ window.ECORESTORE_PLANTS = [
       "Drought"
     ],
     "goals": [
-      "Pollinator habitat",
-      "Wildlife habitat",
-      "Forage value",
+      "Enhanced soil fertility",
       "Erosion control",
-      "Soil fertility / nutrients"
+      "Wildlife habitat",
+      "Forage production",
+      "Pollinator habitat"
     ],
     "grazing": [
-      "Limited / avoid"
+      "None"
     ],
     "services": [
       "Pollinator habitat",
@@ -17704,11 +17687,11 @@ window.ECORESTORE_PLANTS = [
       "Low light"
     ],
     "goals": [
-      "Pollinator habitat",
-      "Erosion control"
+      "Erosion control",
+      "Pollinator habitat"
     ],
     "grazing": [
-      "Low / light",
+      "Low",
       "Moderate"
     ],
     "services": [
@@ -17957,14 +17940,14 @@ window.ECORESTORE_PLANTS = [
       "Drought"
     ],
     "goals": [
-      "Pollinator habitat",
-      "Wildlife habitat",
-      "Forage value",
       "Erosion control",
-      "Competition / weed resistance"
+      "Wildlife habitat",
+      "Weed resistance",
+      "Forage production",
+      "Pollinator habitat"
     ],
     "grazing": [
-      "Low / light",
+      "Low",
       "High"
     ],
     "services": [
@@ -18200,14 +18183,14 @@ window.ECORESTORE_PLANTS = [
       "Drought"
     ],
     "goals": [
-      "Pollinator habitat",
+      "Erosion control",
       "Wildlife habitat",
-      "Erosion control"
+      "Pollinator habitat"
     ],
     "grazing": [
-      "Low / light",
+      "Low",
       "High",
-      "Limited / avoid"
+      "None"
     ],
     "services": [
       "Pollinator habitat",
@@ -18428,14 +18411,12 @@ window.ECORESTORE_PLANTS = [
       "Drought"
     ],
     "goals": [
-      "Pollinator habitat",
+      "Erosion control",
       "Wildlife habitat",
-      "Forage value",
-      "Erosion control"
+      "Forage production",
+      "Pollinator habitat"
     ],
-    "grazing": [
-      "Recorded grazing use"
-    ],
+    "grazing": [],
     "services": [
       "Pollinator habitat",
       "Wildlife habitat",
@@ -18664,13 +18645,13 @@ window.ECORESTORE_PLANTS = [
       "Drought"
     ],
     "goals": [
-      "Pollinator habitat",
-      "Wildlife habitat",
       "Erosion control",
-      "Competition / weed resistance"
+      "Wildlife habitat",
+      "Weed resistance",
+      "Pollinator habitat"
     ],
     "grazing": [
-      "Low / light"
+      "Low"
     ],
     "services": [
       "Pollinator habitat",
@@ -18891,11 +18872,11 @@ window.ECORESTORE_PLANTS = [
       "Drought"
     ],
     "goals": [
-      "Pollinator habitat",
-      "Wildlife habitat"
+      "Wildlife habitat",
+      "Pollinator habitat"
     ],
     "grazing": [
-      "Low / light"
+      "Low"
     ],
     "services": [
       "Pollinator habitat",
@@ -19134,13 +19115,13 @@ window.ECORESTORE_PLANTS = [
       "Drought"
     ],
     "goals": [
-      "Pollinator habitat",
+      "Erosion control",
       "Wildlife habitat",
-      "Forage value",
-      "Erosion control"
+      "Forage production",
+      "Pollinator habitat"
     ],
     "grazing": [
-      "Low / light",
+      "Low",
       "High"
     ],
     "services": [
@@ -19382,10 +19363,10 @@ window.ECORESTORE_PLANTS = [
       "Drought"
     ],
     "goals": [
-      "Pollinator habitat",
-      "Wildlife habitat",
       "Erosion control",
-      "Competition / weed resistance"
+      "Wildlife habitat",
+      "Weed resistance",
+      "Pollinator habitat"
     ],
     "grazing": [],
     "services": [
@@ -19627,13 +19608,13 @@ window.ECORESTORE_PLANTS = [
       "Drought"
     ],
     "goals": [
-      "Pollinator habitat",
+      "Enhanced soil fertility",
       "Wildlife habitat",
-      "Forage value",
-      "Soil fertility / nutrients"
+      "Forage production",
+      "Pollinator habitat"
     ],
     "grazing": [
-      "Low / light",
+      "Low",
       "Moderate"
     ],
     "services": [
@@ -19848,12 +19829,12 @@ window.ECORESTORE_PLANTS = [
       "Drought"
     ],
     "goals": [
-      "Pollinator habitat",
+      "Enhanced soil fertility",
       "Wildlife habitat",
-      "Soil fertility / nutrients"
+      "Pollinator habitat"
     ],
     "grazing": [
-      "Limited / avoid"
+      "None"
     ],
     "services": [
       "Pollinator habitat",
@@ -20076,9 +20057,9 @@ window.ECORESTORE_PLANTS = [
       "Episodic flooding"
     ],
     "goals": [
-      "Pollinator habitat",
-      "Forage value",
-      "Soil fertility / nutrients"
+      "Enhanced soil fertility",
+      "Forage production",
+      "Pollinator habitat"
     ],
     "grazing": [],
     "services": [
@@ -20313,9 +20294,9 @@ window.ECORESTORE_PLANTS = [
       "Episodic flooding"
     ],
     "goals": [
-      "Pollinator habitat",
+      "Enhanced soil fertility",
       "Erosion control",
-      "Soil fertility / nutrients"
+      "Pollinator habitat"
     ],
     "grazing": [],
     "services": [
@@ -20561,10 +20542,10 @@ window.ECORESTORE_PLANTS = [
       "Drought"
     ],
     "goals": [
-      "Pollinator habitat",
+      "Enhanced soil fertility",
       "Wildlife habitat",
-      "Forage value",
-      "Soil fertility / nutrients"
+      "Forage production",
+      "Pollinator habitat"
     ],
     "grazing": [],
     "services": [
