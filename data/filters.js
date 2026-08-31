@@ -110,8 +110,8 @@ window.ECORESTORE_FILTERS = {
     "Strongly alkaline",
     "Acidic",
     "Strongly acidic",
-    "CaCO3 / calcareous tolerance",
-    "Metal / serpentine tolerance"
+    "Calcaerous",
+    "Serpentine/Metal"
   ],
   "conditions": [
     "Riparian / wet",
