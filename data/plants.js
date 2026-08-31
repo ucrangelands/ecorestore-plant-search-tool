@@ -1,7 +1,7 @@
 /*
-  PUBLIC APP DATA generated from California EcoRestore BigTable (9).
+  PUBLIC APP DATA generated from California EcoRestore BigTable (10).
   This file intentionally contains only the public subset used by the browser app.
-  The private 131-column master CSV is not included in the GitHub Pages project.
+  The private master CSV is not included in the GitHub Pages project.
   PlantID is retained internally for app/image handling but is not displayed publicly.
 */
 window.ECORESTORE_PLANTS = [
@@ -48,11 +48,11 @@ window.ECORESTORE_PLANTS = [
       "optimum": "sandy or rocky soils in open or forsted locations",
       "suitable": "Clay, Clay loam, Silt loam, Loam, Sandy loam, Loamy sand, Sand, Variable, Decomposed plant material",
       "classesRaw": {
-        "Clay (Fine)": "Y",
-        "Loam (sand + clay)": "Y",
-        "Silt (fine)": "N",
-        "Sand (MEDIUM)": "Y",
-        "Gravel (coarse/rocky)": "N"
+        "clay": "Y",
+        "loam": "Y",
+        "silt": "N",
+        "sand": "Y",
+        "gravel": "N"
       }
     },
     "soils": [
@@ -139,8 +139,7 @@ window.ECORESTORE_PLANTS = [
       "Fire prone",
       "Episodic flooding",
       "Low light",
-      "Frequent cold events",
-      "Drought"
+      "Frequent cold events"
     ],
     "goals": [
       "Enhanced soil fertility",
@@ -148,7 +147,8 @@ window.ECORESTORE_PLANTS = [
       "Wildlife habitat",
       "Weed resistance",
       "Forage production",
-      "Pollinator habitat"
+      "Pollinator habitat",
+      "Drought tolerant"
     ],
     "grazing": [
       "Low",
@@ -307,11 +307,11 @@ window.ECORESTORE_PLANTS = [
       "optimum": "loam, sand,",
       "suitable": "Decomposed plant material, Clay loam, Silt loam, Sandy loam, Loamy sand, Bedrock",
       "classesRaw": {
-        "Clay (Fine)": "Y",
-        "Loam (sand + clay)": "Y",
-        "Silt (fine)": "N",
-        "Sand (MEDIUM)": "Y",
-        "Gravel (coarse/rocky)": "N"
+        "clay": "Y",
+        "loam": "Y",
+        "silt": "N",
+        "sand": "Y",
+        "gravel": "N"
       }
     },
     "soils": [
@@ -371,8 +371,7 @@ window.ECORESTORE_PLANTS = [
     "conditions": [
       "Disturbance",
       "Fire prone",
-      "Frequent cold events",
-      "Drought"
+      "Frequent cold events"
     ],
     "goals": [
       "Enhanced soil fertility",
@@ -543,11 +542,11 @@ window.ECORESTORE_PLANTS = [
       "optimum": "Clay Loam, Sandy Loam",
       "suitable": "Decomposed plant material, Sand, Bedrock",
       "classesRaw": {
-        "Clay (Fine)": "Y",
-        "Loam (sand + clay)": "Y",
-        "Silt (fine)": "N",
-        "Sand (MEDIUM)": "Y",
-        "Gravel (coarse/rocky)": "N"
+        "clay": "Y",
+        "loam": "Y",
+        "silt": "N",
+        "sand": "Y",
+        "gravel": "N"
       }
     },
     "soils": [
@@ -593,8 +592,7 @@ window.ECORESTORE_PLANTS = [
     ],
     "conditions": [
       "Fire prone",
-      "Frequent cold events",
-      "Drought"
+      "Frequent cold events"
     ],
     "goals": [
       "Enhanced soil fertility",
@@ -761,11 +759,11 @@ window.ECORESTORE_PLANTS = [
       "optimum": "any except very wet",
       "suitable": "Clay, Silty clay loam, Clay loam, Silt loam, Loam, Sandy loam, Loamy sand, Sand, Bedrock, Rocky, Variable, Decomposed plant material",
       "classesRaw": {
-        "Clay (Fine)": "Y",
-        "Loam (sand + clay)": "Y",
-        "Silt (fine)": "Y",
-        "Sand (MEDIUM)": "Y",
-        "Gravel (coarse/rocky)": "Y"
+        "clay": "Y",
+        "loam": "Y",
+        "silt": "Y",
+        "sand": "Y",
+        "gravel": "Y"
       }
     },
     "soils": [
@@ -856,15 +854,15 @@ window.ECORESTORE_PLANTS = [
       "Disturbance",
       "Fire prone",
       "Low light",
-      "Frequent cold events",
-      "Drought"
+      "Frequent cold events"
     ],
     "goals": [
       "Enhanced soil fertility",
       "Erosion control",
       "Wildlife habitat",
       "Forage production",
-      "Pollinator habitat"
+      "Pollinator habitat",
+      "Drought tolerant"
     ],
     "grazing": [],
     "services": [
@@ -1018,11 +1016,11 @@ window.ECORESTORE_PLANTS = [
       "optimum": "Loam, Clay Loam, Silt Loam, Sandy Loam",
       "suitable": "Decomposed plant material, Bedrock, Sand, and Loam (not just clay)",
       "classesRaw": {
-        "Clay (Fine)": "N",
-        "Loam (sand + clay)": "Y",
-        "Silt (fine)": "Y",
-        "Sand (MEDIUM)": "Y",
-        "Gravel (coarse/rocky)": "N"
+        "clay": "N",
+        "loam": "Y",
+        "silt": "Y",
+        "sand": "Y",
+        "gravel": "N"
       }
     },
     "soils": [
@@ -1055,8 +1053,7 @@ window.ECORESTORE_PLANTS = [
     ],
     "conditions": [
       "Disturbance",
-      "Fire prone",
-      "Drought"
+      "Fire prone"
     ],
     "goals": [
       "Erosion control",
@@ -1215,11 +1212,11 @@ window.ECORESTORE_PLANTS = [
       "optimum": "Sand and Clay",
       "suitable": "Silty clay loam, Clay loam, Sandy clay loam, Silt loam, Loam, Sandy loam, Loamy sand, Sand, Bedrock, Rocky, Variable, Decomposed plant material",
       "classesRaw": {
-        "Clay (Fine)": "Y",
-        "Loam (sand + clay)": "Y",
-        "Silt (fine)": "Y",
-        "Sand (MEDIUM)": "Y",
-        "Gravel (coarse/rocky)": "N"
+        "clay": "Y",
+        "loam": "Y",
+        "silt": "Y",
+        "sand": "Y",
+        "gravel": "N"
       }
     },
     "soils": [
@@ -1288,8 +1285,7 @@ window.ECORESTORE_PLANTS = [
     "conditions": [
       "Disturbance",
       "Fire prone",
-      "Frequent cold events",
-      "Drought"
+      "Frequent cold events"
     ],
     "goals": [
       "Erosion control",
@@ -1460,11 +1456,11 @@ window.ECORESTORE_PLANTS = [
       "optimum": "shallower and drier soils of hillsides",
       "suitable": "Clay, Clay loam, Silt loam, Loam, Sandy loam, Loamy sand, Sand, Variable, Decomposed plant material",
       "classesRaw": {
-        "Clay (Fine)": "Y",
-        "Loam (sand + clay)": "Y",
-        "Silt (fine)": "N",
-        "Sand (MEDIUM)": "Y",
-        "Gravel (coarse/rocky)": "N"
+        "clay": "Y",
+        "loam": "Y",
+        "silt": "N",
+        "sand": "Y",
+        "gravel": "N"
       }
     },
     "soils": [
@@ -1546,15 +1542,15 @@ window.ECORESTORE_PLANTS = [
     ],
     "conditions": [
       "Disturbance",
-      "Fire prone",
-      "Drought"
+      "Fire prone"
     ],
     "goals": [
       "Erosion control",
       "Wildlife habitat",
       "Weed resistance",
       "Forage production",
-      "Pollinator habitat"
+      "Pollinator habitat",
+      "Drought tolerant"
     ],
     "grazing": [
       "Low",
@@ -1716,11 +1712,11 @@ window.ECORESTORE_PLANTS = [
       "optimum": "adaptable to most soil types",
       "suitable": "Clay, Clay loam, Silt loam, Loam, Sandy loam, Loamy sand, Sand, Variable, Decomposed plant material",
       "classesRaw": {
-        "Clay (Fine)": "Y",
-        "Loam (sand + clay)": "Y",
-        "Silt (fine)": "N",
-        "Sand (MEDIUM)": "Y",
-        "Gravel (coarse/rocky)": "N"
+        "clay": "Y",
+        "loam": "Y",
+        "silt": "N",
+        "sand": "Y",
+        "gravel": "N"
       }
     },
     "soils": [
@@ -1804,15 +1800,15 @@ window.ECORESTORE_PLANTS = [
     ],
     "conditions": [
       "Disturbance",
-      "Fire prone",
-      "Drought"
+      "Fire prone"
     ],
     "goals": [
       "Erosion control",
       "Wildlife habitat",
       "Weed resistance",
       "Forage production",
-      "Pollinator habitat"
+      "Pollinator habitat",
+      "Drought tolerant"
     ],
     "grazing": [
       "Low",
@@ -1972,11 +1968,11 @@ window.ECORESTORE_PLANTS = [
       "optimum": "Sandy",
       "suitable": "Decomposed plant material, Silty clay loam, Clay loam, Loam, Sandy loam, Loamy sand, Sand, Bedrock",
       "classesRaw": {
-        "Clay (Fine)": "Y",
-        "Loam (sand + clay)": "Y",
-        "Silt (fine)": "Y",
-        "Sand (MEDIUM)": "Y",
-        "Gravel (coarse/rocky)": "Y"
+        "clay": "Y",
+        "loam": "Y",
+        "silt": "Y",
+        "sand": "Y",
+        "gravel": "Y"
       }
     },
     "soils": [
@@ -2014,12 +2010,12 @@ window.ECORESTORE_PLANTS = [
     "conditions": [
       "Fire prone",
       "Episodic flooding",
-      "Low light",
-      "Drought"
+      "Low light"
     ],
     "goals": [
       "Forage production",
-      "Pollinator habitat"
+      "Pollinator habitat",
+      "Drought tolerant"
     ],
     "grazing": [
       "Low",
@@ -2175,11 +2171,11 @@ window.ECORESTORE_PLANTS = [
       "optimum": "Dry to semi moist Sandy slopes",
       "suitable": "Decomposed plant material, Clay loam (but needs time to drain/dry), Loam, Sandy loam, Bedrock. Does not thrive in frequently inundated/ moist soil conditions.",
       "classesRaw": {
-        "Clay (Fine)": "Y",
-        "Loam (sand + clay)": "Y",
-        "Silt (fine)": "Y",
-        "Sand (MEDIUM)": "Y",
-        "Gravel (coarse/rocky)": "Y"
+        "clay": "Y",
+        "loam": "Y",
+        "silt": "Y",
+        "sand": "Y",
+        "gravel": "Y"
       }
     },
     "soils": [
@@ -2219,8 +2215,7 @@ window.ECORESTORE_PLANTS = [
     "conditions": [
       "Disturbance",
       "Fire prone",
-      "Frequent cold events",
-      "Drought"
+      "Frequent cold events"
     ],
     "goals": [
       "Erosion control",
@@ -2385,11 +2380,11 @@ window.ECORESTORE_PLANTS = [
       "optimum": "Clay Loam",
       "suitable": "Clay, Silty clay loam, Clay loam, Silt loam, Loam, Sandy loam, Loamy sand, Sand, Bedrock, Variable, Decomposed plant material",
       "classesRaw": {
-        "Clay (Fine)": "Y",
-        "Loam (sand + clay)": "Y",
-        "Silt (fine)": "Y",
-        "Sand (MEDIUM)": "Y",
-        "Gravel (coarse/rocky)": "Y"
+        "clay": "Y",
+        "loam": "Y",
+        "silt": "Y",
+        "sand": "Y",
+        "gravel": "Y"
       }
     },
     "soils": [
@@ -2453,8 +2448,7 @@ window.ECORESTORE_PLANTS = [
     "conditions": [
       "Disturbance",
       "Fire prone",
-      "Frequent cold events",
-      "Drought"
+      "Frequent cold events"
     ],
     "goals": [
       "Erosion control",
@@ -2630,11 +2624,11 @@ window.ECORESTORE_PLANTS = [
       "optimum": "Wet clay soils",
       "suitable": "Clay,  Silty clay, Silty clay loam, Clay loam, Silt loam, Loam, Sandy loam, Loamy sand, Sand, Bedrock, Rocky, Variable, Decomposed plant material",
       "classesRaw": {
-        "Clay (Fine)": "Y",
-        "Loam (sand + clay)": "Y",
-        "Silt (fine)": "Y",
-        "Sand (MEDIUM)": "Y",
-        "Gravel (coarse/rocky)": "Y"
+        "clay": "Y",
+        "loam": "Y",
+        "silt": "Y",
+        "sand": "Y",
+        "gravel": "Y"
       }
     },
     "soils": [
@@ -2726,8 +2720,7 @@ window.ECORESTORE_PLANTS = [
       "Riparian",
       "Disturbance",
       "Low light",
-      "Frequent cold events",
-      "Drought"
+      "Frequent cold events"
     ],
     "goals": [
       "Erosion control",
@@ -2891,11 +2884,11 @@ window.ECORESTORE_PLANTS = [
       "optimum": "gravelly, sandy",
       "suitable": "Loam, Sandy loam, Loamy sand, Bedrock, Rocky",
       "classesRaw": {
-        "Clay (Fine)": "N",
-        "Loam (sand + clay)": "Y",
-        "Silt (fine)": "N",
-        "Sand (MEDIUM)": "Y",
-        "Gravel (coarse/rocky)": "Y"
+        "clay": "N",
+        "loam": "Y",
+        "silt": "N",
+        "sand": "Y",
+        "gravel": "Y"
       }
     },
     "soils": [
@@ -2930,15 +2923,15 @@ window.ECORESTORE_PLANTS = [
     "conditions": [
       "Disturbance",
       "Episodic flooding",
-      "Frequent cold events",
-      "Drought"
+      "Frequent cold events"
     ],
     "goals": [
       "Erosion control",
       "Wildlife habitat",
       "Weed resistance",
       "Forage production",
-      "Pollinator habitat"
+      "Pollinator habitat",
+      "Drought tolerant"
     ],
     "grazing": [
       "High"
@@ -3102,11 +3095,11 @@ window.ECORESTORE_PLANTS = [
       "optimum": "High clay contents",
       "suitable": "Clay, Silty clay loam, Clay loam, Silt loam, Loam, Sandy loam, Loamy sand, Sand, Bedrock, Variable, Decomposed plant material",
       "classesRaw": {
-        "Clay (Fine)": "Y",
-        "Loam (sand + clay)": "Y",
-        "Silt (fine)": "Y",
-        "Sand (MEDIUM)": "Y",
-        "Gravel (coarse/rocky)": "Y"
+        "clay": "Y",
+        "loam": "Y",
+        "silt": "Y",
+        "sand": "Y",
+        "gravel": "Y"
       }
     },
     "soils": [
@@ -3197,8 +3190,7 @@ window.ECORESTORE_PLANTS = [
       "Disturbance",
       "Fire prone",
       "Low light",
-      "Frequent cold events",
-      "Drought"
+      "Frequent cold events"
     ],
     "goals": [
       "Erosion control",
@@ -3370,11 +3362,11 @@ window.ECORESTORE_PLANTS = [
       "optimum": "Deep, well drained; loamy to sandy and often gravelly soils.",
       "suitable": "Clay loam, Silt loam, Loam, Sandy loam, Loamy sand, Sand, Bedrock, Variable. Areas with poor soils, often salty, alkaline or clay slopes, stabilized sand dunes, gravelly washes.",
       "classesRaw": {
-        "Clay (Fine)": "Y",
-        "Loam (sand + clay)": "Y",
-        "Silt (fine)": "Y",
-        "Sand (MEDIUM)": "Y",
-        "Gravel (coarse/rocky)": "Y"
+        "clay": "Y",
+        "loam": "Y",
+        "silt": "Y",
+        "sand": "Y",
+        "gravel": "Y"
       }
     },
     "soils": [
@@ -3432,15 +3424,15 @@ window.ECORESTORE_PLANTS = [
     "conditions": [
       "Disturbance",
       "Fire prone",
-      "Frequent cold events",
-      "Drought"
+      "Frequent cold events"
     ],
     "goals": [
       "Erosion control",
       "Wildlife habitat",
       "Weed resistance",
       "Forage production",
-      "Pollinator habitat"
+      "Pollinator habitat",
+      "Drought tolerant"
     ],
     "grazing": [],
     "services": [
@@ -3597,11 +3589,11 @@ window.ECORESTORE_PLANTS = [
       "optimum": "",
       "suitable": "Clay, Silty clay, Silty clay loam, Clay loam, Silt loam, Loam, Sandy loam, Loamy sand, Sand, Bedrock, Variable, Decomposed plant material",
       "classesRaw": {
-        "Clay (Fine)": "Y",
-        "Loam (sand + clay)": "Y",
-        "Silt (fine)": "Y",
-        "Sand (MEDIUM)": "Y",
-        "Gravel (coarse/rocky)": "N"
+        "clay": "Y",
+        "loam": "Y",
+        "silt": "Y",
+        "sand": "Y",
+        "gravel": "N"
       }
     },
     "soils": [
@@ -3667,15 +3659,15 @@ window.ECORESTORE_PLANTS = [
       "Disturbance",
       "Fire prone",
       "Episodic flooding",
-      "Frequent cold events",
-      "Drought"
+      "Frequent cold events"
     ],
     "goals": [
       "Erosion control",
       "Wildlife habitat",
       "Weed resistance",
       "Forage production",
-      "Pollinator habitat"
+      "Pollinator habitat",
+      "Drought tolerant"
     ],
     "grazing": [],
     "services": [
@@ -3835,11 +3827,11 @@ window.ECORESTORE_PLANTS = [
       "optimum": "Moderate variablity.",
       "suitable": "Decomposed plant material, Clay loam, Loam, Sandy loam, Sand, Variable",
       "classesRaw": {
-        "Clay (Fine)": "Y",
-        "Loam (sand + clay)": "Y",
-        "Silt (fine)": "Y",
-        "Sand (MEDIUM)": "Y",
-        "Gravel (coarse/rocky)": "N/A"
+        "clay": "Y",
+        "loam": "Y",
+        "silt": "Y",
+        "sand": "Y",
+        "gravel": "N/A"
       }
     },
     "soils": [
@@ -3913,15 +3905,15 @@ window.ECORESTORE_PLANTS = [
     "conditions": [
       "Disturbance",
       "Fire prone",
-      "Frequent cold events",
-      "Drought"
+      "Frequent cold events"
     ],
     "goals": [
       "Erosion control",
       "Wildlife habitat",
       "Weed resistance",
       "Forage production",
-      "Pollinator habitat"
+      "Pollinator habitat",
+      "Drought tolerant"
     ],
     "grazing": [],
     "services": [
@@ -4078,11 +4070,11 @@ window.ECORESTORE_PLANTS = [
       "optimum": "Moist soils, riparian or wetlands.",
       "suitable": "Clay, Silty clay loam, Clay loam, Silt loam, Loam, Sandy loam, Loamy sand, Sand, Bedrock, Variable, Decomposed plant material",
       "classesRaw": {
-        "Clay (Fine)": "Y",
-        "Loam (sand + clay)": "Y",
-        "Silt (fine)": "Y",
-        "Sand (MEDIUM)": "Y",
-        "Gravel (coarse/rocky)": "N"
+        "clay": "Y",
+        "loam": "Y",
+        "silt": "Y",
+        "sand": "Y",
+        "gravel": "N"
       }
     },
     "soils": [
@@ -4323,11 +4315,11 @@ window.ECORESTORE_PLANTS = [
       "optimum": "Semi-dry soils, with high porosity. Usually does well in heavy soils. Moderate amounts of soil moisture needed for successful germination/establishment.",
       "suitable": "Clay, Silty clay loam, Clay loam, Sandy clay loam, Loam, Sandy loam, Loamy sand, Sand, Bedrock, Decomposed plant material",
       "classesRaw": {
-        "Clay (Fine)": "Y",
-        "Loam (sand + clay)": "Y",
-        "Silt (fine)": "Y",
-        "Sand (MEDIUM)": "Y",
-        "Gravel (coarse/rocky)": "N/A"
+        "clay": "Y",
+        "loam": "Y",
+        "silt": "Y",
+        "sand": "Y",
+        "gravel": "N/A"
       }
     },
     "soils": [
@@ -4372,11 +4364,11 @@ window.ECORESTORE_PLANTS = [
     "conditions": [
       "Disturbance",
       "Fire prone",
-      "Frequent cold events",
-      "Drought"
+      "Frequent cold events"
     ],
     "goals": [
-      "Weed resistance"
+      "Weed resistance",
+      "Drought tolerant"
     ],
     "grazing": [],
     "services": [
@@ -4530,11 +4522,11 @@ window.ECORESTORE_PLANTS = [
       "optimum": "Moist soils, very sandy, but not high in salinity.",
       "suitable": "Decomposed plant material, Loam, Sandy loam",
       "classesRaw": {
-        "Clay (Fine)": "N",
-        "Loam (sand + clay)": "Y",
-        "Silt (fine)": "N",
-        "Sand (MEDIUM)": "Y",
-        "Gravel (coarse/rocky)": "N/A"
+        "clay": "N",
+        "loam": "Y",
+        "silt": "N",
+        "sand": "Y",
+        "gravel": "N/A"
       }
     },
     "soils": [
@@ -4713,11 +4705,11 @@ window.ECORESTORE_PLANTS = [
       "optimum": "clay",
       "suitable": "Clay, Clay loam, Silt loam, Loam, Sandy loam, Loamy sand, Sand, Bedrock, Rocky, Variable, Decomposed plant material",
       "classesRaw": {
-        "Clay (Fine)": "Y",
-        "Loam (sand + clay)": "Y",
-        "Silt (fine)": "Y",
-        "Sand (MEDIUM)": "Y",
-        "Gravel (coarse/rocky)": "Y"
+        "clay": "Y",
+        "loam": "Y",
+        "silt": "Y",
+        "sand": "Y",
+        "gravel": "Y"
       }
     },
     "soils": [
@@ -4806,15 +4798,15 @@ window.ECORESTORE_PLANTS = [
     ],
     "conditions": [
       "Disturbance",
-      "Frequent cold events",
-      "Drought"
+      "Frequent cold events"
     ],
     "goals": [
       "Erosion control",
       "Wildlife habitat",
       "Weed resistance",
       "Forage production",
-      "Pollinator habitat"
+      "Pollinator habitat",
+      "Drought tolerant"
     ],
     "grazing": [
       "Low",
@@ -4975,11 +4967,11 @@ window.ECORESTORE_PLANTS = [
       "optimum": "Dry soils, variable soil drainage speeds,",
       "suitable": "Silty clay loam, Clay loam, Silt loam, Loam, Sandy loam, Loamy sand, Sand, Bedrock, Decomposed plant material",
       "classesRaw": {
-        "Clay (Fine)": "Y",
-        "Loam (sand + clay)": "Y",
-        "Silt (fine)": "Y",
-        "Sand (MEDIUM)": "Y",
-        "Gravel (coarse/rocky)": "Y"
+        "clay": "Y",
+        "loam": "Y",
+        "silt": "Y",
+        "sand": "Y",
+        "gravel": "Y"
       }
     },
     "soils": [
@@ -5008,13 +5000,13 @@ window.ECORESTORE_PLANTS = [
     "conditions": [
       "Disturbance",
       "Fire prone",
-      "Frequent cold events",
-      "Drought"
+      "Frequent cold events"
     ],
     "goals": [
       "Wildlife habitat",
       "Forage production",
-      "Pollinator habitat"
+      "Pollinator habitat",
+      "Drought tolerant"
     ],
     "grazing": [],
     "services": [
@@ -5168,11 +5160,11 @@ window.ECORESTORE_PLANTS = [
       "optimum": "Prefers loamy soils.",
       "suitable": "Clay, Silty clay loam, Clay loam, Silt loam, Loam, Sandy loam, Loamy sand, Sand, Bedrock, Rocky, Variable, Decomposed plant material",
       "classesRaw": {
-        "Clay (Fine)": "Y",
-        "Loam (sand + clay)": "Y",
-        "Silt (fine)": "Y",
-        "Sand (MEDIUM)": "Y",
-        "Gravel (coarse/rocky)": "Y"
+        "clay": "Y",
+        "loam": "Y",
+        "silt": "Y",
+        "sand": "Y",
+        "gravel": "Y"
       }
     },
     "soils": [
@@ -5258,14 +5250,14 @@ window.ECORESTORE_PLANTS = [
       "Calcaerous"
     ],
     "conditions": [
-      "Frequent cold events",
-      "Drought"
+      "Frequent cold events"
     ],
     "goals": [
       "Wildlife habitat",
       "Weed resistance",
       "Forage production",
-      "Pollinator habitat"
+      "Pollinator habitat",
+      "Drought tolerant"
     ],
     "grazing": [],
     "services": [
@@ -5421,11 +5413,11 @@ window.ECORESTORE_PLANTS = [
       "optimum": "sandy, clay",
       "suitable": "",
       "classesRaw": {
-        "Clay (Fine)": "",
-        "Loam (sand + clay)": "",
-        "Silt (fine)": "",
-        "Sand (MEDIUM)": "",
-        "Gravel (coarse/rocky)": ""
+        "clay": "",
+        "loam": "",
+        "silt": "",
+        "sand": "",
+        "gravel": ""
       }
     },
     "soils": [],
@@ -5449,13 +5441,13 @@ window.ECORESTORE_PLANTS = [
     ],
     "chemistry": [],
     "conditions": [
-      "Disturbance",
-      "Drought"
+      "Disturbance"
     ],
     "goals": [
       "Erosion control",
       "Wildlife habitat",
-      "Pollinator habitat"
+      "Pollinator habitat",
+      "Drought tolerant"
     ],
     "grazing": [],
     "services": [
@@ -5608,11 +5600,11 @@ window.ECORESTORE_PLANTS = [
       "optimum": "sandy to loamy soils",
       "suitable": "Clay, Clay loam, Silt loam, Loam, Sandy loam, Loamy sand, Sand, Bedrock, Decomposed plant material",
       "classesRaw": {
-        "Clay (Fine)": "Y",
-        "Loam (sand + clay)": "Y",
-        "Silt (fine)": "Y",
-        "Sand (MEDIUM)": "Y",
-        "Gravel (coarse/rocky)": "Y"
+        "clay": "Y",
+        "loam": "Y",
+        "silt": "Y",
+        "sand": "Y",
+        "gravel": "Y"
       }
     },
     "soils": [
@@ -5696,14 +5688,14 @@ window.ECORESTORE_PLANTS = [
     ],
     "conditions": [
       "Fire prone",
-      "Episodic flooding",
-      "Drought"
+      "Episodic flooding"
     ],
     "goals": [
       "Enhanced soil fertility",
       "Wildlife habitat",
       "Forage production",
-      "Pollinator habitat"
+      "Pollinator habitat",
+      "Drought tolerant"
     ],
     "grazing": [],
     "services": [
@@ -5864,11 +5856,11 @@ window.ECORESTORE_PLANTS = [
       "optimum": "Prefers sandy and tolerates well drained clayey soils, prefers fast-draining soil pH: 5.0 - 8.0",
       "suitable": "Clay, Silty clay loam, Clay loam, Silt loam, Loam, Sandy loam, Loamy sand, Sand, Bedrock, Decomposed plant material",
       "classesRaw": {
-        "Clay (Fine)": "Y",
-        "Loam (sand + clay)": "Y",
-        "Silt (fine)": "N",
-        "Sand (MEDIUM)": "Y",
-        "Gravel (coarse/rocky)": "Y"
+        "clay": "Y",
+        "loam": "Y",
+        "silt": "N",
+        "sand": "Y",
+        "gravel": "Y"
       }
     },
     "soils": [
@@ -5945,13 +5937,13 @@ window.ECORESTORE_PLANTS = [
     ],
     "conditions": [
       "Episodic flooding",
-      "Frequent cold events",
-      "Drought"
+      "Frequent cold events"
     ],
     "goals": [
       "Wildlife habitat",
       "Forage production",
-      "Pollinator habitat"
+      "Pollinator habitat",
+      "Drought tolerant"
     ],
     "grazing": [],
     "services": [
@@ -6106,11 +6098,11 @@ window.ECORESTORE_PLANTS = [
       "optimum": "Dry, fast draining, rocky places typically near the coast but sometimes in interior mountains and canyons",
       "suitable": "Clay, Silty clay loam, Clay loam, Silt loam, Loam, Sandy loam, Loamy sand, Sand, Bedrock, Variable, Decomposed plant material",
       "classesRaw": {
-        "Clay (Fine)": "Y",
-        "Loam (sand + clay)": "Y",
-        "Silt (fine)": "Y",
-        "Sand (MEDIUM)": "Y",
-        "Gravel (coarse/rocky)": "Y"
+        "clay": "Y",
+        "loam": "Y",
+        "silt": "Y",
+        "sand": "Y",
+        "gravel": "Y"
       }
     },
     "soils": [
@@ -6150,15 +6142,15 @@ window.ECORESTORE_PLANTS = [
     "conditions": [
       "Disturbance",
       "Fire prone",
-      "Frequent cold events",
-      "Drought"
+      "Frequent cold events"
     ],
     "goals": [
       "Erosion control",
       "Wildlife habitat",
       "Weed resistance",
       "Forage production",
-      "Pollinator habitat"
+      "Pollinator habitat",
+      "Drought tolerant"
     ],
     "grazing": [],
     "services": [
@@ -6313,11 +6305,11 @@ window.ECORESTORE_PLANTS = [
       "optimum": "Prefers drier soils,",
       "suitable": "Clay, Silty clay loam, Clay loam, Sandy clay loam, Silt loam, Loam, Sandy loam, Loamy sand, Sand, Bedrock, Variable, Decomposed plant material",
       "classesRaw": {
-        "Clay (Fine)": "Y",
-        "Loam (sand + clay)": "Y",
-        "Silt (fine)": "Y",
-        "Sand (MEDIUM)": "Y",
-        "Gravel (coarse/rocky)": "Y"
+        "clay": "Y",
+        "loam": "Y",
+        "silt": "Y",
+        "sand": "Y",
+        "gravel": "Y"
       }
     },
     "soils": [
@@ -6347,15 +6339,15 @@ window.ECORESTORE_PLANTS = [
     ],
     "conditions": [
       "Disturbance",
-      "Fire prone",
-      "Drought"
+      "Fire prone"
     ],
     "goals": [
       "Enhanced soil fertility",
       "Erosion control",
       "Wildlife habitat",
       "Forage production",
-      "Pollinator habitat"
+      "Pollinator habitat",
+      "Drought tolerant"
     ],
     "grazing": [],
     "services": [
@@ -6511,11 +6503,11 @@ window.ECORESTORE_PLANTS = [
       "optimum": "Fast draining,",
       "suitable": "Clay, Silty clay loam, Clay loam, Sandy clay loam, Silt loam, Loam, Sandy loam, Loamy sand, Sand, Bedrock, Rocky, Variable, Decomposed plant material",
       "classesRaw": {
-        "Clay (Fine)": "Y",
-        "Loam (sand + clay)": "Y",
-        "Silt (fine)": "Y",
-        "Sand (MEDIUM)": "Y",
-        "Gravel (coarse/rocky)": "Y"
+        "clay": "Y",
+        "loam": "Y",
+        "silt": "Y",
+        "sand": "Y",
+        "gravel": "Y"
       }
     },
     "soils": [
@@ -6546,14 +6538,14 @@ window.ECORESTORE_PLANTS = [
     "conditions": [
       "Disturbance",
       "Fire prone",
-      "Frequent cold events",
-      "Drought"
+      "Frequent cold events"
     ],
     "goals": [
       "Enhanced soil fertility",
       "Wildlife habitat",
       "Forage production",
-      "Pollinator habitat"
+      "Pollinator habitat",
+      "Drought tolerant"
     ],
     "grazing": [
       "Low",
@@ -6711,11 +6703,11 @@ window.ECORESTORE_PLANTS = [
       "optimum": "Dry slopes",
       "suitable": "Decomposed plant material, Clay loam, Silt loam, Loam, Sandy loam, Loamy sand, Sand, Bedrock",
       "classesRaw": {
-        "Clay (Fine)": "Y",
-        "Loam (sand + clay)": "Y",
-        "Silt (fine)": "Y",
-        "Sand (MEDIUM)": "Y",
-        "Gravel (coarse/rocky)": "N"
+        "clay": "Y",
+        "loam": "Y",
+        "silt": "Y",
+        "sand": "Y",
+        "gravel": "N"
       }
     },
     "soils": [
@@ -6749,13 +6741,13 @@ window.ECORESTORE_PLANTS = [
     ],
     "conditions": [
       "Disturbance",
-      "Fire prone",
-      "Drought"
+      "Fire prone"
     ],
     "goals": [
       "Wildlife habitat",
       "Forage production",
-      "Pollinator habitat"
+      "Pollinator habitat",
+      "Drought tolerant"
     ],
     "grazing": [
       "Low",
@@ -6909,11 +6901,11 @@ window.ECORESTORE_PLANTS = [
       "optimum": "Dry  alluvial soils",
       "suitable": "Silty clay loam, Clay loam, Loam, Sandy loam, Loamy sand, Sand, Bedrock, Variable",
       "classesRaw": {
-        "Clay (Fine)": "Y",
-        "Loam (sand + clay)": "Y",
-        "Silt (fine)": "Y",
-        "Sand (MEDIUM)": "Y",
-        "Gravel (coarse/rocky)": "N"
+        "clay": "Y",
+        "loam": "Y",
+        "silt": "Y",
+        "sand": "Y",
+        "gravel": "N"
       }
     },
     "soils": [
@@ -6938,13 +6930,12 @@ window.ECORESTORE_PLANTS = [
       "Acidic",
       "Calcaerous"
     ],
-    "conditions": [
-      "Drought"
-    ],
+    "conditions": [],
     "goals": [
       "Wildlife habitat",
       "Forage production",
-      "Pollinator habitat"
+      "Pollinator habitat",
+      "Drought tolerant"
     ],
     "grazing": [],
     "services": [
@@ -7098,11 +7089,11 @@ window.ECORESTORE_PLANTS = [
       "optimum": "sandy, loamy, and clay. prefers well drained soil",
       "suitable": "clay loam, loam, sandy loam, loamy sand, sand, bedrock, variable",
       "classesRaw": {
-        "Clay (Fine)": "Y",
-        "Loam (sand + clay)": "Y",
-        "Silt (fine)": "Y",
-        "Sand (MEDIUM)": "Y",
-        "Gravel (coarse/rocky)": "Y"
+        "clay": "Y",
+        "loam": "Y",
+        "silt": "Y",
+        "sand": "Y",
+        "gravel": "Y"
       }
     },
     "soils": [
@@ -7181,14 +7172,14 @@ window.ECORESTORE_PLANTS = [
     "conditions": [
       "Riparian",
       "Disturbance",
-      "Fire prone",
-      "Drought"
+      "Fire prone"
     ],
     "goals": [
       "Erosion control",
       "Wildlife habitat",
       "Forage production",
-      "Pollinator habitat"
+      "Pollinator habitat",
+      "Drought tolerant"
     ],
     "grazing": [],
     "services": [
@@ -7344,11 +7335,11 @@ window.ECORESTORE_PLANTS = [
       "optimum": "",
       "suitable": "Clay, Silty clay loam, Clay loam, Silt loam, Loam, Sandy loam, Loamy sand, Sand, Rocky, Variable, Decomposed plant material",
       "classesRaw": {
-        "Clay (Fine)": "Y",
-        "Loam (sand + clay)": "Y",
-        "Silt (fine)": "Y",
-        "Sand (MEDIUM)": "Y",
-        "Gravel (coarse/rocky)": "Y"
+        "clay": "Y",
+        "loam": "Y",
+        "silt": "Y",
+        "sand": "Y",
+        "gravel": "Y"
       }
     },
     "soils": [
@@ -7421,12 +7412,12 @@ window.ECORESTORE_PLANTS = [
       "Acidic"
     ],
     "conditions": [
-      "Fire prone",
-      "Drought"
+      "Fire prone"
     ],
     "goals": [
       "Wildlife habitat",
-      "Pollinator habitat"
+      "Pollinator habitat",
+      "Drought tolerant"
     ],
     "grazing": [],
     "services": [
@@ -7578,11 +7569,11 @@ window.ECORESTORE_PLANTS = [
       "optimum": "NA",
       "suitable": "Clay, Silty clay loam, Clay loam, Silt loam, Loam, Sandy loam, Loamy sand, Sand, Bedrock, Decomposed plant material",
       "classesRaw": {
-        "Clay (Fine)": "Y",
-        "Loam (sand + clay)": "Y",
-        "Silt (fine)": "Y",
-        "Sand (MEDIUM)": "Y",
-        "Gravel (coarse/rocky)": "Y"
+        "clay": "Y",
+        "loam": "Y",
+        "silt": "Y",
+        "sand": "Y",
+        "gravel": "Y"
       }
     },
     "soils": [
@@ -7666,11 +7657,11 @@ window.ECORESTORE_PLANTS = [
     ],
     "conditions": [
       "Fire prone",
-      "Episodic flooding",
-      "Drought"
+      "Episodic flooding"
     ],
     "goals": [
-      "Pollinator habitat"
+      "Pollinator habitat",
+      "Drought tolerant"
     ],
     "grazing": [],
     "services": [
@@ -7821,11 +7812,11 @@ window.ECORESTORE_PLANTS = [
       "optimum": "any, as long as well-drained",
       "suitable": "Decomposed plant material, Clay, Silty clay loam, Clay loam, Silt loam, Loam, Sandy loam, Loamy sand, Sand, Variable",
       "classesRaw": {
-        "Clay (Fine)": "Y",
-        "Loam (sand + clay)": "Y",
-        "Silt (fine)": "Y",
-        "Sand (MEDIUM)": "Y",
-        "Gravel (coarse/rocky)": "N"
+        "clay": "Y",
+        "loam": "Y",
+        "silt": "Y",
+        "sand": "Y",
+        "gravel": "N"
       }
     },
     "soils": [
@@ -7867,12 +7858,12 @@ window.ECORESTORE_PLANTS = [
     ],
     "conditions": [
       "Disturbance",
-      "Episodic flooding",
-      "Drought"
+      "Episodic flooding"
     ],
     "goals": [
       "Wildlife habitat",
-      "Pollinator habitat"
+      "Pollinator habitat",
+      "Drought tolerant"
     ],
     "grazing": [
       "None"
@@ -8025,11 +8016,11 @@ window.ECORESTORE_PLANTS = [
       "optimum": "sand or sandstone",
       "suitable": "Clay, Silty clay, Silty clay loam, Clay loam, Silt loam, Loam, Sandy loam, Sand, Bedrock, Variable, Muck/Peat",
       "classesRaw": {
-        "Clay (Fine)": "Y",
-        "Loam (sand + clay)": "Y",
-        "Silt (fine)": "Y",
-        "Sand (MEDIUM)": "Y",
-        "Gravel (coarse/rocky)": "Y"
+        "clay": "Y",
+        "loam": "Y",
+        "silt": "Y",
+        "sand": "Y",
+        "gravel": "Y"
       }
     },
     "soils": [
@@ -8122,8 +8113,7 @@ window.ECORESTORE_PLANTS = [
       "Disturbance",
       "Fire prone",
       "Episodic flooding",
-      "Frequent cold events",
-      "Drought"
+      "Frequent cold events"
     ],
     "goals": [
       "Enhanced soil fertility",
@@ -8295,11 +8285,11 @@ window.ECORESTORE_PLANTS = [
       "optimum": "NA",
       "suitable": "Clay, Silty clay loam, Clay loam, Silt loam, Loam, Sandy loam, Loamy sand, Sand, Bedrock, Variable, Decomposed plant material",
       "classesRaw": {
-        "Clay (Fine)": "Y",
-        "Loam (sand + clay)": "Y",
-        "Silt (fine)": "Y",
-        "Sand (MEDIUM)": "Y",
-        "Gravel (coarse/rocky)": "Y"
+        "clay": "Y",
+        "loam": "Y",
+        "silt": "Y",
+        "sand": "Y",
+        "gravel": "Y"
       }
     },
     "soils": [
@@ -8361,13 +8351,13 @@ window.ECORESTORE_PLANTS = [
     "conditions": [
       "Fire prone",
       "Episodic flooding",
-      "Frequent cold events",
-      "Drought"
+      "Frequent cold events"
     ],
     "goals": [
       "Wildlife habitat",
       "Forage production",
-      "Pollinator habitat"
+      "Pollinator habitat",
+      "Drought tolerant"
     ],
     "grazing": [
       "Low",
@@ -8525,11 +8515,11 @@ window.ECORESTORE_PLANTS = [
       "optimum": "NA",
       "suitable": "Clay, Clay loam, Silt loam, Loam, Sandy loam, Loamy sand, Sand, Bedrock, Rocky, Variable, Decomposed plant material",
       "classesRaw": {
-        "Clay (Fine)": "Y",
-        "Loam (sand + clay)": "Y",
-        "Silt (fine)": "Y",
-        "Sand (MEDIUM)": "Y",
-        "Gravel (coarse/rocky)": "Y"
+        "clay": "Y",
+        "loam": "Y",
+        "silt": "Y",
+        "sand": "Y",
+        "gravel": "Y"
       }
     },
     "soils": [
@@ -8619,15 +8609,15 @@ window.ECORESTORE_PLANTS = [
       "Disturbance",
       "Fire prone",
       "Low light",
-      "Frequent cold events",
-      "Drought"
+      "Frequent cold events"
     ],
     "goals": [
       "Erosion control",
       "Wildlife habitat",
       "Weed resistance",
       "Forage production",
-      "Pollinator habitat"
+      "Pollinator habitat",
+      "Drought tolerant"
     ],
     "grazing": [
       "Low"
@@ -8784,11 +8774,11 @@ window.ECORESTORE_PLANTS = [
       "optimum": "Moderately deep loamy soils",
       "suitable": "Loam, Clay, Silt, Sand",
       "classesRaw": {
-        "Clay (Fine)": "Y",
-        "Loam (sand + clay)": "Y",
-        "Silt (fine)": "Y",
-        "Sand (MEDIUM)": "Y",
-        "Gravel (coarse/rocky)": "N"
+        "clay": "Y",
+        "loam": "Y",
+        "silt": "Y",
+        "sand": "Y",
+        "gravel": "N"
       }
     },
     "soils": [
@@ -8828,13 +8818,13 @@ window.ECORESTORE_PLANTS = [
       "Disturbance",
       "Fire prone",
       "Episodic flooding",
-      "Frequent cold events",
-      "Drought"
+      "Frequent cold events"
     ],
     "goals": [
       "Erosion control",
       "Wildlife habitat",
-      "Pollinator habitat"
+      "Pollinator habitat",
+      "Drought tolerant"
     ],
     "grazing": [
       "Low",
@@ -8989,11 +8979,11 @@ window.ECORESTORE_PLANTS = [
       "optimum": "medium to fine-textured soils,",
       "suitable": "Clay, Clay loam, Silt loam, Loam, Sandy loam, Rocky, Decomposed plant material",
       "classesRaw": {
-        "Clay (Fine)": "Y",
-        "Loam (sand + clay)": "Y",
-        "Silt (fine)": "Y",
-        "Sand (MEDIUM)": "Y",
-        "Gravel (coarse/rocky)": "Y"
+        "clay": "Y",
+        "loam": "Y",
+        "silt": "Y",
+        "sand": "Y",
+        "gravel": "Y"
       }
     },
     "soils": [
@@ -9079,15 +9069,15 @@ window.ECORESTORE_PLANTS = [
       "Fire prone",
       "Episodic flooding",
       "Low light",
-      "Frequent cold events",
-      "Drought"
+      "Frequent cold events"
     ],
     "goals": [
       "Erosion control",
       "Wildlife habitat",
       "Weed resistance",
       "Forage production",
-      "Pollinator habitat"
+      "Pollinator habitat",
+      "Drought tolerant"
     ],
     "grazing": [
       "Low",
@@ -9245,11 +9235,11 @@ window.ECORESTORE_PLANTS = [
       "optimum": "NA",
       "suitable": "Clay, Clay loam, Silt loam, Loam, Sandy loam, Sand, Variable, Decomposed plant material",
       "classesRaw": {
-        "Clay (Fine)": "Y",
-        "Loam (sand + clay)": "Y",
-        "Silt (fine)": "Y",
-        "Sand (MEDIUM)": "Y",
-        "Gravel (coarse/rocky)": "N"
+        "clay": "Y",
+        "loam": "Y",
+        "silt": "Y",
+        "sand": "Y",
+        "gravel": "N"
       }
     },
     "soils": [
@@ -9336,8 +9326,7 @@ window.ECORESTORE_PLANTS = [
       "Riparian",
       "Episodic flooding",
       "Low light",
-      "Frequent cold events",
-      "Drought"
+      "Frequent cold events"
     ],
     "goals": [
       "Erosion control",
@@ -9502,11 +9491,11 @@ window.ECORESTORE_PLANTS = [
       "optimum": "loamey to clayey soils",
       "suitable": "Clay loam, Loam, Sandy loam, Loamy sand, Bedrock, Variable, Decomposed plant material",
       "classesRaw": {
-        "Clay (Fine)": "Y",
-        "Loam (sand + clay)": "Y",
-        "Silt (fine)": "N",
-        "Sand (MEDIUM)": "Y",
-        "Gravel (coarse/rocky)": "Y"
+        "clay": "Y",
+        "loam": "Y",
+        "silt": "N",
+        "sand": "Y",
+        "gravel": "Y"
       }
     },
     "soils": [
@@ -9586,14 +9575,14 @@ window.ECORESTORE_PLANTS = [
       "Fire prone",
       "Episodic flooding",
       "Low light",
-      "Frequent cold events",
-      "Drought"
+      "Frequent cold events"
     ],
     "goals": [
       "Erosion control",
       "Wildlife habitat",
       "Forage production",
-      "Pollinator habitat"
+      "Pollinator habitat",
+      "Drought tolerant"
     ],
     "grazing": [
       "Low",
@@ -9747,11 +9736,11 @@ window.ECORESTORE_PLANTS = [
       "optimum": "NA",
       "suitable": "Clay, Silty clay loam, Clay loam, Silt loam, Loam, Sandy loam, Loamy sand, Sand, Bedrock, Variable, Decomposed plant material",
       "classesRaw": {
-        "Clay (Fine)": "Y",
-        "Loam (sand + clay)": "Y",
-        "Silt (fine)": "Y",
-        "Sand (MEDIUM)": "Y",
-        "Gravel (coarse/rocky)": "Y"
+        "clay": "Y",
+        "loam": "Y",
+        "silt": "Y",
+        "sand": "Y",
+        "gravel": "Y"
       }
     },
     "soils": [
@@ -9840,14 +9829,14 @@ window.ECORESTORE_PLANTS = [
       "Fire prone",
       "Episodic flooding",
       "Low light",
-      "Frequent cold events",
-      "Drought"
+      "Frequent cold events"
     ],
     "goals": [
       "Erosion control",
       "Wildlife habitat",
       "Forage production",
-      "Pollinator habitat"
+      "Pollinator habitat",
+      "Drought tolerant"
     ],
     "grazing": [],
     "services": [
@@ -10004,11 +9993,11 @@ window.ECORESTORE_PLANTS = [
       "optimum": "loamy",
       "suitable": "Clay, Silty clay, Silty clay loam, Clay loam, Silt loam, Loam, Sandy loam, Loamy sand, Sand, Bedrock, Variable, Decomposed plant material",
       "classesRaw": {
-        "Clay (Fine)": "Y",
-        "Loam (sand + clay)": "Y",
-        "Silt (fine)": "Y",
-        "Sand (MEDIUM)": "Y",
-        "Gravel (coarse/rocky)": "Y"
+        "clay": "Y",
+        "loam": "Y",
+        "silt": "Y",
+        "sand": "Y",
+        "gravel": "Y"
       }
     },
     "soils": [
@@ -10086,13 +10075,13 @@ window.ECORESTORE_PLANTS = [
       "Disturbance",
       "Fire prone",
       "Episodic flooding",
-      "Frequent cold events",
-      "Drought"
+      "Frequent cold events"
     ],
     "goals": [
       "Erosion control",
       "Wildlife habitat",
-      "Pollinator habitat"
+      "Pollinator habitat",
+      "Drought tolerant"
     ],
     "grazing": [
       "Low",
@@ -10249,11 +10238,11 @@ window.ECORESTORE_PLANTS = [
       "optimum": "Rocky, gravelly.",
       "suitable": "Clay loam, Silt loam, Loam, Sandy loam, Loamy sand, Sand, Variable",
       "classesRaw": {
-        "Clay (Fine)": "Y",
-        "Loam (sand + clay)": "Y",
-        "Silt (fine)": "Y",
-        "Sand (MEDIUM)": "Y",
-        "Gravel (coarse/rocky)": "Y"
+        "clay": "Y",
+        "loam": "Y",
+        "silt": "Y",
+        "sand": "Y",
+        "gravel": "Y"
       }
     },
     "soils": [
@@ -10295,13 +10284,13 @@ window.ECORESTORE_PLANTS = [
       "Acidic"
     ],
     "conditions": [
-      "Episodic flooding",
-      "Drought"
+      "Episodic flooding"
     ],
     "goals": [
       "Erosion control",
       "Wildlife habitat",
-      "Pollinator habitat"
+      "Pollinator habitat",
+      "Drought tolerant"
     ],
     "grazing": [
       "None"
@@ -10453,11 +10442,11 @@ window.ECORESTORE_PLANTS = [
       "optimum": "NA",
       "suitable": "Clay, Silty clay loam, Clay loam, Silt loam, Loam, Sandy loam, Loamy sand, Sand, Bedrock, Variable, Decomposed plant material",
       "classesRaw": {
-        "Clay (Fine)": "Y",
-        "Loam (sand + clay)": "Y",
-        "Silt (fine)": "Y",
-        "Sand (MEDIUM)": "Y",
-        "Gravel (coarse/rocky)": "Y"
+        "clay": "Y",
+        "loam": "Y",
+        "silt": "Y",
+        "sand": "Y",
+        "gravel": "Y"
       }
     },
     "soils": [
@@ -10543,12 +10532,12 @@ window.ECORESTORE_PLANTS = [
     ],
     "conditions": [
       "Disturbance",
-      "Episodic flooding",
-      "Drought"
+      "Episodic flooding"
     ],
     "goals": [
       "Erosion control",
-      "Wildlife habitat"
+      "Wildlife habitat",
+      "Drought tolerant"
     ],
     "grazing": [
       "Low",
@@ -10710,11 +10699,11 @@ window.ECORESTORE_PLANTS = [
       "optimum": "",
       "suitable": "",
       "classesRaw": {
-        "Clay (Fine)": "Y",
-        "Loam (sand + clay)": "Y",
-        "Silt (fine)": "Y",
-        "Sand (MEDIUM)": "Y",
-        "Gravel (coarse/rocky)": "Y"
+        "clay": "Y",
+        "loam": "Y",
+        "silt": "Y",
+        "sand": "Y",
+        "gravel": "Y"
       }
     },
     "soils": [
@@ -10792,8 +10781,13 @@ window.ECORESTORE_PLANTS = [
       "Acidic"
     ],
     "conditions": [],
-    "goals": [],
-    "grazing": [],
+    "goals": [
+      "Drought tolerant"
+    ],
+    "grazing": [
+      "Low",
+      "Moderate"
+    ],
     "services": [],
     "traits": {
       "salt": {
@@ -10853,8 +10847,8 @@ window.ECORESTORE_PLANTS = [
         "detail": ""
       },
       "drought": {
-        "match": null,
-        "detail": ""
+        "match": true,
+        "detail": "Y"
       },
       "wildlife": {
         "match": null,
@@ -10866,7 +10860,7 @@ window.ECORESTORE_PLANTS = [
       },
       "grazingResponse": {
         "match": null,
-        "detail": ""
+        "detail": "low to moderate"
       },
       "erosion": {
         "match": null,
@@ -10940,11 +10934,11 @@ window.ECORESTORE_PLANTS = [
       "optimum": "any, as long as sufficient moisture available",
       "suitable": "Clay, Silty clay loam, Clay loam, Silt loam, Loam, Sandy loam, Loamy sand, Sand, Variable, Decomposed plant material",
       "classesRaw": {
-        "Clay (Fine)": "Y",
-        "Loam (sand + clay)": "Y",
-        "Silt (fine)": "Y",
-        "Sand (MEDIUM)": "Y",
-        "Gravel (coarse/rocky)": "N"
+        "clay": "Y",
+        "loam": "Y",
+        "silt": "Y",
+        "sand": "Y",
+        "gravel": "N"
       }
     },
     "soils": [
@@ -11032,8 +11026,7 @@ window.ECORESTORE_PLANTS = [
     "conditions": [
       "Riparian",
       "Fire prone",
-      "Frequent cold events",
-      "Drought"
+      "Frequent cold events"
     ],
     "goals": [
       "Erosion control",
@@ -11196,11 +11189,11 @@ window.ECORESTORE_PLANTS = [
       "optimum": "silty loam, sandy loam",
       "suitable": "Decomposed plant material, Clay, Clay loam, Silt loam, Loam, Sandy loam, Bedrock",
       "classesRaw": {
-        "Clay (Fine)": "Y",
-        "Loam (sand + clay)": "Y",
-        "Silt (fine)": "Y",
-        "Sand (MEDIUM)": "Y",
-        "Gravel (coarse/rocky)": "Y"
+        "clay": "Y",
+        "loam": "Y",
+        "silt": "Y",
+        "sand": "Y",
+        "gravel": "Y"
       }
     },
     "soils": [
@@ -11269,8 +11262,7 @@ window.ECORESTORE_PLANTS = [
       "Disturbance",
       "Fire prone",
       "Low light",
-      "Frequent cold events",
-      "Drought"
+      "Frequent cold events"
     ],
     "goals": [
       "Erosion control",
@@ -11346,7 +11338,7 @@ window.ECORESTORE_PLANTS = [
         "detail": "Y"
       },
       "drought": {
-        "match": true,
+        "match": false,
         "detail": "moderate"
       },
       "wildlife": {
@@ -11435,11 +11427,11 @@ window.ECORESTORE_PLANTS = [
       "optimum": "sandy loam",
       "suitable": "Clay, Clay loam, Silt loam, Loam, Sandy loam, Sand, Bedrock, Rocky, Decomposed plant material",
       "classesRaw": {
-        "Clay (Fine)": "Y",
-        "Loam (sand + clay)": "Y",
-        "Silt (fine)": "Y",
-        "Sand (MEDIUM)": "Y",
-        "Gravel (coarse/rocky)": "Y"
+        "clay": "Y",
+        "loam": "Y",
+        "silt": "Y",
+        "sand": "Y",
+        "gravel": "Y"
       }
     },
     "soils": [
@@ -11524,12 +11516,12 @@ window.ECORESTORE_PLANTS = [
       "Strongly acidic"
     ],
     "conditions": [
-      "Disturbance",
-      "Drought"
+      "Disturbance"
     ],
     "goals": [
       "Enhanced soil fertility",
-      "Wildlife habitat"
+      "Wildlife habitat",
+      "Drought tolerant"
     ],
     "grazing": [
       "Low"
@@ -11683,11 +11675,11 @@ window.ECORESTORE_PLANTS = [
       "optimum": "gravely, calcareous soil",
       "suitable": "Decomposed plant material, Clay, Clay loam, Silt loam, Loam, Sandy loam, Sand, Bedrock, Variable",
       "classesRaw": {
-        "Clay (Fine)": "Y",
-        "Loam (sand + clay)": "Y",
-        "Silt (fine)": "Y",
-        "Sand (MEDIUM)": "Y",
-        "Gravel (coarse/rocky)": "Y"
+        "clay": "Y",
+        "loam": "Y",
+        "silt": "Y",
+        "sand": "Y",
+        "gravel": "Y"
       }
     },
     "soils": [
@@ -11770,12 +11762,12 @@ window.ECORESTORE_PLANTS = [
       "Disturbance",
       "Episodic flooding",
       "Low light",
-      "Frequent cold events",
-      "Drought"
+      "Frequent cold events"
     ],
     "goals": [
       "Weed resistance",
-      "Forage production"
+      "Forage production",
+      "Drought tolerant"
     ],
     "grazing": [
       "Low",
@@ -11930,11 +11922,11 @@ window.ECORESTORE_PLANTS = [
       "optimum": "adaptable",
       "suitable": "Clay, Silty clay loam, Clay loam, Silt loam, Loam, Sandy loam, Variable, Decomposed plant material",
       "classesRaw": {
-        "Clay (Fine)": "Y",
-        "Loam (sand + clay)": "Y",
-        "Silt (fine)": "Y",
-        "Sand (MEDIUM)": "Y",
-        "Gravel (coarse/rocky)": "N"
+        "clay": "Y",
+        "loam": "Y",
+        "silt": "Y",
+        "sand": "Y",
+        "gravel": "N"
       }
     },
     "soils": [
@@ -12019,12 +12011,12 @@ window.ECORESTORE_PLANTS = [
     ],
     "conditions": [
       "Riparian",
-      "Disturbance",
-      "Drought"
+      "Disturbance"
     ],
     "goals": [
       "Wildlife habitat",
-      "Pollinator habitat"
+      "Pollinator habitat",
+      "Drought tolerant"
     ],
     "grazing": [
       "None"
@@ -12177,11 +12169,11 @@ window.ECORESTORE_PLANTS = [
       "optimum": "NA",
       "suitable": "Clay, Clay loam, Silt loam, Loam, Sandy loam, Decomposed plant material",
       "classesRaw": {
-        "Clay (Fine)": "Y",
-        "Loam (sand + clay)": "Y",
-        "Silt (fine)": "Y",
-        "Sand (MEDIUM)": "Y",
-        "Gravel (coarse/rocky)": "N"
+        "clay": "Y",
+        "loam": "Y",
+        "silt": "Y",
+        "sand": "Y",
+        "gravel": "N"
       }
     },
     "soils": [
@@ -12241,12 +12233,12 @@ window.ECORESTORE_PLANTS = [
       "Strongly acidic"
     ],
     "conditions": [
-      "Episodic flooding",
-      "Drought"
+      "Episodic flooding"
     ],
     "goals": [
       "Wildlife habitat",
-      "Pollinator habitat"
+      "Pollinator habitat",
+      "Drought tolerant"
     ],
     "grazing": [],
     "services": [
@@ -12398,11 +12390,11 @@ window.ECORESTORE_PLANTS = [
       "optimum": "NA",
       "suitable": "Decomposed plant material, Clay, Clay loam, Silt loam, Loam, Sandy loam",
       "classesRaw": {
-        "Clay (Fine)": "Y",
-        "Loam (sand + clay)": "Y",
-        "Silt (fine)": "Y",
-        "Sand (MEDIUM)": "Y",
-        "Gravel (coarse/rocky)": "N"
+        "clay": "Y",
+        "loam": "Y",
+        "silt": "Y",
+        "sand": "Y",
+        "gravel": "N"
       }
     },
     "soils": [
@@ -12470,12 +12462,12 @@ window.ECORESTORE_PLANTS = [
     "conditions": [
       "Riparian",
       "Disturbance",
-      "Episodic flooding",
-      "Drought"
+      "Episodic flooding"
     ],
     "goals": [
       "Weed resistance",
-      "Pollinator habitat"
+      "Pollinator habitat",
+      "Drought tolerant"
     ],
     "grazing": [
       "Low",
@@ -12630,11 +12622,11 @@ window.ECORESTORE_PLANTS = [
       "optimum": "moist, fine textured soils",
       "suitable": "Clay, Silty clay, Clay loam, Silt loam, Loam, Sandy loam, Sand, Bedrock, Rocky, Decomposed plant material",
       "classesRaw": {
-        "Clay (Fine)": "Y",
-        "Loam (sand + clay)": "Y",
-        "Silt (fine)": "Y",
-        "Sand (MEDIUM)": "Y",
-        "Gravel (coarse/rocky)": "Y"
+        "clay": "Y",
+        "loam": "Y",
+        "silt": "Y",
+        "sand": "Y",
+        "gravel": "Y"
       }
     },
     "soils": [
@@ -12724,13 +12716,13 @@ window.ECORESTORE_PLANTS = [
       "Fire prone",
       "Episodic flooding",
       "Low light",
-      "Frequent cold events",
-      "Drought"
+      "Frequent cold events"
     ],
     "goals": [
       "Erosion control",
       "Wildlife habitat",
-      "Forage production"
+      "Forage production",
+      "Drought tolerant"
     ],
     "grazing": [
       "Low",
@@ -12886,11 +12878,11 @@ window.ECORESTORE_PLANTS = [
       "optimum": "sandy loam",
       "suitable": "Clay, Silty clay loam, Clay loam, Silt loam, Loam, Sandy loam, Loamy sand, Sand, Bedrock, Decomposed plant material",
       "classesRaw": {
-        "Clay (Fine)": "Y",
-        "Loam (sand + clay)": "Y",
-        "Silt (fine)": "Y",
-        "Sand (MEDIUM)": "Y",
-        "Gravel (coarse/rocky)": "Y"
+        "clay": "Y",
+        "loam": "Y",
+        "silt": "Y",
+        "sand": "Y",
+        "gravel": "Y"
       }
     },
     "soils": [
@@ -12978,14 +12970,14 @@ window.ECORESTORE_PLANTS = [
       "Fire prone",
       "Episodic flooding",
       "Low light",
-      "Frequent cold events",
-      "Drought"
+      "Frequent cold events"
     ],
     "goals": [
       "Enhanced soil fertility",
       "Erosion control",
       "Wildlife habitat",
-      "Forage production"
+      "Forage production",
+      "Drought tolerant"
     ],
     "grazing": [
       "Low",
@@ -13147,11 +13139,11 @@ window.ECORESTORE_PLANTS = [
       "optimum": "loamy",
       "suitable": "Clay, Silty clay loam, Clay loam, Silt loam, Loam, Sandy loam, Sand, Bedrock, Decomposed plant material",
       "classesRaw": {
-        "Clay (Fine)": "Y",
-        "Loam (sand + clay)": "Y",
-        "Silt (fine)": "Y",
-        "Sand (MEDIUM)": "Y",
-        "Gravel (coarse/rocky)": "Y"
+        "clay": "Y",
+        "loam": "Y",
+        "silt": "Y",
+        "sand": "Y",
+        "gravel": "Y"
       }
     },
     "soils": [
@@ -13235,12 +13227,12 @@ window.ECORESTORE_PLANTS = [
       "Strongly acidic"
     ],
     "conditions": [
-      "Riparian",
-      "Drought"
+      "Riparian"
     ],
     "goals": [
       "Wildlife habitat",
-      "Pollinator habitat"
+      "Pollinator habitat",
+      "Drought tolerant"
     ],
     "grazing": [],
     "services": [
@@ -13392,11 +13384,11 @@ window.ECORESTORE_PLANTS = [
       "optimum": "clay or loamy",
       "suitable": "Clay, Clay loam, Silt loam, Loam, Sandy loam, Loamy sand, Sand, Decomposed plant material",
       "classesRaw": {
-        "Clay (Fine)": "Y",
-        "Loam (sand + clay)": "Y",
-        "Silt (fine)": "Y",
-        "Sand (MEDIUM)": "Y",
-        "Gravel (coarse/rocky)": "N"
+        "clay": "Y",
+        "loam": "Y",
+        "silt": "Y",
+        "sand": "Y",
+        "gravel": "N"
       }
     },
     "soils": [
@@ -13468,13 +13460,13 @@ window.ECORESTORE_PLANTS = [
     "conditions": [
       "Riparian",
       "Episodic flooding",
-      "Frequent cold events",
-      "Drought"
+      "Frequent cold events"
     ],
     "goals": [
       "Enhanced soil fertility",
       "Wildlife habitat",
-      "Pollinator habitat"
+      "Pollinator habitat",
+      "Drought tolerant"
     ],
     "grazing": [],
     "services": [
@@ -13628,11 +13620,11 @@ window.ECORESTORE_PLANTS = [
       "optimum": "sandy",
       "suitable": "Clay, Clay loam, Silt loam, Loam, Sandy loam, Loamy sand, Sand, Rocky, Variable, Decomposed plant material",
       "classesRaw": {
-        "Clay (Fine)": "Y",
-        "Loam (sand + clay)": "Y",
-        "Silt (fine)": "Y",
-        "Sand (MEDIUM)": "Y",
-        "Gravel (coarse/rocky)": "Y"
+        "clay": "Y",
+        "loam": "Y",
+        "silt": "Y",
+        "sand": "Y",
+        "gravel": "Y"
       }
     },
     "soils": [
@@ -13721,13 +13713,13 @@ window.ECORESTORE_PLANTS = [
       "Disturbance",
       "Fire prone",
       "Episodic flooding",
-      "Frequent cold events",
-      "Drought"
+      "Frequent cold events"
     ],
     "goals": [
       "Enhanced soil fertility",
       "Wildlife habitat",
-      "Pollinator habitat"
+      "Pollinator habitat",
+      "Drought tolerant"
     ],
     "grazing": [],
     "services": [
@@ -13880,11 +13872,11 @@ window.ECORESTORE_PLANTS = [
       "optimum": "NA",
       "suitable": "Decomposed plant material, Clay, Clay loam, Silt loam, Loam, Sandy loam, Loamy sand, Sand, Variable",
       "classesRaw": {
-        "Clay (Fine)": "Y",
-        "Loam (sand + clay)": "Y",
-        "Silt (fine)": "Y",
-        "Sand (MEDIUM)": "Y",
-        "Gravel (coarse/rocky)": "N"
+        "clay": "Y",
+        "loam": "Y",
+        "silt": "Y",
+        "sand": "Y",
+        "gravel": "N"
       }
     },
     "soils": [
@@ -13967,13 +13959,13 @@ window.ECORESTORE_PLANTS = [
       "Disturbance",
       "Episodic flooding",
       "Low light",
-      "Frequent cold events",
-      "Drought"
+      "Frequent cold events"
     ],
     "goals": [
       "Enhanced soil fertility",
       "Wildlife habitat",
-      "Pollinator habitat"
+      "Pollinator habitat",
+      "Drought tolerant"
     ],
     "grazing": [
       "None"
@@ -14128,11 +14120,11 @@ window.ECORESTORE_PLANTS = [
       "optimum": "dry clay",
       "suitable": "Decomposed plant material, Clay, Clay loam, Silt loam, Loam, Sandy loam",
       "classesRaw": {
-        "Clay (Fine)": "Y",
-        "Loam (sand + clay)": "Y",
-        "Silt (fine)": "Y",
-        "Sand (MEDIUM)": "Y",
-        "Gravel (coarse/rocky)": "N"
+        "clay": "Y",
+        "loam": "Y",
+        "silt": "Y",
+        "sand": "Y",
+        "gravel": "N"
       }
     },
     "soils": [
@@ -14203,14 +14195,14 @@ window.ECORESTORE_PLANTS = [
     ],
     "conditions": [
       "Episodic flooding",
-      "Low light",
-      "Drought"
+      "Low light"
     ],
     "goals": [
       "Enhanced soil fertility",
       "Erosion control",
       "Wildlife habitat",
-      "Pollinator habitat"
+      "Pollinator habitat",
+      "Drought tolerant"
     ],
     "grazing": [
       "None"
@@ -14366,11 +14358,11 @@ window.ECORESTORE_PLANTS = [
       "optimum": "adaptable",
       "suitable": "Clay, Silty clay loam, Clay loam, Loam, Sandy loam, Loamy sand, Sand, Variable, Decomposed plant material",
       "classesRaw": {
-        "Clay (Fine)": "Y",
-        "Loam (sand + clay)": "Y",
-        "Silt (fine)": "Y",
-        "Sand (MEDIUM)": "Y",
-        "Gravel (coarse/rocky)": "N"
+        "clay": "Y",
+        "loam": "Y",
+        "silt": "Y",
+        "sand": "Y",
+        "gravel": "N"
       }
     },
     "soils": [
@@ -14450,14 +14442,14 @@ window.ECORESTORE_PLANTS = [
     ],
     "conditions": [
       "Disturbance",
-      "Episodic flooding",
-      "Drought"
+      "Episodic flooding"
     ],
     "goals": [
       "Enhanced soil fertility",
       "Erosion control",
       "Wildlife habitat",
-      "Pollinator habitat"
+      "Pollinator habitat",
+      "Drought tolerant"
     ],
     "grazing": [
       "None"
@@ -14615,11 +14607,11 @@ window.ECORESTORE_PLANTS = [
       "optimum": "heavy, moist soil",
       "suitable": "Decomposed plant material, Clay, Silty clay loam, Clay loam, Silt loam, Loam, Sandy loam, Loamy sand, Sand, Bedrock",
       "classesRaw": {
-        "Clay (Fine)": "Y",
-        "Loam (sand + clay)": "Y",
-        "Silt (fine)": "Y",
-        "Sand (MEDIUM)": "Y",
-        "Gravel (coarse/rocky)": "Y"
+        "clay": "Y",
+        "loam": "Y",
+        "silt": "Y",
+        "sand": "Y",
+        "gravel": "Y"
       }
     },
     "soils": [
@@ -14690,14 +14682,14 @@ window.ECORESTORE_PLANTS = [
     "conditions": [
       "Fire prone",
       "Episodic flooding",
-      "Low light",
-      "Drought"
+      "Low light"
     ],
     "goals": [
       "Enhanced soil fertility",
       "Erosion control",
       "Wildlife habitat",
-      "Pollinator habitat"
+      "Pollinator habitat",
+      "Drought tolerant"
     ],
     "grazing": [],
     "services": [
@@ -14848,11 +14840,11 @@ window.ECORESTORE_PLANTS = [
       "optimum": "NA",
       "suitable": "Clay, Silty clay loam, Clay loam, Loam, Sandy loam, Loamy sand, Sand, Variable, Decomposed plant materia",
       "classesRaw": {
-        "Clay (Fine)": "Y",
-        "Loam (sand + clay)": "Y",
-        "Silt (fine)": "Y",
-        "Sand (MEDIUM)": "Y",
-        "Gravel (coarse/rocky)": "N"
+        "clay": "Y",
+        "loam": "Y",
+        "silt": "Y",
+        "sand": "Y",
+        "gravel": "N"
       }
     },
     "soils": [
@@ -14892,11 +14884,11 @@ window.ECORESTORE_PLANTS = [
     ],
     "conditions": [
       "Episodic flooding",
-      "Low light",
-      "Drought"
+      "Low light"
     ],
     "goals": [
-      "Pollinator habitat"
+      "Pollinator habitat",
+      "Drought tolerant"
     ],
     "grazing": [],
     "services": [
@@ -15048,11 +15040,11 @@ window.ECORESTORE_PLANTS = [
       "optimum": "good drainage",
       "suitable": "Silty clay loam, Clay loam, Silt loam, Loam, Sandy loam, Loamy sand, Bedrock, Rocky, Decomposed plant material",
       "classesRaw": {
-        "Clay (Fine)": "Y",
-        "Loam (sand + clay)": "Y",
-        "Silt (fine)": "Y",
-        "Sand (MEDIUM)": "Y",
-        "Gravel (coarse/rocky)": "Y"
+        "clay": "Y",
+        "loam": "Y",
+        "silt": "Y",
+        "sand": "Y",
+        "gravel": "Y"
       }
     },
     "soils": [
@@ -15136,14 +15128,14 @@ window.ECORESTORE_PLANTS = [
       "Fire prone",
       "Episodic flooding",
       "Low light",
-      "Frequent cold events",
-      "Drought"
+      "Frequent cold events"
     ],
     "goals": [
       "Erosion control",
       "Wildlife habitat",
       "Weed resistance",
-      "Forage production"
+      "Forage production",
+      "Drought tolerant"
     ],
     "grazing": [
       "Low",
@@ -15300,11 +15292,11 @@ window.ECORESTORE_PLANTS = [
       "optimum": "NA",
       "suitable": "Clay, Silty clay loam, Clay loam, Sandy clay loam, Loam, Sandy loam, Loamy sand, Sand, Bedrock, Variable, Decomposed plant material",
       "classesRaw": {
-        "Clay (Fine)": "Y",
-        "Loam (sand + clay)": "Y",
-        "Silt (fine)": "Y",
-        "Sand (MEDIUM)": "Y",
-        "Gravel (coarse/rocky)": "Y"
+        "clay": "Y",
+        "loam": "Y",
+        "silt": "Y",
+        "sand": "Y",
+        "gravel": "Y"
       }
     },
     "soils": [
@@ -15376,13 +15368,13 @@ window.ECORESTORE_PLANTS = [
       "Fire prone",
       "Episodic flooding",
       "Low light",
-      "Frequent cold events",
-      "Drought"
+      "Frequent cold events"
     ],
     "goals": [
       "Erosion control",
       "Wildlife habitat",
-      "Forage production"
+      "Forage production",
+      "Drought tolerant"
     ],
     "grazing": [
       "Low",
@@ -15542,11 +15534,11 @@ window.ECORESTORE_PLANTS = [
       "optimum": "good drainage",
       "suitable": "NA",
       "classesRaw": {
-        "Clay (Fine)": "NA",
-        "Loam (sand + clay)": "NA",
-        "Silt (fine)": "NA",
-        "Sand (MEDIUM)": "NA",
-        "Gravel (coarse/rocky)": "NA"
+        "clay": "NA",
+        "loam": "NA",
+        "silt": "NA",
+        "sand": "NA",
+        "gravel": "NA"
       }
     },
     "soils": [],
@@ -15604,12 +15596,12 @@ window.ECORESTORE_PLANTS = [
       "Serpentine/Metal"
     ],
     "conditions": [
-      "Episodic flooding",
-      "Drought"
+      "Episodic flooding"
     ],
     "goals": [
       "Wildlife habitat",
-      "Pollinator habitat"
+      "Pollinator habitat",
+      "Drought tolerant"
     ],
     "grazing": [
       "Low",
@@ -15765,11 +15757,11 @@ window.ECORESTORE_PLANTS = [
       "optimum": "NA",
       "suitable": "Decomposed plant material, Clay, Silty clay loam, Clay loam, Sandy clay loam, Loam, Sandy loam",
       "classesRaw": {
-        "Clay (Fine)": "Y",
-        "Loam (sand + clay)": "Y",
-        "Silt (fine)": "Y",
-        "Sand (MEDIUM)": "Y",
-        "Gravel (coarse/rocky)": "N"
+        "clay": "Y",
+        "loam": "Y",
+        "silt": "Y",
+        "sand": "Y",
+        "gravel": "N"
       }
     },
     "soils": [
@@ -15837,11 +15829,11 @@ window.ECORESTORE_PLANTS = [
     "conditions": [
       "Disturbance",
       "Fire prone",
-      "Episodic flooding",
-      "Drought"
+      "Episodic flooding"
     ],
     "goals": [
-      "Pollinator habitat"
+      "Pollinator habitat",
+      "Drought tolerant"
     ],
     "grazing": [
       "None"
@@ -15996,11 +15988,11 @@ window.ECORESTORE_PLANTS = [
       "optimum": "sandy, gravely",
       "suitable": "Clay, Clay loam, Silt loam, Loam, Sandy loam, Loamy sand, Sand, Bedrock, Variable, Decomposed plant material",
       "classesRaw": {
-        "Clay (Fine)": "Y",
-        "Loam (sand + clay)": "Y",
-        "Silt (fine)": "Y",
-        "Sand (MEDIUM)": "Y",
-        "Gravel (coarse/rocky)": "Y"
+        "clay": "Y",
+        "loam": "Y",
+        "silt": "Y",
+        "sand": "Y",
+        "gravel": "Y"
       }
     },
     "soils": [
@@ -16060,12 +16052,12 @@ window.ECORESTORE_PLANTS = [
       "Riparian",
       "Disturbance",
       "Fire prone",
-      "Episodic flooding",
-      "Drought"
+      "Episodic flooding"
     ],
     "goals": [
       "Erosion control",
-      "Wildlife habitat"
+      "Wildlife habitat",
+      "Drought tolerant"
     ],
     "grazing": [
       "Low",
@@ -16229,11 +16221,11 @@ window.ECORESTORE_PLANTS = [
       "optimum": "loose, acidic, organically rich, well drained",
       "suitable": "Clay loam, Silt loam, Loam, Sandy loam, Loamy sand, Sand, Decomposed plant material",
       "classesRaw": {
-        "Clay (Fine)": "Y",
-        "Loam (sand + clay)": "Y",
-        "Silt (fine)": "Y",
-        "Sand (MEDIUM)": "Y",
-        "Gravel (coarse/rocky)": "N"
+        "clay": "Y",
+        "loam": "Y",
+        "silt": "Y",
+        "sand": "Y",
+        "gravel": "N"
       }
     },
     "soils": [
@@ -16313,12 +16305,12 @@ window.ECORESTORE_PLANTS = [
     "conditions": [
       "Fire prone",
       "Low light",
-      "Frequent cold events",
-      "Drought"
+      "Frequent cold events"
     ],
     "goals": [
       "Wildlife habitat",
-      "Pollinator habitat"
+      "Pollinator habitat",
+      "Drought tolerant"
     ],
     "grazing": [
       "None"
@@ -16472,11 +16464,11 @@ window.ECORESTORE_PLANTS = [
       "optimum": "good drainage",
       "suitable": "Silty clay loam, Clay loam, Silt loam, Loam, Sandy loam, Sand, Bedrock, Variable, Decomposed plant material",
       "classesRaw": {
-        "Clay (Fine)": "Y",
-        "Loam (sand + clay)": "Y",
-        "Silt (fine)": "Y",
-        "Sand (MEDIUM)": "Y",
-        "Gravel (coarse/rocky)": "Y"
+        "clay": "Y",
+        "loam": "Y",
+        "silt": "Y",
+        "sand": "Y",
+        "gravel": "Y"
       }
     },
     "soils": [
@@ -16542,12 +16534,12 @@ window.ECORESTORE_PLANTS = [
     "conditions": [
       "Episodic flooding",
       "Low light",
-      "Frequent cold events",
-      "Drought"
+      "Frequent cold events"
     ],
     "goals": [
       "Wildlife habitat",
-      "Pollinator habitat"
+      "Pollinator habitat",
+      "Drought tolerant"
     ],
     "grazing": [],
     "services": [
@@ -16699,11 +16691,11 @@ window.ECORESTORE_PLANTS = [
       "optimum": "good drainage",
       "suitable": "Decomposed plant material, Clay loam, Loam, Sandy loam, Sand, Bedrock, Variable",
       "classesRaw": {
-        "Clay (Fine)": "Y",
-        "Loam (sand + clay)": "Y",
-        "Silt (fine)": "Y",
-        "Sand (MEDIUM)": "Y",
-        "Gravel (coarse/rocky)": "Y"
+        "clay": "Y",
+        "loam": "Y",
+        "silt": "Y",
+        "sand": "Y",
+        "gravel": "Y"
       }
     },
     "soils": [
@@ -16753,12 +16745,12 @@ window.ECORESTORE_PLANTS = [
       "Serpentine/Metal"
     ],
     "conditions": [
-      "Low light",
-      "Drought"
+      "Low light"
     ],
     "goals": [
       "Wildlife habitat",
-      "Pollinator habitat"
+      "Pollinator habitat",
+      "Drought tolerant"
     ],
     "grazing": [],
     "services": [
@@ -16913,11 +16905,11 @@ window.ECORESTORE_PLANTS = [
       "optimum": "NA",
       "suitable": "Clay, Clay loam, Silt loam, Loam, Sandy loam, Loamy sand, Sand, Bedrock, Decomposed plant material",
       "classesRaw": {
-        "Clay (Fine)": "Y",
-        "Loam (sand + clay)": "Y",
-        "Silt (fine)": "Y",
-        "Sand (MEDIUM)": "Y",
-        "Gravel (coarse/rocky)": "Y"
+        "clay": "Y",
+        "loam": "Y",
+        "silt": "Y",
+        "sand": "Y",
+        "gravel": "Y"
       }
     },
     "soils": [
@@ -16976,11 +16968,11 @@ window.ECORESTORE_PLANTS = [
     "conditions": [
       "Fire prone",
       "Episodic flooding",
-      "Low light",
-      "Drought"
+      "Low light"
     ],
     "goals": [
-      "Pollinator habitat"
+      "Pollinator habitat",
+      "Drought tolerant"
     ],
     "grazing": [],
     "services": [
@@ -17136,11 +17128,11 @@ window.ECORESTORE_PLANTS = [
       "optimum": "good drainage",
       "suitable": "Clay, Silty clay loam, Clay loam, Loam, Sandy loam, Loamy sand, Sand, Bedrock, Variable, Decomposed plant material",
       "classesRaw": {
-        "Clay (Fine)": "Y",
-        "Loam (sand + clay)": "Y",
-        "Silt (fine)": "Y",
-        "Sand (MEDIUM)": "Y",
-        "Gravel (coarse/rocky)": "Y"
+        "clay": "Y",
+        "loam": "Y",
+        "silt": "Y",
+        "sand": "Y",
+        "gravel": "Y"
       }
     },
     "soils": [
@@ -17206,11 +17198,11 @@ window.ECORESTORE_PLANTS = [
     "conditions": [
       "Episodic flooding",
       "Low light",
-      "Frequent cold events",
-      "Drought"
+      "Frequent cold events"
     ],
     "goals": [
-      "Pollinator habitat"
+      "Pollinator habitat",
+      "Drought tolerant"
     ],
     "grazing": [
       "None"
@@ -17365,11 +17357,11 @@ window.ECORESTORE_PLANTS = [
       "optimum": "gravelly, sandy, well-drained",
       "suitable": "Silty clay loam, Clay loam, Loam, Sandy loam, Sand, Bedrock",
       "classesRaw": {
-        "Clay (Fine)": "Y",
-        "Loam (sand + clay)": "Y",
-        "Silt (fine)": "Y",
-        "Sand (MEDIUM)": "Y",
-        "Gravel (coarse/rocky)": "Y"
+        "clay": "Y",
+        "loam": "Y",
+        "silt": "Y",
+        "sand": "Y",
+        "gravel": "Y"
       }
     },
     "soils": [
@@ -17430,15 +17422,15 @@ window.ECORESTORE_PLANTS = [
     ],
     "conditions": [
       "Episodic flooding",
-      "Frequent cold events",
-      "Drought"
+      "Frequent cold events"
     ],
     "goals": [
       "Enhanced soil fertility",
       "Erosion control",
       "Wildlife habitat",
       "Forage production",
-      "Pollinator habitat"
+      "Pollinator habitat",
+      "Drought tolerant"
     ],
     "grazing": [
       "None"
@@ -17596,11 +17588,11 @@ window.ECORESTORE_PLANTS = [
       "optimum": "sandy, clay, serpentine",
       "suitable": "Clay, Clay loam, Silt loam, Loam, Sandy loam, Loamy sand, Sand, Bedrock, Variable, Decomposed plant material",
       "classesRaw": {
-        "Clay (Fine)": "Y",
-        "Loam (sand + clay)": "Y",
-        "Silt (fine)": "Y",
-        "Sand (MEDIUM)": "Y",
-        "Gravel (coarse/rocky)": "Y"
+        "clay": "Y",
+        "loam": "Y",
+        "silt": "Y",
+        "sand": "Y",
+        "gravel": "Y"
       }
     },
     "soils": [
@@ -17843,11 +17835,11 @@ window.ECORESTORE_PLANTS = [
       "optimum": "sandy, loamy",
       "suitable": "Clay, Clay loam, Loam, Sandy loam, Loamy sand, Sand, Bedrock, Rocky, Decomposed plant material",
       "classesRaw": {
-        "Clay (Fine)": "Y",
-        "Loam (sand + clay)": "Y",
-        "Silt (fine)": "Y",
-        "Sand (MEDIUM)": "Y",
-        "Gravel (coarse/rocky)": "Y"
+        "clay": "Y",
+        "loam": "Y",
+        "silt": "Y",
+        "sand": "Y",
+        "gravel": "Y"
       }
     },
     "soils": [
@@ -17936,15 +17928,15 @@ window.ECORESTORE_PLANTS = [
       "Disturbance",
       "Fire prone",
       "Low light",
-      "Frequent cold events",
-      "Drought"
+      "Frequent cold events"
     ],
     "goals": [
       "Erosion control",
       "Wildlife habitat",
       "Weed resistance",
       "Forage production",
-      "Pollinator habitat"
+      "Pollinator habitat",
+      "Drought tolerant"
     ],
     "grazing": [
       "Low",
@@ -18104,11 +18096,11 @@ window.ECORESTORE_PLANTS = [
       "optimum": "sandy, also adapted to soil with low fertility",
       "suitable": "Clay, Silty clay loam, Clay loam, Loam, Sandy loam, Loamy sand, Sand, Bedrock, Decomposed plant material",
       "classesRaw": {
-        "Clay (Fine)": "Y",
-        "Loam (sand + clay)": "Y",
-        "Silt (fine)": "Y",
-        "Sand (MEDIUM)": "Y",
-        "Gravel (coarse/rocky)": "Y"
+        "clay": "Y",
+        "loam": "Y",
+        "silt": "Y",
+        "sand": "Y",
+        "gravel": "Y"
       }
     },
     "soils": [
@@ -18179,13 +18171,13 @@ window.ECORESTORE_PLANTS = [
     "conditions": [
       "Disturbance",
       "Fire prone",
-      "Episodic flooding",
-      "Drought"
+      "Episodic flooding"
     ],
     "goals": [
       "Erosion control",
       "Wildlife habitat",
-      "Pollinator habitat"
+      "Pollinator habitat",
+      "Drought tolerant"
     ],
     "grazing": [
       "Low",
@@ -18343,11 +18335,11 @@ window.ECORESTORE_PLANTS = [
       "optimum": "sandy or gravelly",
       "suitable": "Silt loam, Loam, Sandy loam, Sand",
       "classesRaw": {
-        "Clay (Fine)": "Y",
-        "Loam (sand + clay)": "Y",
-        "Silt (fine)": "Y",
-        "Sand (MEDIUM)": "Y",
-        "Gravel (coarse/rocky)": "Y"
+        "clay": "Y",
+        "loam": "Y",
+        "silt": "Y",
+        "sand": "Y",
+        "gravel": "Y"
       }
     },
     "soils": [
@@ -18407,14 +18399,14 @@ window.ECORESTORE_PLANTS = [
       "Fire prone",
       "Episodic flooding",
       "Low light",
-      "Frequent cold events",
-      "Drought"
+      "Frequent cold events"
     ],
     "goals": [
       "Erosion control",
       "Wildlife habitat",
       "Forage production",
-      "Pollinator habitat"
+      "Pollinator habitat",
+      "Drought tolerant"
     ],
     "grazing": [],
     "services": [
@@ -18569,11 +18561,11 @@ window.ECORESTORE_PLANTS = [
       "optimum": "sandy, well-drained, loamy",
       "suitable": "Clay, Clay loam, Silt loam, Loam, Sandy loam, Loamy sand, Sand, Variable",
       "classesRaw": {
-        "Clay (Fine)": "Y",
-        "Loam (sand + clay)": "Y",
-        "Silt (fine)": "Y",
-        "Sand (MEDIUM)": "Y",
-        "Gravel (coarse/rocky)": "Y"
+        "clay": "Y",
+        "loam": "Y",
+        "silt": "Y",
+        "sand": "Y",
+        "gravel": "Y"
       }
     },
     "soils": [
@@ -18641,14 +18633,14 @@ window.ECORESTORE_PLANTS = [
     ],
     "conditions": [
       "Disturbance",
-      "Low light",
-      "Drought"
+      "Low light"
     ],
     "goals": [
       "Erosion control",
       "Wildlife habitat",
       "Weed resistance",
-      "Pollinator habitat"
+      "Pollinator habitat",
+      "Drought tolerant"
     ],
     "grazing": [
       "Low"
@@ -18805,11 +18797,11 @@ window.ECORESTORE_PLANTS = [
       "optimum": "clay loam",
       "suitable": "Clay, Silty clay loam, Clay loam, Silt loam, Loam, Sandy loam, Loamy sand, Sand, Bedrock, Variable, Decomposed plant material",
       "classesRaw": {
-        "Clay (Fine)": "Y",
-        "Loam (sand + clay)": "Y",
-        "Silt (fine)": "Y",
-        "Sand (MEDIUM)": "Y",
-        "Gravel (coarse/rocky)": "Y"
+        "clay": "Y",
+        "loam": "Y",
+        "silt": "Y",
+        "sand": "Y",
+        "gravel": "Y"
       }
     },
     "soils": [
@@ -18868,12 +18860,12 @@ window.ECORESTORE_PLANTS = [
       "Strongly acidic"
     ],
     "conditions": [
-      "Fire prone",
-      "Drought"
+      "Fire prone"
     ],
     "goals": [
       "Wildlife habitat",
-      "Pollinator habitat"
+      "Pollinator habitat",
+      "Drought tolerant"
     ],
     "grazing": [
       "Low"
@@ -19028,11 +19020,11 @@ window.ECORESTORE_PLANTS = [
       "optimum": "sandy loam, or high clay content",
       "suitable": "Clay, Silty clay loam, Clay loam, Silt loam, Loam, Sandy loam, Loamy sand, Sand, Bedrock, Variable, Decomposed plant material",
       "classesRaw": {
-        "Clay (Fine)": "Y",
-        "Loam (sand + clay)": "Y",
-        "Silt (fine)": "Y",
-        "Sand (MEDIUM)": "Y",
-        "Gravel (coarse/rocky)": "Y"
+        "clay": "Y",
+        "loam": "Y",
+        "silt": "Y",
+        "sand": "Y",
+        "gravel": "Y"
       }
     },
     "soils": [
@@ -19111,14 +19103,14 @@ window.ECORESTORE_PLANTS = [
     ],
     "conditions": [
       "Disturbance",
-      "Frequent cold events",
-      "Drought"
+      "Frequent cold events"
     ],
     "goals": [
       "Erosion control",
       "Wildlife habitat",
       "Forage production",
-      "Pollinator habitat"
+      "Pollinator habitat",
+      "Drought tolerant"
     ],
     "grazing": [
       "Low",
@@ -19279,11 +19271,11 @@ window.ECORESTORE_PLANTS = [
       "optimum": "loamy clay",
       "suitable": "Clay, Silty clay loam, Clay loam, Silt loam, Loam, Sandy loam, Sand, Bedrock, Variable, Decomposed plant material",
       "classesRaw": {
-        "Clay (Fine)": "Y",
-        "Loam (sand + clay)": "Y",
-        "Silt (fine)": "Y",
-        "Sand (MEDIUM)": "Y",
-        "Gravel (coarse/rocky)": "Y"
+        "clay": "Y",
+        "loam": "Y",
+        "silt": "Y",
+        "sand": "Y",
+        "gravel": "Y"
       }
     },
     "soils": [
@@ -19359,14 +19351,14 @@ window.ECORESTORE_PLANTS = [
     "conditions": [
       "Riparian",
       "Low light",
-      "Frequent cold events",
-      "Drought"
+      "Frequent cold events"
     ],
     "goals": [
       "Erosion control",
       "Wildlife habitat",
       "Weed resistance",
-      "Pollinator habitat"
+      "Pollinator habitat",
+      "Drought tolerant"
     ],
     "grazing": [],
     "services": [
@@ -19521,11 +19513,11 @@ window.ECORESTORE_PLANTS = [
       "optimum": "NA",
       "suitable": "Decomposed plant material, Clay, Silty clay loam, Clay loam, Sandy clay loam, Silt loam, Loam, Sandy loam, Sand, Bedrock",
       "classesRaw": {
-        "Clay (Fine)": "Y",
-        "Loam (sand + clay)": "Y",
-        "Silt (fine)": "Y",
-        "Sand (MEDIUM)": "Y",
-        "Gravel (coarse/rocky)": "Y"
+        "clay": "Y",
+        "loam": "Y",
+        "silt": "Y",
+        "sand": "Y",
+        "gravel": "Y"
       }
     },
     "soils": [
@@ -19604,14 +19596,14 @@ window.ECORESTORE_PLANTS = [
     "conditions": [
       "Disturbance",
       "Fire prone",
-      "Episodic flooding",
-      "Drought"
+      "Episodic flooding"
     ],
     "goals": [
       "Enhanced soil fertility",
       "Wildlife habitat",
       "Forage production",
-      "Pollinator habitat"
+      "Pollinator habitat",
+      "Drought tolerant"
     ],
     "grazing": [
       "Low",
@@ -19768,11 +19760,11 @@ window.ECORESTORE_PLANTS = [
       "optimum": "well-drained",
       "suitable": "Clay loam, Silt loam, Loam, Sandy loam",
       "classesRaw": {
-        "Clay (Fine)": "Y",
-        "Loam (sand + clay)": "Y",
-        "Silt (fine)": "Y",
-        "Sand (MEDIUM)": "Y",
-        "Gravel (coarse/rocky)": "N"
+        "clay": "Y",
+        "loam": "Y",
+        "silt": "Y",
+        "sand": "Y",
+        "gravel": "N"
       }
     },
     "soils": [
@@ -19825,13 +19817,13 @@ window.ECORESTORE_PLANTS = [
     ],
     "conditions": [
       "Disturbance",
-      "Low light",
-      "Drought"
+      "Low light"
     ],
     "goals": [
       "Enhanced soil fertility",
       "Wildlife habitat",
-      "Pollinator habitat"
+      "Pollinator habitat",
+      "Drought tolerant"
     ],
     "grazing": [
       "None"
@@ -19989,11 +19981,11 @@ window.ECORESTORE_PLANTS = [
       "optimum": "well-drained",
       "suitable": "Decomposed plant material, Clay, Clay loam, Loam, Sandy loam, Sand, Variable",
       "classesRaw": {
-        "Clay (Fine)": "Y",
-        "Loam (sand + clay)": "Y",
-        "Silt (fine)": "N",
-        "Sand (MEDIUM)": "Y",
-        "Gravel (coarse/rocky)": "N"
+        "clay": "Y",
+        "loam": "Y",
+        "silt": "N",
+        "sand": "Y",
+        "gravel": "N"
       }
     },
     "soils": [
@@ -20211,11 +20203,11 @@ window.ECORESTORE_PLANTS = [
       "optimum": "moist, gravelly",
       "suitable": "Decomposed plant material, Silt loam, Loam, Sandy loam, Loamy sand, Sand, Bedrock, Rocky",
       "classesRaw": {
-        "Clay (Fine)": "N",
-        "Loam (sand + clay)": "Y",
-        "Silt (fine)": "Y",
-        "Sand (MEDIUM)": "Y",
-        "Gravel (coarse/rocky)": "Y"
+        "clay": "N",
+        "loam": "Y",
+        "silt": "Y",
+        "sand": "Y",
+        "gravel": "Y"
       }
     },
     "soils": [
@@ -20451,11 +20443,11 @@ window.ECORESTORE_PLANTS = [
       "optimum": "heavy soils",
       "suitable": "Clay, Clay loam, Silt loam, Loam, Sandy loam, Loamy sand, Sand, Bedrock, Decomposed plant material",
       "classesRaw": {
-        "Clay (Fine)": "Y",
-        "Loam (sand + clay)": "Y",
-        "Silt (fine)": "Y",
-        "Sand (MEDIUM)": "Y",
-        "Gravel (coarse/rocky)": "Y"
+        "clay": "Y",
+        "loam": "Y",
+        "silt": "Y",
+        "sand": "Y",
+        "gravel": "Y"
       }
     },
     "soils": [
@@ -20538,14 +20530,14 @@ window.ECORESTORE_PLANTS = [
     "conditions": [
       "Riparian",
       "Disturbance",
-      "Episodic flooding",
-      "Drought"
+      "Episodic flooding"
     ],
     "goals": [
       "Enhanced soil fertility",
       "Wildlife habitat",
       "Forage production",
-      "Pollinator habitat"
+      "Pollinator habitat",
+      "Drought tolerant"
     ],
     "grazing": [],
     "services": [

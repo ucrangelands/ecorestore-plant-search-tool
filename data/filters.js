@@ -118,8 +118,7 @@ window.ECORESTORE_FILTERS = {
     "Episodic flooding",
     "Low light",
     "Fire prone",
-    "Riparian",
-    "Drought"
+    "Riparian"
   ],
   "goals": [
     "Enhanced soil fertility",
