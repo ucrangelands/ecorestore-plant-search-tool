@@ -1,3 +1,9 @@
+/*
+  PUBLIC APP DATA generated from California EcoRestore BigTable (9).
+  This file intentionally contains only the public subset used by the browser app.
+  The private 131-column master CSV is not included in the GitHub Pages project.
+  PlantID is retained internally for app/image handling but is not displayed publicly.
+*/
 window.ECORESTORE_PLANTS = [
   {
     "plantId": "ACAM",
@@ -59,8 +65,8 @@ window.ECORESTORE_PLANTS = [
       "Sand"
     ],
     "elevation": {
-      "min": 0.0,
-      "max": 8430.0,
+      "min": 0,
+      "max": 8430,
       "minRaw": "0",
       "maxRaw": "8430"
     },
@@ -125,16 +131,16 @@ window.ECORESTORE_PLANTS = [
     ],
     "chemistry": [
       "Acidic",
-      "Metal / serpentine tolerance"
+      "Serpentine/Metal"
     ],
     "conditions": [
-      "Riparian / wet",
-      "Disturbance tolerant / follower",
-      "Fire response / tolerance",
-      "Flooding tolerance",
-      "Low-light tolerance",
-      "Cold tolerance",
-      "Drought tolerance"
+      "Riparian",
+      "Disturbance",
+      "Fire prone",
+      "Episodic flooding",
+      "Low light",
+      "Frequent cold events",
+      "Drought"
     ],
     "goals": [
       "Pollinator habitat",
@@ -317,8 +323,8 @@ window.ECORESTORE_PLANTS = [
       "Gravel / rocky"
     ],
     "elevation": {
-      "min": 0.0,
-      "max": 2350.0,
+      "min": 0,
+      "max": 2350,
       "minRaw": "0",
       "maxRaw": "2350"
     },
@@ -361,13 +367,13 @@ window.ECORESTORE_PLANTS = [
       "Saline",
       "Alkaline",
       "Acidic",
-      "CaCO3 / calcareous tolerance"
+      "Calcaerous"
     ],
     "conditions": [
-      "Disturbance tolerant / follower",
-      "Fire response / tolerance",
-      "Cold tolerance",
-      "Drought tolerance"
+      "Disturbance",
+      "Fire prone",
+      "Frequent cold events",
+      "Drought"
     ],
     "goals": [
       "Pollinator habitat",
@@ -551,8 +557,8 @@ window.ECORESTORE_PLANTS = [
       "Gravel / rocky"
     ],
     "elevation": {
-      "min": 0.0,
-      "max": 7480.0,
+      "min": 0,
+      "max": 7480,
       "minRaw": "0",
       "maxRaw": "7480"
     },
@@ -585,12 +591,12 @@ window.ECORESTORE_PLANTS = [
       "Saline",
       "Alkaline",
       "Acidic",
-      "CaCO3 / calcareous tolerance"
+      "Calcaerous"
     ],
     "conditions": [
-      "Fire response / tolerance",
-      "Cold tolerance",
-      "Drought tolerance"
+      "Fire prone",
+      "Frequent cold events",
+      "Drought"
     ],
     "goals": [
       "Pollinator habitat",
@@ -776,8 +782,8 @@ window.ECORESTORE_PLANTS = [
       "Gravel / rocky"
     ],
     "elevation": {
-      "min": -36.0,
-      "max": 12005.0,
+      "min": -36,
+      "max": 12005,
       "minRaw": "-36",
       "maxRaw": "12005"
     },
@@ -846,14 +852,14 @@ window.ECORESTORE_PLANTS = [
       "Alkaline",
       "Acidic",
       "Strongly acidic",
-      "Metal / serpentine tolerance"
+      "Serpentine/Metal"
     ],
     "conditions": [
-      "Disturbance tolerant / follower",
-      "Fire response / tolerance",
-      "Low-light tolerance",
-      "Cold tolerance",
-      "Drought tolerance"
+      "Disturbance",
+      "Fire prone",
+      "Low light",
+      "Frequent cold events",
+      "Drought"
     ],
     "goals": [
       "Pollinator habitat",
@@ -1029,8 +1035,8 @@ window.ECORESTORE_PLANTS = [
       "Clay"
     ],
     "elevation": {
-      "min": 0.0,
-      "max": 6825.0,
+      "min": 0,
+      "max": 6825,
       "minRaw": "0",
       "maxRaw": "6825"
     },
@@ -1049,12 +1055,12 @@ window.ECORESTORE_PLANTS = [
     "chemistry": [
       "Alkaline",
       "Acidic",
-      "CaCO3 / calcareous tolerance"
+      "Calcaerous"
     ],
     "conditions": [
-      "Disturbance tolerant / follower",
-      "Fire response / tolerance",
-      "Drought tolerance"
+      "Disturbance",
+      "Fire prone",
+      "Drought"
     ],
     "goals": [
       "Pollinator habitat",
@@ -1232,8 +1238,8 @@ window.ECORESTORE_PLANTS = [
       "Gravel / rocky"
     ],
     "elevation": {
-      "min": 0.0,
-      "max": 8005.0,
+      "min": 0,
+      "max": 8005,
       "minRaw": "0",
       "maxRaw": "8005"
     },
@@ -1281,13 +1287,13 @@ window.ECORESTORE_PLANTS = [
     "chemistry": [
       "Alkaline",
       "Acidic",
-      "CaCO3 / calcareous tolerance"
+      "Calcaerous"
     ],
     "conditions": [
-      "Disturbance tolerant / follower",
-      "Fire response / tolerance",
-      "Cold tolerance",
-      "Drought tolerance"
+      "Disturbance",
+      "Fire prone",
+      "Frequent cold events",
+      "Drought"
     ],
     "goals": [
       "Pollinator habitat",
@@ -1475,8 +1481,8 @@ window.ECORESTORE_PLANTS = [
       "Sand"
     ],
     "elevation": {
-      "min": 0.0,
-      "max": 7315.0,
+      "min": 0,
+      "max": 7315,
       "minRaw": "0",
       "maxRaw": "7315"
     },
@@ -1543,9 +1549,9 @@ window.ECORESTORE_PLANTS = [
       "Acidic"
     ],
     "conditions": [
-      "Disturbance tolerant / follower",
-      "Fire response / tolerance",
-      "Drought tolerance"
+      "Disturbance",
+      "Fire prone",
+      "Drought"
     ],
     "goals": [
       "Pollinator habitat",
@@ -1731,8 +1737,8 @@ window.ECORESTORE_PLANTS = [
       "Sand"
     ],
     "elevation": {
-      "min": 0.0,
-      "max": 7480.0,
+      "min": 0,
+      "max": 7480,
       "minRaw": "0",
       "maxRaw": "7480"
     },
@@ -1801,9 +1807,9 @@ window.ECORESTORE_PLANTS = [
       "Acidic"
     ],
     "conditions": [
-      "Disturbance tolerant / follower",
-      "Fire response / tolerance",
-      "Drought tolerance"
+      "Disturbance",
+      "Fire prone",
+      "Drought"
     ],
     "goals": [
       "Pollinator habitat",
@@ -1987,8 +1993,8 @@ window.ECORESTORE_PLANTS = [
       "Gravel / rocky"
     ],
     "elevation": {
-      "min": 7.0,
-      "max": 7455.0,
+      "min": 7,
+      "max": 7455,
       "minRaw": "7",
       "maxRaw": "7455"
     },
@@ -2010,10 +2016,10 @@ window.ECORESTORE_PLANTS = [
       "Strongly acidic"
     ],
     "conditions": [
-      "Fire response / tolerance",
-      "Flooding tolerance",
-      "Low-light tolerance",
-      "Drought tolerance"
+      "Fire prone",
+      "Episodic flooding",
+      "Low light",
+      "Drought"
     ],
     "goals": [
       "Pollinator habitat",
@@ -2187,8 +2193,8 @@ window.ECORESTORE_PLANTS = [
       "Gravel / rocky"
     ],
     "elevation": {
-      "min": 215.0,
-      "max": 6070.0,
+      "min": 215,
+      "max": 6070,
       "minRaw": "215",
       "maxRaw": "6070"
     },
@@ -2212,13 +2218,13 @@ window.ECORESTORE_PLANTS = [
     "chemistry": [
       "Alkaline",
       "Acidic",
-      "CaCO3 / calcareous tolerance"
+      "Calcaerous"
     ],
     "conditions": [
-      "Disturbance tolerant / follower",
-      "Fire response / tolerance",
-      "Cold tolerance",
-      "Drought tolerance"
+      "Disturbance",
+      "Fire prone",
+      "Frequent cold events",
+      "Drought"
     ],
     "goals": [
       "Pollinator habitat",
@@ -2402,8 +2408,8 @@ window.ECORESTORE_PLANTS = [
       "Gravel / rocky"
     ],
     "elevation": {
-      "min": -23.0,
-      "max": 4748.0,
+      "min": -23,
+      "max": 4748,
       "minRaw": "-23",
       "maxRaw": "4748"
     },
@@ -2446,13 +2452,13 @@ window.ECORESTORE_PLANTS = [
       "Saline",
       "Alkaline",
       "Acidic",
-      "CaCO3 / calcareous tolerance"
+      "Calcaerous"
     ],
     "conditions": [
-      "Disturbance tolerant / follower",
-      "Fire response / tolerance",
-      "Cold tolerance",
-      "Drought tolerance"
+      "Disturbance",
+      "Fire prone",
+      "Frequent cold events",
+      "Drought"
     ],
     "goals": [
       "Pollinator habitat",
@@ -2648,8 +2654,8 @@ window.ECORESTORE_PLANTS = [
       "Gravel / rocky"
     ],
     "elevation": {
-      "min": -253.0,
-      "max": 11501.0,
+      "min": -253,
+      "max": 11501,
       "minRaw": "-253",
       "maxRaw": "11501"
     },
@@ -2718,14 +2724,14 @@ window.ECORESTORE_PLANTS = [
       "Saline",
       "Alkaline",
       "Acidic",
-      "CaCO3 / calcareous tolerance"
+      "Calcaerous"
     ],
     "conditions": [
-      "Riparian / wet",
-      "Disturbance tolerant / follower",
-      "Low-light tolerance",
-      "Cold tolerance",
-      "Drought tolerance"
+      "Riparian",
+      "Disturbance",
+      "Low light",
+      "Frequent cold events",
+      "Drought"
     ],
     "goals": [
       "Pollinator habitat",
@@ -2905,8 +2911,8 @@ window.ECORESTORE_PLANTS = [
       "Gravel / rocky"
     ],
     "elevation": {
-      "min": 260.0,
-      "max": 7480.0,
+      "min": 260,
+      "max": 7480,
       "minRaw": "260",
       "maxRaw": "7480"
     },
@@ -2925,13 +2931,13 @@ window.ECORESTORE_PLANTS = [
     "chemistry": [
       "Alkaline",
       "Acidic",
-      "CaCO3 / calcareous tolerance"
+      "Calcaerous"
     ],
     "conditions": [
-      "Disturbance tolerant / follower",
-      "Flooding tolerance",
-      "Cold tolerance",
-      "Drought tolerance"
+      "Disturbance",
+      "Episodic flooding",
+      "Frequent cold events",
+      "Drought"
     ],
     "goals": [
       "Pollinator habitat",
@@ -3121,8 +3127,8 @@ window.ECORESTORE_PLANTS = [
       "Gravel / rocky"
     ],
     "elevation": {
-      "min": -180.0,
-      "max": 11144.0,
+      "min": -180,
+      "max": 11144,
       "minRaw": "-180",
       "maxRaw": "11144"
     },
@@ -3189,16 +3195,16 @@ window.ECORESTORE_PLANTS = [
       "Saline",
       "Alkaline",
       "Acidic",
-      "CaCO3 / calcareous tolerance",
-      "Metal / serpentine tolerance"
+      "Calcaerous",
+      "Serpentine/Metal"
     ],
     "conditions": [
-      "Riparian / wet",
-      "Disturbance tolerant / follower",
-      "Fire response / tolerance",
-      "Low-light tolerance",
-      "Cold tolerance",
-      "Drought tolerance"
+      "Riparian",
+      "Disturbance",
+      "Fire prone",
+      "Low light",
+      "Frequent cold events",
+      "Drought"
     ],
     "goals": [
       "Pollinator habitat",
@@ -3388,8 +3394,8 @@ window.ECORESTORE_PLANTS = [
       "Clay"
     ],
     "elevation": {
-      "min": -80.0,
-      "max": 7775.0,
+      "min": -80,
+      "max": 7775,
       "minRaw": "-80",
       "maxRaw": "7775"
     },
@@ -3427,13 +3433,13 @@ window.ECORESTORE_PLANTS = [
       "Saline",
       "Alkaline",
       "Acidic",
-      "CaCO3 / calcareous tolerance"
+      "Calcaerous"
     ],
     "conditions": [
-      "Disturbance tolerant / follower",
-      "Fire response / tolerance",
-      "Cold tolerance",
-      "Drought tolerance"
+      "Disturbance",
+      "Fire prone",
+      "Frequent cold events",
+      "Drought"
     ],
     "goals": [
       "Pollinator habitat",
@@ -3619,8 +3625,8 @@ window.ECORESTORE_PLANTS = [
       "Gravel / rocky"
     ],
     "elevation": {
-      "min": 0.0,
-      "max": 4000.0,
+      "min": 0,
+      "max": 4000,
       "minRaw": "0",
       "maxRaw": "4000"
     },
@@ -3662,15 +3668,15 @@ window.ECORESTORE_PLANTS = [
     ],
     "chemistry": [
       "Saline",
-      "CaCO3 / calcareous tolerance"
+      "Calcaerous"
     ],
     "conditions": [
-      "Riparian / wet",
-      "Disturbance tolerant / follower",
-      "Fire response / tolerance",
-      "Flooding tolerance",
-      "Cold tolerance",
-      "Drought tolerance"
+      "Riparian",
+      "Disturbance",
+      "Fire prone",
+      "Episodic flooding",
+      "Frequent cold events",
+      "Drought"
     ],
     "goals": [
       "Pollinator habitat",
@@ -3853,8 +3859,8 @@ window.ECORESTORE_PLANTS = [
       "Sand"
     ],
     "elevation": {
-      "min": 0.0,
-      "max": 3000.0,
+      "min": 0,
+      "max": 3000,
       "minRaw": "0",
       "maxRaw": "3000"
     },
@@ -3915,10 +3921,10 @@ window.ECORESTORE_PLANTS = [
       "Acidic"
     ],
     "conditions": [
-      "Disturbance tolerant / follower",
-      "Fire response / tolerance",
-      "Cold tolerance",
-      "Drought tolerance"
+      "Disturbance",
+      "Fire prone",
+      "Frequent cold events",
+      "Drought"
     ],
     "goals": [
       "Pollinator habitat",
@@ -4103,8 +4109,8 @@ window.ECORESTORE_PLANTS = [
       "Gravel / rocky"
     ],
     "elevation": {
-      "min": 0.0,
-      "max": 7580.0,
+      "min": 0,
+      "max": 7580,
       "minRaw": "0",
       "maxRaw": "7580"
     },
@@ -4156,14 +4162,14 @@ window.ECORESTORE_PLANTS = [
       "Yuba"
     ],
     "chemistry": [
-      "CaCO3 / calcareous tolerance"
+      "Calcaerous"
     ],
     "conditions": [
-      "Riparian / wet",
-      "Disturbance tolerant / follower",
-      "Fire response / tolerance",
-      "Flooding tolerance",
-      "Cold tolerance"
+      "Riparian",
+      "Disturbance",
+      "Fire prone",
+      "Episodic flooding",
+      "Frequent cold events"
     ],
     "goals": [
       "Pollinator habitat",
@@ -4348,8 +4354,8 @@ window.ECORESTORE_PLANTS = [
       "Gravel / rocky"
     ],
     "elevation": {
-      "min": 0.0,
-      "max": 8135.0,
+      "min": 0,
+      "max": 8135,
       "minRaw": "0",
       "maxRaw": "8135"
     },
@@ -4372,14 +4378,14 @@ window.ECORESTORE_PLANTS = [
     "chemistry": [
       "Alkaline",
       "Acidic",
-      "CaCO3 / calcareous tolerance",
-      "Metal / serpentine tolerance"
+      "Calcaerous",
+      "Serpentine/Metal"
     ],
     "conditions": [
-      "Disturbance tolerant / follower",
-      "Fire response / tolerance",
-      "Cold tolerance",
-      "Drought tolerance"
+      "Disturbance",
+      "Fire prone",
+      "Frequent cold events",
+      "Drought"
     ],
     "goals": [
       "Competition / weed resistance"
@@ -4548,8 +4554,8 @@ window.ECORESTORE_PLANTS = [
       "Sandy loam"
     ],
     "elevation": {
-      "min": 0.0,
-      "max": 6100.0,
+      "min": 0,
+      "max": 6100,
       "minRaw": "0",
       "maxRaw": "6100"
     },
@@ -4560,10 +4566,10 @@ window.ECORESTORE_PLANTS = [
       "Acidic"
     ],
     "conditions": [
-      "Riparian / wet",
-      "Flooding tolerance",
-      "Low-light tolerance",
-      "Cold tolerance"
+      "Riparian",
+      "Episodic flooding",
+      "Low light",
+      "Frequent cold events"
     ],
     "goals": [],
     "grazing": [],
@@ -4737,8 +4743,8 @@ window.ECORESTORE_PLANTS = [
       "Gravel / rocky"
     ],
     "elevation": {
-      "min": 113.0,
-      "max": 14090.0,
+      "min": 113,
+      "max": 14090,
       "minRaw": "113",
       "maxRaw": "14090"
     },
@@ -4808,12 +4814,12 @@ window.ECORESTORE_PLANTS = [
       "Alkaline",
       "Acidic",
       "Strongly acidic",
-      "Metal / serpentine tolerance"
+      "Serpentine/Metal"
     ],
     "conditions": [
-      "Disturbance tolerant / follower",
-      "Cold tolerance",
-      "Drought tolerance"
+      "Disturbance",
+      "Frequent cold events",
+      "Drought"
     ],
     "goals": [
       "Pollinator habitat",
@@ -4999,8 +5005,8 @@ window.ECORESTORE_PLANTS = [
       "Gravel / rocky"
     ],
     "elevation": {
-      "min": 0.0,
-      "max": 8100.0,
+      "min": 0,
+      "max": 8100,
       "minRaw": "0",
       "maxRaw": "8100"
     },
@@ -5009,13 +5015,13 @@ window.ECORESTORE_PLANTS = [
     "chemistry": [
       "Alkaline",
       "Acidic",
-      "CaCO3 / calcareous tolerance"
+      "Calcaerous"
     ],
     "conditions": [
-      "Disturbance tolerant / follower",
-      "Fire response / tolerance",
-      "Cold tolerance",
-      "Drought tolerance"
+      "Disturbance",
+      "Fire prone",
+      "Frequent cold events",
+      "Drought"
     ],
     "goals": [
       "Pollinator habitat",
@@ -5193,8 +5199,8 @@ window.ECORESTORE_PLANTS = [
       "Gravel / rocky"
     ],
     "elevation": {
-      "min": 0.0,
-      "max": 9910.0,
+      "min": 0,
+      "max": 9910,
       "minRaw": "0",
       "maxRaw": "9910"
     },
@@ -5261,11 +5267,11 @@ window.ECORESTORE_PLANTS = [
     "chemistry": [
       "Alkaline",
       "Acidic",
-      "CaCO3 / calcareous tolerance"
+      "Calcaerous"
     ],
     "conditions": [
-      "Cold tolerance",
-      "Drought tolerance"
+      "Frequent cold events",
+      "Drought"
     ],
     "goals": [
       "Pollinator habitat",
@@ -5455,8 +5461,8 @@ window.ECORESTORE_PLANTS = [
     ],
     "chemistry": [],
     "conditions": [
-      "Disturbance tolerant / follower",
-      "Drought tolerance"
+      "Disturbance",
+      "Drought"
     ],
     "goals": [
       "Pollinator habitat",
@@ -5632,8 +5638,8 @@ window.ECORESTORE_PLANTS = [
       "Gravel / rocky"
     ],
     "elevation": {
-      "min": -7.0,
-      "max": 7635.0,
+      "min": -7,
+      "max": 7635,
       "minRaw": "-7",
       "maxRaw": "7635"
     },
@@ -5701,9 +5707,9 @@ window.ECORESTORE_PLANTS = [
       "Strongly acidic"
     ],
     "conditions": [
-      "Fire response / tolerance",
-      "Flooding tolerance",
-      "Drought tolerance"
+      "Fire prone",
+      "Episodic flooding",
+      "Drought"
     ],
     "goals": [
       "Pollinator habitat",
@@ -5889,8 +5895,8 @@ window.ECORESTORE_PLANTS = [
       "Gravel / rocky"
     ],
     "elevation": {
-      "min": 0.0,
-      "max": 8565.0,
+      "min": 0,
+      "max": 8565,
       "minRaw": "0",
       "maxRaw": "8565"
     },
@@ -5947,12 +5953,12 @@ window.ECORESTORE_PLANTS = [
       "Saline",
       "Alkaline",
       "Acidic",
-      "CaCO3 / calcareous tolerance"
+      "Calcaerous"
     ],
     "conditions": [
-      "Flooding tolerance",
-      "Cold tolerance",
-      "Drought tolerance"
+      "Episodic flooding",
+      "Frequent cold events",
+      "Drought"
     ],
     "goals": [
       "Pollinator habitat",
@@ -6131,8 +6137,8 @@ window.ECORESTORE_PLANTS = [
       "Gravel / rocky"
     ],
     "elevation": {
-      "min": 0.0,
-      "max": 7480.0,
+      "min": 0,
+      "max": 7480,
       "minRaw": "0",
       "maxRaw": "7480"
     },
@@ -6151,13 +6157,13 @@ window.ECORESTORE_PLANTS = [
     "chemistry": [
       "Alkaline",
       "Acidic",
-      "CaCO3 / calcareous tolerance"
+      "Calcaerous"
     ],
     "conditions": [
-      "Disturbance tolerant / follower",
-      "Fire response / tolerance",
-      "Cold tolerance",
-      "Drought tolerance"
+      "Disturbance",
+      "Fire prone",
+      "Frequent cold events",
+      "Drought"
     ],
     "goals": [
       "Pollinator habitat",
@@ -6339,8 +6345,8 @@ window.ECORESTORE_PLANTS = [
       "Gravel / rocky"
     ],
     "elevation": {
-      "min": 0.0,
-      "max": 8202.0,
+      "min": 0,
+      "max": 8202,
       "minRaw": "0",
       "maxRaw": "8202"
     },
@@ -6349,12 +6355,12 @@ window.ECORESTORE_PLANTS = [
     "chemistry": [
       "Alkaline",
       "Acidic",
-      "CaCO3 / calcareous tolerance"
+      "Calcaerous"
     ],
     "conditions": [
-      "Disturbance tolerant / follower",
-      "Fire response / tolerance",
-      "Drought tolerance"
+      "Disturbance",
+      "Fire prone",
+      "Drought"
     ],
     "goals": [
       "Pollinator habitat",
@@ -6537,8 +6543,8 @@ window.ECORESTORE_PLANTS = [
       "Gravel / rocky"
     ],
     "elevation": {
-      "min": 0.0,
-      "max": 7580.0,
+      "min": 0,
+      "max": 7580,
       "minRaw": "0",
       "maxRaw": "7580"
     },
@@ -6547,13 +6553,13 @@ window.ECORESTORE_PLANTS = [
     "chemistry": [
       "Alkaline",
       "Acidic",
-      "CaCO3 / calcareous tolerance"
+      "Calcaerous"
     ],
     "conditions": [
-      "Disturbance tolerant / follower",
-      "Fire response / tolerance",
-      "Cold tolerance",
-      "Drought tolerance"
+      "Disturbance",
+      "Fire prone",
+      "Frequent cold events",
+      "Drought"
     ],
     "goals": [
       "Pollinator habitat",
@@ -6734,8 +6740,8 @@ window.ECORESTORE_PLANTS = [
       "Gravel / rocky"
     ],
     "elevation": {
-      "min": 0.0,
-      "max": 6035.0,
+      "min": 0,
+      "max": 6035,
       "minRaw": "0",
       "maxRaw": "6035"
     },
@@ -6751,12 +6757,12 @@ window.ECORESTORE_PLANTS = [
     "chemistry": [
       "Alkaline",
       "Acidic",
-      "CaCO3 / calcareous tolerance"
+      "Calcaerous"
     ],
     "conditions": [
-      "Disturbance tolerant / follower",
-      "Fire response / tolerance",
-      "Drought tolerance"
+      "Disturbance",
+      "Fire prone",
+      "Drought"
     ],
     "goals": [
       "Pollinator habitat",
@@ -6932,8 +6938,8 @@ window.ECORESTORE_PLANTS = [
       "Gravel / rocky"
     ],
     "elevation": {
-      "min": 0.0,
-      "max": 8925.0,
+      "min": 0,
+      "max": 8925,
       "minRaw": "0",
       "maxRaw": "8925"
     },
@@ -6942,10 +6948,10 @@ window.ECORESTORE_PLANTS = [
     "chemistry": [
       "Alkaline",
       "Acidic",
-      "CaCO3 / calcareous tolerance"
+      "Calcaerous"
     ],
     "conditions": [
-      "Drought tolerance"
+      "Drought"
     ],
     "goals": [
       "Pollinator habitat",
@@ -7120,8 +7126,8 @@ window.ECORESTORE_PLANTS = [
       "Gravel / rocky"
     ],
     "elevation": {
-      "min": 0.0,
-      "max": 7150.0,
+      "min": 0,
+      "max": 7150,
       "minRaw": "0",
       "maxRaw": "7150"
     },
@@ -7185,10 +7191,10 @@ window.ECORESTORE_PLANTS = [
       "Strongly acidic"
     ],
     "conditions": [
-      "Riparian / wet",
-      "Disturbance tolerant / follower",
-      "Fire response / tolerance",
-      "Drought tolerance"
+      "Riparian",
+      "Disturbance",
+      "Fire prone",
+      "Drought"
     ],
     "goals": [
       "Pollinator habitat",
@@ -7371,8 +7377,8 @@ window.ECORESTORE_PLANTS = [
       "Gravel / rocky"
     ],
     "elevation": {
-      "min": 7.0,
-      "max": 11310.0,
+      "min": 7,
+      "max": 11310,
       "minRaw": "7",
       "maxRaw": "11310"
     },
@@ -7429,8 +7435,8 @@ window.ECORESTORE_PLANTS = [
       "Acidic"
     ],
     "conditions": [
-      "Fire response / tolerance",
-      "Drought tolerance"
+      "Fire prone",
+      "Drought"
     ],
     "goals": [
       "Pollinator habitat",
@@ -7605,8 +7611,8 @@ window.ECORESTORE_PLANTS = [
       "Gravel / rocky"
     ],
     "elevation": {
-      "min": 0.0,
-      "max": 8760.0,
+      "min": 0,
+      "max": 8760,
       "minRaw": "0",
       "maxRaw": "8760"
     },
@@ -7673,9 +7679,9 @@ window.ECORESTORE_PLANTS = [
       "Strongly acidic"
     ],
     "conditions": [
-      "Fire response / tolerance",
-      "Flooding tolerance",
-      "Drought tolerance"
+      "Fire prone",
+      "Episodic flooding",
+      "Drought"
     ],
     "goals": [
       "Pollinator habitat"
@@ -7847,8 +7853,8 @@ window.ECORESTORE_PLANTS = [
       "Sand"
     ],
     "elevation": {
-      "min": 0.0,
-      "max": 6430.0,
+      "min": 0,
+      "max": 6430,
       "minRaw": "0",
       "maxRaw": "6430"
     },
@@ -7874,9 +7880,9 @@ window.ECORESTORE_PLANTS = [
       "Strongly acidic"
     ],
     "conditions": [
-      "Disturbance tolerant / follower",
-      "Flooding tolerance",
-      "Drought tolerance"
+      "Disturbance",
+      "Episodic flooding",
+      "Drought"
     ],
     "goals": [
       "Pollinator habitat",
@@ -8052,8 +8058,8 @@ window.ECORESTORE_PLANTS = [
       "Gravel / rocky"
     ],
     "elevation": {
-      "min": -229.0,
-      "max": 8881.0,
+      "min": -229,
+      "max": 8881,
       "minRaw": "-229",
       "maxRaw": "8881"
     },
@@ -8122,16 +8128,16 @@ window.ECORESTORE_PLANTS = [
       "Strongly alkaline",
       "Acidic",
       "Strongly acidic",
-      "CaCO3 / calcareous tolerance",
-      "Metal / serpentine tolerance"
+      "Calcaerous",
+      "Serpentine/Metal"
     ],
     "conditions": [
-      "Riparian / wet",
-      "Disturbance tolerant / follower",
-      "Fire response / tolerance",
-      "Flooding tolerance",
-      "Cold tolerance",
-      "Drought tolerance"
+      "Riparian",
+      "Disturbance",
+      "Fire prone",
+      "Episodic flooding",
+      "Frequent cold events",
+      "Drought"
     ],
     "goals": [
       "Pollinator habitat",
@@ -8322,8 +8328,8 @@ window.ECORESTORE_PLANTS = [
       "Gravel / rocky"
     ],
     "elevation": {
-      "min": 0.0,
-      "max": 8135.0,
+      "min": 0,
+      "max": 8135,
       "minRaw": "0",
       "maxRaw": "8135"
     },
@@ -8367,10 +8373,10 @@ window.ECORESTORE_PLANTS = [
       "Strongly acidic"
     ],
     "conditions": [
-      "Fire response / tolerance",
-      "Flooding tolerance",
-      "Cold tolerance",
-      "Drought tolerance"
+      "Fire prone",
+      "Episodic flooding",
+      "Frequent cold events",
+      "Drought"
     ],
     "goals": [
       "Pollinator habitat",
@@ -8551,8 +8557,8 @@ window.ECORESTORE_PLANTS = [
       "Gravel / rocky"
     ],
     "elevation": {
-      "min": -3814.0,
-      "max": 14090.0,
+      "min": -3814,
+      "max": 14090,
       "minRaw": "-3814",
       "maxRaw": "14090"
     },
@@ -8623,12 +8629,12 @@ window.ECORESTORE_PLANTS = [
       "Strongly acidic"
     ],
     "conditions": [
-      "Riparian / wet",
-      "Disturbance tolerant / follower",
-      "Fire response / tolerance",
-      "Low-light tolerance",
-      "Cold tolerance",
-      "Drought tolerance"
+      "Riparian",
+      "Disturbance",
+      "Fire prone",
+      "Low light",
+      "Frequent cold events",
+      "Drought"
     ],
     "goals": [
       "Pollinator habitat",
@@ -8806,8 +8812,8 @@ window.ECORESTORE_PLANTS = [
       "Sand"
     ],
     "elevation": {
-      "min": 1345.0,
-      "max": 8760.0,
+      "min": 1345,
+      "max": 8760,
       "minRaw": "1345",
       "maxRaw": "8760"
     },
@@ -8830,14 +8836,14 @@ window.ECORESTORE_PLANTS = [
     ],
     "chemistry": [
       "Acidic",
-      "Metal / serpentine tolerance"
+      "Serpentine/Metal"
     ],
     "conditions": [
-      "Disturbance tolerant / follower",
-      "Fire response / tolerance",
-      "Flooding tolerance",
-      "Cold tolerance",
-      "Drought tolerance"
+      "Disturbance",
+      "Fire prone",
+      "Episodic flooding",
+      "Frequent cold events",
+      "Drought"
     ],
     "goals": [
       "Pollinator habitat",
@@ -9013,8 +9019,8 @@ window.ECORESTORE_PLANTS = [
       "Gravel / rocky"
     ],
     "elevation": {
-      "min": -7.0,
-      "max": 12570.0,
+      "min": -7,
+      "max": 12570,
       "minRaw": "-7",
       "maxRaw": "12570"
     },
@@ -9083,12 +9089,12 @@ window.ECORESTORE_PLANTS = [
       "Strongly acidic"
     ],
     "conditions": [
-      "Disturbance tolerant / follower",
-      "Fire response / tolerance",
-      "Flooding tolerance",
-      "Low-light tolerance",
-      "Cold tolerance",
-      "Drought tolerance"
+      "Disturbance",
+      "Fire prone",
+      "Episodic flooding",
+      "Low light",
+      "Frequent cold events",
+      "Drought"
     ],
     "goals": [
       "Pollinator habitat",
@@ -9269,8 +9275,8 @@ window.ECORESTORE_PLANTS = [
       "Sand"
     ],
     "elevation": {
-      "min": 3.0,
-      "max": 10173.0,
+      "min": 3,
+      "max": 10173,
       "minRaw": "3",
       "maxRaw": "10173"
     },
@@ -9341,11 +9347,11 @@ window.ECORESTORE_PLANTS = [
       "Strongly acidic"
     ],
     "conditions": [
-      "Riparian / wet",
-      "Flooding tolerance",
-      "Low-light tolerance",
-      "Cold tolerance",
-      "Drought tolerance"
+      "Riparian",
+      "Episodic flooding",
+      "Low light",
+      "Frequent cold events",
+      "Drought"
     ],
     "goals": [
       "Pollinator habitat",
@@ -9525,8 +9531,8 @@ window.ECORESTORE_PLANTS = [
       "Gravel / rocky"
     ],
     "elevation": {
-      "min": 4.0,
-      "max": 12524.0,
+      "min": 4,
+      "max": 12524,
       "minRaw": "4",
       "maxRaw": "12524"
     },
@@ -9587,15 +9593,15 @@ window.ECORESTORE_PLANTS = [
       "Alkaline",
       "Acidic",
       "Strongly acidic",
-      "Metal / serpentine tolerance"
+      "Serpentine/Metal"
     ],
     "conditions": [
-      "Disturbance tolerant / follower",
-      "Fire response / tolerance",
-      "Flooding tolerance",
-      "Low-light tolerance",
-      "Cold tolerance",
-      "Drought tolerance"
+      "Disturbance",
+      "Fire prone",
+      "Episodic flooding",
+      "Low light",
+      "Frequent cold events",
+      "Drought"
     ],
     "goals": [
       "Pollinator habitat",
@@ -9774,8 +9780,8 @@ window.ECORESTORE_PLANTS = [
       "Gravel / rocky"
     ],
     "elevation": {
-      "min": -714.0,
-      "max": 12228.0,
+      "min": -714,
+      "max": 12228,
       "minRaw": "-714",
       "maxRaw": "12228"
     },
@@ -9843,13 +9849,13 @@ window.ECORESTORE_PLANTS = [
       "Strongly acidic"
     ],
     "conditions": [
-      "Riparian / wet",
-      "Disturbance tolerant / follower",
-      "Fire response / tolerance",
-      "Flooding tolerance",
-      "Low-light tolerance",
-      "Cold tolerance",
-      "Drought tolerance"
+      "Riparian",
+      "Disturbance",
+      "Fire prone",
+      "Episodic flooding",
+      "Low light",
+      "Frequent cold events",
+      "Drought"
     ],
     "goals": [
       "Pollinator habitat",
@@ -10032,8 +10038,8 @@ window.ECORESTORE_PLANTS = [
       "Gravel / rocky"
     ],
     "elevation": {
-      "min": 0.0,
-      "max": 11630.0,
+      "min": 0,
+      "max": 11630,
       "minRaw": "0",
       "maxRaw": "11630"
     },
@@ -10090,12 +10096,12 @@ window.ECORESTORE_PLANTS = [
       "Strongly acidic"
     ],
     "conditions": [
-      "Riparian / wet",
-      "Disturbance tolerant / follower",
-      "Fire response / tolerance",
-      "Flooding tolerance",
-      "Cold tolerance",
-      "Drought tolerance"
+      "Riparian",
+      "Disturbance",
+      "Fire prone",
+      "Episodic flooding",
+      "Frequent cold events",
+      "Drought"
     ],
     "goals": [
       "Pollinator habitat",
@@ -10274,8 +10280,8 @@ window.ECORESTORE_PLANTS = [
       "Gravel / rocky"
     ],
     "elevation": {
-      "min": 0.0,
-      "max": 4350.0,
+      "min": 0,
+      "max": 4350,
       "minRaw": "0",
       "maxRaw": "4350"
     },
@@ -10303,8 +10309,8 @@ window.ECORESTORE_PLANTS = [
       "Acidic"
     ],
     "conditions": [
-      "Flooding tolerance",
-      "Drought tolerance"
+      "Episodic flooding",
+      "Drought"
     ],
     "goals": [
       "Pollinator habitat",
@@ -10480,8 +10486,8 @@ window.ECORESTORE_PLANTS = [
       "Gravel / rocky"
     ],
     "elevation": {
-      "min": 0.0,
-      "max": 7580.0,
+      "min": 0,
+      "max": 7580,
       "minRaw": "0",
       "maxRaw": "7580"
     },
@@ -10550,9 +10556,9 @@ window.ECORESTORE_PLANTS = [
       "Strongly acidic"
     ],
     "conditions": [
-      "Disturbance tolerant / follower",
-      "Flooding tolerance",
-      "Drought tolerance"
+      "Disturbance",
+      "Episodic flooding",
+      "Drought"
     ],
     "goals": [
       "Wildlife habitat",
@@ -10729,8 +10735,8 @@ window.ECORESTORE_PLANTS = [
       "Gravel / rocky"
     ],
     "elevation": {
-      "min": 0.0,
-      "max": 7415.0,
+      "min": 0,
+      "max": 7415,
       "minRaw": "0",
       "maxRaw": "7415"
     },
@@ -10966,8 +10972,8 @@ window.ECORESTORE_PLANTS = [
       "Sand"
     ],
     "elevation": {
-      "min": 0.0,
-      "max": 8105.0,
+      "min": 0,
+      "max": 8105,
       "minRaw": "0",
       "maxRaw": "8105"
     },
@@ -11038,10 +11044,10 @@ window.ECORESTORE_PLANTS = [
       "Strongly acidic"
     ],
     "conditions": [
-      "Riparian / wet",
-      "Fire response / tolerance",
-      "Cold tolerance",
-      "Drought tolerance"
+      "Riparian",
+      "Fire prone",
+      "Frequent cold events",
+      "Drought"
     ],
     "goals": [
       "Pollinator habitat",
@@ -11220,8 +11226,8 @@ window.ECORESTORE_PLANTS = [
       "Gravel / rocky"
     ],
     "elevation": {
-      "min": 0.0,
-      "max": 11450.0,
+      "min": 0,
+      "max": 11450,
       "minRaw": "0",
       "maxRaw": "11450"
     },
@@ -11274,11 +11280,11 @@ window.ECORESTORE_PLANTS = [
       "Strongly acidic"
     ],
     "conditions": [
-      "Disturbance tolerant / follower",
-      "Fire response / tolerance",
-      "Low-light tolerance",
-      "Cold tolerance",
-      "Drought tolerance"
+      "Disturbance",
+      "Fire prone",
+      "Low light",
+      "Frequent cold events",
+      "Drought"
     ],
     "goals": [
       "Pollinator habitat",
@@ -11460,8 +11466,8 @@ window.ECORESTORE_PLANTS = [
       "Gravel / rocky"
     ],
     "elevation": {
-      "min": 0.0,
-      "max": 7710.0,
+      "min": 0,
+      "max": 7710,
       "minRaw": "0",
       "maxRaw": "7710"
     },
@@ -11532,8 +11538,8 @@ window.ECORESTORE_PLANTS = [
       "Strongly acidic"
     ],
     "conditions": [
-      "Disturbance tolerant / follower",
-      "Drought tolerance"
+      "Disturbance",
+      "Drought"
     ],
     "goals": [
       "Wildlife habitat",
@@ -11708,8 +11714,8 @@ window.ECORESTORE_PLANTS = [
       "Gravel / rocky"
     ],
     "elevation": {
-      "min": 0.0,
-      "max": 9845.0,
+      "min": 0,
+      "max": 9845,
       "minRaw": "0",
       "maxRaw": "9845"
     },
@@ -11771,15 +11777,15 @@ window.ECORESTORE_PLANTS = [
       "Alkaline",
       "Acidic",
       "Strongly acidic",
-      "Metal / serpentine tolerance"
+      "Serpentine/Metal"
     ],
     "conditions": [
-      "Riparian / wet",
-      "Disturbance tolerant / follower",
-      "Flooding tolerance",
-      "Low-light tolerance",
-      "Cold tolerance",
-      "Drought tolerance"
+      "Riparian",
+      "Disturbance",
+      "Episodic flooding",
+      "Low light",
+      "Frequent cold events",
+      "Drought"
     ],
     "goals": [
       "Forage value",
@@ -11954,8 +11960,8 @@ window.ECORESTORE_PLANTS = [
       "Sandy loam"
     ],
     "elevation": {
-      "min": 3.0,
-      "max": 8045.0,
+      "min": 3,
+      "max": 8045,
       "minRaw": "3",
       "maxRaw": "8045"
     },
@@ -12026,9 +12032,9 @@ window.ECORESTORE_PLANTS = [
       "Strongly acidic"
     ],
     "conditions": [
-      "Riparian / wet",
-      "Disturbance tolerant / follower",
-      "Drought tolerance"
+      "Riparian",
+      "Disturbance",
+      "Drought"
     ],
     "goals": [
       "Pollinator habitat",
@@ -12200,8 +12206,8 @@ window.ECORESTORE_PLANTS = [
       "Sandy loam"
     ],
     "elevation": {
-      "min": -132.0,
-      "max": 6722.0,
+      "min": -132,
+      "max": 6722,
       "minRaw": "-132",
       "maxRaw": "6722"
     },
@@ -12249,8 +12255,8 @@ window.ECORESTORE_PLANTS = [
       "Strongly acidic"
     ],
     "conditions": [
-      "Flooding tolerance",
-      "Drought tolerance"
+      "Episodic flooding",
+      "Drought"
     ],
     "goals": [
       "Pollinator habitat",
@@ -12421,8 +12427,8 @@ window.ECORESTORE_PLANTS = [
       "Sandy loam"
     ],
     "elevation": {
-      "min": 15.0,
-      "max": 6300.0,
+      "min": 15,
+      "max": 6300,
       "minRaw": "15",
       "maxRaw": "6300"
     },
@@ -12476,10 +12482,10 @@ window.ECORESTORE_PLANTS = [
       "Strongly acidic"
     ],
     "conditions": [
-      "Riparian / wet",
-      "Disturbance tolerant / follower",
-      "Flooding tolerance",
-      "Drought tolerance"
+      "Riparian",
+      "Disturbance",
+      "Episodic flooding",
+      "Drought"
     ],
     "goals": [
       "Pollinator habitat",
@@ -12656,8 +12662,8 @@ window.ECORESTORE_PLANTS = [
       "Gravel / rocky"
     ],
     "elevation": {
-      "min": -51.0,
-      "max": 12226.0,
+      "min": -51,
+      "max": 12226,
       "minRaw": "-51",
       "maxRaw": "12226"
     },
@@ -12728,12 +12734,12 @@ window.ECORESTORE_PLANTS = [
       "Strongly acidic"
     ],
     "conditions": [
-      "Riparian / wet",
-      "Fire response / tolerance",
-      "Flooding tolerance",
-      "Low-light tolerance",
-      "Cold tolerance",
-      "Drought tolerance"
+      "Riparian",
+      "Fire prone",
+      "Episodic flooding",
+      "Low light",
+      "Frequent cold events",
+      "Drought"
     ],
     "goals": [
       "Wildlife habitat",
@@ -12913,8 +12919,8 @@ window.ECORESTORE_PLANTS = [
       "Gravel / rocky"
     ],
     "elevation": {
-      "min": 1.0,
-      "max": 14243.0,
+      "min": 1,
+      "max": 14243,
       "minRaw": "1",
       "maxRaw": "14243"
     },
@@ -12981,13 +12987,13 @@ window.ECORESTORE_PLANTS = [
       "Strongly acidic"
     ],
     "conditions": [
-      "Riparian / wet",
-      "Disturbance tolerant / follower",
-      "Fire response / tolerance",
-      "Flooding tolerance",
-      "Low-light tolerance",
-      "Cold tolerance",
-      "Drought tolerance"
+      "Riparian",
+      "Disturbance",
+      "Fire prone",
+      "Episodic flooding",
+      "Low light",
+      "Frequent cold events",
+      "Drought"
     ],
     "goals": [
       "Wildlife habitat",
@@ -13173,8 +13179,8 @@ window.ECORESTORE_PLANTS = [
       "Gravel / rocky"
     ],
     "elevation": {
-      "min": 0.0,
-      "max": 7480.0,
+      "min": 0,
+      "max": 7480,
       "minRaw": "0",
       "maxRaw": "7480"
     },
@@ -13243,8 +13249,8 @@ window.ECORESTORE_PLANTS = [
       "Strongly acidic"
     ],
     "conditions": [
-      "Riparian / wet",
-      "Drought tolerance"
+      "Riparian",
+      "Drought"
     ],
     "goals": [
       "Pollinator habitat",
@@ -13417,8 +13423,8 @@ window.ECORESTORE_PLANTS = [
       "Sand"
     ],
     "elevation": {
-      "min": -3424.0,
-      "max": 6112.0,
+      "min": -3424,
+      "max": 6112,
       "minRaw": "-3424",
       "maxRaw": "6112"
     },
@@ -13474,10 +13480,10 @@ window.ECORESTORE_PLANTS = [
       "Strongly acidic"
     ],
     "conditions": [
-      "Riparian / wet",
-      "Flooding tolerance",
-      "Cold tolerance",
-      "Drought tolerance"
+      "Riparian",
+      "Episodic flooding",
+      "Frequent cold events",
+      "Drought"
     ],
     "goals": [
       "Pollinator habitat",
@@ -13654,8 +13660,8 @@ window.ECORESTORE_PLANTS = [
       "Gravel / rocky"
     ],
     "elevation": {
-      "min": 0.0,
-      "max": 8996.0,
+      "min": 0,
+      "max": 8996,
       "minRaw": "0",
       "maxRaw": "8996"
     },
@@ -13723,14 +13729,14 @@ window.ECORESTORE_PLANTS = [
       "Alkaline",
       "Acidic",
       "Strongly acidic",
-      "Metal / serpentine tolerance"
+      "Serpentine/Metal"
     ],
     "conditions": [
-      "Disturbance tolerant / follower",
-      "Fire response / tolerance",
-      "Flooding tolerance",
-      "Cold tolerance",
-      "Drought tolerance"
+      "Disturbance",
+      "Fire prone",
+      "Episodic flooding",
+      "Frequent cold events",
+      "Drought"
     ],
     "goals": [
       "Pollinator habitat",
@@ -13905,8 +13911,8 @@ window.ECORESTORE_PLANTS = [
       "Sand"
     ],
     "elevation": {
-      "min": 0.0,
-      "max": 8335.0,
+      "min": 0,
+      "max": 8335,
       "minRaw": "0",
       "maxRaw": "8335"
     },
@@ -13969,14 +13975,14 @@ window.ECORESTORE_PLANTS = [
       "Alkaline",
       "Acidic",
       "Strongly acidic",
-      "Metal / serpentine tolerance"
+      "Serpentine/Metal"
     ],
     "conditions": [
-      "Disturbance tolerant / follower",
-      "Flooding tolerance",
-      "Low-light tolerance",
-      "Cold tolerance",
-      "Drought tolerance"
+      "Disturbance",
+      "Episodic flooding",
+      "Low light",
+      "Frequent cold events",
+      "Drought"
     ],
     "goals": [
       "Pollinator habitat",
@@ -14151,8 +14157,8 @@ window.ECORESTORE_PLANTS = [
       "Sandy loam"
     ],
     "elevation": {
-      "min": 3.0,
-      "max": 10481.0,
+      "min": 3,
+      "max": 10481,
       "minRaw": "3",
       "maxRaw": "10481"
     },
@@ -14210,9 +14216,9 @@ window.ECORESTORE_PLANTS = [
       "Strongly acidic"
     ],
     "conditions": [
-      "Flooding tolerance",
-      "Low-light tolerance",
-      "Drought tolerance"
+      "Episodic flooding",
+      "Low light",
+      "Drought"
     ],
     "goals": [
       "Pollinator habitat",
@@ -14391,8 +14397,8 @@ window.ECORESTORE_PLANTS = [
       "Sand"
     ],
     "elevation": {
-      "min": 0.0,
-      "max": 8760.0,
+      "min": 0,
+      "max": 8760,
       "minRaw": "0",
       "maxRaw": "8760"
     },
@@ -14454,12 +14460,12 @@ window.ECORESTORE_PLANTS = [
       "Alkaline",
       "Acidic",
       "Strongly acidic",
-      "Metal / serpentine tolerance"
+      "Serpentine/Metal"
     ],
     "conditions": [
-      "Disturbance tolerant / follower",
-      "Flooding tolerance",
-      "Drought tolerance"
+      "Disturbance",
+      "Episodic flooding",
+      "Drought"
     ],
     "goals": [
       "Pollinator habitat",
@@ -14642,8 +14648,8 @@ window.ECORESTORE_PLANTS = [
       "Gravel / rocky"
     ],
     "elevation": {
-      "min": 0.0,
-      "max": 5445.0,
+      "min": 0,
+      "max": 5445,
       "minRaw": "0",
       "maxRaw": "5445"
     },
@@ -14696,10 +14702,10 @@ window.ECORESTORE_PLANTS = [
       "Strongly acidic"
     ],
     "conditions": [
-      "Fire response / tolerance",
-      "Flooding tolerance",
-      "Low-light tolerance",
-      "Drought tolerance"
+      "Fire prone",
+      "Episodic flooding",
+      "Low light",
+      "Drought"
     ],
     "goals": [
       "Pollinator habitat",
@@ -14873,8 +14879,8 @@ window.ECORESTORE_PLANTS = [
       "Sand"
     ],
     "elevation": {
-      "min": -4136.0,
-      "max": 8278.0,
+      "min": -4136,
+      "max": 8278,
       "minRaw": "-4136",
       "maxRaw": "8278"
     },
@@ -14899,9 +14905,9 @@ window.ECORESTORE_PLANTS = [
       "Strongly acidic"
     ],
     "conditions": [
-      "Flooding tolerance",
-      "Low-light tolerance",
-      "Drought tolerance"
+      "Episodic flooding",
+      "Low light",
+      "Drought"
     ],
     "goals": [
       "Pollinator habitat"
@@ -15073,8 +15079,8 @@ window.ECORESTORE_PLANTS = [
       "Gravel / rocky"
     ],
     "elevation": {
-      "min": -22.0,
-      "max": 10807.0,
+      "min": -22,
+      "max": 10807,
       "minRaw": "-22",
       "maxRaw": "10807"
     },
@@ -15141,11 +15147,11 @@ window.ECORESTORE_PLANTS = [
       "Strongly acidic"
     ],
     "conditions": [
-      "Fire response / tolerance",
-      "Flooding tolerance",
-      "Low-light tolerance",
-      "Cold tolerance",
-      "Drought tolerance"
+      "Fire prone",
+      "Episodic flooding",
+      "Low light",
+      "Frequent cold events",
+      "Drought"
     ],
     "goals": [
       "Wildlife habitat",
@@ -15327,8 +15333,8 @@ window.ECORESTORE_PLANTS = [
       "Gravel / rocky"
     ],
     "elevation": {
-      "min": 0.0,
-      "max": 10807.0,
+      "min": 0,
+      "max": 10807,
       "minRaw": "0",
       "maxRaw": "10807"
     },
@@ -15380,12 +15386,12 @@ window.ECORESTORE_PLANTS = [
       "Strongly acidic"
     ],
     "conditions": [
-      "Riparian / wet",
-      "Fire response / tolerance",
-      "Flooding tolerance",
-      "Low-light tolerance",
-      "Cold tolerance",
-      "Drought tolerance"
+      "Riparian",
+      "Fire prone",
+      "Episodic flooding",
+      "Low light",
+      "Frequent cold events",
+      "Drought"
     ],
     "goals": [
       "Wildlife habitat",
@@ -15560,8 +15566,8 @@ window.ECORESTORE_PLANTS = [
     },
     "soils": [],
     "elevation": {
-      "min": -133.0,
-      "max": 8815.0,
+      "min": -133,
+      "max": 8815,
       "minRaw": "-133",
       "maxRaw": "8815"
     },
@@ -15610,11 +15616,11 @@ window.ECORESTORE_PLANTS = [
       "Alkaline",
       "Acidic",
       "Strongly acidic",
-      "Metal / serpentine tolerance"
+      "Serpentine/Metal"
     ],
     "conditions": [
-      "Flooding tolerance",
-      "Drought tolerance"
+      "Episodic flooding",
+      "Drought"
     ],
     "goals": [
       "Pollinator habitat",
@@ -15790,8 +15796,8 @@ window.ECORESTORE_PLANTS = [
       "Sandy loam"
     ],
     "elevation": {
-      "min": 3.0,
-      "max": 7676.0,
+      "min": 3,
+      "max": 7676,
       "minRaw": "3",
       "maxRaw": "7676"
     },
@@ -15841,13 +15847,13 @@ window.ECORESTORE_PLANTS = [
       "Alkaline",
       "Acidic",
       "Strongly acidic",
-      "Metal / serpentine tolerance"
+      "Serpentine/Metal"
     ],
     "conditions": [
-      "Disturbance tolerant / follower",
-      "Fire response / tolerance",
-      "Flooding tolerance",
-      "Drought tolerance"
+      "Disturbance",
+      "Fire prone",
+      "Episodic flooding",
+      "Drought"
     ],
     "goals": [
       "Pollinator habitat"
@@ -16023,8 +16029,8 @@ window.ECORESTORE_PLANTS = [
       "Gravel / rocky"
     ],
     "elevation": {
-      "min": 14.0,
-      "max": 7694.0,
+      "min": 14,
+      "max": 7694,
       "minRaw": "14",
       "maxRaw": "7694"
     },
@@ -16063,14 +16069,14 @@ window.ECORESTORE_PLANTS = [
       "Alkaline",
       "Acidic",
       "Strongly acidic",
-      "Metal / serpentine tolerance"
+      "Serpentine/Metal"
     ],
     "conditions": [
-      "Riparian / wet",
-      "Disturbance tolerant / follower",
-      "Fire response / tolerance",
-      "Flooding tolerance",
-      "Drought tolerance"
+      "Riparian",
+      "Disturbance",
+      "Fire prone",
+      "Episodic flooding",
+      "Drought"
     ],
     "goals": [
       "Wildlife habitat",
@@ -16254,8 +16260,8 @@ window.ECORESTORE_PLANTS = [
       "Sand"
     ],
     "elevation": {
-      "min": 0.0,
-      "max": 7480.0,
+      "min": 0,
+      "max": 7480,
       "minRaw": "0",
       "maxRaw": "7480"
     },
@@ -16320,10 +16326,10 @@ window.ECORESTORE_PLANTS = [
       "Strongly acidic"
     ],
     "conditions": [
-      "Fire response / tolerance",
-      "Low-light tolerance",
-      "Cold tolerance",
-      "Drought tolerance"
+      "Fire prone",
+      "Low light",
+      "Frequent cold events",
+      "Drought"
     ],
     "goals": [
       "Pollinator habitat",
@@ -16498,8 +16504,8 @@ window.ECORESTORE_PLANTS = [
       "Gravel / rocky"
     ],
     "elevation": {
-      "min": 30.0,
-      "max": 6924.0,
+      "min": 30,
+      "max": 6924,
       "minRaw": "30",
       "maxRaw": "6924"
     },
@@ -16549,10 +16555,10 @@ window.ECORESTORE_PLANTS = [
       "Acidic"
     ],
     "conditions": [
-      "Flooding tolerance",
-      "Low-light tolerance",
-      "Cold tolerance",
-      "Drought tolerance"
+      "Episodic flooding",
+      "Low light",
+      "Frequent cold events",
+      "Drought"
     ],
     "goals": [
       "Pollinator habitat",
@@ -16723,8 +16729,8 @@ window.ECORESTORE_PLANTS = [
       "Gravel / rocky"
     ],
     "elevation": {
-      "min": 7.0,
-      "max": 9246.0,
+      "min": 7,
+      "max": 9246,
       "minRaw": "7",
       "maxRaw": "9246"
     },
@@ -16759,11 +16765,11 @@ window.ECORESTORE_PLANTS = [
       "Alkaline",
       "Acidic",
       "Strongly acidic",
-      "Metal / serpentine tolerance"
+      "Serpentine/Metal"
     ],
     "conditions": [
-      "Low-light tolerance",
-      "Drought tolerance"
+      "Low light",
+      "Drought"
     ],
     "goals": [
       "Pollinator habitat",
@@ -16942,8 +16948,8 @@ window.ECORESTORE_PLANTS = [
       "Gravel / rocky"
     ],
     "elevation": {
-      "min": 0.0,
-      "max": 8135.0,
+      "min": 0,
+      "max": 8135,
       "minRaw": "0",
       "maxRaw": "8135"
     },
@@ -16985,10 +16991,10 @@ window.ECORESTORE_PLANTS = [
       "Strongly acidic"
     ],
     "conditions": [
-      "Fire response / tolerance",
-      "Flooding tolerance",
-      "Low-light tolerance",
-      "Drought tolerance"
+      "Fire prone",
+      "Episodic flooding",
+      "Low light",
+      "Drought"
     ],
     "goals": [
       "Pollinator habitat"
@@ -17165,8 +17171,8 @@ window.ECORESTORE_PLANTS = [
       "Gravel / rocky"
     ],
     "elevation": {
-      "min": -34.0,
-      "max": 9047.0,
+      "min": -34,
+      "max": 9047,
       "minRaw": "-34",
       "maxRaw": "9047"
     },
@@ -17215,10 +17221,10 @@ window.ECORESTORE_PLANTS = [
       "Strongly acidic"
     ],
     "conditions": [
-      "Flooding tolerance",
-      "Low-light tolerance",
-      "Cold tolerance",
-      "Drought tolerance"
+      "Episodic flooding",
+      "Low light",
+      "Frequent cold events",
+      "Drought"
     ],
     "goals": [
       "Pollinator habitat"
@@ -17392,8 +17398,8 @@ window.ECORESTORE_PLANTS = [
       "Gravel / rocky"
     ],
     "elevation": {
-      "min": 3.0,
-      "max": 8167.0,
+      "min": 3,
+      "max": 8167,
       "minRaw": "3",
       "maxRaw": "8167"
     },
@@ -17440,9 +17446,9 @@ window.ECORESTORE_PLANTS = [
       "Acidic"
     ],
     "conditions": [
-      "Flooding tolerance",
-      "Cold tolerance",
-      "Drought tolerance"
+      "Episodic flooding",
+      "Frequent cold events",
+      "Drought"
     ],
     "goals": [
       "Pollinator habitat",
@@ -17625,8 +17631,8 @@ window.ECORESTORE_PLANTS = [
       "Gravel / rocky"
     ],
     "elevation": {
-      "min": -3271.0,
-      "max": 11310.0,
+      "min": -3271,
+      "max": 11310,
       "minRaw": "-3271",
       "maxRaw": "11310"
     },
@@ -17691,11 +17697,11 @@ window.ECORESTORE_PLANTS = [
       "Alkaline",
       "Acidic",
       "Strongly acidic",
-      "Metal / serpentine tolerance"
+      "Serpentine/Metal"
     ],
     "conditions": [
-      "Disturbance tolerant / follower",
-      "Low-light tolerance"
+      "Disturbance",
+      "Low light"
     ],
     "goals": [
       "Pollinator habitat",
@@ -17871,8 +17877,8 @@ window.ECORESTORE_PLANTS = [
       "Gravel / rocky"
     ],
     "elevation": {
-      "min": -230.0,
-      "max": 14460.0,
+      "min": -230,
+      "max": 14460,
       "minRaw": "-230",
       "maxRaw": "14460"
     },
@@ -17940,15 +17946,15 @@ window.ECORESTORE_PLANTS = [
       "Alkaline",
       "Acidic",
       "Strongly acidic",
-      "Metal / serpentine tolerance"
+      "Serpentine/Metal"
     ],
     "conditions": [
-      "Riparian / wet",
-      "Disturbance tolerant / follower",
-      "Fire response / tolerance",
-      "Low-light tolerance",
-      "Cold tolerance",
-      "Drought tolerance"
+      "Riparian",
+      "Disturbance",
+      "Fire prone",
+      "Low light",
+      "Frequent cold events",
+      "Drought"
     ],
     "goals": [
       "Pollinator habitat",
@@ -18133,8 +18139,8 @@ window.ECORESTORE_PLANTS = [
       "Gravel / rocky"
     ],
     "elevation": {
-      "min": -253.0,
-      "max": 8103.0,
+      "min": -253,
+      "max": 8103,
       "minRaw": "-253",
       "maxRaw": "8103"
     },
@@ -18188,10 +18194,10 @@ window.ECORESTORE_PLANTS = [
       "Strongly acidic"
     ],
     "conditions": [
-      "Disturbance tolerant / follower",
-      "Fire response / tolerance",
-      "Flooding tolerance",
-      "Drought tolerance"
+      "Disturbance",
+      "Fire prone",
+      "Episodic flooding",
+      "Drought"
     ],
     "goals": [
       "Pollinator habitat",
@@ -18369,8 +18375,8 @@ window.ECORESTORE_PLANTS = [
       "Gravel / rocky"
     ],
     "elevation": {
-      "min": -271.0,
-      "max": 7712.0,
+      "min": -271,
+      "max": 7712,
       "minRaw": "-271",
       "maxRaw": "7712"
     },
@@ -18409,17 +18415,17 @@ window.ECORESTORE_PLANTS = [
       "Alkaline",
       "Strongly alkaline",
       "Acidic",
-      "CaCO3 / calcareous tolerance",
-      "Metal / serpentine tolerance"
+      "Calcaerous",
+      "Serpentine/Metal"
     ],
     "conditions": [
-      "Riparian / wet",
-      "Disturbance tolerant / follower",
-      "Fire response / tolerance",
-      "Flooding tolerance",
-      "Low-light tolerance",
-      "Cold tolerance",
-      "Drought tolerance"
+      "Riparian",
+      "Disturbance",
+      "Fire prone",
+      "Episodic flooding",
+      "Low light",
+      "Frequent cold events",
+      "Drought"
     ],
     "goals": [
       "Pollinator habitat",
@@ -18600,8 +18606,8 @@ window.ECORESTORE_PLANTS = [
       "Gravel / rocky"
     ],
     "elevation": {
-      "min": 0.0,
-      "max": 8005.0,
+      "min": 0,
+      "max": 8005,
       "minRaw": "0",
       "maxRaw": "8005"
     },
@@ -18653,9 +18659,9 @@ window.ECORESTORE_PLANTS = [
       "Strongly acidic"
     ],
     "conditions": [
-      "Disturbance tolerant / follower",
-      "Low-light tolerance",
-      "Drought tolerance"
+      "Disturbance",
+      "Low light",
+      "Drought"
     ],
     "goals": [
       "Pollinator habitat",
@@ -18837,8 +18843,8 @@ window.ECORESTORE_PLANTS = [
       "Gravel / rocky"
     ],
     "elevation": {
-      "min": 0.0,
-      "max": 4920.0,
+      "min": 0,
+      "max": 4920,
       "minRaw": "0",
       "maxRaw": "4920"
     },
@@ -18881,8 +18887,8 @@ window.ECORESTORE_PLANTS = [
       "Strongly acidic"
     ],
     "conditions": [
-      "Fire response / tolerance",
-      "Drought tolerance"
+      "Fire prone",
+      "Drought"
     ],
     "goals": [
       "Pollinator habitat",
@@ -19060,8 +19066,8 @@ window.ECORESTORE_PLANTS = [
       "Gravel / rocky"
     ],
     "elevation": {
-      "min": -151.0,
-      "max": 9884.0,
+      "min": -151,
+      "max": 9884,
       "minRaw": "-151",
       "maxRaw": "9884"
     },
@@ -19120,12 +19126,12 @@ window.ECORESTORE_PLANTS = [
       "Alkaline",
       "Acidic",
       "Strongly acidic",
-      "Metal / serpentine tolerance"
+      "Serpentine/Metal"
     ],
     "conditions": [
-      "Disturbance tolerant / follower",
-      "Cold tolerance",
-      "Drought tolerance"
+      "Disturbance",
+      "Frequent cold events",
+      "Drought"
     ],
     "goals": [
       "Pollinator habitat",
@@ -19310,8 +19316,8 @@ window.ECORESTORE_PLANTS = [
       "Gravel / rocky"
     ],
     "elevation": {
-      "min": 0.0,
-      "max": 8005.0,
+      "min": 0,
+      "max": 8005,
       "minRaw": "0",
       "maxRaw": "8005"
     },
@@ -19370,10 +19376,10 @@ window.ECORESTORE_PLANTS = [
       "Strongly acidic"
     ],
     "conditions": [
-      "Riparian / wet",
-      "Low-light tolerance",
-      "Cold tolerance",
-      "Drought tolerance"
+      "Riparian",
+      "Low light",
+      "Frequent cold events",
+      "Drought"
     ],
     "goals": [
       "Pollinator habitat",
@@ -19553,8 +19559,8 @@ window.ECORESTORE_PLANTS = [
       "Gravel / rocky"
     ],
     "elevation": {
-      "min": 15.0,
-      "max": 7580.0,
+      "min": 15,
+      "max": 7580,
       "minRaw": "15",
       "maxRaw": "7580"
     },
@@ -19612,13 +19618,13 @@ window.ECORESTORE_PLANTS = [
       "Alkaline",
       "Acidic",
       "Strongly acidic",
-      "Metal / serpentine tolerance"
+      "Serpentine/Metal"
     ],
     "conditions": [
-      "Disturbance tolerant / follower",
-      "Fire response / tolerance",
-      "Flooding tolerance",
-      "Drought tolerance"
+      "Disturbance",
+      "Fire prone",
+      "Episodic flooding",
+      "Drought"
     ],
     "goals": [
       "Pollinator habitat",
@@ -19795,8 +19801,8 @@ window.ECORESTORE_PLANTS = [
       "Sandy loam"
     ],
     "elevation": {
-      "min": 180.0,
-      "max": 3610.0,
+      "min": 180,
+      "max": 3610,
       "minRaw": "180",
       "maxRaw": "3610"
     },
@@ -19837,9 +19843,9 @@ window.ECORESTORE_PLANTS = [
       "Acidic"
     ],
     "conditions": [
-      "Disturbance tolerant / follower",
-      "Low-light tolerance",
-      "Drought tolerance"
+      "Disturbance",
+      "Low light",
+      "Drought"
     ],
     "goals": [
       "Pollinator habitat",
@@ -20017,8 +20023,8 @@ window.ECORESTORE_PLANTS = [
       "Sand"
     ],
     "elevation": {
-      "min": -3.0,
-      "max": 5358.0,
+      "min": -3,
+      "max": 5358,
       "minRaw": "-3",
       "maxRaw": "5358"
     },
@@ -20063,11 +20069,11 @@ window.ECORESTORE_PLANTS = [
       "Alkaline",
       "Acidic",
       "Strongly acidic",
-      "Metal / serpentine tolerance"
+      "Serpentine/Metal"
     ],
     "conditions": [
-      "Fire response / tolerance",
-      "Flooding tolerance"
+      "Fire prone",
+      "Episodic flooding"
     ],
     "goals": [
       "Pollinator habitat",
@@ -20240,8 +20246,8 @@ window.ECORESTORE_PLANTS = [
       "Gravel / rocky"
     ],
     "elevation": {
-      "min": 7.0,
-      "max": 8913.0,
+      "min": 7,
+      "max": 8913,
       "minRaw": "7",
       "maxRaw": "8913"
     },
@@ -20301,10 +20307,10 @@ window.ECORESTORE_PLANTS = [
       "Strongly acidic"
     ],
     "conditions": [
-      "Riparian / wet",
-      "Disturbance tolerant / follower",
-      "Fire response / tolerance",
-      "Flooding tolerance"
+      "Riparian",
+      "Disturbance",
+      "Fire prone",
+      "Episodic flooding"
     ],
     "goals": [
       "Pollinator habitat",
@@ -20482,8 +20488,8 @@ window.ECORESTORE_PLANTS = [
       "Gravel / rocky"
     ],
     "elevation": {
-      "min": 0.0,
-      "max": 7580.0,
+      "min": 0,
+      "max": 7580,
       "minRaw": "0",
       "maxRaw": "7580"
     },
@@ -20546,13 +20552,13 @@ window.ECORESTORE_PLANTS = [
       "Alkaline",
       "Acidic",
       "Strongly acidic",
-      "Metal / serpentine tolerance"
+      "Serpentine/Metal"
     ],
     "conditions": [
-      "Riparian / wet",
-      "Disturbance tolerant / follower",
-      "Flooding tolerance",
-      "Drought tolerance"
+      "Riparian",
+      "Disturbance",
+      "Episodic flooding",
+      "Drought"
     ],
     "goals": [
       "Pollinator habitat",

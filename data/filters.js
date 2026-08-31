@@ -114,13 +114,13 @@ window.ECORESTORE_FILTERS = {
     "Serpentine/Metal"
   ],
   "conditions": [
-    "Riparian / wet",
-    "Disturbance tolerant / follower",
-    "Fire response / tolerance",
-    "Flooding tolerance",
-    "Low-light tolerance",
-    "Cold tolerance",
-    "Drought tolerance"
+    "Disturbance",
+    "Frequent cold events",
+    "Episodic flooding",
+    "Low light",
+    "Fire prone",
+    "Riparian",
+    "Drought"
   ],
   "goals": [
     "Pollinator habitat",
