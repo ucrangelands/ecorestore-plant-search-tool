@@ -20,21 +20,22 @@
     </header>
 
     <div class="data-note" role="note">
-      Prototype Notes:Plant information and compatibility fields are derived from the approved EcoRestore plant dataset, currently covering annual grassland (phase 1) and coastal sage scrub (phase 2). Rankings summarize recorded characteristics; review each plant profile and linked sources for restoration planning.
+      Plant information and compatibility fields are derived from the approved EcoRestore plant dataset. Rankings summarize recorded characteristics; review each plant profile and linked sources for restoration planning.
     </div>
 
     <section class="workspace" aria-label="Plant selection workspace">
       <aside class="filters-panel" aria-labelledby="site-heading">
-        <div class="panel-heading"><div><p class="step-label">Your restoration site</p><h2 id="site-heading">Site assessment</h2></div><span id="active-filter-count" class="filter-count">0 selected</span></div>
+        <div class="panel-heading"><div><p class="step-label">Your site</p><h2 id="site-heading">Site assessment</h2></div><span id="active-filter-count" class="filter-count">0 selected</span></div>
 
-        <div class="filter-group"><label for="community">Plant community</label><select id="community"><option value="">Any plant community</option></select></div>
+        <div class="filter-group"><label for="community">Plant community</label><select id="community"><option value="">Any recorded community</option></select></div>
         <div class="filter-group"><label for="county">California county</label><select id="county"><option value="">Any county</option></select></div>
         <div class="filter-group"><label for="elevation">Site elevation (ft)</label><input id="elevation" type="number" inputmode="numeric" placeholder="Optional" /></div>
 
         <fieldset class="filter-group"><legend>Expected grazing / use</legend><div id="grazing-options" class="choice-grid compact"></div></fieldset>
         <fieldset class="filter-group"><legend>Soil texture</legend><p class="filter-help">Select one or more soil texture classes.</p><div id="soil-options" class="choice-grid"></div></fieldset>
-        <fieldset class="filter-group"><legend>Soil conditions</legend><p class="filter-help">Select any of the following soil conditions that apply to your site.</p><div id="chemistry-options" class="choice-grid"></div></fieldset>
-        <fieldset class="filter-group"><legend>Site conditions</legend><div id="condition-options" class="choice-grid"></div></fieldset>
+        <fieldset class="filter-group"><legend>Soil conditions</legend>
+        <p class="filter-help">Select any of the following soil conditions that apply to your site.</p><div id="chemistry-options" class="choice-grid"></div></fieldset>
+        <fieldset class="filter-group"><legend>Site conditions</legend><p class="filter-help">Select any ecological conditions that apply to your site.</p><div id="condition-options" class="choice-grid"></div></fieldset>
         <fieldset class="filter-group"><legend>Restoration goals / benefits</legend><div id="goal-options" class="choice-grid"></div></fieldset>
         <button id="clear-all" class="button button-secondary full-width" type="button">Clear filters</button>
       </aside>

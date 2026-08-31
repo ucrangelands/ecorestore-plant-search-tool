@@ -338,4 +338,3 @@
   function notifyHeight(){if(window.parent!==window)requestAnimationFrame(()=>window.parent.postMessage({type:"ecorestore:height",height:document.documentElement.scrollHeight},"*"));}
   window.addEventListener("resize",notifyHeight);new ResizeObserver(notifyHeight).observe(document.body);render();
 })();
-
