@@ -188,7 +188,7 @@
       const e=Number(state.elevation),lo=p.elevation?.min,hi=p.elevation?.max;
       matches.push(detailMatch("Elevation",`${e.toLocaleString()} ft`,Number.isFinite(lo)&&Number.isFinite(hi)&&e>=lo&&e<=hi));
     }
-    [["Grazing",state.grazing,p.grazing],["Soil texture",state.soils,p.soils],["Soil conditions",state.chemistry,p.chemistry],["Site conditions",state.conditions,p.conditions],["Restoration goals",state.goals,p.goals]].forEach(([label,sel,avail])=>{
+    [["Grazing pressure",state.grazing,p.grazing],["Soil texture",state.soils,p.soils],["Soil conditions",state.chemistry,p.chemistry],["Site conditions",state.conditions,p.conditions],["Management goals",state.goals,p.goals]].forEach(([label,sel,avail])=>{
       if(sel.size)[...sel].forEach(v=>matches.push(detailMatch(label,v,(avail||[]).includes(v))));
     });
 
@@ -295,7 +295,7 @@
         ${detailGrid([
           detailLine("Soil conditions",(p.chemistry||[]).join(", ")),
           detailLine("Site conditions",(p.conditions||[]).join(", ")),
-          detailLine("Restoration goals",(p.goals||[]).join(", ")),
+          detailLine("Management goals",(p.goals||[]).join(", ")),
           detailLine("Grazing",(p.grazing||[]).join(", "))
         ])}
       </section>
