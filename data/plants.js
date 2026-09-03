@@ -1,60 +1,3 @@
-/*
-  PUBLIC APP DATA generated from California EcoRestore BigTable (10).
-  This file intentionally contains only the public subset used by the browser app.
-  The private master CSV is not included in the GitHub Pages project.
-  PlantID is retained internally for app/image handling but is not displayed publicly.
-*/
-window.ECORESTORE_PLANTS = [
-  {
-    "plantId": "ACAM",
-    "scientific": "Acmispon americanus",
-    "alternateScientific": "",
-    "common": "American Bird's-foot Trefoil, Spanish clover",
-    "photoFileName": "ACAM.jpg",
-    "photoCredit": "Cat Chang",
-    "photoSource": "https://www.calflora.org/app/up/mg/286/mg86051-2.jpg?a",
-    "links": {
-      "calflora": "https://www.calflora.org/app/taxon?crn=12131",
-      "calscape": "https://calscape.org/Acmispon-americanus-(American-Bird's-foot-Trefoil)?srchcr=sc6564dfc4ee427",
-      "usda": "not listed"
-    },
-    "description": "Annual herbaceous forb found in various habitats across California, excluding deserts, and typically grows in wet, disturbed areas. This late season blooming annual forb, does well early in the restoration process and then demonstrates low density in subsequent years.",
-    "lifecycle": "Annual",
-    "growingSeason": "Warm",
-    "type": "forb",
-    "growthFormRaw": "Forb",
-    "plantCommunity": "Grassland, Chapparrall",
-    "allCommunitiesFound": "Foothill Woodland, Lodgepole Forest, Red Fir Forest, Subalpine Forest, Valley Grassland, Yellow Pine Forest , Coastal sage scrub, Chapparal",
-    "communities": [
-      "Grassland",
-      "Coastal Sage Scrub",
-      "Chaparral",
-      "Foothill Woodland",
-      "Yellow Pine Forest",
-      "Red Fir Forest",
-      "Lodgepole Forest",
-      "Subalpine / Alpine"
-    ],
-    "concerns": "Can be weedy, so better not to use near croplands. 1.2-2PLS lbs/acre – $90- 120/lb",
-    "benefits": "Responds well to grazing, does well in disturbed areas, good for erosion control, good for butterfly habitat, relatively drought tolerant, tolerant of heavy metals, nitrogen fixing, resists fire.",
-    "status": "Native to California",
-    "seeding": {
-      "rate": "1.2-2PLS lbs/acre",
-      "minimum": "NA",
-      "maximum": "NA"
-    },
-    "soil": {
-      "preparation": "distrubed areas, pH 5-8.2",
-      "optimum": "sandy or rocky soils in open or forsted locations",
-      "suitable": "Clay, Clay loam, Silt loam, Loam, Sandy loam, Loamy sand, Sand, Variable, Decomposed plant material",
-      "classesRaw": {
-        "clay": "Y",
-        "loam": "Y",
-        "silt": "N",
-        "sand": "Y",
-        "gravel": "N"
-      }
-    },
     "soils": [
       "Clay",
       "Clay loam",
@@ -267,7 +210,7 @@ window.ECORESTORE_PLANTS = [
     },
     "citations": {
       "sourceText": "",
-      "citationNotes": "Citations: Wilkerson et al., 2014; Kimball et al. 2015, Acmispon americanus - American Bird’s Foot Trefoil (Seed). Theodore Payne Foundation., Acmispon americanus var. americanus - Puget Prairie Plants., Nguyen2023, Waterton2016"
+      "citationNotes": "Wilkerson et al., 2014; Kimball et al. 2015, Acmispon americanus - American Bird’s Foot Trefoil (Seed). Theodore Payne Foundation., Acmispon americanus var. americanus - Puget Prairie Plants., Nguyen2023, Waterton2016"
     }
   },
   {
@@ -977,7 +920,7 @@ window.ECORESTORE_PLANTS = [
     },
     "citations": {
       "sourceText": "",
-      "citationNotes": "Citations: Kaye 1997; Hallock et al. 2003; Pywell et al. 2003; Sheley and Half 2006; Hyvonen 2007; Long and Anderson 2010; Sandel et al., 2011; Banach et al., 2009; O’Dell and Claassen 2006; Gornish and Shaw 2017"
+      "citationNotes": "Kaye 1997; Hallock et al. 2003; Pywell et al. 2003; Sheley and Half 2006; Hyvonen 2007; Long and Anderson 2010; Sandel et al., 2011; Banach et al., 2009; O’Dell and Claassen 2006; Gornish and Shaw 2017"
     }
   },
   {
@@ -1669,7 +1612,7 @@ window.ECORESTORE_PLANTS = [
     },
     "citations": {
       "sourceText": "",
-      "citationNotes": "Citations: Davidson and Fox 1974; Gillespie and Allen 2008; Leger et al. 2014, Montalvo et. al. 2010"
+      "citationNotes": "Davidson and Fox 1974; Gillespie and Allen 2008; Leger et al. 2014, Montalvo et. al. 2010"
     }
   },
   {
@@ -1927,7 +1870,7 @@ window.ECORESTORE_PLANTS = [
     },
     "citations": {
       "sourceText": "",
-      "citationNotes": "Citations: Forbis 2010; Borders et al. 2011, Gornish, Gornish and Shaw, 2017, Montalvo, A. M., L. K. Goode, and J. L. Beyers. 2010."
+      "citationNotes": "Forbis 2010; Borders et al. 2011, Gornish, Gornish and Shaw, 2017, Montalvo, A. M., L. K. Goode, and J. L. Beyers. 2010."
     }
   },
   {
@@ -2131,7 +2074,7 @@ window.ECORESTORE_PLANTS = [
     },
     "citations": {
       "sourceText": "",
-      "citationNotes": "Citations: Gornish and Shaw 2017; Keeley 1991; Howard 2012; Keeley et al., 1985"
+      "citationNotes": "Gornish and Shaw 2017; Keeley 1991; Howard 2012; Keeley et al., 1985"
     }
   },
   {
@@ -2576,7 +2519,7 @@ window.ECORESTORE_PLANTS = [
     },
     "citations": {
       "sourceText": "",
-      "citationNotes": "Citations: Kimball et al. 2015; Gornish and Shaw2017: Hauser 2006"
+      "citationNotes": "Kimball et al. 2015; Gornish and Shaw2017: Hauser 2006"
     }
   },
   {
@@ -2844,7 +2787,7 @@ window.ECORESTORE_PLANTS = [
     },
     "citations": {
       "sourceText": "",
-      "citationNotes": "Citations: Long and Anderson 2010; Gornish and Shaw 2017"
+      "citationNotes": "Long and Anderson 2010; Gornish and Shaw 2017"
     }
   },
   {
@@ -3048,7 +2991,7 @@ window.ECORESTORE_PLANTS = [
     },
     "citations": {
       "sourceText": "",
-      "citationNotes": "Citations: Russel et al., 2013; Gornish and Shaw 2017"
+      "citationNotes": "Russel et al., 2013; Gornish and Shaw 2017"
     }
   },
   {
@@ -3318,7 +3261,7 @@ window.ECORESTORE_PLANTS = [
     },
     "citations": {
       "sourceText": "",
-      "citationNotes": "Citations: Long and Anderson 2010; Gornish and Shaw 2017"
+      "citationNotes": "Long and Anderson 2010; Gornish and Shaw 2017"
     }
   },
   {
@@ -4924,7 +4867,7 @@ window.ECORESTORE_PLANTS = [
     },
     "citations": {
       "sourceText": "",
-      "citationNotes": "Citations:  Bugg et al. 1997; Stromberg and Kephart 1997; Chiaramonte et al., 2003; Hallock et al. 2003; Seabloom et al. 2003; Gornish and Shaw 2017"
+      "citationNotes": "Bugg et al. 1997; Stromberg and Kephart 1997; Chiaramonte et al., 2003; Hallock et al. 2003; Seabloom et al. 2003; Gornish and Shaw 2017"
     }
   },
   {
@@ -5560,7 +5503,7 @@ window.ECORESTORE_PLANTS = [
     },
     "citations": {
       "sourceText": "",
-      "citationNotes": "Citations: (‘Camissonia bistorta “Sunflakes”’)"
+      "citationNotes": ""
     }
   },
   {
@@ -5809,7 +5752,7 @@ window.ECORESTORE_PLANTS = [
     },
     "citations": {
       "sourceText": "",
-      "citationNotes": "Citations: Hayes and Holl 2011; Porensky et al., 2012; Kimball et al., 2014; Nass 2012; Gornish and Shaw 2017; UC IPM"
+      "citationNotes": "Hayes and Holl 2011; Porensky et al., 2012; Kimball et al., 2014; Nass 2012; Gornish and Shaw 2017; UC IPM"
     }
   },
   {
@@ -6056,7 +5999,7 @@ window.ECORESTORE_PLANTS = [
     },
     "citations": {
       "sourceText": "",
-      "citationNotes": "Citations: Hayes and Holl 2011; Kimball et al. 2015, Chuang & Heckard."
+      "citationNotes": "Hayes and Holl 2011; Kimball et al. 2015, Chuang & Heckard."
     }
   },
   {
@@ -7293,7 +7236,7 @@ window.ECORESTORE_PLANTS = [
     },
     "citations": {
       "sourceText": "",
-      "citationNotes": "Citation: Kimball et al. 2015, Nature Collective, Munz 1959, Bird 1990, Santa Monica Trails Council, Plants For A Future"
+      "citationNotes": "Kimball et al. 2015, Nature Collective, Munz 1959, Bird 1990, Santa Monica Trails Council, Plants For A Future"
     }
   },
   {
@@ -7529,7 +7472,7 @@ window.ECORESTORE_PLANTS = [
     },
     "citations": {
       "sourceText": "",
-      "citationNotes": "Citation: Conway et al. 2019"
+      "citationNotes": "Conway et al. 2019"
     }
   },
   {
@@ -7772,7 +7715,7 @@ window.ECORESTORE_PLANTS = [
     },
     "citations": {
       "sourceText": "",
-      "citationNotes": "Citations: Keeley and Keeley 1987; Beyers and Wakeman 1997; Dickens and Allen 2014; Gornish and Shaw 2017"
+      "citationNotes": "Keeley and Keeley 1987; Beyers and Wakeman 1997; Dickens and Allen 2014; Gornish and Shaw 2017"
     }
   },
   {
@@ -7977,7 +7920,7 @@ window.ECORESTORE_PLANTS = [
     },
     "citations": {
       "sourceText": "",
-      "citationNotes": "Citations: Allen et al., 1998; Kimball et al. 2015; Quon et al. 2019; Gornish and Shaw2017"
+      "citationNotes": "Allen et al., 1998; Kimball et al. 2015; Quon et al. 2019; Gornish and Shaw2017"
     }
   },
   {
@@ -8473,7 +8416,7 @@ window.ECORESTORE_PLANTS = [
     },
     "citations": {
       "sourceText": "",
-      "citationNotes": "Citation: Kimball et al. 2015; Gornish and Shaw 2017"
+      "citationNotes": "Kimball et al. 2015; Gornish and Shaw 2017"
     }
   },
   {
@@ -8734,7 +8677,7 @@ window.ECORESTORE_PLANTS = [
     },
     "citations": {
       "sourceText": "",
-      "citationNotes": "Citations: Sampson et al., 1951; Bugg et al., 1997; Stromberg and Kephart 1997; Rose et al, 1998; Hallock et al. 2003; Lulow 2006; Lulow 2008; Young et al., 2009; Long and Anderson 2010; Porensky et al. 2012; Holl et al. 2014; Fonseca et al., 2014; Gornish and Shaw 2017; Ie 2000; Archibald et al., 2000"
+      "citationNotes": "Sampson et al., 1951; Bugg et al., 1997; Stromberg and Kephart 1997; Rose et al, 1998; Hallock et al. 2003; Lulow 2006; Lulow 2008; Young et al., 2009; Long and Anderson 2010; Porensky et al. 2012; Holl et al. 2014; Fonseca et al., 2014; Gornish and Shaw 2017; Ie 2000; Archibald et al., 2000"
     }
   },
   {
@@ -8940,7 +8883,7 @@ window.ECORESTORE_PLANTS = [
     },
     "citations": {
       "sourceText": "",
-      "citationNotes": "Citations: Scher, 2002; Pantel et al, 2011"
+      "citationNotes": "Scher, 2002; Pantel et al, 2011"
     }
   },
   {
@@ -9195,7 +9138,7 @@ window.ECORESTORE_PLANTS = [
     },
     "citations": {
       "sourceText": "",
-      "citationNotes": "Citations: Bugg et al., 1997; Rowe and Leger, 2011; Jones 1998; Gornish and Shaw 2017; Robins et al., 2013; Young et al., 2003"
+      "citationNotes": "Bugg et al., 1997; Rowe and Leger, 2011; Jones 1998; Gornish and Shaw 2017; Robins et al., 2013; Young et al., 2003"
     }
   },
   {
@@ -9451,7 +9394,7 @@ window.ECORESTORE_PLANTS = [
     },
     "citations": {
       "sourceText": "",
-      "citationNotes": "Citations: Bugg et al. 1997; Lulow 2006; Long and Anderson 2010; Larson et al., 2020; Gornish and Shaw 2017"
+      "citationNotes": "Bugg et al. 1997; Lulow 2006; Long and Anderson 2010; Larson et al., 2020; Gornish and Shaw 2017"
     }
   },
   {
@@ -9699,7 +9642,7 @@ window.ECORESTORE_PLANTS = [
     },
     "citations": {
       "sourceText": "",
-      "citationNotes": "Citations: Bugg et al. 1997; Lulow 2006; Long and Anderson 2010; Paschke et al., 2000; Jensen et al., 2016; Gornish and Shaw 2017"
+      "citationNotes": "Bugg et al. 1997; Lulow 2006; Long and Anderson 2010; Paschke et al., 2000; Jensen et al., 2016; Gornish and Shaw 2017"
     }
   },
   {
@@ -9950,7 +9893,7 @@ window.ECORESTORE_PLANTS = [
     },
     "citations": {
       "sourceText": "",
-      "citationNotes": "Citations: Bowman 1980; Love & Akins 2019; Gornish and Shaw 2017"
+      "citationNotes": "Bowman 1980; Love & Akins 2019; Gornish and Shaw 2017"
     }
   },
   {
@@ -10198,7 +10141,7 @@ window.ECORESTORE_PLANTS = [
     },
     "citations": {
       "sourceText": "",
-      "citationNotes": "Citations: Stylinski and Allen 2001; Buck-Diaz et al., 2012;  Montalvo 2004; Gornish and Shaw 2017"
+      "citationNotes": "Stylinski and Allen 2001; Buck-Diaz et al., 2012;  Montalvo 2004; Gornish and Shaw 2017"
     }
   },
   {
@@ -10405,7 +10348,7 @@ window.ECORESTORE_PLANTS = [
     },
     "citations": {
       "sourceText": "",
-      "citationNotes": "Citations: Coblentz 1980; Gornish and Shaw 2017; Stratton 2004"
+      "citationNotes": "Coblentz 1980; Gornish and Shaw 2017; Stratton 2004"
     }
   },
   {
@@ -10653,7 +10596,7 @@ window.ECORESTORE_PLANTS = [
     },
     "citations": {
       "sourceText": "",
-      "citationNotes": "Citations: Allen 2018; Gornish and Shaw 2017"
+      "citationNotes": "Allen 2018; Gornish and Shaw 2017"
     }
   },
   {
@@ -10894,7 +10837,7 @@ window.ECORESTORE_PLANTS = [
     },
     "citations": {
       "sourceText": "",
-      "citationNotes": "Citations: Chiaramonte et al., 2003; Hallock et al. 2003; Funk et al., 2014; Wilkerson et al., 2014; Kimball et al. 2015"
+      "citationNotes": "Chiaramonte et al., 2003; Hallock et al. 2003; Funk et al., 2014; Wilkerson et al., 2014; Kimball et al. 2015"
     }
   },
   {
@@ -11148,7 +11091,7 @@ window.ECORESTORE_PLANTS = [
     },
     "citations": {
       "sourceText": "",
-      "citationNotes": "Citations: Long and Anderson 2010; Moore et al., 2011; Gornish and Shaw 2017"
+      "citationNotes": "Long and Anderson 2010; Moore et al., 2011; Gornish and Shaw 2017"
     }
   },
   {
@@ -11385,7 +11328,7 @@ window.ECORESTORE_PLANTS = [
     },
     "citations": {
       "sourceText": "",
-      "citationNotes": "Citation: USDA, 1937; Bugg et al. 1997; fs.usda; Gornish and Shaw 2017"
+      "citationNotes": "USDA, 1937; Bugg et al. 1997; fs.usda; Gornish and Shaw 2017"
     }
   },
   {
@@ -11635,7 +11578,7 @@ window.ECORESTORE_PLANTS = [
     },
     "citations": {
       "sourceText": "",
-      "citationNotes": "Citations: Hallock et al. 2003, CALES 2022, Rayburn 2015"
+      "citationNotes": "Hallock et al. 2003, CALES 2022, Rayburn 2015"
     }
   },
   {
@@ -11882,7 +11825,7 @@ window.ECORESTORE_PLANTS = [
     },
     "citations": {
       "sourceText": "",
-      "citationNotes": "Citations: Bugg et al., 1997, Great Basin Seeds, Dradrach 2020, Walsh 1995, Saskatchewan Forage Council 2007"
+      "citationNotes": "Bugg et al., 1997, Great Basin Seeds, Dradrach 2020, Walsh 1995, Saskatchewan Forage Council 2007"
     }
   },
   {
@@ -12130,7 +12073,7 @@ window.ECORESTORE_PLANTS = [
     },
     "citations": {
       "sourceText": "",
-      "citationNotes": "Citations: Long and Anderson 2010; Porensky et al. 2012; Wilkerson et al., 2014; Kimball et al. 2015; Gornish and Shaw 2017"
+      "citationNotes": "Long and Anderson 2010; Porensky et al. 2012; Wilkerson et al., 2014; Kimball et al. 2015; Gornish and Shaw 2017"
     }
   },
   {
@@ -12350,7 +12293,7 @@ window.ECORESTORE_PLANTS = [
     },
     "citations": {
       "sourceText": "",
-      "citationNotes": "Citations: Gornish and Shaw 2017"
+      "citationNotes": "Gornish and Shaw 2017"
     }
   },
   {
@@ -12582,7 +12525,7 @@ window.ECORESTORE_PLANTS = [
     },
     "citations": {
       "sourceText": "",
-      "citationNotes": "Citations: Davy and Rinella 2019; Gornish and Shaw 2017; Barbour et al., 2007; Klocke et al., 1987"
+      "citationNotes": "Davy and Rinella 2019; Gornish and Shaw 2017; Barbour et al., 2007; Klocke et al., 1987"
     }
   },
   {
@@ -12838,7 +12781,7 @@ window.ECORESTORE_PLANTS = [
     },
     "citations": {
       "sourceText": "",
-      "citationNotes": "Citations: Bugg et al., 1997; Lulow 2006; Long and Anderson, 2010; Holl et al. 2014; Gornish and Shaw 2017"
+      "citationNotes": "Bugg et al., 1997; Lulow 2006; Long and Anderson, 2010; Holl et al. 2014; Gornish and Shaw 2017"
     }
   },
   {
@@ -13095,7 +13038,7 @@ window.ECORESTORE_PLANTS = [
     },
     "citations": {
       "sourceText": "",
-      "citationNotes": "Citation: Lulow 2008; Templeton 2018; Burgess and Hoagland 2006; Shi et al., 2022; Dixon 2000; Friesen 2003; Gornish and Shaw 2017"
+      "citationNotes": "Lulow 2008; Templeton 2018; Burgess and Hoagland 2006; Shi et al., 2022; Dixon 2000; Friesen 2003; Gornish and Shaw 2017"
     }
   },
   {
@@ -13344,7 +13287,7 @@ window.ECORESTORE_PLANTS = [
     },
     "citations": {
       "sourceText": "",
-      "citationNotes": "Citations: Gardenia, Montalvo 2017"
+      "citationNotes": "Gardenia, Montalvo 2017"
     }
   },
   {
@@ -13579,7 +13522,7 @@ window.ECORESTORE_PLANTS = [
     },
     "citations": {
       "sourceText": "",
-      "citationNotes": "Citations: Dawdy 2013; Barry et al., 2015; Gornish and Shaw 2017"
+      "citationNotes": "Dawdy 2013; Barry et al., 2015; Gornish and Shaw 2017"
     }
   },
   {
@@ -13832,7 +13775,7 @@ window.ECORESTORE_PLANTS = [
     },
     "citations": {
       "sourceText": "",
-      "citationNotes": "Citations: Wu and Kruckeberg 1985; Wolko et al.; Young 2001; Gornish and Shaw 2017"
+      "citationNotes": "Wu and Kruckeberg 1985; Wolko et al.; Young 2001; Gornish and Shaw 2017"
     }
   },
   {
@@ -14080,7 +14023,7 @@ window.ECORESTORE_PLANTS = [
     },
     "citations": {
       "sourceText": "",
-      "citationNotes": "Citations: Wilkerson et al., 2014; Gornish and Shaw 2017"
+      "citationNotes": "Wilkerson et al., 2014; Gornish and Shaw 2017"
     }
   },
   {
@@ -14318,7 +14261,7 @@ window.ECORESTORE_PLANTS = [
     },
     "citations": {
       "sourceText": "",
-      "citationNotes": "Citations: Wilkerson et al., 2014; Gornish and Shaw 2017"
+      "citationNotes": "Wilkerson et al., 2014; Gornish and Shaw 2017"
     }
   },
   {
@@ -14565,7 +14508,7 @@ window.ECORESTORE_PLANTS = [
     },
     "citations": {
       "sourceText": "",
-      "citationNotes": "Citations: Kimball et al. 2015; Preston 2006; Gornish 2017"
+      "citationNotes": "Kimball et al. 2015; Preston 2006; Gornish 2017"
     }
   },
   {
@@ -14803,7 +14746,7 @@ window.ECORESTORE_PLANTS = [
     },
     "citations": {
       "sourceText": "",
-      "citationNotes": "Citations: Johnson et al., 1987; Chiaramonte et al., 2003; Hallock et al. 2003; Wilkerson et al., 2014; Kimball et al. 2015; Montalvo et al., 2002; Wolko et al.; Gornish and Shaw 2017"
+      "citationNotes": "Johnson et al., 1987; Chiaramonte et al., 2003; Hallock et al. 2003; Wilkerson et al., 2014; Kimball et al. 2015; Montalvo et al., 2002; Wolko et al.; Gornish and Shaw 2017"
     }
   },
   {
@@ -14999,7 +14942,7 @@ window.ECORESTORE_PLANTS = [
     },
     "citations": {
       "sourceText": "",
-      "citationNotes": "Citations: Kimball et al. 2015; Gornish and Shaw 2017"
+      "citationNotes": "Kimball et al. 2015; Gornish and Shaw 2017"
     }
   },
   {
@@ -15252,7 +15195,7 @@ window.ECORESTORE_PLANTS = [
     },
     "citations": {
       "sourceText": "",
-      "citationNotes": "Citations: Bugg et al. 1997; Lulow 2006; Lulow 2006; Long and Anderson 2010; Porensky et al., 2012; Wu et al., 2001; Dennis 1990; Gornish and Shaw 2017"
+      "citationNotes": "Bugg et al. 1997; Lulow 2006; Lulow 2006; Long and Anderson 2010; Porensky et al., 2012; Wu et al., 2001; Dennis 1990; Gornish and Shaw 2017"
     }
   },
   {
@@ -15490,7 +15433,7 @@ window.ECORESTORE_PLANTS = [
     },
     "citations": {
       "sourceText": "",
-      "citationNotes": "Citation: Bugg et al. 1997; Mangiafico et al., 2012; O'Leary 1990; Ashby and Hellmers 1959; Lutz 2013; Gornish and Shaw 2017"
+      "citationNotes": "Bugg et al. 1997; Mangiafico et al., 2012; O'Leary 1990; Ashby and Hellmers 1959; Lutz 2013; Gornish and Shaw 2017"
     }
   },
   {
@@ -15716,7 +15659,7 @@ window.ECORESTORE_PLANTS = [
     },
     "citations": {
       "sourceText": "",
-      "citationNotes": "Citations: Montalvo and McMillan 2004; Davis et al., 1989; Gornish and Shaw 2017"
+      "citationNotes": "Montalvo and McMillan 2004; Davis et al., 1989; Gornish and Shaw 2017"
     }
   },
   {
@@ -15946,7 +15889,7 @@ window.ECORESTORE_PLANTS = [
     },
     "citations": {
       "sourceText": "",
-      "citationNotes": "Citations: Funk et al., 2014; Hobbs et al., 2007; Hernández et al., 2021; Gornish and Shaw 2017"
+      "citationNotes": "Funk et al., 2014; Hobbs et al., 2007; Hernández et al., 2021; Gornish and Shaw 2017"
     }
   },
   {
@@ -16172,7 +16115,7 @@ window.ECORESTORE_PLANTS = [
     },
     "citations": {
       "sourceText": "",
-      "citationNotes": "Citations: Long and Anderson 2010; Marcotte et al., 2003; Linden; Anderson 1996; Toole 1938; Gornish and Shaw 2017"
+      "citationNotes": "Long and Anderson 2010; Marcotte et al., 2003; Linden; Anderson 1996; Toole 1938; Gornish and Shaw 2017"
     }
   },
   {
@@ -16424,7 +16367,7 @@ window.ECORESTORE_PLANTS = [
     },
     "citations": {
       "sourceText": "",
-      "citationNotes": "Citations: Stover Seed, Missouri Botanical Garden, NC Gardener, Plantpono 2014, Grant 2021"
+      "citationNotes": "Stover Seed, Missouri Botanical Garden, NC Gardener, Plantpono 2014, Grant 2021"
     }
   },
   {
@@ -16651,7 +16594,7 @@ window.ECORESTORE_PLANTS = [
     },
     "citations": {
       "sourceText": "",
-      "citationNotes": "Citations: Everett 1950; Gornish and Shaw 2017"
+      "citationNotes": "Everett 1950; Gornish and Shaw 2017"
     }
   },
   {
@@ -16862,7 +16805,7 @@ window.ECORESTORE_PLANTS = [
     },
     "citations": {
       "sourceText": "",
-      "citationNotes": "Citation: Long and Anderson 2010; Wilkerson et al., 2014; Whittaker 1954; Gornish and Shaw 2017"
+      "citationNotes": "Long and Anderson 2010; Wilkerson et al., 2014; Whittaker 1954; Gornish and Shaw 2017"
     }
   },
   {
@@ -17083,7 +17026,7 @@ window.ECORESTORE_PLANTS = [
     },
     "citations": {
       "sourceText": "",
-      "citationNotes": "Citation: Kimball et al. 2015; Keeley et al., 1985; Kimball et al., 2017; Gornish and Shaw 2017"
+      "citationNotes": "Kimball et al. 2015; Keeley et al., 1985; Kimball et al., 2017; Gornish and Shaw 2017"
     }
   },
   {
@@ -17315,7 +17258,7 @@ window.ECORESTORE_PLANTS = [
     },
     "citations": {
       "sourceText": "",
-      "citationNotes": "Citation: Quon 2018; Thomson et al., 2018; Gornish and Shaw 2017"
+      "citationNotes": "Quon 2018; Thomson et al., 2018; Gornish and Shaw 2017"
     }
   },
   {
@@ -17795,7 +17738,7 @@ window.ECORESTORE_PLANTS = [
     },
     "citations": {
       "sourceText": "",
-      "citationNotes": "Citation: Kimball et al. 2015; Hobbs et al., 2007; Harrison et al., 2003; Weiss 1999; Evans et al., 1974; Gornish and Shaw 2017"
+      "citationNotes": "Kimball et al. 2015; Hobbs et al., 2007; Harrison et al., 2003; Weiss 1999; Evans et al., 1974; Gornish and Shaw 2017"
     }
   },
   {
@@ -18054,7 +17997,7 @@ window.ECORESTORE_PLANTS = [
     },
     "citations": {
       "sourceText": "",
-      "citationNotes": "Citations: Champlin and Winward, 1979; Bugg et al. 1997; Long and Anderson 2010; Funk et al., 2014; Nafus et al., 2015; Majerus and Majerus 2008; Halvorson 2011; Gornish and Shaw 2017"
+      "citationNotes": "Champlin and Winward, 1979; Bugg et al. 1997; Long and Anderson 2010; Funk et al., 2014; Nafus et al., 2015; Majerus and Majerus 2008; Halvorson 2011; Gornish and Shaw 2017"
     }
   },
   {
@@ -18294,7 +18237,7 @@ window.ECORESTORE_PLANTS = [
     },
     "citations": {
       "sourceText": "",
-      "citationNotes": "Citations: Engelbrecht et al., 2014; Cabrera-Santos et al., 2021; Gornish 2017"
+      "citationNotes": "Engelbrecht et al., 2014; Cabrera-Santos et al., 2021; Gornish 2017"
     }
   },
   {
@@ -18520,7 +18463,7 @@ window.ECORESTORE_PLANTS = [
     },
     "citations": {
       "sourceText": "",
-      "citationNotes": "Citations: Wasser et al., 1986, Gornish and Shaw 2017"
+      "citationNotes": "Wasser et al., 1986, Gornish and Shaw 2017"
     }
   },
   {
@@ -18756,7 +18699,7 @@ window.ECORESTORE_PLANTS = [
     },
     "citations": {
       "sourceText": "",
-      "citationNotes": "Citations: Bugg et al. 1997; Monsen et al. 2004; Long and Anderson 2010; Valliere 2019; Gornish and Shaw 2017"
+      "citationNotes": "Bugg et al. 1997; Monsen et al. 2004; Long and Anderson 2010; Valliere 2019; Gornish and Shaw 2017"
     }
   },
   {
@@ -18765,7 +18708,7 @@ window.ECORESTORE_PLANTS = [
     "alternateScientific": "",
     "common": "Foothill needlegrass",
     "photoFileName": "STLE",
-    "photoCredit": "Copyright © 2011 Aaron Arthur",
+    "photoCredit": "© 2011 Aaron Arthur",
     "photoSource": "https://www.flickr.com/photos/belinda712/8698301418/",
     "links": {
       "calflora": "https://www.calflora.org/app/taxon?crn=12054",
@@ -18979,7 +18922,7 @@ window.ECORESTORE_PLANTS = [
     },
     "citations": {
       "sourceText": "",
-      "citationNotes": "Citations: Hallock et al. 2003; Monsen et al., 2004, Theodore Payne Foundation"
+      "citationNotes": "Hallock et al. 2003; Monsen et al., 2004, Theodore Payne Foundation"
     }
   },
   {
@@ -19227,7 +19170,7 @@ window.ECORESTORE_PLANTS = [
     },
     "citations": {
       "sourceText": "",
-      "citationNotes": "Citations: Crampton, 1974; Hull and Muller, 1977; Bartolome & Gemmill, 1981; Bishop 1996; Dyer et al. 1996; Bugg et al. 1997; Stromberg and Kephart 1997; Hatch et al. 1999; Monsen et al., 2004; Lulow et al., 2007; Long and Anderson 2010; Porensky et al., 2012; Holl et al. 2014; Young and Veblen, 2015; Kimball et al. 2015; Bartolome 1981; Luong et al., 2023; Gornish and Shaw 2017"
+      "citationNotes": "Crampton, 1974; Hull and Muller, 1977; Bartolome & Gemmill, 1981; Bishop 1996; Dyer et al. 1996; Bugg et al. 1997; Stromberg and Kephart 1997; Hatch et al. 1999; Monsen et al., 2004; Lulow et al., 2007; Long and Anderson 2010; Porensky et al., 2012; Holl et al. 2014; Young and Veblen, 2015; Kimball et al. 2015; Bartolome 1981; Luong et al., 2023; Gornish and Shaw 2017"
     }
   },
   {
@@ -19472,7 +19415,7 @@ window.ECORESTORE_PLANTS = [
     },
     "citations": {
       "sourceText": "",
-      "citationNotes": "Citation: Long and Anderson 2010; Gornish and Shaw 2017"
+      "citationNotes": "Long and Anderson 2010; Gornish and Shaw 2017"
     }
   },
   {
@@ -19720,7 +19663,7 @@ window.ECORESTORE_PLANTS = [
     },
     "citations": {
       "sourceText": "",
-      "citationNotes": "Citation: Gulmon 1992; Ishimoto 1958; Gornish and Shaw 2017; Immel 2007; Uzun and Aydin 2004; Rezaei-Manesh et al., 2023"
+      "citationNotes": "Gulmon 1992; Ishimoto 1958; Gornish and Shaw 2017; Immel 2007; Uzun and Aydin 2004; Rezaei-Manesh et al., 2023"
     }
   },
   {
@@ -19938,7 +19881,7 @@ window.ECORESTORE_PLANTS = [
     },
     "citations": {
       "sourceText": "",
-      "citationNotes": "Citation: Lulow 2008; Porensky et al. 2012, PFAF, Gornish 2017"
+      "citationNotes": "Lulow 2008; Porensky et al. 2012, PFAF, Gornish 2017"
     }
   },
   {
@@ -20164,7 +20107,7 @@ window.ECORESTORE_PLANTS = [
     },
     "citations": {
       "sourceText": "",
-      "citationNotes": "Citations: Wilkerson et al., 2014; Igwe and Vannette 2019; Immel 2007; Uzun and Aydin 2004; Rezaei-Manesh et al., 2023; Gornish and Shaw 2017"
+      "citationNotes": "Wilkerson et al., 2014; Igwe and Vannette 2019; Immel 2007; Uzun and Aydin 2004; Rezaei-Manesh et al., 2023; Gornish and Shaw 2017"
     }
   },
   {
@@ -20401,7 +20344,7 @@ window.ECORESTORE_PLANTS = [
     },
     "citations": {
       "sourceText": "",
-      "citationNotes": "Citations: (Wilkerson et al., 2014); Immel 2007; Uzun and Aydin 2004; Rezaei-Manesh et al., 2023; Young-Mathews and Lockeford 2011; Gornish and Shaw 2017"
+      "citationNotes": "Wilkerson et al., 2014; Immel 2007; Uzun and Aydin 2004; Rezaei-Manesh et al., 2023; Young-Mathews and Lockeford 2011; Gornish and Shaw 2017"
     }
   },
   {
@@ -20651,7 +20594,7 @@ window.ECORESTORE_PLANTS = [
     },
     "citations": {
       "sourceText": "",
-      "citationNotes": "Citations: Lulow 2008; Porensky et al., 2012, Edible Wild Food 2021"
+      "citationNotes": "Lulow 2008; Porensky et al., 2012, Edible Wild Food 2021"
     }
   }
 ];
