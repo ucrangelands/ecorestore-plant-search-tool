@@ -349,7 +349,9 @@
         ${detailGrid([
           detailLine("Citation",p.citations?.sourceText,{autoLink:true})
         ])}
-      </section>`;
+      
+        ${p.citations?.citationNotes ? `<p>${escapeHTML(p.citations.citationNotes)}</p>` : ""}
+</section>`;
 
     loadDialogPhoto(p);
     els.dialog.showModal();
