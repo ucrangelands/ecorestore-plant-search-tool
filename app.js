@@ -8,12 +8,7 @@
   const els={community:$("community"),county:$("county"),elevation:$("elevation"),grid:$("plant-grid"),count:$("result-count"),summary:$("results-summary"),activeCount:$("active-filter-count"),search:$("plant-search"),sort:$("sort-results"),empty:$("no-results"),dialog:$("plant-dialog"),dialogTitle:$("dialog-title"),dialogScientific:$("dialog-scientific"),dialogKicker:$("dialog-kicker"),dialogContent:$("dialog-content")};
 
   fillSelect(els.community,filters.communities||[]); fillSelect(els.county,filters.counties||[]);
-  if(els.sort&&!els.sort.querySelector('option[value="exact"]')){
-    const exactOption=document.createElement("option");
-    exactOption.value="exact";
-    exactOption.textContent="Exact matches only";
-    els.sort.appendChild(exactOption);
-  }
+  
   buildChoices("grazing-options","grazing",filters.grazing||[]); buildChoices("soil-options","soils",filters.soils||[]); buildChoices("chemistry-options","chemistry",filters.chemistry||[]); buildChoices("condition-options","conditions",filters.conditions||[]); buildChoices("goal-options","goals",filters.goals||[]);
   els.community.addEventListener("change",e=>{state.community=e.target.value;render();});
   els.county.addEventListener("change",e=>{state.county=e.target.value;render();});
