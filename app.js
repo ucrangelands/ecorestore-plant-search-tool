@@ -60,8 +60,8 @@
   }
   function detailGrid(lines){const content=lines.filter(Boolean).join("");return content?`<dl class="detail-grid">${content}</dl>`:"";}
   function traitRows(p){
-    const labels={salt:"Salt",alkaline:"Alkaline",stronglyAlkaline:"Strongly alkaline",acidic:"Acidic",stronglyAcidic:"Strongly acidic",caco3:"Calcaerous",metal:"Serpentine/Metal",riparian:"Riparian",disturbance:"Disturbance",fire:"Fire",flooding:"Flooding",lowLight:"Low light",cold:"Cold",pollinators:"Pollinators",drought:"Drought tolerant",wildlife:"Wildlife",forage:"Forage",grazingResponse:"Grazing response",erosion:"Erosion",soilFertility:"Soil nutrients / fertility",water:"Water"};
-    return Object.entries(p.traits||{}).filter(([,x])=>x?.detail).map(([k,x])=>`<tr><th>${escapeHTML(labels[k]||k)}</th><td>${escapeHTML(x.detail)}</td></tr>`).join("");
+    const labels={salt:"Salt",alkaline:"Alkaline",stronglyAlkaline:"Strongly alkaline",acidic:"Acidic",stronglyAcidic:"Strongly acidic",caco3:"Calcaerous",metal:"Serpentine/Metal",riparian:"Riparian",disturbance:"Disturbance",fire:"Fire",flooding:"Flooding",lowLight:"Low light",cold:"Cold",pollinators:"Pollinators",drought:"Drought tolerant",wildlife:"Wildlife",forage:"Forage",grazingResponse:"Grazing compatibility",erosion:"Erosion",soilFertility:"Soil nutrients / fertility",water:"Water"};
+    return Object.entries(p.traits||{}).filter(([k,x])=>k!=="water"&&x?.detail).map(([k,x])=>`<tr><th>${escapeHTML(labels[k]||k)}</th><td>${escapeHTML(x.detail)}</td></tr>`).join("");
   }
   function rawSoilRows(p){
     const labels={"Clay (Fine)":"Clay (fine)","Loam (sand + clay)":"Loam (sand + clay)","Silt (fine)":"Silt (fine)","Sand (MEDIUM)":"Sand (medium)","Gravel (coarse/rocky)":"Gravel (coarse / rocky)"};
@@ -92,6 +92,41 @@
       banner.hidden=false;
     });
     img.addEventListener("error",next);
+    next();
+  }
+
+  function loadDialogPhoto(p){
+    const header=els.dialog.querySelector(".dialog-header");
+    if(!header)return;
+    let block=header.querySelector(".dialog-photo-header");
+    if(!block){
+      block=document.createElement("figure");
+      block.className="dialog-photo-header";
+      block.hidden=true;
+      block.innerHTML='<img class="dialog-photo-image" alt="" decoding="async"><figcaption class="dialog-photo-credit"></figcaption>';
+      const closeButton=header.querySelector(".icon-button");
+      header.insertBefore(block,closeButton||null);
+    }
+    const img=block.querySelector(".dialog-photo-image");
+    const credit=block.querySelector(".dialog-photo-credit");
+    const candidates=imageCandidates(p);
+    let i=0;
+    block.hidden=true;
+    img.alt=firstCommonName(p.common);
+    if(credit){
+      credit.textContent=p.photoCredit?`Photo credit: ${p.photoCredit}`:"";
+      credit.hidden=!p.photoCredit;
+    }
+    function next(){
+      if(i>=candidates.length){
+        img.removeAttribute("src");
+        block.hidden=true;
+        return;
+      }
+      img.src=candidates[i++];
+    }
+    img.onload=()=>{block.hidden=false;notifyHeight();};
+    img.onerror=next;
     next();
   }
 
@@ -193,12 +228,6 @@
       if(sel.size)[...sel].forEach(v=>matches.push(detailMatch(label,v,(avail||[]).includes(v))));
     });
 
-    const refs=[
-      link("Calflora",p.links?.calflora),
-      link("Calscape",p.links?.calscape),
-      link("USDA Plants",p.links?.usda),
-      link("Photo source",p.photoSource)
-    ].filter(Boolean).join(" · ");
 
     const perf=p.performance||{};
     const locationIsURL=!!safeURL(p.location);
@@ -233,16 +262,12 @@
       </section>
 
       <section class="detail-section">
-        <h3>Photo and external plant resources</h3>
+        <h3>External resources</h3>
         ${detailGrid([
-          detailLine("Photo filename",p.photoFileName),
-          detailLine("Photo credit",p.photoCredit),
-          detailLine("Photo source",p.photoSource,{link:true,linkLabel:"Open photo source"}),
           detailLine("Calflora",p.links?.calflora,{link:true,linkLabel:"Open Calflora"}),
           detailLine("Calscape",p.links?.calscape,{link:true,linkLabel:"Open Calscape"}),
           detailLine("USDA Plants",p.links?.usda,{link:true,linkLabel:"Open USDA Plants"})
         ])}
-        ${refs?`<p class="external-links compact-links">${refs}</p>`:""}
       </section>
 
       <section class="detail-section">
@@ -261,9 +286,9 @@
       <section class="detail-section">
         <h3>Restoration benefits and concerns</h3>
         ${detailGrid([
-          detailLine("Benefits / pros",p.benefits),
-          detailLine("Concerns / issues",p.concerns),
-          detailLine("Normalized restoration services",(p.services||[]).join(", "))
+          detailLine("Benefits",p.benefits),
+          detailLine("Concerns",p.concerns),
+          detailLine("Potential Ecosystem Services Supplied",(p.services||[]).join(", "))
         ])}
         ${(p.services||[]).length?`<div class="detail-list">${p.services.map(x=>`<span class="tag">${escapeHTML(x)}</span>`).join("")}</div>`:""}
       </section>
@@ -281,25 +306,12 @@
         ])}
       </section>
 
-      <section class="detail-section">
-        <h3>Source soil-texture fields</h3>
-        <table class="match-table compact-table"><tbody>${rawSoilRows(p)}</tbody></table>
-      </section>
 
       <section class="detail-section">
         <h3>Soil conditions, site tolerances, and ecosystem-service traits</h3>
         <table class="match-table"><tbody>${traitRows(p)}</tbody></table>
       </section>
 
-      <section class="detail-section">
-        <h3>Normalized search categories</h3>
-        ${detailGrid([
-          detailLine("Soil conditions",(p.chemistry||[]).join(", ")),
-          detailLine("Site conditions",(p.conditions||[]).join(", ")),
-          detailLine("Management goals",(p.goals||[]).join(", ")),
-          detailLine("Grazing",(p.grazing||[]).join(", "))
-        ])}
-      </section>
 
       <section class="detail-section">
         <h3>Germination, establishment, and performance</h3>
@@ -323,14 +335,23 @@
       </section>
 
       <section class="detail-section">
-        <h3>Sources and citations</h3>
+        <h3>Search categories</h3>
         ${detailGrid([
-          detailLine("Citations",p.citations?.sourceText,{autoLink:true}),
-          detailLine("Citation notes",p.citations?.citationNotes,{autoLink:true})
+          detailLine("Soil conditions",(p.chemistry||[]).join(", ")),
+          detailLine("Site conditions",(p.conditions||[]).join(", ")),
+          detailLine("Management goals",(p.goals||[]).join(", ")),
+          detailLine("Grazing pressure",(p.grazing||[]).join(", "))
         ])}
-        <p class="detail-note">Internal master-table fields not intended for public display are not included in this browser dataset.</p>
+      </section>
+
+      <section class="detail-section">
+        <h3>Citation</h3>
+        ${detailGrid([
+          detailLine("Citation",p.citations?.sourceText,{autoLink:true})
+        ])}
       </section>`;
 
+    loadDialogPhoto(p);
     els.dialog.showModal();
   }
 
