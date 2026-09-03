@@ -1,3 +1,60 @@
+/*
+  PUBLIC APP DATA generated from California EcoRestore BigTable (11).
+  This file intentionally contains only the public subset used by the browser app.
+  The private master CSV is not included in the GitHub Pages project.
+  PlantID is retained internally for app/image handling but is not displayed publicly.
+*/
+window.ECORESTORE_PLANTS = [
+  {
+    "plantId": "ACAM",
+    "scientific": "Acmispon americanus",
+    "alternateScientific": "",
+    "common": "American Bird's-foot Trefoil, Spanish clover",
+    "photoFileName": "ACAM.jpg",
+    "photoCredit": "Cat Chang",
+    "photoSource": "https://www.calflora.org/app/up/mg/286/mg86051-2.jpg?a",
+    "links": {
+      "calflora": "https://www.calflora.org/app/taxon?crn=12131",
+      "calscape": "https://calscape.org/Acmispon-americanus-(American-Bird's-foot-Trefoil)?srchcr=sc6564dfc4ee427",
+      "usda": "not listed"
+    },
+    "description": "Annual herbaceous forb found in various habitats across California, excluding deserts, and typically grows in wet, disturbed areas. This late season blooming annual forb, does well early in the restoration process and then demonstrates low density in subsequent years.",
+    "lifecycle": "Annual",
+    "growingSeason": "Warm",
+    "type": "forb",
+    "growthFormRaw": "Forb",
+    "plantCommunity": "Grassland, Chapparrall",
+    "allCommunitiesFound": "Foothill Woodland, Lodgepole Forest, Red Fir Forest, Subalpine Forest, Valley Grassland, Yellow Pine Forest , Coastal sage scrub, Chapparal",
+    "communities": [
+      "Grassland",
+      "Coastal Sage Scrub",
+      "Chaparral",
+      "Foothill Woodland",
+      "Yellow Pine Forest",
+      "Red Fir Forest",
+      "Lodgepole Forest",
+      "Subalpine / Alpine"
+    ],
+    "concerns": "Can be weedy, so better not to use near croplands. 1.2-2PLS lbs/acre – $90- 120/lb",
+    "benefits": "Responds well to grazing, does well in disturbed areas, good for erosion control, good for butterfly habitat, relatively drought tolerant, tolerant of heavy metals, nitrogen fixing, resists fire.",
+    "status": "Native to California",
+    "seeding": {
+      "rate": "1.2-2PLS lbs/acre",
+      "minimum": "NA",
+      "maximum": "NA"
+    },
+    "soil": {
+      "preparation": "distrubed areas, pH 5-8.2",
+      "optimum": "sandy or rocky soils in open or forsted locations",
+      "suitable": "Clay, Clay loam, Silt loam, Loam, Sandy loam, Loamy sand, Sand, Variable, Decomposed plant material",
+      "classesRaw": {
+        "clay": "Y",
+        "loam": "Y",
+        "silt": "N",
+        "sand": "Y",
+        "gravel": "N"
+      }
+    },
     "soils": [
       "Clay",
       "Clay loam",
