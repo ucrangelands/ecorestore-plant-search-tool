@@ -28,3 +28,15 @@
   .detail-field{display:block;border-bottom:1px solid var(--line);padding:7px 0}
   .detail-field dt,.detail-field dd{display:block;border:0;padding:2px 0;background:transparent}
 }
+
+/* Species-detail photo header */
+.dialog-header>div:first-child{min-width:0;flex:1}
+.dialog-photo-header{margin:0 0 0 auto;flex:0 0 190px;align-self:flex-start}
+.dialog-photo-header[hidden]{display:none}
+.dialog-photo-image{display:block;width:190px;height:135px;object-fit:cover;border-radius:10px;border:1px solid var(--line);background:#fff}
+.dialog-photo-credit{margin-top:4px;color:var(--muted);font-size:.7rem;line-height:1.25;text-align:left}
+@media(max-width:620px){
+  .dialog-header{flex-wrap:wrap}
+  .dialog-photo-header{order:3;flex:0 0 100%;margin:8px 0 0}
+  .dialog-photo-image{width:min(100%,320px);height:auto;max-height:220px}
+}
