@@ -40,3 +40,79 @@
   .dialog-photo-header{order:3;flex:0 0 100%;margin:8px 0 0}
   .dialog-photo-image{width:min(100%,320px);height:auto;max-height:220px}
 }
+
+
+/* Interactive soil texture triangle */
+.soil-texture-group .filter-help{margin-bottom:10px}
+.soil-triangle-wrap{
+  margin:8px 0 12px;
+  padding:10px;
+  border:1px solid var(--line);
+  border-radius:12px;
+  background:#fbfcfd;
+}
+.soil-texture-triangle{
+  display:block;
+  width:100%;
+  max-width:430px;
+  height:auto;
+  margin:0 auto;
+  overflow:visible;
+}
+.soil-triangle-base{
+  fill:#f7fafc;
+  stroke:#294d68;
+  stroke-width:2.5;
+}
+.soil-region{
+  fill:#e9f0f4;
+  stroke:#fff;
+  stroke-width:2.2;
+  cursor:pointer;
+  transition:fill .15s ease,stroke .15s ease,filter .15s ease;
+}
+.soil-region:hover,
+.soil-region:focus{
+  fill:#d5e6f1;
+  stroke:#0b4f7a;
+  outline:none;
+}
+.soil-region.is-selected{
+  fill:#bcd8e9;
+  stroke:#0b4f7a;
+  stroke-width:3;
+}
+.soil-region-label{
+  text-anchor:middle;
+  dominant-baseline:middle;
+  font-size:12px;
+  font-weight:700;
+  fill:#19374d;
+  pointer-events:none;
+}
+.soil-region-label-small{font-size:10.5px}
+.soil-major-label{font-weight:900}
+.soil-axis-title{
+  text-anchor:middle;
+  font-size:14px;
+  fill:#173a53;
+}
+.soil-axis-title-bold{
+  font-weight:900;
+}
+.soil-axis-note{
+  text-anchor:middle;
+  font-size:10.5px;
+  fill:#607484;
+}
+.soil-triangle-selection{
+  margin:7px 0 0;
+  font-size:.8rem;
+  color:var(--muted);
+  text-align:center;
+}
+@media(max-width:560px){
+  .soil-region-label{font-size:10.5px}
+  .soil-region-label-small{font-size:9.5px}
+  .soil-axis-title{font-size:12px}
+}

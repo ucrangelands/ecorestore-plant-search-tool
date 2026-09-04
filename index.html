@@ -13,14 +13,14 @@
     <header class="hero">
       <div>
         <p class="eyebrow">UC EcoRestore</p>
-        <h1>Restoration Plant Selector</h1>
-        <p class="lede">Describe your California restoration site and goals. Results update as you select criteria, with the default filter showing better matching plants first.</p>
+        <h1>Plant Selector</h1>
+        <p class="lede">Describe your California restoration site and goals. Results update as you select criteria, with plants matching more recorded characteristics shown first.</p>
       </div>
       <button id="clear-all-top" class="button button-secondary" type="button">Clear all</button>
     </header>
 
     <div class="data-note" role="note">
-      Plant information and compatibility fields are derived from the EcoRestore plant database, which currently supports annual grassland and coastal sage scrub communities. Rankings summarize plant characteristics; review plant profile details and linked sources for more educational resources in restoration planning.
+      Plant information and compatibility fields are derived from the approved EcoRestore plant dataset. Rankings summarize recorded characteristics; review each plant profile and linked sources for restoration planning.
     </div>
 
     <section class="workspace" aria-label="Plant selection workspace">
@@ -32,7 +32,99 @@
         <div class="filter-group"><label for="elevation">Site elevation (ft)</label><input id="elevation" type="number" inputmode="numeric" placeholder="Optional" /></div>
 
         <fieldset class="filter-group"><legend>Expected grazing pressure</legend><div id="grazing-options" class="choice-grid compact"></div></fieldset>
-        <fieldset class="filter-group"><legend>Soil texture</legend><p class="filter-help">Select one or more soil texture classes.</p><div id="soil-options" class="choice-grid"></div></fieldset>
+        <fieldset class="filter-group soil-texture-group">
+          <legend>Soil texture</legend>
+          <p class="filter-help">Select one or more soil texture classes by clicking the triangle or the options below.</p>
+
+          <div class="soil-triangle-wrap">
+            <svg id="soil-texture-triangle"
+                 class="soil-texture-triangle"
+                 viewBox="0 0 520 470"
+                 role="group"
+                 aria-labelledby="soil-triangle-title soil-triangle-desc">
+              <title id="soil-triangle-title">Interactive soil texture triangle</title>
+              <desc id="soil-triangle-desc">Click a soil texture class to add or remove it from the active soil criteria.</desc>
+
+              <polygon class="soil-triangle-base" points="260,28 42,405 478,405"></polygon>
+
+              <!-- Clickable texture regions. These are visualized as a USDA-style partition
+                   corresponding to the soil texture classes used by the app. -->
+              <g class="soil-region-group">
+                <polygon class="soil-region" data-soil="Clay"
+                  points="260,28 162,198 196,258 324,258 358,198"></polygon>
+
+                <polygon class="soil-region" data-soil="Sandy clay"
+                  points="162,198 112,285 196,258"></polygon>
+
+                <polygon class="soil-region" data-soil="Silty clay"
+                  points="358,198 408,285 324,258"></polygon>
+
+                <polygon class="soil-region" data-soil="Sandy clay loam"
+                  points="112,285 86,330 183,330 215,278 196,258"></polygon>
+
+                <polygon class="soil-region" data-soil="Clay loam"
+                  points="196,258 215,278 305,278 324,258 305,330 183,330"></polygon>
+
+                <polygon class="soil-region" data-soil="Silty clay loam"
+                  points="324,258 305,278 337,330 434,330 408,285"></polygon>
+
+                <polygon class="soil-region" data-soil="Sandy loam"
+                  points="86,330 65,366 214,366 183,330"></polygon>
+
+                <polygon class="soil-region" data-soil="Loam"
+                  points="183,330 305,330 337,366 214,366"></polygon>
+
+                <polygon class="soil-region" data-soil="Silt loam"
+                  points="305,330 434,330 455,366 337,366"></polygon>
+
+                <polygon class="soil-region" data-soil="Sand"
+                  points="42,405 65,366 124,366 124,405"></polygon>
+
+                <polygon class="soil-region" data-soil="Loamy sand"
+                  points="124,366 214,366 229,405 124,405"></polygon>
+
+                <polygon class="soil-region" data-soil="Silt"
+                  points="337,366 455,366 478,405 291,405"></polygon>
+              </g>
+
+              <!-- Labels -->
+              <g class="soil-region-labels" aria-hidden="true">
+                <text x="260" y="160" class="soil-region-label soil-major-label">Clay</text>
+                <text x="153" y="255" class="soil-region-label">Sandy clay</text>
+                <text x="367" y="255" class="soil-region-label">Silty clay</text>
+
+                <text x="151" y="306" class="soil-region-label soil-region-label-small">
+                  <tspan x="151" dy="0">Sandy clay</tspan><tspan x="151" dy="13">loam</tspan>
+                </text>
+                <text x="260" y="307" class="soil-region-label">Clay loam</text>
+                <text x="369" y="306" class="soil-region-label soil-region-label-small">
+                  <tspan x="369" dy="0">Silty clay</tspan><tspan x="369" dy="13">loam</tspan>
+                </text>
+
+                <text x="138" y="352" class="soil-region-label">Sandy loam</text>
+                <text x="260" y="351" class="soil-region-label">Loam</text>
+                <text x="395" y="352" class="soil-region-label">Silt loam</text>
+
+                <text x="80" y="394" class="soil-region-label soil-major-label">Sand</text>
+                <text x="174" y="394" class="soil-region-label">Loamy sand</text>
+                <text x="404" y="394" class="soil-region-label soil-major-label">Silt</text>
+              </g>
+
+              <!-- Bold primary fraction labels -->
+              <text x="260" y="18" class="soil-axis-title soil-axis-title-bold">CLAY</text>
+              <text x="33" y="434" class="soil-axis-title soil-axis-title-bold">SAND</text>
+              <text x="487" y="434" class="soil-axis-title soil-axis-title-bold">SILT</text>
+
+              <text x="260" y="455" class="soil-axis-note">sand + silt + clay = 100%</text>
+            </svg>
+
+            <p id="soil-triangle-selection" class="soil-triangle-selection" aria-live="polite">
+              No soil texture classes selected.
+            </p>
+          </div>
+
+          <div id="soil-options" class="choice-grid"></div>
+        </fieldset>
         <fieldset class="filter-group"><legend>Soil conditions</legend>
         <p class="filter-help">Select any of the following soil conditions that apply to your site.</p><div id="chemistry-options" class="choice-grid"></div></fieldset>
         <fieldset class="filter-group"><legend>Site conditions</legend><p class="filter-help">Select any ecological conditions that apply to your site.</p><div id="condition-options" class="choice-grid"></div></fieldset>

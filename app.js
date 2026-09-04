@@ -8,8 +8,9 @@
   const els={community:$("community"),county:$("county"),elevation:$("elevation"),grid:$("plant-grid"),count:$("result-count"),summary:$("results-summary"),activeCount:$("active-filter-count"),search:$("plant-search"),sort:$("sort-results"),empty:$("no-results"),dialog:$("plant-dialog"),dialogTitle:$("dialog-title"),dialogScientific:$("dialog-scientific"),dialogKicker:$("dialog-kicker"),dialogContent:$("dialog-content")};
 
   fillSelect(els.community,filters.communities||[]); fillSelect(els.county,filters.counties||[]);
-  
-  buildChoices("grazing-options","grazing",filters.grazing||[]); buildChoices("soil-options","soils",filters.soils||[]); buildChoices("chemistry-options","chemistry",filters.chemistry||[]); buildChoices("condition-options","conditions",filters.conditions||[]); buildChoices("goal-options","goals",filters.goals||[]);
+
+  buildChoices("grazing-options","grazing",filters.grazing||[]); buildChoices("soil-options","soils",filters.soils||[]);
+  initSoilTextureTriangle(); buildChoices("chemistry-options","chemistry",filters.chemistry||[]); buildChoices("condition-options","conditions",filters.conditions||[]); buildChoices("goal-options","goals",filters.goals||[]);
   els.community.addEventListener("change",e=>{state.community=e.target.value;render();});
   els.county.addEventListener("change",e=>{state.county=e.target.value;render();});
   els.elevation.addEventListener("input",e=>{state.elevation=e.target.value;render();});
@@ -19,7 +20,65 @@
   $("clear-all").addEventListener("click",clearAll); $("clear-all-top").addEventListener("click",clearAll); $("dialog-close").addEventListener("click",()=>els.dialog.close()); els.dialog.addEventListener("click",e=>{if(e.target===els.dialog)els.dialog.close();});
 
   function fillSelect(select,values){values.forEach(v=>{const o=document.createElement("option");o.value=v;o.textContent=v;select.appendChild(o);});}
-  function buildChoices(containerId,key,values){const container=$(containerId);values.forEach(value=>{const label=document.createElement("label");label.className="choice";const input=document.createElement("input");input.type="checkbox";input.value=value;input.addEventListener("change",()=>{input.checked?state[key].add(value):state[key].delete(value);render();});const span=document.createElement("span");span.textContent=value;label.append(input,span);container.appendChild(label);});}
+  function buildChoices(containerId,key,values){const container=$(containerId);values.forEach(value=>{const label=document.createElement("label");label.className="choice";const input=document.createElement("input");input.type="checkbox";input.value=value;input.addEventListener("change",()=>{input.checked?state[key].add(value):state[key].delete(value);if(key==="soils")updateSoilTriangleSelection();render();});const span=document.createElement("span");span.textContent=value;label.append(input,span);container.appendChild(label);});}
+
+  function initSoilTextureTriangle(){
+    const triangle=$("soil-texture-triangle");
+    if(!triangle)return;
+
+    triangle.querySelectorAll(".soil-region[data-soil]").forEach(region=>{
+      region.setAttribute("role","button");
+      region.setAttribute("tabindex","0");
+      region.setAttribute("aria-pressed","false");
+      region.setAttribute("aria-label",`${region.dataset.soil} soil texture`);
+
+      const toggle=()=>{
+        const soil=region.dataset.soil;
+        if(state.soils.has(soil)){
+          state.soils.delete(soil);
+        }else{
+          state.soils.add(soil);
+        }
+
+        const checkbox=document.querySelector(
+          `#soil-options input[type="checkbox"][value="${CSS.escape(soil)}"]`
+        );
+        if(checkbox)checkbox.checked=state.soils.has(soil);
+
+        updateSoilTriangleSelection();
+        render();
+      };
+
+      region.addEventListener("click",toggle);
+      region.addEventListener("keydown",event=>{
+        if(event.key==="Enter"||event.key===" "){
+          event.preventDefault();
+          toggle();
+        }
+      });
+    });
+
+    updateSoilTriangleSelection();
+  }
+
+  function updateSoilTriangleSelection(){
+    const triangle=$("soil-texture-triangle");
+    if(!triangle)return;
+
+    triangle.querySelectorAll(".soil-region[data-soil]").forEach(region=>{
+      const selected=state.soils.has(region.dataset.soil);
+      region.classList.toggle("is-selected",selected);
+      region.setAttribute("aria-pressed",selected?"true":"false");
+    });
+
+    const summary=$("soil-triangle-selection");
+    if(summary){
+      summary.textContent=state.soils.size
+        ? `Selected: ${[...state.soils].join(", ")}`
+        : "No soil texture classes selected.";
+    }
+  }
+
   function activeSiteSelections(){return(state.community?1:0)+(state.county?1:0)+(state.elevation!==""?1:0)+state.grazing.size+state.soils.size+state.chemistry.size+state.conditions.size+state.goals.size;}
   function scorePlant(p){let earned=0,possible=0;const reasons=[],misses=[];
     if(state.community){possible+=weights.community;(p.communities||[]).includes(state.community)?(earned+=weights.community,reasons.push(state.community)):misses.push(`Community: ${state.community}`);}
@@ -353,7 +412,8 @@
   }
 
   function detailMatch(label,value,matched){return`<tr><th>${escapeHTML(label)}</th><td><span class="${matched?"check":"miss"}">${matched?"✓ Matches":"○ Not recorded as a match"}</span><br>${escapeHTML(value)}</td></tr>`;}
-  function clearAll(){state.community="";state.county="";state.elevation="";[state.grazing,state.soils,state.chemistry,state.conditions,state.goals].forEach(x=>x.clear());state.query="";state.plantType="all";state.sort="match";els.community.value="";els.county.value="";els.elevation.value="";els.search.value="";els.sort.value="match";document.querySelectorAll('.choice input[type="checkbox"]').forEach(i=>i.checked=false);document.querySelectorAll(".chip[data-type]").forEach(b=>b.classList.toggle("is-active",b.dataset.type==="all"));render();}
+  function clearAll(){state.community="";state.county="";state.elevation="";[state.grazing,state.soils,state.chemistry,state.conditions,state.goals].forEach(x=>x.clear());state.query="";state.plantType="all";state.sort="match";els.community.value="";els.county.value="";els.elevation.value="";els.search.value="";els.sort.value="match";document.querySelectorAll('.choice input[type="checkbox"]').forEach(i=>i.checked=false);document.querySelectorAll(".chip[data-type]").forEach(b=>b.classList.toggle("is-active",b.dataset.type==="all"));updateSoilTriangleSelection();
+    render();}
   function notifyHeight(){if(window.parent!==window)requestAnimationFrame(()=>window.parent.postMessage({type:"ecorestore:height",height:document.documentElement.scrollHeight},"*"));}
   window.addEventListener("resize",notifyHeight);new ResizeObserver(notifyHeight).observe(document.body);render();
 })();
