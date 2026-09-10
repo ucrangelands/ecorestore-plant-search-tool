@@ -117,20 +117,46 @@
   .soil-axis-title{font-size:12px}
 }
 
-
-
-/* ADDED — UC EcoRestore logo in 'hero' header */
-.hero-brand{
+/* UC EcoRestore responsive hero header */
+.hero{
   display:flex;
-  align-items:center;
-  gap:18px;
-  min-width:0;
+  align-items:flex-start;
+  justify-content:space-between;
+  gap:20px;
 }
 
-/* ADDED */
+.hero-brand{
+  display:flex;
+  align-items:flex-start;
+  gap:18px;
+  min-width:0;
+  flex:1 1 auto;
+}
+
+.hero-copy{
+  min-width:0;
+  flex:1 1 420px;
+  padding-top:0;
+}
+
+/* Keep Plant Selector and descriptive text visually close together */
+.hero-copy h2{
+  margin-top:0;
+  margin-bottom:4px;
+  line-height:1.1;
+}
+
+.hero-copy .lede{
+  margin-top:0;
+  margin-bottom:0;
+  font-size:0.88rem;
+  line-height:1.35;
+}
+
+/* Wide-screen logo: preserve original aspect ratio and 5px white buffer */
 .hero-logo{
   display:block;
-  width:clamp(220px, 28vw, 380px);
+  width:clamp(260px, 27vw, 380px);
   height:auto;
   aspect-ratio:480 / 100;
   flex:0 1 auto;
@@ -140,27 +166,60 @@
   background:#fff;
   border-radius:5px;
 }
-/* ADDED — smaller logo on mobile started at 76px*/
-@media(max-width:640px){
+
+/* Keep Clear all aligned with the top of the header */
+#clear-all-top{
+  align-self:flex-start;
+  flex:0 0 auto;
+}
+
+/*
+  Stack before the logo would otherwise need to shrink drastically.
+  This preserves the wide logo shape instead of forcing it into a small square.
+*/
+@media(max-width:820px){
+  .hero{
+    flex-direction:column;
+    align-items:stretch;
+    gap:14px;
+  }
+
   .hero-brand{
+    flex-direction:column;
     align-items:flex-start;
-    gap:12px;
+    gap:10px;
   }
 
   .hero-logo{
-    width:76px;
-    height:76px;
-    flex-basis:76px;
+    width:min(100%, 380px);
+    height:auto;
+    flex:none;
+  }
+
+  .hero-copy{
+    width:100%;
+    flex:none;
+  }
+
+  #clear-all-top{
+    align-self:flex-start;
   }
 }
 
-/* Smaller descriptive text in blue header */
-.hero .lede{
-  font-size:0.88rem;
-  line-height:1.4;
+/* Smaller phones: fit the logo naturally to available width */
+@media(max-width:480px){
+  .hero-logo{
+    width:100%;
+    max-width:380px;
+  }
 }
 
-/* Smaller Rankings summarize... information text */
+/* Keep workspace/filter column aligned at its top */
+.workspace{
+  align-items:start;
+}
+
+/* Preserved — smaller Rankings summarize... information text */
 .data-note{
   font-size:0.78rem;
   line-height:1.4;
