@@ -59,6 +59,8 @@
 
               <!-- Clickable texture regions. These are visualized as a USDA-style partition
                    corresponding to the soil texture classes used by the app. -->
+              <!-- Regions share boundary coordinates so clickable polygons remain
+     visually separated by the existing .soil-region stroke borders. -->
               <g class="soil-region-group">
                 <polygon class="soil-region" data-soil="Clay"
                   points="260,28 162,198 196,258 324,258 358,198"></polygon>
@@ -72,8 +74,8 @@
                 <polygon class="soil-region" data-soil="Sandy clay loam"
                   points="112,285 86,330 183,330 215,278 196,258"></polygon>
 
-                <polygon class="soil-region" data-soil="Clay loam"
-                  points="196,258 215,278 305,278 324,258 305,330 183,330"></polygon>
+<polygon class="soil-region" data-soil="Clay loam"
+  points="196,258 324,258 305,278 337,330 183,330 215,278"></polygon>
 
                 <polygon class="soil-region" data-soil="Silty clay loam"
                   points="324,258 305,278 337,330 434,330 408,285"></polygon>
@@ -81,8 +83,8 @@
                 <polygon class="soil-region" data-soil="Sandy loam"
                   points="86,330 65,366 214,366 183,330"></polygon>
 
-                <polygon class="soil-region" data-soil="Loam"
-                  points="183,330 305,330 337,366 214,366"></polygon>
+<polygon class="soil-region" data-soil="Loam"
+  points="183,330 305,330 337,366 291,405 229,405 214,366"></polygon>
 
                 <polygon class="soil-region" data-soil="Silt loam"
                   points="305,330 434,330 455,366 337,366"></polygon>
