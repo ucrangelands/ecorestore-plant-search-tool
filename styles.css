@@ -129,15 +129,17 @@
 
 /* ADDED */
 .hero-logo{
-  width:min(480px, 42vw);
+  display:block;
+  width:clamp(220px, 28vw, 380px);
   height:auto;
   aspect-ratio:480 / 100;
-  flex:0 1 480px;
+  flex:0 1 auto;
   object-fit:contain;
+  box-sizing:content-box;
+  padding:5px;
   background:#fff;
-  border-radius:4px;
+  border-radius:5px;
 }
-
 /* ADDED — smaller logo on mobile started at 76px*/
 @media(max-width:640px){
   .hero-brand{
