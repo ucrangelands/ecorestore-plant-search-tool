@@ -11,11 +11,18 @@
   <a class="skip-link" href="#results">Skip to results</a>
   <main class="app-shell">
     <header class="hero">
-      
-
-      <div>
-                <h1>Plant Species Selector</h1>
-        <p class="lede">Describe your California restoration site and goals. Results update as you select criteria, with plants matching more recorded characteristics shown first, sorting can be adjusted to best or exactly matching selected criteria or plant name.</p>
+      <div class="hero-brand">
+        <img
+          class="hero-logo"
+          src="assets/ucecorestore_logo_bg_100px.png"
+          alt="UC EcoRestore"
+          width="480"
+          height="100"
+        />
+        <div class="hero-copy">
+          <h1>Plant Species Selector</h1>
+          <p class="lede">Describe your California restoration site and goals. Results update as you select criteria, with plants matching more recorded characteristics shown first, sorting can be adjusted to best or exactly matching selected criteria or plant name.</p>
+        </div>
       </div>
       <button id="clear-all-top" class="button button-secondary" type="button">Clear all</button>
     </header>
@@ -136,16 +143,7 @@
       </aside>
 
       <section id="results" class="results-panel" aria-labelledby="results-heading" tabindex="-1">
-           <div class="hero-brand">
-<img class="hero-logo"
-     src="assets/ucecorestore_logo_bg_100px.png"
-     alt="UC EcoRestore"
-     width="480"
-     height="100" /></div>
-
-
-        
-        <div class="results-toolbar">
+<div class="results-toolbar">
           <div><p class="step-label">Recommended plants</p><h2 id="results-heading"><span id="result-count">0</span> plants</h2><p id="results-summary" class="results-summary">Showing all plants.</p></div>
           <div class="toolbar-actions">
             <label class="search-field"><span class="sr-only">Search plants</span><input id="plant-search" type="search" placeholder="Search name…" autocomplete="off" /></label>
