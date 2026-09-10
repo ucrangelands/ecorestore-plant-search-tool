@@ -129,9 +129,10 @@
 
 /* ADDED */
 .hero-logo{
-  width:100px;
-  height:100px;
-  flex:0 0 100px;
+  width:min(480px, 42vw);
+  height:auto;
+  aspect-ratio:480 / 100;
+  flex:0 1 480px;
   object-fit:contain;
   background:#fff;
   border-radius:4px;
