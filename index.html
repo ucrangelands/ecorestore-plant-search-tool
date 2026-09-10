@@ -62,70 +62,86 @@
               <!-- Regions share boundary coordinates so clickable polygons remain
      visually separated by the existing .soil-region stroke borders. -->
               <g class="soil-region-group">
+                <!-- Discrete clickable regions based on the reference soil-texture layout.
+                     Adjacent polygons share exact boundary coordinates so the existing
+                     stroke borders remain visible between classes without leaving voids. -->
+
                 <polygon class="soil-region" data-soil="Clay"
-                  points="260,28 162,198 196,258 324,258 358,198"></polygon>
+                  points="260,28 161,200 196,258 324,258 359,200"></polygon>
 
                 <polygon class="soil-region" data-soil="Sandy clay"
-                  points="162,198 112,285 196,258"></polygon>
+                  points="161,200 127,258 196,258"></polygon>
 
                 <polygon class="soil-region" data-soil="Silty clay"
-                  points="358,198 408,285 324,258"></polygon>
+                  points="359,200 324,258 393,258"></polygon>
 
                 <polygon class="soil-region" data-soil="Sandy clay loam"
-                  points="112,285 86,330 183,330 215,278 196,258"></polygon>
+                  points="127,258 196,258 225,320 91,320"></polygon>
 
-<polygon class="soil-region" data-soil="Clay loam"
-  points="196,258 324,258 305,278 337,330 183,330 215,278"></polygon>
+                <polygon class="soil-region" data-soil="Clay loam"
+                  points="196,258 324,258 350,320 225,320"></polygon>
 
                 <polygon class="soil-region" data-soil="Silty clay loam"
-                  points="324,258 305,278 337,330 434,330 408,285"></polygon>
+                  points="324,258 393,258 429,320 350,320"></polygon>
 
                 <polygon class="soil-region" data-soil="Sandy loam"
-                  points="86,330 65,366 214,366 183,330"></polygon>
+                  points="91,320 225,320 235,405 185,405 80,340"></polygon>
 
-<polygon class="soil-region" data-soil="Loam"
-  points="183,330 305,330 337,366 291,405 229,405 214,366"></polygon>
+                <polygon class="soil-region" data-soil="Loam"
+                  points="225,320 350,320 300,405 235,405"></polygon>
 
                 <polygon class="soil-region" data-soil="Silt loam"
-                  points="305,330 434,330 455,366 337,366"></polygon>
+                  points="350,320 429,320 458,370 410,405 300,405"></polygon>
 
                 <polygon class="soil-region" data-soil="Sand"
-                  points="42,405 65,366 124,366 124,405"></polygon>
+                  points="42,405 62,370 105,405"></polygon>
 
                 <polygon class="soil-region" data-soil="Loamy sand"
-                  points="124,366 214,366 229,405 124,405"></polygon>
+                  points="80,340 185,405 105,405 62,370"></polygon>
 
                 <polygon class="soil-region" data-soil="Silt"
-                  points="337,366 455,366 478,405 291,405"></polygon>
+                  points="458,370 478,405 410,405"></polygon>
               </g>
 
               <!-- Labels -->
               <g class="soil-region-labels" aria-hidden="true">
-                <text x="260" y="160" class="soil-region-label soil-major-label">Clay</text>
-                <text x="153" y="255" class="soil-region-label">Sandy clay</text>
-                <text x="367" y="255" class="soil-region-label">Silty clay</text>
+                <text x="260" y="155" class="soil-region-label soil-major-label">Clay</text>
 
-                <text x="151" y="306" class="soil-region-label soil-region-label-small">
-                  <tspan x="151" dy="0">Sandy clay</tspan><tspan x="151" dy="13">loam</tspan>
-                </text>
-                <text x="260" y="307" class="soil-region-label">Clay loam</text>
-                <text x="369" y="306" class="soil-region-label soil-region-label-small">
-                  <tspan x="369" dy="0">Silty clay</tspan><tspan x="369" dy="13">loam</tspan>
+                <text x="162" y="236" class="soil-region-label soil-region-label-small">
+                  <tspan x="162" dy="0">Sandy</tspan><tspan x="162" dy="13">clay</tspan>
                 </text>
 
-                <text x="138" y="352" class="soil-region-label">Sandy loam</text>
-                <text x="260" y="351" class="soil-region-label">Loam</text>
-                <text x="395" y="352" class="soil-region-label">Silt loam</text>
+                <text x="358" y="236" class="soil-region-label soil-region-label-small">
+                  <tspan x="358" dy="0">Silty</tspan><tspan x="358" dy="13">clay</tspan>
+                </text>
 
-                <text x="80" y="394" class="soil-region-label soil-major-label">Sand</text>
-                <text x="174" y="394" class="soil-region-label">Loamy sand</text>
-                <text x="404" y="394" class="soil-region-label soil-major-label">Silt</text>
+                <text x="157" y="288" class="soil-region-label soil-region-label-small">
+                  <tspan x="157" dy="0">Sandy clay</tspan><tspan x="157" dy="13">loam</tspan>
+                </text>
+
+                <text x="273" y="289" class="soil-region-label">Clay loam</text>
+
+                <text x="383" y="288" class="soil-region-label soil-region-label-small">
+                  <tspan x="383" dy="0">Silty clay</tspan><tspan x="383" dy="13">loam</tspan>
+                </text>
+
+                <text x="157" y="359" class="soil-region-label">Sandy loam</text>
+                <text x="282" y="360" class="soil-region-label">Loam</text>
+                <text x="382" y="358" class="soil-region-label">Silt loam</text>
+
+                <text x="74" y="394" class="soil-region-label soil-major-label">Sand</text>
+
+                <text x="128" y="378"
+                      class="soil-region-label soil-region-label-small"
+                      transform="rotate(29 128 378)">Loamy sand</text>
+
+                <text x="444" y="394" class="soil-region-label soil-major-label">Silt</text>
               </g>
 
               <!-- Bold primary fraction labels -->
-              <text x="260" y="18" class="soil-axis-title soil-axis-title-bold">CLAY</text>
-              <text x="33" y="434" class="soil-axis-title soil-axis-title-bold">SAND</text>
-              <text x="487" y="434" class="soil-axis-title soil-axis-title-bold">SILT</text>
+              <text x="260" y="18" class="soil-axis-title soil-axis-title-bold">100% Clay</text>
+              <text x="70" y="434" class="soil-axis-title soil-axis-title-bold">100% Sand</text>
+              <text x="450" y="434" class="soil-axis-title soil-axis-title-bold">100% Silt</text>
 
               <text x="260" y="455" class="soil-axis-note">sand + silt + clay = 100%</text>
             </svg>
