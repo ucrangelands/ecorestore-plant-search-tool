@@ -2,10 +2,11 @@
   "use strict";
   const plants=window.ECORESTORE_PLANTS||[];
   const filters=window.ECORESTORE_FILTERS||{};
-  const state={community:"",county:"",elevation:"",grazing:new Set(),soils:new Set(),chemistry:new Set(),conditions:new Set(),goals:new Set(),plantType:"all",query:"",sort:"match"};
+  const state={community:"",county:"",elevation:"",grazing:new Set(),soils:new Set(),chemistry:new Set(),conditions:new Set(),goals:new Set(),plantType:"all",query:"",sort:"exact"};
   const weights={community:3,county:3,elevation:2,grazing:1,soils:2,chemistry:2,conditions:2,goals:2};
   const $=id=>document.getElementById(id);
   const els={community:$("community"),county:$("county"),elevation:$("elevation"),grid:$("plant-grid"),count:$("result-count"),summary:$("results-summary"),activeCount:$("active-filter-count"),search:$("plant-search"),sort:$("sort-results"),empty:$("no-results"),dialog:$("plant-dialog"),dialogTitle:$("dialog-title"),dialogScientific:$("dialog-scientific"),dialogKicker:$("dialog-kicker"),dialogContent:$("dialog-content")};
+  els.sort.value=state.sort;
 
   fillSelect(els.community,filters.communities||[]); fillSelect(els.county,filters.counties||[]);
 
@@ -211,7 +212,7 @@
 
     if(state.sort==="exact"&&hasCriteria){
       rows=rows.filter(
-        x=>x.score.pct===100
+        x=>x.score.earned===x.score.possible
       );
     }
 
@@ -412,7 +413,7 @@
   }
 
   function detailMatch(label,value,matched){return`<tr><th>${escapeHTML(label)}</th><td><span class="${matched?"check":"miss"}">${matched?"✓ Matches":"○ Not recorded as a match"}</span><br>${escapeHTML(value)}</td></tr>`;}
-  function clearAll(){state.community="";state.county="";state.elevation="";[state.grazing,state.soils,state.chemistry,state.conditions,state.goals].forEach(x=>x.clear());state.query="";state.plantType="all";state.sort="match";els.community.value="";els.county.value="";els.elevation.value="";els.search.value="";els.sort.value="match";document.querySelectorAll('.choice input[type="checkbox"]').forEach(i=>i.checked=false);document.querySelectorAll(".chip[data-type]").forEach(b=>b.classList.toggle("is-active",b.dataset.type==="all"));updateSoilTriangleSelection();
+  function clearAll(){state.community="";state.county="";state.elevation="";[state.grazing,state.soils,state.chemistry,state.conditions,state.goals].forEach(x=>x.clear());state.query="";state.plantType="all";state.sort="exact";els.community.value="";els.county.value="";els.elevation.value="";els.search.value="";els.sort.value="exact";document.querySelectorAll('.choice input[type="checkbox"]').forEach(i=>i.checked=false);document.querySelectorAll(".chip[data-type]").forEach(b=>b.classList.toggle("is-active",b.dataset.type==="all"));updateSoilTriangleSelection();
     render();}
   function notifyHeight(){if(window.parent!==window)requestAnimationFrame(()=>window.parent.postMessage({type:"ecorestore:height",height:document.documentElement.scrollHeight},"*"));}
   window.addEventListener("resize",notifyHeight);new ResizeObserver(notifyHeight).observe(document.body);render();
