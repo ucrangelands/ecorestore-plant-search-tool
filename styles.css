@@ -116,3 +116,37 @@
   .soil-region-label-small{font-size:9.5px}
   .soil-axis-title{font-size:12px}
 }
+
+
+
+/* ADDED — UC EcoRestore logo in 'hero' header */
+.hero-brand{
+  display:flex;
+  align-items:center;
+  gap:18px;
+  min-width:0;
+}
+
+/* ADDED */
+.hero-logo{
+  width:100px;
+  height:100px;
+  flex:0 0 100px;
+  object-fit:contain;
+  background:#fff;
+  border-radius:4px;
+}
+
+/* ADDED — smaller logo on mobile started at 76px*/
+@media(max-width:640px){
+  .hero-brand{
+    align-items:flex-start;
+    gap:12px;
+  }
+
+  .hero-logo{
+    width:76px;
+    height:76px;
+    flex-basis:76px;
+  }
+}
